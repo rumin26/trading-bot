@@ -1,0 +1,6 @@
+.env
+DAILY-SUMMARY.md
+*.swp
+*.swo
+*~
+.DS_Store
