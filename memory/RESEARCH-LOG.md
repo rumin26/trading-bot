@@ -79,3 +79,34 @@ HOLD. No setup clears 2:1 R:R. Monitor XLE for pullback to $55-56 zone and RTX d
 
 ### Decision
 HOLD. No edge today. Will run full pre-market workflow tomorrow.
+
+## 2026-05-13 — Pre-market Research (refresh / 2nd run)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0
+
+### Market Context
+- WTI ~$102 (snapped 3-day rally) / Brent ~$107-110 — Iran War driving "1B barrels under-produced" per Shell CEO; Hormuz near-closure persists
+- S&P futures: +0.1-0.2% pre-open, choppy on hot PPI; Nasdaq stronger on chip rally; intraday: S&P closed 7,444 (+0.58%), Nasdaq 26,402 (+1.20%) — fresh records
+- VIX: 17.99 (-2.1%), trading near 18, no panic
+- Catalysts: hot April PPI +1.4% (vs +0.5% est, +6% YoY — biggest since 2022); 10Y yield 4.473% (highest since Jul 2025); Trump-Xi summit pending; Morgan Stanley raised S&P 2026 target 7,800 -> 8,000
+- Earnings AM: BABA, NBIS, TAK, SMWB
+- Sector momentum: Energy/Semis/Defense/Industrials leading; Staples/Materials strong; Tech rally back via NVDA record + MU +5%; Lagging: XLC, XLY, XLF; Weakening: XLV; Improving: XLU, XLRE
+- Notable moves: F +13% on Ford Energy battery subsidiary launch + MS bullish note; AKAM +8% upgrade; NVDA new ATH
+
+### Trade Ideas
+1. XLE — energy leader, oil $100+, Hormuz risk. Already trading near $57.40-57.72. Entry on pullback $55.80, stop $50.20 (-10%), target $63.40 = R:R 1.4:1. Sub-2:1, skip unless deeper pullback.
+2. RTX — defense, Iran catalyst, MACD bullish. Wait for dip to $172 area for R:R 2:1+ (stop $160, target $200). At $179 current, skip.
+3. NVDA — AI/semis leader at fresh ATH. Chasing breakout at record high violates "patience > activity." No clean entry.
+4. F — +13% one-day move, way too extended for catalyst trade. Skip.
+
+### Risk Factors
+- Hot PPI + 10Y at 4.47% = rates-higher-for-longer headwind
+- Indices at fresh ATHs after PPI digestion — late entry / mean-reversion risk
+- Oil-driven energy +30% YTD — late-cycle entry
+- Geopolitical tape risk (Iran ceasefire fragile, Trump-Xi unknown outcome)
+- Bot day 2, $0 deployed — must avoid FOMO
+- No idea today clears the 2:1 R:R floor on a non-chase basis
+
+### Decision
+HOLD. Same conclusion as morning run — no setup with documented catalyst clears 2:1 R:R at non-extended entry. Watchlist: XLE pullback $55-56, RTX dip $172, XLP breakout entry. Patience > activity. Cash preservation > chasing index ATHs.
