@@ -10,4 +10,4 @@ but using local .env credentials and without the commit/push step.
 3. Run buy-side gate on each planned order
 4. Execute approved buys + place 10% trailing stops
 5. Log trades to TRADE-LOG.md
-6. ClickUp notification if trades placed
+6. WhatsApp notification if trades placed

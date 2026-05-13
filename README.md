@@ -29,6 +29,6 @@ Autonomous AI trading bot built on Claude Code cloud routines. Manages a ~$10,00
 ## Prerequisites
 
 - Alpaca brokerage account (paper or live)
-- Perplexity API key
-- ClickUp account with a chat channel
+- Perplexity API key (optional)
+- WhatsApp with CallMeBot (free)
 - Claude Code with cloud routines access

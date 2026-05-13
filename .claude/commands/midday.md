@@ -11,4 +11,4 @@ but using local .env credentials and without the commit/push step.
 4. Tighten stops on winners (+15% -> 7%, +20% -> 5%)
 5. Thesis check — cut broken theses even if not at -7%
 6. Optional Perplexity research on sharp movers
-7. ClickUp notification if action taken
+7. WhatsApp notification if action taken

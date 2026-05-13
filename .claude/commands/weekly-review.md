@@ -10,4 +10,4 @@ but using local .env credentials and without the commit/push step.
 3. Compute week metrics, S&P comparison, W/L/open, win rate, profit factor
 4. Append full review to WEEKLY-REVIEW.md
 5. Update TRADING-STRATEGY.md if rules need changing
-6. Send ClickUp summary
+6. Send WhatsApp summary

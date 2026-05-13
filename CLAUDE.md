@@ -36,8 +36,9 @@ runs per trading day plus two ad-hoc helpers.
 
 ## API Wrappers
 
-Use bash scripts/alpaca.sh, scripts/perplexity.sh, scripts/clickup.sh.
-Never curl these APIs directly.
+Use bash scripts/alpaca.sh, scripts/notify.sh.
+Optional: scripts/perplexity.sh (if PERPLEXITY_API_KEY is set).
+Default research: native WebSearch. Never curl APIs directly.
 
 ## Communication Style
 

@@ -43,25 +43,18 @@ PERPLEXITY_MODEL=sonar
 
 ---
 
-## 3. ClickUp (Notifications)
+## 3. WhatsApp Notifications (via CallMeBot — free)
 
-1. Go to **https://clickup.com** and create a free account
-2. Create a new **Space** (e.g., "Trading Bot")
-3. Open the **Chat** view in that space — create a new chat channel (e.g., "Bot Alerts")
-4. Get your API key: **Settings** → **Apps** → **API Token** → **Generate**
-5. Get your Workspace ID: look at the URL when in ClickUp — it's the number after `/`
-6. Get your Channel ID: open the chat channel, check the URL or use the ClickUp API:
-   ```
-   curl -s -H "Authorization: YOUR_API_KEY" \
-     "https://api.clickup.com/api/v3/workspaces/YOUR_WORKSPACE_ID/chat/channels" | python3 -m json.tool
-   ```
-   The channel ID format is like `4-XXXXXXX-X`
+1. Save **+34 644 71 86 55** to your WhatsApp contacts (name it "CallMeBot")
+2. Send this exact message to that number: **I allow callmebot to send me messages**
+3. You'll receive a reply with your **API key**
+4. Your phone number with country code (no + or spaces) is your WHATSAPP_PHONE
+   - Example: India +91 98765 43210 → `919876543210`
 
 **Add to your .env:**
 ```
-CLICKUP_API_KEY=<your key>
-CLICKUP_WORKSPACE_ID=<numeric workspace ID>
-CLICKUP_CHANNEL_ID=<channel ID like 4-XXXXXXX-X>
+WHATSAPP_PHONE=919876543210
+WHATSAPP_API_KEY=<the key CallMeBot sent you>
 ```
 
 ---
@@ -83,7 +76,7 @@ You should see JSON with your equity, cash, and buying power. If you see an erro
 
 - [ ] Alpaca paper account created + API keys generated
 - [ ] Perplexity API key generated
-- [ ] ClickUp account + chat channel created + API key + IDs noted
+- [ ] WhatsApp CallMeBot activated + API key received
 - [ ] All credentials added to local `.env` (copied from `env.template`)
 - [ ] `bash scripts/alpaca.sh account` returns valid JSON
 - [ ] Repo pushed to a **private** GitHub repo
