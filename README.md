@@ -1,6 +1,6 @@
 # Trading Bot
 
-Autonomous AI trading bot built on Claude Code cloud routines. Manages a ~$10,000 Alpaca account with a disciplined swing trading strategy. Stocks only — no options.
+Autonomous AI trading bot built on Claude Code cloud routines. Manages a ~$100,000 Alpaca account with a disciplined swing trading strategy. Stocks only — no options.
 
 ## Quick Start
 
@@ -29,6 +29,5 @@ Autonomous AI trading bot built on Claude Code cloud routines. Manages a ~$10,00
 ## Prerequisites
 
 - Alpaca brokerage account (paper or live)
-- Perplexity API key (optional)
-- WhatsApp with CallMeBot (free)
+- WhatsApp with CallMeBot (free, for notifications)
 - Claude Code with cloud routines access

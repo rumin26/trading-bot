@@ -37,7 +37,7 @@ STEP 3 — Compute the week's metrics:
 - Ending portfolio (today's equity)
 - Week return ($ and %)
 - S&P 500 week return:
-    Use WebSearch (or scripts/perplexity.sh if available) for: "S&P 500 weekly performance week ending $DATE"
+    Use WebSearch for: "S&P 500 weekly performance week ending $DATE"
 - Trades taken (W/L/open)
 - Win rate (closed trades only)
 - Best trade, worst trade
@@ -66,10 +66,12 @@ STEP 6 — Send ONE WhatsApp message. <= 15 lines:
   One-line takeaway: <...>
   Grade: <letter>"
 
-STEP 7 — COMMIT AND PUSH (mandatory):
+STEP 7 — COMMIT AND PUSH TO MAIN (mandatory):
   git add memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md
   git commit -m "weekly review $DATE"
-  git push origin main
+  git push origin HEAD:main
 If TRADING-STRATEGY.md didn't change, add just WEEKLY-REVIEW.md.
-On push failure: rebase and retry.
+On push failure: git fetch origin main && git rebase origin/main, then push again.
+Never force-push. IMPORTANT: always push to HEAD:main so the next routine
+sees your changes — do NOT push to a feature branch.
 ```

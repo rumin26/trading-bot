@@ -46,15 +46,17 @@ Never tighten within 3% of current price. Never move a stop down.
 STEP 5 — Thesis check. If a thesis broke intraday, cut the position even
 if not at -7% yet. Document reasoning in TRADE-LOG.
 
-STEP 6 — Optional intraday research via WebSearch (or Perplexity if available) if something is moving
+STEP 6 — Optional intraday research via WebSearch if something is moving
 sharply with no obvious cause. Append afternoon addendum to RESEARCH-LOG.
 
 STEP 7 — Notification: only if action was taken.
   bash scripts/notify.sh "<action summary>"
 
-STEP 8 — COMMIT AND PUSH (if any memory files changed):
+STEP 8 — COMMIT AND PUSH TO MAIN (if any memory files changed):
   git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md
   git commit -m "midday scan $DATE"
-  git push origin main
-Skip commit if no-op. On push failure: rebase and retry.
+  git push origin HEAD:main
+Skip commit if no-op. On push failure: git fetch origin main && git rebase origin/main, then push again.
+Never force-push. IMPORTANT: always push to HEAD:main so the next routine
+sees your changes — do NOT push to a feature branch.
 ```

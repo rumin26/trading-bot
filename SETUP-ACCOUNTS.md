@@ -1,6 +1,6 @@
 # Account Setup Guide
 
-Follow these steps to get all three services configured. Start with paper trading.
+Follow these steps to get both services configured. Start with paper trading.
 
 ---
 
@@ -27,23 +27,7 @@ ALPACA_SECRET_KEY=<your secret key>
 
 ---
 
-## 2. Perplexity (Research)
-
-1. Go to **https://www.perplexity.ai/settings/api**
-2. Sign up / log in
-3. Add a payment method (pay-per-use, typically pennies per query)
-4. Click **Generate API Key**
-5. Copy the key
-
-**Add to your .env:**
-```
-PERPLEXITY_API_KEY=<your key>
-PERPLEXITY_MODEL=sonar
-```
-
----
-
-## 3. WhatsApp Notifications (via CallMeBot — free)
+## 2. WhatsApp Notifications (via CallMeBot — free)
 
 1. Save **+34 644 71 86 55** to your WhatsApp contacts (name it "CallMeBot")
 2. Send this exact message to that number: **I allow callmebot to send me messages**
@@ -75,7 +59,6 @@ You should see JSON with your equity, cash, and buying power. If you see an erro
 ## Checklist
 
 - [ ] Alpaca paper account created + API keys generated
-- [ ] Perplexity API key generated
 - [ ] WhatsApp CallMeBot activated + API key received
 - [ ] All credentials added to local `.env` (copied from `env.template`)
 - [ ] `bash scripts/alpaca.sh account` returns valid JSON
