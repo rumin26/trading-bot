@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "WebSearch"
+    ]
+  },
+  "sandbox": {
+    "network": {
+      "allowedHosts": [
+        "api.alpaca.markets",
+        "paper-api.alpaca.markets",
+        "data.alpaca.markets",
+        "api.callmebot.com"
+      ]
+    }
+  }
+}
