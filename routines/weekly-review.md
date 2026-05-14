@@ -66,12 +66,11 @@ STEP 6 — Send ONE WhatsApp message. <= 15 lines:
   One-line takeaway: <...>
   Grade: <letter>"
 
-STEP 7 — COMMIT AND PUSH TO MAIN (mandatory):
+STEP 7 — COMMIT AND PUSH (mandatory):
   git add memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md
   git commit -m "weekly review $DATE"
-  git push origin HEAD:main
+  git push
 If TRADING-STRATEGY.md didn't change, add just WEEKLY-REVIEW.md.
-On push failure: git fetch origin main && git rebase origin/main, then push again.
-Never force-push. IMPORTANT: always push to HEAD:main so the next routine
-sees your changes — do NOT push to a feature branch.
+A GitHub Actions workflow will auto-merge your branch into main within
+seconds. If push fails, retry once.
 ```

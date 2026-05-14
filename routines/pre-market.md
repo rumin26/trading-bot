@@ -54,11 +54,11 @@ STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 STEP 5 — Notification: silent unless urgent.
   bash scripts/notify.sh "<one line>"
 
-STEP 6 — COMMIT AND PUSH TO MAIN (mandatory):
+STEP 6 — COMMIT AND PUSH (mandatory):
   git add memory/RESEARCH-LOG.md
   git commit -m "pre-market research $DATE"
-  git push origin HEAD:main
-On push failure: git fetch origin main && git rebase origin/main, then push again.
-Never force-push. IMPORTANT: always push to HEAD:main so the next routine
-sees your changes — do NOT push to a feature branch.
+  git push
+A GitHub Actions workflow will auto-merge your branch into main within
+seconds. If push fails, retry once. If still failing, send a WhatsApp
+alert and exit.
 ```
