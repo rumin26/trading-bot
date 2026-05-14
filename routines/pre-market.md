@@ -23,6 +23,9 @@ IMPORTANT — ENVIRONMENT VARIABLES:
 IMPORTANT — PERSISTENCE:
 - Fresh clone. File changes VANISH unless committed and pushed.
   MUST commit and push at STEP 6.
+- You CANNOT push directly to main (403). Just run `git push` — it
+  pushes to your assigned branch. A GitHub Actions workflow auto-merges
+  it into main within ~30 seconds.
 
 STEP 1 — Read memory for context:
 - memory/TRADING-STRATEGY.md
