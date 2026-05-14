@@ -80,32 +80,6 @@ HOLD. No setup clears 2:1 R:R. Monitor XLE for pullback to $55-56 zone and RTX d
 ### Decision
 HOLD. No edge today. Will run full pre-market workflow tomorrow.
 
-## 2026-05-14 — Market-Open (inline, no pre-market entry)
-
-### Account
-- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0
-
-### Market Context
-- SPY $745.60 | QQQ $717.45 (strong tape)
-- VIX feed n/a via Alpaca (404)
-- Both yesterday watchlist names ran AGAINST our pullback plan:
-  - XLE $57.85 (wanted pullback to $55.80) — gapped higher, chase risk
-  - RTX $187.85 (wanted dip to $172) — ran +5% from yesterday, chase risk
-- Week trade count: 0 (room for 3)
-
-### Trade Ideas — Live re-eval
-1. XLE — at $57.85, 10% trail stop $52.07, target $63.40 → reward $5.55 / risk $5.78 → R:R 0.96:1. FAIL 2:1.
-2. RTX — at $187.85, 10% trail stop $169.07, target $200 → reward $12.15 / risk $18.78 → R:R 0.65:1. FAIL 2:1.
-3. XLP — $85.10, no documented entry level. Skip.
-
-### Risk Factors
-- Chasing extended names violates patience rule
-- Day 2: $0 deployed two days running is acceptable per "patience > activity"
-- No new catalyst since yesterday's PPI to justify new ideas
-
-### Decision
-HOLD. No setup clears 2:1 R:R at current prices. Will re-run full pre-market tomorrow with fresh ideas — energy run extended, consider rotation candidates (semis, industrials, defense pullbacks).
-
 ## 2026-05-14 — Pre-market Research
 
 ### Account
