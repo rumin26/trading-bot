@@ -79,3 +79,37 @@ HOLD. No setup clears 2:1 R:R. Monitor XLE for pullback to $55-56 zone and RTX d
 
 ### Decision
 HOLD. No edge today. Will run full pre-market workflow tomorrow.
+
+## 2026-05-14 — Pre-market Research
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0
+
+### Market Context
+- WTI $101.54 / Brent $106.07 (Iran war bid intact, oil +64% YoY)
+- S&P futures: ES +0.29% at ~7,491 — fresh record high tape
+- VIX: 17.92 (calm, drifting lower)
+- Catalysts: CSCO +20% AH on Q3 beat (rev $15.84B, $5.3B AI orders YTD, FY26 guide ~$9B AI orders, 4,000 layoffs); NVDA +1.8% pre on US clearing H200 sales to 10 China firms (BABA, Tencent, ByteDance, JD up to 75k chips ea., ~$20B rev unlock pending); Kevin Warsh confirmed Fed Chair 54-45 (hawkish read possible)
+- Earnings before open: Klarna (KLAR) Q1; light tape AM, 249 total today
+- Economic calendar: 8:30 ET — April Retail Sales (est +0.5% vs prior +1.7%), Initial Claims est 205K (prior 200K), Continuing Claims est 1,790K
+- Sector momentum YTD: Semis, Energy (+14-week win streak — record), Defense, Industrials leading. REITs, Cons Disc, Utilities lagging.
+
+### Trade Ideas
+1. ANET — AI networking, CSCO read-through validates hyperscaler capex. $142.85, mid 52w range ($84-$180). Entry $143, stop $132 (-7.7%), target $160 = R:R 1.5:1. **Below 2:1 — SKIP unless pullback to $135 (R:R 2.3:1).**
+2. XLE — energy momentum, 14-wk record win streak, oil $100+. $57.65. Entry $57.70, stop $51.90 (-10%), target $63.40 = R:R 1:1. **SKIP — late-cycle, R:R poor at this level. Wait for $54-55 pullback.**
+3. NVDA — H200 China clearance + Jensen on Trump China trip = $20B rev catalyst. $233 area, all-time-high region. No clean entry; chase risk. **WATCH — buy confirmed close >$235 with stop $217 (-7.7%), target $260 (R:R 2.5:1).**
+
+### Risk Factors
+- Day 3, $0 deployed — chase/FOMO is the #1 risk on a record-high tape
+- 8:30 ET retail sales + claims could move tape; hot retail = rates higher = growth headwind
+- Warsh as Fed Chair — initial hawkish read possible
+- CSCO 20% gap is exactly the chase setup that traps late buyers
+- Iran ceasefire fragile — geopolitical reversal risk in energy
+- Energy run mature (+14 wk streak), defense extended
+
+### Decision
+HOLD. No setup clears 2:1 R:R cleanly at current prices. Watchlist with triggers:
+- ANET pullback to $135 (R:R 2.3:1)
+- XLE pullback to $54-55 (R:R clears 2:1)
+- NVDA confirmed breakout close >$235
+Patience > activity. Will reassess at midday after retail sales data and intraday confirmation.
