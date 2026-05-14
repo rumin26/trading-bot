@@ -105,3 +105,44 @@ HOLD. No edge today. Will run full pre-market workflow tomorrow.
 
 ### Decision
 HOLD. No setup clears 2:1 R:R at current prices. Will re-run full pre-market tomorrow with fresh ideas — energy run extended, consider rotation candidates (semis, industrials, defense pullbacks).
+
+## 2026-05-14 — Pre-market Research
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0
+
+### Market Context
+- WTI $101.54 / Brent $106.07 (Hormuz disruption rolling; Brent +11.5% MoM, +64% YoY)
+- S&P futures +0.3%, Nasdaq futures higher — both at fresh record highs
+- SPY $744.74 (+0.33%) | QQQ $715.73 (+0.16%) premarket
+- VIX: 17.92 (calm)
+- Catalysts:
+  - Trump-Xi summit in China (Huang/Musk/Cook tagging along) — trade/tariff/AI talks
+  - Trump cleared NVDA H200 sales to ~10 Chinese firms → NVDA +1.9% premkt, BABA bid
+  - Cisco +20% premkt on Q3 beat + 4k-job AI restructuring
+  - PPI +1.4% MoM (hot) still digesting; CPI 3.8% YoY
+- Earnings AM: ONDS, CSIQ, INVZ, BTDR, YETI, GOOS, Klarna (KLAR Q1)
+- Econ calendar: April Retail Sales 8:30am ET (key — post energy-spike consumer read); jobless claims; Mich Sentiment prelim Fri
+- Sector leaders: Semis, Energy, Defense, Industrials, Cons Staples, Real Estate
+- Laggards: Healthcare, Utilities, Cons Disc (rate-sensitive)
+
+### Trade Ideas
+1. NVDA — H200/China catalyst + semis leadership. $5.5T cap, +1.9% premkt, EARNINGS May 20 (6 days). Skip — chasing into binary event.
+2. AVGO — custom-silicon leader, sector tailwind. No documented entry/stop level today. Want pullback to 50DMA — build level next session. Skip today.
+3. CAT — industrials/reshoring leader, 24mo+ backlogs. Buying at ATH = bad stop math. Need first 5-7% pullback. Skip today.
+4. XLE — still $57-58 (gapped past $55.80 entry). No pullback yet. Skip; revisit if oil cools and XLE retests $55.
+5. CSCO — +20% premkt parabolic; obvious chase. Skip.
+
+### Risk Factors
+- SPY/QQQ at fresh ATHs into NVDA earnings (May 20) + Trump-Xi summit + Retail Sales today — triple event risk
+- Hot PPI still in tape; growth chase = rates risk
+- Day 3 with $0 deployed is OK per "patience > activity"
+- Every sector leader extended — entering at ATHs makes a 10% trail stop sit below the breakout = whipsaw risk
+
+### Decision
+HOLD. Zero ideas clear 2:1 R:R at current prices. Watchlist build for next sessions:
+- AVGO pullback toward 50DMA
+- CAT first 5-7% pullback off ATH
+- XLE retest $55-56 if oil cools
+- LMT defense pullback level
+Action: wait for ONE clean setup, not a chase. Capital preservation > FOMO into ATHs ahead of NVDA earnings and Trump-Xi summit.
