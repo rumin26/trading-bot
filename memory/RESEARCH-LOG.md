@@ -120,3 +120,68 @@ HOLD. Zero ideas clear 2:1 R:R at current prices. Watchlist build for next sessi
 - XLE retest $55-56 if oil cools
 - LMT defense pullback level
 Action: wait for ONE clean setup, not a chase. Capital preservation > FOMO into ATHs ahead of NVDA earnings and Trump-Xi summit.
+
+## 2026-05-15 — Pre-market Research
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0
+
+### Market Context
+- WTI ~$102 / Brent $106.89 (Hormuz disruption; IEA flags ~4mbpd outflow drop Mar/Apr; undersupplied through Oct)
+- S&P futures -0.7% to -1.0% premkt; SPX closed record 7,501.24 yesterday; Polymarket 99% prob lower open
+- VIX: 17.90-18.01 (still calm despite bond rout)
+- 30Y UST 5.02%, 10Y 4.44% — global bond selloff = THE story
+- Today's catalysts:
+  - **Warsh handover**: Powell's term ends today; Kevin Warsh sworn in as 17th Fed Chair (hawkish, anti-QE). "Warsh trade" already pricing in rate normalization
+  - Trump-Xi summit Day 2 in Beijing (Cook/Musk/Huang in delegation)
+  - April Industrial Production / Capacity Utilization
+  - Univ. Michigan Prelim Consumer Sentiment
+- Earnings AM: light Friday tape (107 reports total Fri); no mega-caps before open
+- Sector momentum YTD: Energy +22%, Semis (margin expansion), Industrials (reshoring/CAT), Defense (LMT) leading. Lagging: Tech -3.8%, REITs, Utilities, Healthcare. Equal-weight SPX +7.1% vs SPX +0.7% — historic breadth divergence.
+
+### Catalyst Calendar (Held Positions)
+- None held.
+
+### Trade Ideas
+1. **XLE — energy leader, hold-out target**
+   - Catalyst: Hormuz supply disruption, oil $100+, Warsh hawkish = rates-up tape favors energy/banks over growth
+   - Entry: $55.50-56.00 on pullback (current $57+ extended)
+   - Stop: $50.40 (-10%) | Target: $63.40 = R:R 1.5:1 — marginal
+   - Score: Moat 6 / Val 7 / Mom 9 / Cat 8 / RR 5 = avg 7.0 ✓
+   - Earnings: ETF, n/a
+   - Thesis: Energy is the only major sector positively levered to BOTH Iran/oil supply shock AND a hawkish Fed.
+
+2. **LMT — defense, multi-year budget cycle**
+   - Catalyst: Active Iran/US conflict (since Feb 28), record DoD budget, allied rearmament
+   - Entry: wait for $480-490 zone (need confirmed level — doc'd as watchlist)
+   - Stop: -8% from entry | Target: prior ATH +10% = R:R 2:1+ if entry holds
+   - Score: Moat 9 / Val 6 / Mom 8 / Cat 9 / RR 7 = avg 7.8 ✓ (pending entry)
+   - Earnings: next report mid-July (no proximity risk)
+   - Thesis: Defense earnings already raising on supplemental funding; LMT is the prime contractor for Iran-theater systems (THAAD, F-35, JASSM).
+
+3. **CAT — industrials/reshoring**
+   - Catalyst: 24mo+ backlog, infra spend, Trump tariff tape supports domestic capex
+   - Entry: first 5-7% pullback off ATH (no clean level yet — currently extended)
+   - Stop: -8% | Target: continuation = R:R 2:1
+   - Score: Moat 9 / Val 5 / Mom 8 / Cat 7 / RR 7 = avg 7.2 ✓ (pending entry)
+   - Earnings: late July (no proximity risk)
+   - Thesis: Bond rout actually GOOD for CAT — capex deferred to lock in current rates pulls demand forward.
+
+### Risk Factors
+- **Friday + Warsh handover + weekend gap risk** — worst possible day to initiate
+- 30Y yield through 5% is regime change; can break the equity rally if it accelerates
+- Polymarket 99% lower open = consensus already crowded; mean-reversion bounce possible intraday but trend is down
+- NVDA earnings May 20 (Wed) — semi-related entries premature
+- Hot PPI + 3.8% CPI + hawkish Warsh = rate cuts off the table; tech/REITs/utilities continue to bleed
+- Breadth divergence (EW +7.1% vs SPX +0.7%) — chasing index = chasing 7 names; better to own the leaders directly
+
+### Decision
+**HOLD.** Day 4 with $0 deployed remains correct. No setup clears 2:1 R:R cleanly, and entering on a hawkish-Fed-handover Friday into the weekend is poor R:R timing.
+
+Action plan for Monday open:
+- If XLE pulls into $55.50-56.00 zone and HOLDS, take starter (15% position).
+- If LMT prints clean $480-490 base, build position.
+- Watch: oil reaction to weekend Iran/Hormuz headlines, Asia bond response to Warsh.
+- Skip everything tech/growth/REIT/utility into hawkish regime shift.
+
+Patience > activity. First trade gets ONE clean setup, not a Friday reach.
