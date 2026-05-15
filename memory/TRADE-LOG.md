@@ -13,3 +13,12 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** First trading day. Account funded at $100K (Alpaca confirms equity=$100,000, cash=$100,000); prior log line listing $10K baseline was a stale placeholder. Zero positions, zero open orders, no trades executed. 0% deployed vs. 75-85% target — capital deployment begins once pre-market scan surfaces qualifying setups. Trades this week: 0/3. Tomorrow: pre-market scan to identify first entries with sector momentum confirmation; size first position <=20%, set 10% trailing stop GTC at fill.
+
+### May 15 — EOD Snapshot (Day 2, Friday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Second trading day, end of week 1. Alpaca confirms equity=$100,000, cash=$100,000, zero positions, zero open orders, no trades executed today. 0% deployed vs. 75-85% target — still entirely uninvested after two sessions. Trades today: none. Trades this week: 0/3. Cap room remains for 3 entries next week. Weekly review due this afternoon. Monday: pre-market scan must surface qualifying setups with sector momentum to begin capital deployment; size first position <=20%, place 10% trailing stop GTC at fill.
