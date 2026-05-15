@@ -22,7 +22,7 @@ IMPORTANT — ENVIRONMENT VARIABLES:
 
 IMPORTANT — PERSISTENCE:
 - Fresh clone. File changes VANISH unless committed and pushed.
-  MUST commit and push at STEP 6.
+  MUST commit and push at STEP 7.
 - You CANNOT push directly to main (403). Just run `git push` — it
   pushes to your assigned branch. A GitHub Actions workflow auto-merges
   it into main within ~30 seconds.
@@ -47,17 +47,30 @@ STEP 3 — Research market context. Use WebSearch for each query:
 - "S&P 500 sector momentum YTD"
 - News on any currently-held ticker
 
-STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
+STEP 4 — Score trade ideas using the Fundamental Scoring framework in
+TRADING-STRATEGY.md. For each idea, score Moat/Valuation/Momentum/
+Catalyst/Risk-Reward (1-10). Only promote ideas averaging >= 7.
+If a candidate is reporting earnings within 5 days, run an earnings
+preview: consensus estimates, bull/bear scenarios, implied move. Do NOT
+enter positions pre-earnings unless the setup is asymmetric.
+
+STEP 5 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
 - Market context (oil, indices, VIX, today's releases)
-- 2-3 actionable trade ideas WITH catalyst + entry/stop/target
+- Catalyst calendar: upcoming events for held positions this week
+- 2-3 actionable trade ideas WITH:
+  - Catalyst + date
+  - Entry/stop/target with R:R
+  - Fundamental score (avg of 5 factors)
+  - Thesis statement (1 sentence)
+  - Earnings proximity check
 - Risk factors for the day
 - Decision: trade or HOLD (default HOLD — patience > activity)
 
-STEP 5 — Notification: silent unless urgent.
+STEP 6 — Notification: silent unless urgent.
   bash scripts/notify.sh "<one line>"
 
-STEP 6 — COMMIT AND PUSH (mandatory):
+STEP 7 — COMMIT AND PUSH (mandatory):
   git add memory/RESEARCH-LOG.md
   git commit -m "pre-market research $DATE"
   git push

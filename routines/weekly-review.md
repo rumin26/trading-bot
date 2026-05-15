@@ -20,7 +20,7 @@ IMPORTANT — ENVIRONMENT VARIABLES:
 
 IMPORTANT — PERSISTENCE:
 - Fresh clone. File changes VANISH unless committed and pushed.
-  MUST commit and push at STEP 7.
+  MUST commit and push at STEP 8.
 - You CANNOT push directly to main (403). Just run `git push` — it
   pushes to your assigned branch. A GitHub Actions workflow auto-merges
   it into main within ~30 seconds.
@@ -46,21 +46,30 @@ STEP 3 — Compute the week's metrics:
 - Best trade, worst trade
 - Profit factor (sum winners / |sum losers|)
 
-STEP 4 — Append full review section to memory/WEEKLY-REVIEW.md:
+STEP 4 — Sector & Market Research:
+Use WebSearch to assess:
+- Sector rotation: rank S&P sectors by 1-week and 1-month relative strength
+- For each held position: how is it valued vs. peers? (P/E, EV/EBITDA)
+- Any sector dropping from top-3 to bottom-3? Flag for exit.
+- Thematic check: are macro trends still supporting our positions?
+- New sector opportunity: identify the strongest sector we're NOT in
+
+STEP 5 — Append full review section to memory/WEEKLY-REVIEW.md:
 - Week stats table
 - Closed trades table
-- Open positions at week end
+- Open positions at week end (with peer valuation context)
+- Sector rotation update (leaders/laggards, changes from last week)
 - What worked (3-5 bullets)
 - What didn't work (3-5 bullets)
 - Key lessons learned
-- Adjustments for next week
+- Adjustments for next week (including sector allocation changes)
 - Overall letter grade (A-F)
 
-STEP 5 — If a rule needs to change (proven out for 2+ weeks, or failed
+STEP 6 — If a rule needs to change (proven out for 2+ weeks, or failed
 badly), also update memory/TRADING-STRATEGY.md and call out the change
 in the review.
 
-STEP 6 — Send ONE WhatsApp message. <= 15 lines:
+STEP 7 — Send ONE WhatsApp message. <= 15 lines:
   bash scripts/notify.sh "Week ending MMM DD
   Portfolio: \$X (+/-X% week, +/-X% phase)
   vs S&P 500: +/-X%
@@ -69,7 +78,7 @@ STEP 6 — Send ONE WhatsApp message. <= 15 lines:
   One-line takeaway: <...>
   Grade: <letter>"
 
-STEP 7 — COMMIT AND PUSH (mandatory):
+STEP 8 — COMMIT AND PUSH (mandatory):
   git add memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md
   git commit -m "weekly review $DATE"
   git push
