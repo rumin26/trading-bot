@@ -185,3 +185,77 @@ Action plan for Monday open:
 - Skip everything tech/growth/REIT/utility into hawkish regime shift.
 
 Patience > activity. First trade gets ONE clean setup, not a Friday reach.
+
+## 2026-05-18 — Pre-market Research
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0
+
+### Market Context
+- WTI ~$104 / Brent ~$110 (Hormuz effectively closed; +11% WoW WTI, +8% WoW Brent)
+- Futures: S&P -0.6%, Nasdaq -0.5%, Dow -0.7%, Russell -0.6% (4am ET)
+- SPY $737.74 (-0.19%), QQQ $708.32 (-0.09%) premkt
+- VIX: 18.43 (creeping up)
+- Yields: 2Y >4.00%, 10Y >4.50%, 30Y >5.00% — regime change continues; Fed dovish room shrinking
+- Today's catalysts:
+  - **UAE Barakah nuclear plant drone strike** overnight — escalation, oil bid, defense bid
+  - NVDA earnings Wed 5/20 5pm ET; consensus rev $78.8B / EPS $1.78; implied move ±8-13%
+  - Warsh first full Mon as Fed Chair (sworn in Fri 5/15); confirmed 54-45; signaled inflation "kicking higher" complicates path
+  - Trump-Xi summit concluded: 3-yr "strategic stability" framework, China to buy 200 Boeing jets, NVDA H200 sales to Chinese firms greenlit, joint statement Hormuz must remain open
+- Earnings AM: light tape — 50 reports but no marquee large-caps before open
+- Week ahead: NVDA + TGT Wed 5/20, WMT Thu 5/21
+- Econ calendar this week: no major prints surfaced today; CPI/PPI already digested; jobs/Fed minutes possible mid-week
+- Sector momentum YTD: Energy, Semis (NVDA/AVGO), Defense, Industrials, Healthcare (flight-to-safety), Staples leading. Lagging: REITs, Discretionary, Utilities, Tech cooling.
+
+### Catalyst Calendar (Held Positions)
+- None held.
+
+### Watchlist Status (prior setups)
+- **XLE**: $59.44 — extended; did NOT pull back to $55.50-56.00 entry zone. Skip; chase risk.
+- **LMT**: $516.90 — did NOT print $480-490 base; trading $512-524. Skip; missed entry.
+- **CAT**: ~$887.58, only ~4.8% off ATH $931.35. Still extended; needs deeper pullback to 7%+ for clean stop.
+
+### Trade Ideas
+1. **XLE — energy leader (still on radar, NOT today)**
+   - Catalyst: UAE Barakah strike + Hormuz closed = supply premium intact
+   - Entry: still $55.50-56.00 zone — current $59.44 too extended
+   - Stop $50.40 (-10%) | Target $63.40 = R:R 1.5:1 from prior entry
+   - Score: Moat 6 / Val 6 / Mom 9 / Cat 9 / RR 5 = avg 7.0 ✓
+   - Earnings: ETF n/a
+   - Thesis: Energy is the only major sector positively levered to BOTH Hormuz supply shock AND hawkish Warsh Fed.
+   - **Status: WAIT for pullback. Do not chase $59.**
+
+2. **LMT — defense, multi-year budget cycle (still on radar, NOT today)**
+   - Catalyst: UAE Barakah nuclear plant attack escalation; allied rearmament; DoD supplemental
+   - Entry: $480-490 base needed — current $516 too extended
+   - Stop -8% | Target prior ATH +10% = R:R 2:1+ if entry holds
+   - Score: Moat 9 / Val 6 / Mom 8 / Cat 9 / RR 7 = avg 7.8 ✓ (pending entry)
+   - Earnings: next mid-July (no proximity)
+   - Thesis: Prime contractor for THAAD/F-35/JASSM systems in Iran/Gulf theater.
+   - **Status: WAIT for pullback to $480-490.**
+
+3. **CAT — industrials/reshoring (still on radar, NOT today)**
+   - Catalyst: 24mo+ backlog; tariff/reshoring tape; rate-hedge via locked-in capex
+   - Entry: needs $864 or below (7%+ off ATH); current $887 only 4.8% off
+   - Stop -8% | Target continuation = R:R 2:1
+   - Score: Moat 9 / Val 5 / Mom 8 / Cat 7 / RR 7 = avg 7.2 ✓ (pending entry)
+   - Earnings: late July (no proximity)
+   - Thesis: Bond rout pulls forward capex demand; reshoring tailwind persists.
+   - **Status: WAIT for 7%+ pullback.**
+
+### Risk Factors
+- **UAE Barakah drone strike = fresh escalation** — Gulf risk premium repricing; energy/defense bid but at already-extended prices
+- **NVDA earnings Wed 5/20 ±8-13% implied move** — binary event dominates the week; semi entries premature, broader risk-off plausible if guide disappoints
+- **30Y yield >5%** = regime change; tech/REIT/utility continuation; new tightening of financial conditions if yields keep climbing
+- **Warsh's first full week** — any hawkish comment hits tape hard
+- **Breadth divergence persists** — chasing index = chasing 7 names; better to own leaders on pullback than chase at ATHs
+- Day 5 with $0 deployed is fine per "patience > activity"; do not force a trade into NVDA week with watchlist setups all extended
+
+### Decision
+**HOLD.** Zero qualifying setups today. All three watchlist names (XLE, LMT, CAT) failed to pull into pre-defined entry zones; instead they extended higher. Entering at current levels = poor stop math + low R:R + chase into NVDA earnings week + UAE escalation = asymmetric to the downside.
+
+Action plan:
+- Maintain XLE $55.50-56.00, LMT $480-490, CAT <$864 as standing limit-watch levels.
+- Add post-NVDA reset (Thu 5/21) as new look window — semi sector posture clarifies then.
+- Do not initiate any position Mon-Wed unless a watchlist level triggers cleanly.
+- Capital preservation > FOMO. First trade gets ONE clean setup.
