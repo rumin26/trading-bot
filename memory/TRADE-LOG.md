@@ -31,3 +31,12 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** Start of week 2. Alpaca confirms equity=$100,000, cash=$100,000, zero positions, zero open orders, no trades executed today. 0% deployed vs. 75-85% target — third consecutive flat session, capital still fully idle. Trades today: none. Trades this week: 0/3. Full 3-trade weekly budget intact. Patience is fine but deployment must begin this week or we cede meaningful ground vs. SPY benchmark. Tomorrow: pre-market scan to identify leading sector(s) and 1-2 qualifying setups; size first position <=20% with 10% trailing stop GTC at fill.
+
+### May 19 — EOD Snapshot (Day 4, Tuesday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Day 4, week 2. Alpaca confirms equity=$100,000, cash=$100,000, zero positions, zero open orders, no trades executed today. 0% deployed vs. 75-85% target — fourth consecutive flat session. Trades today: none. Trades this week: 0/3. Weekly budget still fully intact with three sessions remaining (Wed-Fri). Deployment overdue — bot is missing benchmark exposure with SPY presumed positive YTD. Tomorrow: pre-market scan must produce actionable conviction trades on leading sectors; commit to initiating first 1-2 positions <=20% each with 10% trailing stops GTC at fill, even on modest setups, to break the zero-exposure streak.
