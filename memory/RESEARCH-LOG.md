@@ -332,3 +332,67 @@ Action plan:
 - If NVDA dumps -8-10% and drags semis broadly, AVGO/SMH at fair levels become new candidates for the watchlist
 - If de-escalation accelerates and XLE finally pulls to entry zone, re-score catalyst before entering
 - Capital preservation > FOMO. NVDA earnings = wait-and-see, period.
+
+## 2026-05-20 — Pre-market Research
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0
+
+### Market Context
+- WTI ~$103.5 / Brent ~$111 — WTI slipping toward $103 (-0.85%) on Trump calling off Iran strike; Hormuz still largely shut, so supply premium not fully gone
+- Futures: S&P +0.3%, Nasdaq bid — risk-on into NVDA print; INTC +4.3% premkt, NVDA +1.6% to ~$224
+- VIX: 18.17 (5/19 close) — calm despite yields
+- Yields: 30Y briefly topped 5.19%, 10Y to 4.687%, 2Y >4.00% — inflation-reaccel fears; rate regime hostile to long-duration/consumer
+- Today's catalysts:
+  - **NVDA earnings TONIGHT ~5pm ET** — single biggest binary of the week. Consensus ~$78-79B rev (+79.5% YoY) / ~$1.77-1.78 EPS (+120% YoY); DC ~$73B; GM ~74.5% vs 75% guide (sub-73% = pricing pressure flag). Implied move 8-10%. Q2 guide whisper ~$80B+ needed for rally.
+  - **FOMC minutes today** — final chapter of Powell era; tone on rates/inflation matters given yield breakout
+- Earnings BEFORE open (all beat):
+  - **TGT** +2%: $1.71 vs $1.46 est, rev $25.44B vs $24.64B; sees +4% FY net sales
+  - **TJX** +4%: $1.19 vs $1.02 est, rev $14.32B vs $14.02B
+  - **LOW**: rev beat ($23.1B, +10.5%) but adj EPS $2.90 missed $2.96; FY26 guide maintained
+  - Also reporting: ADI, WSM, INTU
+- Sector momentum YTD: Semis runaway leader (NVDA alone ~20% of YTD SPX return, ~9% index weight); Energy strong (supply discipline + crude); Materials double-digit EPS growth. Momentum factor = leveraged bet on AI capex cycle. Breadth still extreme/concentrated.
+
+### Catalyst Calendar (Held Positions)
+- None held.
+
+### Watchlist Status
+- **XLE**: ~$61 (5/19 $61.16 / close ~$60.65) — MORE extended vs yesterday; did NOT pull to $55.50-56.00. No trigger.
+- **LMT**: ~$526.63 (close) — rose further from $518; did NOT print $480-490. No trigger.
+- **CAT**: still extended near ATH; needs <$864 for clean stops. No trigger.
+
+### Trade Ideas
+1. **XLE — energy leader (NOT today)**
+   - Catalyst: Hormuz still partly shut keeps residual supply premium; but Iran de-escalation muting upside catalyst
+   - Entry $55.50-56.00 (current ~$61 too extended) | Stop $50.40 (-10%) | Target $63.40 = R:R ~1.5:1
+   - Score: Moat 6 / Val 6 / Mom 9 / Cat 6 / RR 5 = avg 6.4 — BELOW 7 threshold
+   - Thesis: Energy levered to both residual supply risk and disciplined-supply demand; de-escalation weakens near-term catalyst. **Status: WAIT, conviction low**
+2. **LMT — defense (NOT today)**
+   - Catalyst: De-escalation softens near-term catalyst; multi-year DoD budget + allied rearmament structural
+   - Entry $480-490 (current ~$527 too extended) | Stop -8% | Target prior ATH +10% = R:R 2:1+
+   - Score: Moat 9 / Val 6 / Mom 7 / Cat 6 / RR 7 = avg 7.0 (pending entry only)
+   - Earnings: mid-July (no proximity)
+   - Thesis: Prime contractor for THAAD/F-35/JASSM; structural defense build intact. **Status: WAIT for $480-490**
+3. **CAT — industrials/reshoring (NOT today)**
+   - Catalyst: 24mo+ backlog; tariff/reshoring tape; capex pull-forward as rates bite
+   - Entry <$864 (7%+ off ATH) | Stop -8% | Target continuation = R:R 2:1
+   - Score: Moat 9 / Val 5 / Mom 8 / Cat 7 / RR 7 = avg 7.2 (pending entry)
+   - Earnings: late July (no proximity)
+   - Thesis: Bond rout pulls forward capex demand; reshoring tailwind persists. **Status: WAIT for 7%+ pullback**
+
+### Risk Factors
+- **NVDA tonight**, 8-10% implied move — do NOT initiate ANY position ahead of it. Miss/soft guide could break AI complex and drag SPX hard; broad semis crowded.
+- **FOMC minutes today** — hawkish read into a 30Y >5% backdrop = risk-off fuel.
+- **Yields at multi-year highs (30Y 5.19%)** — pressures duration, housing, consumer; LOW EPS miss hints housing strain.
+- **Extreme breadth concentration** — 10 names dominate YTD; fragile leadership; a NVDA wobble has outsized index impact.
+- Watchlist names extending AWAY from entries — chasing here = bad stop math, sub-2:1 R:R into a binary night.
+
+### Decision
+**HOLD.** Day 5/week 2, still $0 deployed. No qualifying setup: all three watchlist names are extended further from entry zones, and NVDA earnings + FOMC minutes today make this the worst possible session to initiate. Patience > activity; do not force a trade into the binary.
+
+Action plan:
+- Hold standing limit-watch levels: XLE $55.50-56.00, LMT $480-490, CAT <$864.
+- **Post-NVDA (Thu 5/21) is the reset/decision window** — semis posture and broad risk clarify after the print and FOMC minutes.
+- If NVDA dumps -8-10% and drags semis broadly, add AVGO/SMH at fair levels to the watchlist as fresh candidates.
+- If de-escalation pulls XLE into $55.50-56.00, re-score catalyst before entering (currently sub-7).
+- Deployment is overdue vs. SPY, but a binary night is not where you break a zero-exposure streak. First trade gets ONE clean setup.
