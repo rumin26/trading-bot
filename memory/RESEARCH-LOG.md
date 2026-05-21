@@ -453,3 +453,10 @@ Action plan:
 - Standing limit-watch: LMT $480-490 (re-score if Iran re-escalation re-bids defense), XLE $55.50-56.00 (currently sub-7, re-score catalyst before entering).
 - Do NOT chase semis post-NVDA — sector is cooling vs. momentum leaders.
 - Deployment drag is now 6 sessions; the bar is "first CLEAN entry," not "perfect setup." Next pullback in a momentum-leader name executes — most likely CAT.
+
+### Midday Scan Addendum (2026-05-21)
+- State: 0 positions, 0 open orders. Steps 3-5 (cut losers / tighten stops / thesis check) all no-op.
+- **Armed CAT trigger NOT fired:** quote bid $869.01 / ask $872 (~$870), still ~0.7% above the <$864 entry. No entry — discipline holds; do not chase above trigger.
+- LMT (~$521) and XLE (~$58) unchanged, both above entry zones. No trigger.
+- No name moving sharply without cause; no thesis breaks (none held).
+- Action taken: NONE. No notification sent. CAT remains armed for <$864 into the close.
