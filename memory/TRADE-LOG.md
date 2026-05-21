@@ -49,3 +49,12 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** Day 5, week 2. Alpaca confirms equity=$100,000, cash=$100,000, zero positions, zero open orders, no trades executed today. 0% deployed vs. 75-85% target — fifth consecutive flat session. Trades today: none. Trades this week: 0/3. Two sessions remain this week (Thu-Fri) with full 3-trade budget intact. The zero-exposure streak is now a material drag: every flat day cedes ground to SPY while capital sits idle. Deployment is overdue and must happen Thursday. Tomorrow: pre-market scan to lock the leading sector and initiate first 1-2 positions <=20% each, 10% trailing stop GTC at fill — execute on the best available qualifying setup rather than holding out for a perfect one.
+
+### May 21 — EOD Snapshot (Day 6, Thursday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Day 6, week 2. Alpaca confirms equity=$100,000, cash=$100,000, zero positions, zero open orders, no trades executed today. 0% deployed vs. 75-85% target — sixth consecutive flat session, and the "deploy Thursday" plan went unexecuted. Trades today: none. Trades this week: 0/3. One session remains this week (Fri) with full 3-trade budget intact. Six straight idle days is a serious discipline failure: patience has curdled into paralysis and the account holds zero benchmark exposure while SPY compounds. Friday is the last chance this week to break the streak. Tomorrow: pre-market scan to lock the leading sector and commit to initiating at least one position <=20% with a 10% trailing stop GTC at fill on the best qualifying setup — do not end week 2 fully uninvested.
