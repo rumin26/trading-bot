@@ -396,3 +396,60 @@ Action plan:
 - If NVDA dumps -8-10% and drags semis broadly, add AVGO/SMH at fair levels to the watchlist as fresh candidates.
 - If de-escalation pulls XLE into $55.50-56.00, re-score catalyst before entering (currently sub-7).
 - Deployment is overdue vs. SPY, but a binary night is not where you break a zero-exposure streak. First trade gets ONE clean setup.
+
+## 2026-05-21 — Pre-market Research
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0
+- Day 6, 0% deployed — sixth consecutive flat session.
+
+### Market Context
+- **NVDA print resolved BULLISH (the binary cleared).** Q1 FY27 rev $81.6B (+85% YoY) vs ~$78-79B est; DC $75.2B (+92%); EPS $1.87 vs $1.76. Q2 guide $91B ±2% — well above ~$80B whisper. +$80B buyback, dividend hiked $0.01→$0.25. Stock +1.93% post-print; Wed snapped a 3-day losing streak on the beat + easing yields + lower oil.
+- Futures: S&P **-0.4%** premarket today — mild risk-off DESPITE NVDA. Drag = Iran re-escalation + WMT.
+- Oil: WTI ~$99-100 / Brent ~$105 — DOWN ~5% from yesterday's ~$103.5/$111 on de-escalation; ticking back up premkt after Reuters: Khamenei directive to keep enriched uranium in-country (re-escalation, complicates resolution).
+- VIX: 18.06 (5/20 close) — calm.
+- Yields: eased Wed but still elevated — 2Y >4.0%, 10Y >4.50%, 30Y >5.0%. Hostile to duration/consumer/housing. JGB 10Y at highest since 1997.
+- Today's data: Continuing claims, EIA nat gas. FOMC minutes were YESTERDAY (Fed held 3.50-3.75%, final Powell act). No major macro release today.
+- Earnings today: **WMT** guide weak (FY adj EPS $2.75-2.85 vs $2.91 est, -2% premkt); also DE, RL, ROST, ZM, DECK.
+- Sector momentum YTD: **Materials runaway leader (~+22%)**, then Industrials, Energy, Consumer Staples leading. **Tech/semis COOLING** — trailing broad market as investors question AI-capex payoff timing. Key tension: NVDA's catalyst is bullish but its SECTOR is the one rotating out — chasing semis fights the tape.
+
+### Catalyst Calendar (Held Positions)
+- None held.
+
+### Watchlist Status (re-scored post-NVDA)
+- **XLE**: ~$58 (5/20 close, down from ~$61 on -5% oil) — closer to entry but NOT in $55.50-56.00 zone. Two-way Iran headlines keep catalyst muddled. No trigger.
+- **LMT**: ~$521 mid — still well above $480-490 entry; re-escalation could re-bid defense but price too extended for clean stops. No trigger.
+- **CAT**: ~$873 mid — closest to its <$864 trigger (~1% away). Industrials = momentum-leader sector. No trigger yet, but the lead candidate.
+
+### Trade Ideas
+1. **CAT — industrials/reshoring (LEAD candidate, not yet triggered)**
+   - Catalyst: 24mo+ backlog; reshoring/tariff tape; capex pull-forward as rates bite. Industrials is a top-3 YTD momentum sector.
+   - Entry <$864 (~1% below current) | Stop -8% (~$795) | Target continuation = R:R ~2:1
+   - Score: Moat 9 / Val 5 / Mom 8 / Cat 7 / RR 7 = **avg 7.2** (pending entry)
+   - Earnings: late July — no proximity.
+   - Thesis: Industrials-leadership reshoring play with bond-rout-driven capex pull-forward; clean stops only <$864. **Status: ARM — if CAT prints <$864, this is the first executable trade.**
+2. **LMT — defense (WAIT for entry)**
+   - Catalyst: Iran re-escalation could re-bid the near-term defense catalyst that de-escalation had softened; structural DoD/allied-rearmament intact.
+   - Entry $480-490 (current ~$521 too extended) | Stop -8% | Target prior ATH +10% = R:R 2:1+
+   - Score: Moat 9 / Val 6 / Mom 7 / Cat 6 / RR 7 = **avg 7.0** (at entry only)
+   - Earnings: mid-July — no proximity. **Status: WAIT for $480-490.**
+3. **XLE — energy (WAIT, sub-7)**
+   - Catalyst: Energy is a momentum leader but catalyst whipsawing on Iran de-/re-escalation; lagged in April.
+   - Entry $55.50-56.00 (current ~$58) | Stop $50.40 (-10%) | Target $63.40 = R:R ~1.5:1
+   - Score: Moat 6 / Val 6 / Mom 9 / Cat 6 / RR 5 = **avg 6.4 — below threshold.** **Status: WAIT.**
+
+### Risk Factors
+- **Tape is mildly risk-off today (futures -0.4%)** despite a clean NVDA beat — initiating into a soft session with no name at entry = poor R:R.
+- **Iran re-escalation** (Khamenei uranium directive) — energy/defense risk premium two-way; chasing either side here is whipsaw risk.
+- **WMT weak FY guide (-2%)** — consumer/retail strain confirmed; rising-yield + sticky-inflation backdrop pressures discretionary.
+- **Yields still elevated (30Y >5%, 10Y >4.5%)** — duration/housing/consumer headwind.
+- **Sector cross-current** — NVDA's bullish catalyst sits in a COOLING sector; do NOT chase semis (AVGO/SMH/NVDA) just because the print was good. Hunt the YTD leaders (Materials/Industrials/Energy) instead.
+
+### Decision
+**HOLD today — but posture shifts from "wait-and-see" to "armed."** The NVDA binary that dominated the week resolved bullishly, clearing the overhang. However: (a) no watchlist name is in its defined entry zone, (b) today's tape is mildly risk-off (futures -0.4%, Iran re-escalation, weak WMT), and (c) the only fresh-catalyst sector (semis) is the one rotating OUT — chasing it fights momentum. Forcing a trade today = sub-7 idea or extended-entry bad-stop math. Will not break the zero-exposure streak that way.
+
+Action plan:
+- **CAT is the lead trigger: if it prints <$864 intraday, that is the first executable trade** (avg 7.2, industrials momentum leader, clean ~2:1, no earnings proximity). Size <=20%, place 10% trailing stop GTC at fill.
+- Standing limit-watch: LMT $480-490 (re-score if Iran re-escalation re-bids defense), XLE $55.50-56.00 (currently sub-7, re-score catalyst before entering).
+- Do NOT chase semis post-NVDA — sector is cooling vs. momentum leaders.
+- Deployment drag is now 6 sessions; the bar is "first CLEAN entry," not "perfect setup." Next pullback in a momentum-leader name executes — most likely CAT.
