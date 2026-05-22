@@ -103,3 +103,67 @@ Template for each entry:
 ### Overall Grade: C-
 Risk management flawless (zero losses, zero rule violations). But the job is to beat S&P, not avoid it — 0% deployed in a +1.3% week with clear sector leaders and a documented watchlist is missed mandate. Discipline credit, deployment debit.
 
+## Week ending 2026-05-22
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (Mon 5/18 AM) |
+| Ending portfolio | $100,000.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | ~+0.2% (8th up week, longest streak since 2023) |
+| Bot vs S&P | ~-0.2% |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | n/a (no closed trades) |
+| Best trade | n/a |
+| Worst trade | n/a |
+| Profit factor | n/a |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| ------ | ----- | ---- | --- | ----- |
+| —      | —     | —    | —   | None  |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| ------ | ----- | ----- | ---------- | ---- |
+| —      | —     | —     | —          | —    |
+
+100% cash. 0% deployed vs. 75-85% target — second consecutive fully-uninvested week. Phase total: 7 trading sessions, 0 trades, 0% deployed.
+
+### Sector Rotation Update (week of May 22)
+- **Leaders (1-week + 1-month RS):** Materials (XLB) now the clear #1 (~+17-22% YTD, breaking a multi-year base on sticky-inflation + AI copper/chemicals demand); Energy (XLE) holds #1-tier (~+21% YTD, rebounded off ~$53 support to a higher low); Industrials (XLI) and Consumer Staples (XLP) round out the top tier.
+- **Rotated OUT:** Technology / Semis cooled hard — even a clean NVDA beat (Q1 rev $81.6B, Q2 guide $91B) failed to re-lead the sector; investors are questioning AI-capex payoff timing. Tech fell from #2 last week to outside the top tier. Per rule "exit a sector that drops top-3→bottom-3" → no-op (no holdings).
+- **Improving vs. fading:** Materials = clearest improving (5d RS positive); Industrials moving sideways 4-5 wks (RS lower highs/lows = fading but still top-tier); Energy stable.
+- **vs. last week:** Big change is Tech losing leadership and Materials taking outright #1. Cyclicals/value over growth is the dominant 2026 rotation.
+- **Held positions valuation context:** n/a — no holdings.
+- **Strongest sector we are NOT in:** all of them (0% deployed). The single best unowned exposure is Materials (XLB) — the #1 YTD sector with a fresh breakout, added to the watchlist this week at a $49.50-50.00 pullback entry.
+
+### What Worked
+- Risk management remained flawless: zero losses, zero rule violations, zero forced/FOMO entries through 7 sessions.
+- Research process improved: widened the candidate set (added XLB to capture the #1 sector via ETF, no single-name earnings risk) and pre-staged a concrete, low-friction CAT limit-buy plan ($864, ≤20%, trailing stop at fill) for market-open.
+- Correctly avoided chasing semis post-NVDA despite the bullish print — the sector is rotating out, so the catalyst did not justify fighting the tape.
+- Sat out two genuine binaries (NVDA earnings 5/20, FOMC minutes) cleanly rather than gambling on them.
+
+### What Didn't Work
+- **Full week 0% deployed AGAIN** — a +0.2% S&P week was small mercy, but the phase has now ceded ~1.5%+ of relative ground over two weeks while holding zero benchmark exposure.
+- **Six consecutive "deploy tomorrow" commitments all failed to execute.** Last week's explicit corrective ("another week of [0%] is not [acceptable]") was logged and then ignored — the single worst process failure of the phase.
+- Entry levels are systematically too strict for the tape: in a market printing ATHs, every watchlist name (CAT, LMT, XLE) extended AWAY from its pullback zone all week. Waiting for textbook pullbacks = guaranteed miss.
+- The "starter-position rule" added in last week's adjustments was never formalized into the rulebook and was never used — a paper fix that changed no behavior.
+- Patience has fully curdled into paralysis. The bar for inaction is lower than the bar for action, which is backwards for a mandate to beat the index.
+
+### Key Lessons
+- A discretionary entry gate with no forcing function will, in a trending tape, filter out 100% of trades indefinitely. Discipline without a deployment floor is just inertia.
+- "Wait for the perfect pullback" is a losing rule when the tape doesn't pull back. The fix is a structural forcing mechanism (a hard cap on consecutive flat sessions), not another aspirational note.
+- Catalyst ≠ sector. NVDA proved a great single-name catalyst can sit inside a sector that's rotating out; chase the leading SECTOR (Materials/Energy/Industrials), not the loudest headline.
+- Accountability requires a mechanism, not a promise. Six broken "deploy tomorrow" notes prove that intentions don't deploy capital — rules do.
+
+### Adjustments for Next Week
+- **FORMALIZED a new rulebook rule (see TRADING-STRATEGY.md, rule 12 + new section): Anti-Paralysis Deployment Floor.** No more than 5 consecutive 0-new-position sessions. On the 5th such session, if any top-3 momentum-sector candidate scores ≥7, initiate a 1/3-size starter (~6-7% of portfolio) AT-MARKET with a 10% trailing-stop GTC at fill — without waiting for a textbook pullback. Scale to full only on a pullback to the documented level. This overrides "wait for ideal entry" but NOT the -7% cut, the 10% trail, max-position size, or the ≥7 conviction gate. We are already past this threshold, so it triggers Monday.
+- **Monday 5/25 concrete plan:** (1) CAT limit-buy at $864 stays armed (≤20%, trail at fill). (2) If CAT does not trigger, the deployment floor forces a 1/3 starter in the best-scoring top-3-sector name at-market — most likely a Materials (XLB) or Industrials (CAT-at-market starter) position — with a 10% trail GTC at fill. End Monday with >0% deployed, period.
+- **Sector allocation target:** lead with Materials (#1 YTD) + Industrials/Energy; zero Tech/REIT/Utility/Discretionary. Use XLB for clean materials exposure.
+- **Deploy target for week:** minimum 25%, stretch 40-50% via 2 starters scaled toward full. Acknowledge 75-85% remains a multi-week ramp, but the ramp must actually begin.
+
+### Overall Grade: D-
+Two full weeks, zero trades, 0% deployed — the mandate (beat the S&P) has gone entirely unaddressed, and last week's explicit corrective plan was logged and then ignored across six straight sessions. Risk discipline is still perfect, but a strategy that never deploys is not disciplined investing, it is abstention. The grade reflects that the core job was not attempted. The only thing separating this from an F is that no capital was lost and a real structural fix (the deployment-floor rule) is now in the rulebook with a Monday trigger — discipline must now mean acting, not just abstaining.
+
