@@ -20,7 +20,31 @@ Beat the S&P 500 over the challenge window. Stocks only — no options, ever.
 8. Max 3 new trades per week
 9. Follow sector momentum
 10. Exit a sector after 2 consecutive failed trades
-11. Patience > activity
+11. Patience > activity — but patience has a floor (rule 12)
+12. Anti-Paralysis Deployment Floor: never run >5 consecutive 0-new-position
+    sessions (see section below)
+
+## Anti-Paralysis Deployment Floor (rule 12)
+Added 2026-05-22 after two consecutive fully-uninvested weeks (7 sessions, 0
+trades, 0% deployed) in which six straight "deploy tomorrow" commitments failed.
+Discretionary entry gates with no forcing function filter out 100% of trades in
+a trending tape; this rule is that forcing function.
+
+- **Trigger:** the account has had 5 consecutive trading sessions with no new
+  position opened (count resets to 0 the day any new position is opened).
+- **Action on the 5th session:** if ANY candidate in a top-3 momentum sector
+  scores >= 7 on the fundamental framework, initiate a 1/3-size starter
+  (~6-7% of portfolio) AT-MARKET that session — do NOT wait for a textbook
+  pullback. Attach a 10% trailing-stop GTC at fill (rule 4).
+- **Scaling:** add to full target size (<=20%) only on a pullback to the
+  documented entry level. A starter is a foot in the door, not the full bet.
+- **Concurrency:** cap starters at 2 open at once.
+- **What this OVERRIDES:** only "wait for the ideal pullback entry."
+- **What this does NOT override:** the -7% manual cut, the 10% trailing stop,
+  the <=20% max position, the >=2:1 R:R target where achievable, the >=7
+  conviction-score gate, and the max-3-new-trades-per-week cap. If literally
+  zero top-3-sector candidate scores >=7, document why and the floor pauses one
+  session — but the default is to act.
 
 ## Entry Checklist (Buy-Side Gate)
 - [ ] Specific catalyst with date/trigger?
