@@ -460,3 +460,61 @@ Action plan:
 - LMT (~$521) and XLE (~$58) unchanged, both above entry zones. No trigger.
 - No name moving sharply without cause; no thesis breaks (none held).
 - Action taken: NONE. No notification sent. CAT remains armed for <$864 into the close.
+
+## 2026-05-22 — Pre-market Research
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0
+- Day 7, 0% deployed — **seventh consecutive flat session; last session of week 2.**
+
+### Market Context
+- Futures: S&P **+0.2-0.4%** premarket — mildly green; tape heading toward its longest streak of weekly gains since 2023. Calm, supportive backdrop.
+- Oil: WTI ~$97 / Brent ~$104.5 — Brent +1.9% but choppy (rose ~3% then faded). **2026 Iran war ONGOING** (Hormuz disruption persists, oil still ~$100+, ~50% above pre-war). De-escalation headlines are hope, not fact — energy/defense risk premium remains structurally bid. Correction vs. yesterday's read: the catalyst is durable, not "muting."
+- VIX: 16.76 (5/21 close, -3.9%) — calm.
+- Yields: still elevated (30Y >5%, 10Y >4.5%) — duration/housing/consumer headwind intact.
+- Data today: **UMich Consumer Sentiment final (10am)**, NY Fed nowcast. No CPI/PPI/FOMC/jobs. Light day, no binary overhang (contrast 5/20-5/21 NVDA/FOMC). Inflation 3.8%, unemployment 4.3%.
+- Catalysts: AI theme hot (SoftBank +30% 2d, Ackman new MSFT stake "compelling valuation", Figma beat+raise +15%); software/AI-buildout strength. **Next-week earnings (May 26-28): Salesforce, Marvell, Zscaler, AutoZone, Dick's** — relevant if we add tech/retail names.
+- Sector momentum YTD: **Materials runaway leader (~+22%, breaking out of multi-year base — inflation hedge + AI copper/chemicals demand)**, then Energy, Industrials, Consumer Staples. Tech leadership rotated OUT. Cyclicals favored.
+
+### Catalyst Calendar (Held Positions)
+- None held. No earnings/macro proximity risk to manage.
+
+### Watchlist Status (pre-open quotes; Thu 5/21 close refs)
+- **CAT**: ~$874 (web), prior close ~$873-874 — **~1.2% ABOVE the <$864 trigger.** Industrials = top-3 momentum sector. Lead candidate, NOT triggered. Chasing $874 degrades R:R toward ~1:1 (ATH $931 only ~6.5% up vs -7% cut) — the pullback to $864 is what preserves the 2:1 setup. Do NOT chase.
+- **LMT**: ~$521-525 — well above $480-490 entry. Ongoing Iran war re-supports the defense catalyst, but price too extended for clean stops. No trigger.
+- **XLE**: ~$58-59 — above $55.50-56.00 entry; score sub-7. No trigger.
+- **XLB (NEW — materials add)**: ~$52, near 52w high $54.14 (range $42-54). Captures the #1 YTD sector cleanly via ETF (no single-name earnings risk). See idea #3.
+
+### Trade Ideas
+1. **CAT — industrials/reshoring (LEAD, armed, NOT triggered)**
+   - Catalyst: 24mo+ backlog; reshoring/tariff tape; capex pull-forward as rates bite. Industrials top-3 YTD.
+   - Entry **<$864** (~1.2% below) | Stop -8% (~$795) | Target breakout continuation past $931 ATH = R:R ~2:1 only on the pullback entry
+   - Score: Moat 9 / Val 5 / Mom 8 / Cat 7 / RR 7 = **avg 7.2** (at <$864 entry only)
+   - Earnings: late July — no proximity.
+   - Thesis: Industrials-leadership reshoring play with bond-rout-driven capex pull-forward; clean stops/R:R require buying <$864. **Status: ARMED — primary executable for the market-open run.**
+2. **LMT — defense (WAIT for entry)**
+   - Catalyst: Ongoing Iran war keeps the near-term defense bid live; structural DoD/allied-rearmament intact.
+   - Entry $480-490 (current ~$521 too extended) | Stop -8% | Target prior ATH +10% = R:R 2:1+
+   - Score: Moat 9 / Val 6 / Mom 7 / Cat 7 / RR 7 = **avg 7.2** (at entry only; catalyst nudged up on durable war premium)
+   - Earnings: mid-July — no proximity. **Status: WAIT for $480-490.**
+3. **XLB — materials sector ETF (NEW, WAIT for pullback)**
+   - Catalyst: #1 YTD sector (+22%), multi-year breakout; sticky-inflation hedge + AI-buildout copper/chemicals demand. Pure "follow sector momentum" exposure.
+   - Entry **$49.50-50.00** (pullback to breakout level; current ~$52 near 52w high) | Stop -8% (~$46) | Target $56-58 = R:R ~1.7:1
+   - Score: Moat 6 / Val 5 / Mom 9 / Cat 6 / RR 6 = **avg 6.4 now (sub-7); ~6.8 on a $50 pullback.**
+   - Earnings: ETF — no single-name proximity. **Status: WAIT; closes the materials-exposure gap. Re-score if it pulls into $49.50-50.**
+
+### Risk Factors
+- **None of the four candidates is in a gate-clearing entry zone today** — entering means chasing extended names with sub-2:1 R:R. The calm tape does not manufacture an in-zone setup.
+- **Chronic underdeployment is itself the dominant risk** — 7 flat sessions cede compounding ground to SPY. The fix is lower execution friction + a broader candidate set, NOT a forced bad-stop chase.
+- **Iran war two-way headline risk** — energy/defense whipsaw; do not chase either side on a single headline.
+- **Yields elevated (30Y >5%)** — duration/consumer/housing pressure persists.
+- **Materials extended** — buying XLB near 52w high without a pullback gives poor stop math.
+
+### Decision
+**HOLD today (pre-market) — disciplined, not paralyzed.** All four candidates (CAT, LMT, XLE, XLB) sit above their validated entry zones; entering at current prices breaks the 2:1 R:R / entry-discipline gate (e.g., chasing CAT at ~$874 cuts R:R to ~1:1). A calm Friday with no binary is a GOOD backdrop to initiate — but a good backdrop is not a setup. Forcing the last-day-of-week trade just to break the streak would violate the rulebook.
+
+But this run does not just kick the can — it hands market-open a concrete, low-friction execution plan so deployment is mechanical the moment a setup prints:
+- **PRIMARY (market-open run): CAT limit-buy at $864, size ≤20% (~$20K), with a 10% trailing-stop GTC attached AT FILL.** Fires the instant CAT touches the zone on a calm tape — no further deliberation needed. (Not placed in pre-market: a naked resting limit could fill unattended without its mandated trailing stop — rule 4. Execute + attach stop in the same watched run.)
+- Standing limit-watch: LMT $480-490, XLB $49.50-50.00 (new), XLE $55.50-56.00 (sub-7).
+- Do NOT chase CAT above $864, do NOT chase semis (cooling sector).
+- Candidate set widened (added XLB materials) so future sessions are likelier to have a name near a valid entry — the structural fix for the paralysis pattern.
