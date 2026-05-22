@@ -58,3 +58,12 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** Day 6, week 2. Alpaca confirms equity=$100,000, cash=$100,000, zero positions, zero open orders, no trades executed today. 0% deployed vs. 75-85% target — sixth consecutive flat session, and the "deploy Thursday" plan went unexecuted. Trades today: none. Trades this week: 0/3. One session remains this week (Fri) with full 3-trade budget intact. Six straight idle days is a serious discipline failure: patience has curdled into paralysis and the account holds zero benchmark exposure while SPY compounds. Friday is the last chance this week to break the streak. Tomorrow: pre-market scan to lock the leading sector and commit to initiating at least one position <=20% with a 10% trailing stop GTC at fill on the best qualifying setup — do not end week 2 fully uninvested.
+
+### May 22 — EOD Snapshot (Day 7, Friday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Day 7, end of week 2. Alpaca confirms equity=$100,000, cash=$100,000, zero positions, zero open orders, no trades executed today. 0% deployed vs. 75-85% target — seventh consecutive flat session, and week 2 closes fully uninvested despite repeated "deploy this week" plans. Trades today: none. Trades this week: 0/3 (entire weekly budget unused). Two full weeks elapsed with zero benchmark exposure: this is a sustained discipline failure where patience has become paralysis, and the account has ceded whatever ground SPY gained over the period. Weekly review due this afternoon — must honestly diagnose why six straight "deploy tomorrow" commitments failed to execute and set a concrete, accountable deployment trigger for Monday. Monday: pre-market scan to lock the leading sector and initiate at least one position <=20% with a 10% trailing stop GTC at fill on the best qualifying setup. The bar for action is now lower than the bar for inaction.
