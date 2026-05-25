@@ -518,3 +518,56 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - Standing limit-watch: LMT $480-490, XLB $49.50-50.00 (new), XLE $55.50-56.00 (sub-7).
 - Do NOT chase CAT above $864, do NOT chase semis (cooling sector).
 - Candidate set widened (added XLB materials) so future sessions are likelier to have a name near a valid entry — the structural fix for the paralysis pattern.
+
+## 2026-05-25 — Pre-market Research (Memorial Day — MARKETS CLOSED)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0 (balance_asof 5/22)
+- 0% deployed — **7 consecutive flat trading sessions** carried into the week.
+
+### Market Context
+- **US EQUITY MARKETS CLOSED TODAY (Memorial Day). NYSE/Nasdaq reopen Tue 5/26.** No order can execute — today is NOT a trading session, so the rule-12 streak does not advance (stays at 7; Tue is the 8th).
+- Futures: ticked **up** Monday on US–Iran de-escalation hopes (Strait of Hormuz reopening chatter), but flows thin into the holiday. Equal-weight S&P + Dow printed fresh ATHs Friday on Iran optimism + cyclical breadth.
+- Oil: WTI ~$98 / Brent ~$105 (5/22). Iran war ONGOING (~50% above pre-war). Two-way: Khamenei ordered enriched uranium to stay in-country (complicates peace) vs. broader de-escalation headlines. Energy/defense risk premium still structurally bid.
+- VIX: 16.68 (5/22) — calm.
+- Yields: still elevated (30Y >5%, 10Y >4.5%) — duration/consumer/housing headwind intact.
+- Sector momentum YTD: **Materials runaway #1 (~+22%, multi-year breakout)**, Energy (Iran-war earnings upgrades), Industrials (AI-power/defense/construction capex), Consumer Staples. Cyclical rotation persists; tech leadership stayed rotated OUT.
+
+### Catalyst Calendar (this week — no positions held, all forward-looking)
+- **Tue 5/26:** AutoZone (AZO) earnings; Consumer Confidence 10am.
+- **Wed 5/27:** Marvell (MRVL), Salesforce (CRM), Dell, Snowflake, Costco earnings (AI-silicon/software read-through).
+- **Thu 5/28:** **PCE deflator (Fed's preferred inflation gauge) + GDP 2nd release + Durable Goods + Initial Claims, 8:30am** — the week's binary macro print. No CPI/FOMC this week.
+
+### Watchlist Status (5/22 closes; markets shut today)
+- **CAT** (Industrials, LEAD): $879.89 close (+1.61%). **~1.8% ABOVE the <$864 armed trigger.** 52w high $931 (only ~5.8% up) — buying here = ~1:1 R:R. NOT triggered; do not chase.
+- **LMT** ~$521 — extended above $480-490 entry. War premium live but stops too far. WAIT.
+- **XLB** (Materials ETF) ~$52, near 52w high $54.14 — above $49.50-50.00 entry. WAIT.
+- **XLE** (Energy ETF) ~$58 — above $55.50-56.00; sub-7. WAIT.
+
+### Trade Ideas (scored; >=7 promotes)
+1. **CAT — industrials/reshoring + AI-power capex (LEAD, armed)**
+   - Catalyst: 24mo+ backlog, reshoring/tariff tape, Power & Energy segment growth; industrials top-3 YTD. No dated near-term catalyst (earnings late July — no proximity).
+   - Entry **<$864** | Stop -7% (~$803) / 10% trailing GTC | Target continuation past $931 ATH ≈ 2:1 **only on the pullback**.
+   - Score @ <$864: Moat 9 / Val 5 / Mom 8 / Cat 7 / RR 7 = **7.2 (PROMOTE)**. @ market $880: RR degrades → **~6.9 (sub-7)**.
+2. **XLB — materials sector ETF (#1 YTD sector, follow-momentum)**
+   - Catalyst: +22% YTD breakout, inflation hedge + AI copper/chemicals demand. ETF — no earnings proximity.
+   - Entry **$49.50-50.00** | Stop -8% | Target $56-58 ≈ 1.7:1.
+   - Score @ market $52: Moat 6 / Val 5 / Mom 9 / Cat 6 / RR 6 = **6.4 (sub-7)**; ~6.8 on a $50 dip.
+3. **LMT — defense (war premium)**
+   - Entry $480-490 (current ~$521 extended) | Stop -8% | Target prior ATH +10% ≈ 2:1+.
+   - Score @ entry: Moat 9 / Val 6 / Mom 7 / Cat 7 / RR 7 = **7.2 (PROMOTE at entry only)**. WAIT.
+
+### Risk Factors
+- **Holiday = zero executability.** No matter the setup, nothing trades today.
+- All four candidates remain above validated entry zones — entering Tuesday at market means chasing extended leaders with sub-2:1 R:R / sub-7 scores. The leaders are extended *because* they lead.
+- Chronic underdeployment (7 flat sessions) is the dominant standing risk — every session cedes ground to SPY/ATH-printing breadth.
+- Iran war two-way headline whipsaw (energy/defense). Thu PCE is a macro binary.
+
+### Decision
+**HOLD — markets closed, no action possible today.** Default-correct, not a discipline failure (no session to act in).
+
+**Tuesday 5/26 execution plan (8th flat session — rule-12 deployment floor is LIVE and must be honored):**
+- **PRIMARY:** If CAT prints **<$864** intraday → full-discipline entry, size ≤20% (~$20K), 10% trailing-stop GTC attached AT FILL. Clean 2:1.
+- **RULE-12 FORCING FUNCTION:** Re-score top-3-sector candidates (CAT, XLB, XLE, LMT) at Tuesday's open. **If ANY scores >=7 at its actual market price → initiate a 1/3-size starter (~6-7%, ~$6-7K) AT-MARKET that session**, 10% trailing GTC at fill (cap 2 starters). This OVERRIDES "wait for the ideal pullback" but NOT the >=7 score gate, the -7% cut, or ≤20% sizing.
+- **Pause valve (high bar):** Only if *literally zero* top-3 candidate clears 7 at market may the floor pause one session — and that must be documented with each candidate's market score. After 7 idle sessions, default is ACT, not pause.
+- Standing limit-watch: LMT $480-490, XLB $49.50-50.00, XLE $55.50-56.00. Do NOT chase CAT >$864; do NOT chase semis.
