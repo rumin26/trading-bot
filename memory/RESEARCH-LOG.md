@@ -571,3 +571,49 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - **RULE-12 FORCING FUNCTION:** Re-score top-3-sector candidates (CAT, XLB, XLE, LMT) at Tuesday's open. **If ANY scores >=7 at its actual market price → initiate a 1/3-size starter (~6-7%, ~$6-7K) AT-MARKET that session**, 10% trailing GTC at fill (cap 2 starters). This OVERRIDES "wait for the ideal pullback" but NOT the >=7 score gate, the -7% cut, or ≤20% sizing.
 - **Pause valve (high bar):** Only if *literally zero* top-3 candidate clears 7 at market may the floor pause one session — and that must be documented with each candidate's market score. After 7 idle sessions, default is ACT, not pause.
 - Standing limit-watch: LMT $480-490, XLB $49.50-50.00, XLE $55.50-56.00. Do NOT chase CAT >$864; do NOT chase semis.
+
+## 2026-05-26 — Pre-market Research (Tue — 8th flat session; rule-12 floor LIVE)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0 (balance_asof 5/22)
+- 0% deployed — **8 consecutive flat trading sessions**. Rule-12 deployment floor is LIVE and must be honored or its pause valve explicitly invoked + documented.
+
+### Market Context
+- **MAJOR SHIFT — OIL CRACKED.** Trump: Iran talks "proceeding nicely." WTI −5%+ today to ~$90-93 (Brent ~$98), oil down >10% on the week on de-escalation. This actively IMPAIRS the energy/defense legs of the watchlist.
+- Futures: S&P +0.5-0.9% premarket; equal-weight S&P + Dow at fresh ATHs. Risk-on, breadth healthy.
+- VIX: ~16.7 — calm.
+- Yields: still elevated (30Y >5%, 10Y >4.5%) — duration/consumer/housing headwind intact; lower oil is mildly disinflationary (cyclical/materials tailwind).
+- Catalysts today: memory chips strong (MU +4.4%, SNDK +3% on FTSE Russell value→growth reclass, AI-memory demand); CRWV initiated Buy (AI infra); BP −6-9% (chairman ousted, governance). Semis/AI are TECH — rotated OUT of top-3, not eligible.
+- Sector momentum YTD: **Materials #1 (~+22%, multi-year breakout)**, Energy (but oil now rolling), Industrials (AI-power/defense/construction capex), Consumer Staples. Cyclical rotation persists; tech leadership stayed out.
+
+### Catalyst Calendar (this week — no positions held)
+- **Tue 5/26:** AutoZone reported pre-open (EPS $38.07, +5.3% vs consensus; slight rev miss; net sales $4.8B +8.4% YoY). Not a candidate. Consumer Confidence 10am.
+- **Wed 5/27:** MRVL, CRM, Dell, Snowflake, Costco earnings (AI-silicon/software read-through).
+- **~5/28 (mid-week):** **PCE deflator + GDP 2nd release + Durable Goods + Initial Claims, 8:30am** — the week's binary macro print. No CPI/FOMC this week.
+
+### Watchlist re-score AT MARKET (rule-12 requirement)
+- **CAT** (Industrials) ~$892-897 — **~3.5% ABOVE the <$864 armed trigger; MORE extended than 5/22.** ATH $931 only ~+4% up vs −7% stop → R:R ~0.5:1 chasing. Score @ mkt: Moat 9/Val 5/Mom 8/Cat 6/RR 4 = **6.4 (sub-7)**. Stays 7.2 ONLY at <$864.
+- **XLB** (Materials #1 ETF) **$50.21, range $49.99-50.50 — pulled back INTO the $49.50-50.00 entry zone.** Stop −8% ~$46.20, target $56-58 → 1.45-1.95:1 (just under 2:1). Score @ mkt: Moat 6/Val 6/Mom 9/Cat 6/RR 6 = **6.6 (sub-7)** — closest to the gate; valuation/RR keep it just under 7.
+- **XLE** (Energy ETF) ~$57 — **oil crash demotes the thesis.** Score @ mkt: Moat 5/Val 5/Mom 6/Cat 4/RR 5 = **5.0 (sub-7)**. Remove from active deployment list while oil rolls.
+- **LMT** (Defense) ~$497-500 — above $480-490 entry; war premium fading on de-escalation BUT $194B backlog + 37% '26 EPS growth are NOT war-dependent. Score @ mkt: Moat 9/Val 6/Mom 7/Cat 5/RR 6 = **6.6 (sub-7)**.
+
+### Trade Ideas (>=7 promotes)
+1. **CAT — industrials/reshoring + AI-power capex (LEAD, armed @ <$864 only).** 7.2 at the pullback entry; 6.4 chasing at $895. Earnings late July (no proximity). PRIMARY mechanical limit-buy.
+2. **XLB — materials #1 sector ETF (in entry zone, sub-7 by a hair).** 6.6 at $50.21; would clear ~7 at ≤$49 (R:R→~2:1, Val up). ETF — no earnings proximity. Closest to action.
+3. **LMT — defense backlog (structural, war premium fading).** 6.6 at mkt; 7.2 at $480-490 entry. Structural thesis survives a ceasefire.
+
+### Risk Factors
+- **Oil crash repricing:** energy/defense legs (XLE, LMT) weakened today — concrete reason these two are not entries now, not chronic fussiness.
+- **Leaders extended:** CAT MORE extended (~$895); chasing = sub-1:1 R:R. XLB in-zone but valuation/RR cap it at 6.6.
+- **Chronic underdeployment (8 flat sessions)** is the dominant standing risk — ceding ground to ATH-printing breadth. This is the LAST acceptable pause; 5/27 default = ACT.
+- Mid-week PCE/GDP is a macro binary; starting size small (1/3 starter) ahead of it is prudent.
+
+### Decision
+**HOLD today — rule-12 pause valve INVOKED and documented.** All four top-3-sector candidates score sub-7 AT MARKET (CAT 6.4 / XLB 6.6 / XLE 5.0 / LMT 6.6). Per rule-12, when *literally zero* top-3 candidate clears the >=7 gate, the floor may pause **one** session with each candidate's market score documented (done above). The starter relaxes R:R but NOT the >=7 conviction gate — inflating a 6.6 to act would violate the rulebook. Today's oil crash is a real, dated reason the energy/defense legs are off the table, and CAT is genuinely un-chaseable at $895.
+
+**This pause is now SPENT. 5/27 default = ACT, not pause. Hard mechanical triggers for the next watched run:**
+- **PRIMARY:** CAT limit-buy at **$864**, size <=20% (~$20K), 10% trailing-stop GTC attached AT FILL. Clean 7.2 / ~2:1. Fires the instant it touches the zone — no further deliberation.
+- **STARTER (rule-12):** **XLB at <=$49** → R:R ~2:1 and score >=7 → initiate 1/3-size starter (~6-7%, ~$6-7K) AT-MARKET, 10% trailing GTC at fill (cap 2 starters). If XLB holds ~$50 and the tape stays risk-on into 5/27, re-score for a starter — a foot in the door beats a 9th flat session.
+- **LMT** standing limit $480-490 → re-score (catalyst trimmed for fading war premium; backlog intact).
+- **DROP XLE** from the deployment list while oil rolls; revisit only if oil stabilizes.
+- Do NOT chase CAT >$864; do NOT chase semis/AI (tech, out of top-3).
