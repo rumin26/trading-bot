@@ -617,3 +617,12 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - **LMT** standing limit $480-490 → re-score (catalyst trimmed for fading war premium; backlog intact).
 - **DROP XLE** from the deployment list while oil rolls; revisit only if oil stabilizes.
 - Do NOT chase CAT >$864; do NOT chase semis/AI (tech, out of top-3).
+
+### Midday Addendum (2026-05-26, ~14:09 ET) — armed-trigger check
+- **Positions: 0 | Open orders: 0.** No risk-mgmt actions possible (no losers to cut, no winners to tighten, no theses to break).
+- **Armed triggers re-checked at market — NONE fired:**
+  - **CAT** — ask $905.70 (bid $854 is a wide/stale quote; effective buy ~$905). $864 limit-buy will NOT fill; still MORE extended, un-chaseable. No action.
+  - **XLB** — $50.97 (rose from $50.21 at open). Above the $49 starter trigger. No fill. No action.
+  - **LMT** — ~$507. Above the $480-490 zone. No fill. No action.
+- **No sharp unexplained intraday move** — prices consistent with pre-market read (XLB ~$50-51, CAT extended, LMT ~$507). No intraday research warranted.
+- **Net:** no-op midday scan. Rule-12 pause for today already invoked/documented pre-market and is SPENT. 5/27 default = ACT: CAT limit @ $864, XLB starter @ ≤$49, LMT @ $480-490 all stand into the next watched run.
