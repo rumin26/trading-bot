@@ -626,3 +626,45 @@ But this run does not just kick the can — it hands market-open a concrete, low
   - **LMT** — ~$507. Above the $480-490 zone. No fill. No action.
 - **No sharp unexplained intraday move** — prices consistent with pre-market read (XLB ~$50-51, CAT extended, LMT ~$507). No intraday research warranted.
 - **Net:** no-op midday scan. Rule-12 pause for today already invoked/documented pre-market and is SPENT. 5/27 default = ACT: CAT limit @ $864, XLB starter @ ≤$49, LMT @ $480-490 all stand into the next watched run.
+
+## 2026-05-27 — Market-Open (inline research; no prior pre-market entry) — Day 9, 9th flat session
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0 (balance_asof 5/26)
+- 0% deployed — **9th consecutive flat trading session** (~3 weeks). Rule-12 floor LIVE; yesterday's pause valve SPENT (5/26 committed "5/27 default = ACT").
+
+### Market Context
+- **OIL CRACKED FURTHER:** WTI −6% today (~$87-88) on report Iran will restore Strait of Hormuz traffic as part of a US framework deal. De-escalation now the base case — **directly impairs the energy/defense legs (XLE, LMT)**.
+- S&P 500 + Nasdaq at **fresh record highs** (5/26 close: SPX +0.61%, Nasdaq +1.19% to ATH). Futures little changed (+0.13%) pre-open.
+- VIX ~16-17 (calm). Yields still elevated (30Y >5%, 10Y >4.5%); lower oil mildly disinflationary = cyclical/materials tailwind.
+- **PCE deflator FRIDAY 5/29** (Fed's preferred gauge) = the week's binary macro print. Earnings winding down: CRM, DELL, MRVL this week.
+- Sector momentum (5/26): **Tech, Industrials, Materials led**; Energy, Staples, Healthcare lagged (Energy −2.31%). Top-3 cyclical leaders = **Materials (#1 YTD ~+22%) and Industrials**; Energy demoted by the oil crash. Industrials catalyst (reshoring + AI-power capex, data centers tripling US power demand by 2030, >24mo backlogs, double-digit EPS growth) is the most durable and is NOT oil-dependent.
+
+### Catalyst Calendar (Held Positions)
+- None held.
+
+### Re-score AT MARKET (rule-12 requirement; broadened candidate set per 5/26 fix)
+| Candidate (sector) | Mkt price | Moat/Val/Mom/Cat/RR | Avg | Note |
+|---|---|---|---|---|
+| CAT (Industrials) | ask $939.60 | 9/5/8/6/4 | **6.4** | Above $931 ATH; chase ≈ 0.5:1 R:R. 7.2 only at <$864 (won't fill). |
+| XLI (Industrials ETF, NEW) | $174.30 | 6/5/9/7/5 | **6.4-6.8** | −2.8% off 52w high $179.31; Val + sub-2:1 R:R cap it. Best non-extended industrials vehicle. |
+| XLB (Materials ETF) | $51.17 | 6/5/9/6/6 | **6.4** | Rose above $49 starter trigger; clears ~7 only at ≤$49. |
+| LMT (Defense) | ask $558.60 | 9/6/7/5/6 | **6.4-6.6** | Far above $480-490 entry, MORE extended; war premium fading on de-escalation. |
+| XLE (Energy ETF) | $56.90 | 5/4/5/4/5 | **~4.6-5.0** | Oil-crash impaired; DROPPED from deployment list. |
+| FCX (Materials, copper) | $63.56 | — | n/a | No documented entry/stop/target; single-name earnings/idiosyncratic risk — not a clean starter today. |
+
+### Risk Factors
+- **Every top-3-sector candidate is extended at/near 52w highs** → Valuation (5) + R:R (sub-2:1) legitimately drag all scores to 6.4-6.8. None clears the ≥7 gate at market.
+- **Oil −6% + Hormuz reopening** repriced energy/defense lower — concrete reason XLE/LMT are off the table now, not chronic fussiness.
+- **Chronic underdeployment (9 flat sessions, ~3 weeks)** remains the dominant standing risk — ceding ground to an ATH-printing benchmark we're mandated to beat.
+- PCE Friday is a macro binary — argues for SMALL (1/3 starter) sizing if/when a qualifying entry appears.
+
+### Decision
+**HOLD — no rule-compliant entry. NOT a fresh discretionary pause; a hard-gate block.** Honest at-market re-score puts every top-3-sector candidate at 6.4-6.8. Rule-12 relaxes R:R for a starter but **explicitly does NOT override the ≥7 conviction gate** — buying a 6.4-6.8 momentum leader would violate a hard rule. CAT is above its ATH (un-chaseable); the oil crash demoted XLE/LMT today; XLB/XLI are the cleanest but valuation/RR cap them just under 7.
+
+**STRUCTURAL FLAG (2nd consecutive zero-≥7 session — escalating to operator for a strategy ruling):** The framework now has a self-reinforcing contradiction. In a persistent uptrend the momentum leaders (the ONLY rule-12-eligible instruments) are *by definition* extended near highs, so the Valuation + R:R factors mechanically cap their score at ~6.4-6.8 at market — meaning the ≥7-at-market gate filters out 100% of momentum-ETF starters, which is the exact "trending-tape filters out all trades" failure rule-12 was written to fix. Following the rule as written (don't inflate, don't override → pause) perpetuates the #1 documented risk (3 weeks at 0% vs. the benchmark). I will NOT resolve a rulebook contradiction by breaking a hard rule. Surfacing the fork to the operator and (Fri 5/29) the weekly review:
+- **Option A (hold the line):** keep the ≥7-at-market gate inviolable; accept continued 0% until a real pullback prints a ≥7 (XLB ≤$49, CAT <$864, LMT $480-490, XLI sub-$165).
+- **Option B (relax for starters):** amend rule-12 so a 1/3-size starter may fire on the HIGHEST-scoring top-3-sector name when it clears a lower starter-specific bar (e.g., ≥6.5 with Mom ≥8 and a defined stop), since rule-12 already relaxes R:R. Today that would green-light a ~$6-7K XLI or XLB starter with a 10% trailing GTC.
+- **Recommendation:** Option B (with the ≥6.5/Mom≥8 guardrail) — a foot-in-the-door starter in the #1/#2 momentum sector beats a 10th flat session; the >5-consecutive-flat-sessions condition rule-12 names is already breached 2x over.
+
+**Standing mechanical triggers (unchanged) if no ruling before next run:** CAT limit-buy $864 (≤20%); XLB starter ≤$49 (~$6-7K, rule-12); LMT $480-490; all with 10% trailing-stop GTC at fill. DROP XLE while oil rolls. Do NOT chase CAT >$864 or semis/AI (tech, out of top-3 cyclical-leader set).
