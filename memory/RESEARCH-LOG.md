@@ -668,3 +668,13 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - **Recommendation:** Option B (with the ≥6.5/Mom≥8 guardrail) — a foot-in-the-door starter in the #1/#2 momentum sector beats a 10th flat session; the >5-consecutive-flat-sessions condition rule-12 names is already breached 2x over.
 
 **Standing mechanical triggers (unchanged) if no ruling before next run:** CAT limit-buy $864 (≤20%); XLB starter ≤$49 (~$6-7K, rule-12); LMT $480-490; all with 10% trailing-stop GTC at fill. DROP XLE while oil rolls. Do NOT chase CAT >$864 or semis/AI (tech, out of top-3 cyclical-leader set).
+
+### Midday Addendum (2026-05-27, ~14:05 ET) — armed-trigger check
+- **Positions: 0 | Open orders: 0.** No risk-mgmt actions possible (no losers to cut, no winners to tighten, no theses to break).
+- **Armed triggers re-checked at market — NONE fired:**
+  - **CAT** — ask $915 (bid $859.75 is a wide/stale quote; effective buy ~$915). $864 limit-buy will NOT fill; still extended, un-chaseable. No action.
+  - **XLB** — $51.21. Above the ≤$49 starter trigger. No fill. No action.
+  - **LMT** — ~$532.50. Far above the $480-490 zone; war premium still fading on Hormuz de-escalation. No fill. No action.
+  - **XLI** — $174.43. Far above the sub-$165 ≥7 zone. No fill. No action.
+- **No sharp unexplained intraday move** — prices consistent with the 9:30 market-open read (CAT extended, XLB ~$51, LMT ~$532, XLI ~$174). No intraday research warranted.
+- **Net:** no-op midday scan. Today's market-open decision was a hard-gate block (every top-3 candidate 6.4-6.8 at market, below the ≥7 gate), NOT a discretionary pause — the structural rule-12 contradiction remains escalated to the operator / Fri 5/29 weekly review. Standing triggers (CAT $864, XLB ≤$49, LMT $480-490) all unchanged into the next watched run.
