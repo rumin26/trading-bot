@@ -733,3 +733,15 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - Do NOT chase CAT >$864; do NOT chase semis/AI (tech, out of top-3 cyclical-leader set); do NOT chase a one-day oil bounce on Mid-East headlines.
 
 **Friday 5/29 weekly review must rule Option A vs Option B before the next pre-market run.** Going into Day 11 without a ruling would either repeat the rule-12 contradiction or force another structural flag.
+
+### Midday Addendum (2026-05-28, ~14:05 ET) — armed-trigger check
+- **Positions: 0 | Open orders: 0.** No risk-mgmt actions possible (no losers to cut, no winners to tighten, no theses to break).
+- **PCE digestion: risk-ON, not the expected risk-OFF.** SPY ~$754.90 (vs. ~$750 premarket, +0.5%) — tape absorbed the hot PCE indication; VIX-implied calm held. The constructive-pullback setup the pre-market scan flagged did NOT materialize.
+- **Armed triggers re-checked at market — NONE fired:**
+  - **CAT** — ask ~$950, bid $852.57 (wide/stale bid; effective buy ~$950). $864 limit will NOT fill; chasing $950 = ~6.4 score, sub-rule. No action.
+  - **XLB** — $51.28. Above the ≤$49 starter trigger. No fill. No action.
+  - **LMT** — $530-543 spread. Far above $480-490 zone. No fill. No action.
+  - **XLI** — $174.06. Far above sub-$165 ≥7 zone. No fill. No action.
+  - **XLE** — $56.87 (dropped from list; oil bounce remains a one-day reflex, not structural).
+- **No sharp unexplained intraday move** — all prints consistent with pre-market read; no intraday research warranted.
+- **Net:** no-op midday scan. Day 10 of zero deployment; standing triggers (CAT $864 limit, XLB ≤$49 starter, LMT $480-490) carry into close unchanged. Fri 5/29 weekly review must rule Option A vs Option B; without a ruling the bot heads into Day 11 still gated out by the ≥7-at-market hard rule in a tape that just absorbed hot PCE without giving back ground.
