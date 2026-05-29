@@ -167,3 +167,67 @@ Risk management flawless (zero losses, zero rule violations). But the job is to 
 ### Overall Grade: D-
 Two full weeks, zero trades, 0% deployed — the mandate (beat the S&P) has gone entirely unaddressed, and last week's explicit corrective plan was logged and then ignored across six straight sessions. Risk discipline is still perfect, but a strategy that never deploys is not disciplined investing, it is abstention. The grade reflects that the core job was not attempted. The only thing separating this from an F is that no capital was lost and a real structural fix (the deployment-floor rule) is now in the rulebook with a Monday trigger — discipline must now mean acting, not just abstaining.
 
+## Week ending 2026-05-29
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (Tue 5/26 AM; Mon 5/25 Memorial Day) |
+| Ending portfolio | $100,000.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | +1.43% (7,473.47 → 7,580.06; 9th straight up week) |
+| Bot vs S&P | −1.43% |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | n/a (no closed trades) |
+| Best trade | n/a |
+| Worst trade | n/a |
+| Profit factor | n/a |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| ------ | ----- | ---- | --- | ----- |
+| —      | —     | —    | —   | None  |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| ------ | ----- | ----- | ---------- | ---- |
+| —      | —     | —     | —          | —    |
+
+100% cash. 0% deployed vs. 75-85% target — **third consecutive fully-uninvested week.** Phase total: 11 trading sessions, 0 trades, 0% deployed. Phase vs S&P ≈ −2.4% (SPX ~7,400 at launch → 7,580).
+
+### Sector Rotation Update (week of May 29)
+- **Leaders (1-week):** Materials (XLB) +1.30% — best of the cyclical block; Industrials +0.06% flat-ish; Energy −0.06% on the week (−1.16% intraday Fri) as oil rolled on the Iran/Hormuz de-escalation.
+- **Leaders (1-month / YTD):** Energy still the #1 YTD sector, but Tech has climbed to #2 on the AI-silicon prints (SNOW +37%, DELL +30%, MRVL record rev, Oracle +6%, MSFT +3% on the Anthropic round). Cons Staples, Industrials, Real Estate, Materials clustered at +9-11% YTD.
+- **Rotated OUT / demoted:** Energy momentum broke this week — oil cracked from ~$100 to WTI ~$87 (Brent ~$92) on the tentative US-Iran 60-day ceasefire + Hormuz reopening. XLE was formally DROPPED from the deployment list mid-week; the energy/defense risk-premium thesis is structurally impaired, not a one-day reflex. Per rule "exit a sector dropping top-3→bottom-3" → no-op (no holdings).
+- **Improving:** Materials = clearest beneficiary of lower oil + eased inflation (cup-with-handle breakout, XLB ~$56.8 target); Industrials (AI-power capex/reshoring/data-center electrification) is the most durable non-oil-dependent catalyst.
+- **vs. last week:** Energy demoted (oil crash); Tech re-firmed on AI infra (but it is outside our top-3 cyclical-leader set, so not eligible); Materials/Industrials remain the eligible leaders.
+- **Held positions valuation context:** n/a — no holdings.
+- **Strongest sector we are NOT in:** all of them (0% deployed). Best eligible unowned exposure remains Materials (XLB), the cleanest rule-12 starter candidate (armed @ ≤$49; bid touched $49.49 Fri pre-market before the risk-on rally pushed it back to ~$51).
+
+### What Worked
+- Risk management still flawless through 11 sessions: zero losses, zero rule violations, zero forced/FOMO entries.
+- Correctly DROPPED the energy/defense legs (XLE, LMT) on the oil crash rather than chasing a one-day Mid-East-flare bounce — a real, dated thesis impairment, cleanly identified.
+- Did NOT chase semis/AI despite a blockbuster print week (SNOW/DELL/MRVL) — Tech sits outside the top-3 cyclical-leader set; staying disciplined on the eligible universe.
+- The 5/27 structural escalation was the single most valuable output of the phase: it correctly diagnosed that the framework contains a self-reinforcing contradiction rather than blaming "patience" again.
+
+### What Didn't Work
+- **Third straight 0% week into a +1.43% S&P** (9th consecutive up week, fresh records) — the relative-performance hole is now ≈ −2.4% over the phase. The mandate remains unaddressed.
+- The rule-12 "deployment floor" added 5/22 to FORCE action did not fire once in two weeks — because its ≥7-at-market conviction gate is mechanically unreachable for momentum-ETF starters in a trending tape (Valuation 5 + sub-2:1 R:R cap every extended leader at 6.4-6.8). The forcing function had a built-in off-switch.
+- The contradiction was correctly escalated 5/27 but then left unresolved across 5/27, 5/28, 5/29 — three more flat sessions spent waiting for a ruling instead of making one. Escalation without resolution is just a slower form of paralysis.
+- CAT never came into its $864 limit (traded $868-950 all week, mostly extended near/above its $931 ATH); XLB grazed but did not break $49. Standing limits stayed un-filled exactly as the prior two weeks.
+
+### Key Lessons
+- **A forcing function that inherits the very gate it was meant to bypass is not a forcing function.** Rule-12 relaxed "wait for the pullback" and R:R, but kept the ≥7 score gate — and in an uptrend the ≥7 score gate IS the pullback gate (Valuation + R:R only clear ≥7 after a pullback). The fix has to relax the score gate for starters specifically, or it changes nothing.
+- Three weeks of identical "deploy tomorrow / standing triggers carry forward" notes prove the bug is structural, not behavioral. The bot has been following the rulebook correctly; the rulebook was self-blocking.
+- Resolve, don't re-escalate. When a contradiction is surfaced and a recommendation is on the table, the weekly review is the decision point — make the ruling.
+
+### Adjustments for Next Week
+- **RULE-12 AMENDED — Option B adopted (see TRADING-STRATEGY.md).** The rule-12 STARTER (1/3 size only) now fires on a lower, starter-specific conviction bar: **average score ≥6.5 AND Momentum ≥8 AND a defined stop**, instead of the full ≥7-at-market gate. This is consistent with rule-12's existing design (it already relaxes the ideal-pullback and R:R requirements for starters). It changes nothing else: full-size adds still require the full ≥7 gate + a pullback to the documented level; the −7% cut, 10% trailing stop, ≤20% cap, ≥2-failed-trades sector exit, and max-3-new-trades/week all stand untouched.
+- **Effect:** this is breached 6x over (11 ≫ 5 consecutive flat sessions), so the floor triggers on the NEXT session (Mon Jun 1). At Friday's tape XLB scores 6.6 / Mom 9 → clears the new starter bar → a ~$6-7K (1/3-size) XLB starter fires AT-MARKET with a 10% trailing GTC at fill. Industrials (XLI) is the second eligible starter (Mom 9) if it scores ≥6.5.
+- **Monday Jun 1 concrete plan:** (1) Run the at-market re-score. (2) Fire a 1/3-size XLB starter at-market (~6-7%) the instant it clears 6.5/Mom≥8, 10% trailing GTC at fill — do NOT wait for ≤$49. (3) CAT $864 limit stays armed for a full-size ≥7 entry; XLI starter eligible on the same 6.5/Mom≥8 bar. (4) End Monday with >0% deployed, full stop. Cap: 2 concurrent starters, max 3 new trades/week.
+- **Sector allocation target:** lead with Materials (XLB) + Industrials (XLI/CAT); zero Energy (oil rolling, thesis impaired), zero Tech/semis (outside top-3 cyclical set), zero REIT/Utility/Discretionary.
+- **Deploy target for week:** minimum 1 starter Monday (>0% by EOD Mon), stretch 25-35% via 2 starters + a full-size CAT fill if it pulls in. Acknowledge 75-85% remains a multi-week ramp — but the ramp now has a gate that can actually open.
+
+### Overall Grade: D-
+Third consecutive zero-trade week, 0% deployed, now ≈ −2.4% behind the benchmark over the phase — the core mandate is still unaddressed and that floors the grade. What keeps it from an F: the phase finally produced its most important deliverable — a correct root-cause of WHY the bot can't deploy (the deployment floor inherited the same ≥7-at-market gate that the trending tape makes unreachable) and, this week, an actual FIX rather than another diagnosis. Rule-12 is amended with a starter-specific 6.5/Mom≥8 bar that triggers Monday on XLB. Risk discipline remains perfect and no capital was lost, but "lost no money by owning nothing" is not the job. Monday must convert the rule change into a filled order; a fourth flat week after fixing the rule would be an F.
+
