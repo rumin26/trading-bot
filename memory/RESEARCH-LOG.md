@@ -796,3 +796,14 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - Do NOT chase semis/AI (tech, outside top-3 cyclical-leader set).
 
 **ACTION ITEM — TODAY's weekly review must rule Option A vs Option B on rule-12** (A: hold the ≥7-at-market gate inviolable and accept the floor pauses; B: amend rule-12 to permit a 1/3-size starter at ≥6.5 with Mom ≥8 + defined stop, since rule-12 already relaxes R:R). Heading into a 4th potential zero-trade week with the contradiction unresolved is the core discipline failure to fix today.
+
+### Midday Addendum (2026-05-29, ~2:05pm ET) — standing triggers checked, none fired
+- **Account:** Equity $100K, 0 positions, 0 open orders. 11th flat session. No position to cut/tighten.
+- **Standing triggers all moved AWAY on the risk-on cyclical rally:**
+  - XLB **$51.36** (was $49.49 bid pre-mkt) — ≤$49 starter trigger NOT hit; ~6.6 score, <7 gate.
+  - XLI **$173.20** (from $168) — sub-$165 ≥7 zone not reached.
+  - CAT **$868.35** ask — above the $864 limit-buy; chase R:R, no fill.
+  - LMT **$506–532** wide — $480–490 zone not hit.
+  - SPY **$755.90** — flat at record; cyclicals leading, breadth healthy.
+- **Decision:** HOLD — no rule-compliant entry at midday; rule-12 does not override the ≥7 gate and nothing clears it. The de-escalation/lower-oil tape pushed materials/industrials further above entry rather than into pullback zones. No midday action taken; no notification sent.
+- Carry triggers unchanged into next run. Rule-12 Option A vs B ruling still owed at today's weekly review.
