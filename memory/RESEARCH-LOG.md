@@ -745,3 +745,54 @@ But this run does not just kick the can — it hands market-open a concrete, low
   - **XLE** — $56.87 (dropped from list; oil bounce remains a one-day reflex, not structural).
 - **No sharp unexplained intraday move** — all prints consistent with pre-market read; no intraday research warranted.
 - **Net:** no-op midday scan. Day 10 of zero deployment; standing triggers (CAT $864 limit, XLB ≤$49 starter, LMT $480-490) carry into close unchanged. Fri 5/29 weekly review must rule Option A vs Option B; without a ruling the bot heads into Day 11 still gated out by the ≥7-at-market hard rule in a tape that just absorbed hot PCE without giving back ground.
+
+## 2026-05-29 — Pre-market Research (Fri — Day 11, 11th flat session; weekly-review day, NO data/earnings)
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0 (balance_asof 5/28)
+- 0% deployed — **11th consecutive trading session with zero new positions** (~3 weeks). Rule-12 floor LIVE and breached 2x+ over; pause valve repeatedly spent. Structural Option-A-vs-B fork (escalated 5/27) **must be ruled at TODAY's weekly review** before next pre-market run.
+
+### Market Context
+- **US-Iran tentative deal — risk-ON into the long weekend.** Reports of a tentative agreement to reopen the Strait of Hormuz + begin 60 days of nuclear talks (Trump not yet signed off; Iran silent). S&P futures +0.1%; **S&P Equal-Weight and Dow at fresh ATHs** — broad, healthy breadth, not just mega-cap.
+- **Oil rolling on the de-escalation:** WTI −1.4% to **$87.66**, Brent −1.3% to **$92.47**. Geopolitical premium unwinding hard (Brent peaked ~$126 in May). Lower oil = eased inflation read → yields stabilizing after the recent surge. This is a **tailwind for cyclicals (materials/industrials)** and confirms the **XLE drop** (energy thesis structurally impaired, not a one-day reflex).
+- VIX: **15.74** (−3.4%) — calm.
+- SPY: **$755.53** live premarket (vs ~$755 5/28) — at/near record.
+- **No major US data or earnings today.** Next week: ISM Mfg PMI (Jun 1), construction spending, PMIs, jobs report (Jun 5). Three-day weekend ahead (markets closed Mon? — no, Memorial Day was 5/25; normal Mon Jun 1).
+- Sector momentum YTD (unchanged): **Materials #1** (~+22%, 14-mo cup-with-handle breakout, XLB target cited ~$56.8), **Industrials** (AI-power capex/reshoring/defense/electrification), Tech rebounding on AI-silicon. Energy demoted.
+
+### Catalyst Calendar (Held Positions)
+- None held.
+
+### Re-score AT MARKET (rule-12 requirement; quotes 5/28 close, wide premarket spreads — individual ETFs/stocks not yet trading; SPY live)
+| Candidate (sector) | Mkt (bid/ask) | Moat/Val/Mom/Cat/RR | Avg | Note |
+|---|---|---|---|---|
+| XLB (Materials ETF) | $49.49 / $52.93 | 6/5/9/6/6 | **6.6** | **Bid $49.49 — within ~1% of the ≤$49 starter trigger.** Clears ≥7 at ≤$49 (Val + R:R both improve). Closest to firing of anything on the board. |
+| XLI (Industrials ETF) | $168.03 / — | 6/6/9/7/5 | **6.6-6.8** | Pulled back to ~$168 (from $174) — nearer the sub-$165 ≥7 zone. Val + sub-2:1 R:R still cap it just under 7. |
+| CAT (Industrials) | $852.57 / $932.18 | 9/5/8/6/4 | **6.4** | Wide stale bid; effective buy ~$932, at/near $931 ATH. Chase R:R ~0.5:1. 7.2 ONLY at <$864 limit. |
+| LMT (Defense) | $503.50 / $560.70 | 9/6/7/4/6 | **6.2-6.4** | Iran de-escalation deflates war premium further; backlog thesis intact but catalyst weak. 7.2 only at $480-490. |
+| XLE (Energy ETF) | $55.09 / $58.76 | 5/4/4/4/5 | **~4.4** | Oil rolling on Hormuz reopen. DROPPED — structurally impaired. |
+
+### Trade Ideas (>=7 promotes)
+1. **XLB — Materials #1 sector ETF (LEAD, armed @ ≤$49, bid already $49.49).** 7.0 at ≤$49, 6.6 at $51. Lower-oil/eased-inflation tape is a direct tailwind. PRIMARY rule-12 starter trigger. Catalyst: cup-with-handle breakout continuation, ~$56.8 target. Entry ≤$49 / stop ~$44.1 (10% trail) / target $56.8 → R:R ~2:1. Thesis: own the #1 YTD momentum sector via the basket as a foot-in-the-door starter the instant valuation/R:R clear the gate. No earnings risk (ETF).
+2. **CAT — industrials/reshoring + AI-power capex (armed @ <$864 only).** 7.2 at pullback, 6.4 chasing $932. Mechanical limit-buy. Entry $864 / stop ~$778 / target $1,000 → R:R ~1.6:1. Thesis: reshoring + grid/data-center capex cycle, but un-chaseable near ATH. No earnings within 5 days.
+3. **XLI — Industrials ETF (armed @ sub-$165).** 6.8 at $168; clears ≥7 sub-$165. Broad industrials exposure if the pullback extends. Entry <$165 / stop ~$148 / target $185 → R:R ~2:1.
+
+### Risk Factors
+- **Headline risk on the Iran deal** — Trump has NOT signed; Iran silent. A collapse re-spikes oil and reverses the cyclical tailwind. The risk-on tape is built on an unsigned framework.
+- **All top-3-sector candidates remain extended at/near 52w highs** → Valuation (5) + sub-2:1 R:R drag every score to 6.4-6.8 at market. None clears the ≥7 gate at premarket prices.
+- **Chronic underdeployment (11 flat sessions, ~3 weeks)** is the dominant standing risk — bot has ceded whatever ground SPY (at record) printed over the period.
+- **Pre-long-weekend low-conviction tape** — thin Friday, no catalysts; gaps can be unreliable.
+- **Structural rule-12 contradiction UNRESOLVED** — rule-12 says "act" but explicitly does NOT override the ≥7 gate, and nothing scores ≥7 at market. This must be ruled (Option A vs B) at today's weekly review.
+
+### Decision
+**HOLD at premarket prices — no rule-compliant entry yet — BUT XLB is within ~1% of firing.** Honest at-market re-score puts every top-3 candidate at 6.4-6.8; rule-12 does not override the ≥7 hard gate, so inflating a score to act would violate a hard rule. However, **XLB's bid is $49.49 vs the ≤$49 starter trigger** — a single modest down-tick at the open arms a rule-compliant 7.0 / ~2:1 starter. The lower-oil, eased-inflation, broad-breadth tape is genuinely constructive for materials/industrials.
+
+**Standing mechanical triggers carried into the 5/29 market-open run:**
+- **PRIMARY rule-12 STARTER:** **XLB at ≤$49** → score 7.0, R:R ~2:1 → initiate 1/3-size starter (~6-7%, ~$6-7K) AT-MARKET, attach 10% trailing-stop GTC at fill (cap 2 starters). **Bid already $49.49 — near-certain to be reachable; this is the trade most likely to break the streak today.**
+- **CAT** limit-buy at **$864**, size ≤20%, 10% trailing GTC at fill. Clean 7.2 / ~2:1. Do NOT chase >$864.
+- **XLI** sub-**$165** ≥7 zone → re-score on approach.
+- **LMT** $480-490 → re-score on fill (war-premium catalyst now weaker post-de-escalation; backlog intact).
+- **XLE DROPPED** — oil rolling on Hormuz reopen; revisit only if WTI sustainably >$95 and the deal collapses.
+- Do NOT chase semis/AI (tech, outside top-3 cyclical-leader set).
+
+**ACTION ITEM — TODAY's weekly review must rule Option A vs Option B on rule-12** (A: hold the ≥7-at-market gate inviolable and accept the floor pauses; B: amend rule-12 to permit a 1/3-size starter at ≥6.5 with Mom ≥8 + defined stop, since rule-12 already relaxes R:R). Heading into a 4th potential zero-trade week with the contradiction unresolved is the core discipline failure to fix today.
