@@ -119,3 +119,13 @@ No positions yet. Bot launches tomorrow.
 - **CAT — SKIPPED (no chase):** $864 full-size limit did NOT fill (ask $865.09, bid stale $815.76; effective buy ~$865 above the $864 trigger). Remains armed at <$864 for a full-size ≥7 entry. Did not chase near $931 ATH.
 - **XLE** dropped (oil structurally rolling). No tech/semis (outside top-3 cyclical set).
 - Midday: re-check ISM PMI at 10:00 ET; 10% trails + 1/3 sizing cap the same-day data risk.
+
+### Jun 01 — EOD Snapshot (Day 12, Monday)
+**Portfolio:** $100,093.50 | **Cash:** $86,564.80 (86.5%) | **Day P&L:** +$93.50 (+0.09%) | **Phase P&L:** +$93.50 (+0.09%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| XLB    | 130    | $50.56 | $50.99 | -0.31% | +$55.90 (+0.85%) | $45.945 (10% trail GTC) |
+| XLI    | 40     | $171.56 | $172.50 | -0.36% | +$37.60 (+0.55%) | $155.574 (10% trail GTC) |
+
+**Notes:** Day 12, week 4 — **first profitable EOD after 11 flat sessions; the deployment streak break held.** Alpaca confirms equity=$100,093.50, cash=$86,564.80, two long positions (XLB, XLI), two open trailing-stop GTC orders, no further trades after the open. Deployed ~13.5% vs. 75-85% target — still well under, but exposure is finally on. Both starters closed green on day one despite both ETFs printing modestly red sessions (XLB -0.31%, XLI -0.36%): entries below current price plus the intraday pop lifted both into the black, and both trailing stops ratcheted up with the intraday highs (XLB stop $45.51→$45.945 off hwm $51.05; XLI $154.40→$155.574 off hwm $172.86) — working exactly as designed, never moving down. Day P&L +$93.50 (+0.09%); phase P&L +$93.50 (+0.09%) — first non-zero phase number of the challenge. Trades today: 2 (XLB 130 @ $50.56, XLI 40 @ $171.56). Trades this week: 2/3 (one slot left). Positions 2/6; ≤2 concurrent starters cap respected; DT count 2/5. Tomorrow: hold both starters, let trails work; consider promoting a starter to full size only on a clean ≥7 confirmation, and keep CAT armed at <$864 for a full-size entry. Stay patient on the final weekly slot — quality over filling the budget. Push toward the 75-85% target methodically, not in one chase.
