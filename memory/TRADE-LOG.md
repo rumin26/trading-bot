@@ -103,3 +103,19 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** Day 11, end of week 3. Alpaca confirms equity=$100,000, cash=$100,000, zero positions, zero open orders, no trades executed today. 0% deployed vs. 75-85% target — eleventh consecutive flat session, and week 3 closes fully uninvested. Trades today: none. Trades this week: 0/3 (entire weekly budget unused for the third straight week; Mon May 25 was Memorial Day). Eleven straight idle days across three weeks: a sustained discipline failure where patience has hardened into structural paralysis. Thursday's "deploy Friday" commitment again went unexecuted, identical to the prior nine rollovers. The account holds zero benchmark exposure while SPY compounds. Weekly review due this afternoon — must stop documenting the same diagnosis and instead impose a non-negotiable Monday entry rule. Monday: pre-market scan, lock the leading sector, initiate at least one position <=20% with a 10% trailing stop GTC at fill on the best qualifying setup — execute on the best available, do not hold out for perfect. The bar for action remains far below the bar for continued inaction.
+
+### June 1 — Market-Open Trades (Day 12, Monday) — STREAK BROKEN
+**Portfolio:** $100,000.00 | **Cash:** ~$86,565 (deployed ~13.4%) | **Day P&L:** ~$0 | **Phase P&L:** ~$0
+
+| Ticker | Side | Shares | Entry | Stop (10% trail) | Target | R:R |
+| ------ | ---- | ------ | ----- | ---------------- | ------ | --- |
+| XLB    | buy  | 130    | $50.56 | $45.51 (trailing GTC) | ~$56.80 | ~2:1 |
+| XLI    | buy  | 40     | $171.56 | $154.40 (trailing GTC) | ~$185 | ~2:1 |
+
+**Notes:** Day 12, start of week 4 — **first deployment after 11 consecutive flat sessions.** Both trades are rule-12 Option-B 1/3-size STARTERS (the amended starter bar adopted at the 5/29 weekly review: avg ≥6.5 AND Mom ≥8 AND defined stop, replacing the ≥7-at-market gate for starters only). Trades this week: 2/3. Positions: 2/6. ≤2 concurrent starters cap respected. DT count 0/5.
+
+- **XLB (Materials #1 YTD sector, ~+22%)** — 130 sh @ $50.56 = $6,572.80 (~6.6%). Score 6.6 / Mom 9 → clears Option-B bar. Thesis: own the #1 momentum sector via the basket as a foot-in-the-door starter; cup-with-handle breakout continuation + lower-oil/eased-inflation tailwind (WTI ~$87, May −16%). Pillars: #1 YTD sector momentum; oil-crash disinflation = margin relief for materials; ISM Mfg PMI today (Chicago PMI 62.7, 4-yr high, supportive). Risks: Iran deal unsigned (oil re-spike), ISM miss, extended near 52w high. Target ~$56.80 (~2:1). Cut: −7% manual / 10% trail. 10% trailing-stop GTC live @ $45.51.
+- **XLI (Industrials ETF)** — 40 sh @ $171.56 = $6,862.40 (~6.9%). Score 6.6 / Mom 9 → clears Option-B bar; eligible 2nd starter. Thesis: AI-power capex / reshoring / data-center electrification — most durable non-oil cyclical catalyst. Pillars: top-3 YTD sector; >24mo backlogs + double-digit EPS growth; power-demand supercycle. Risks: rate-sensitive (30Y >5%), extended near 52w high, sub-2:1 R:R at market. Target ~$185 (~2:1). Cut: −7% manual / 10% trail. 10% trailing-stop GTC live @ $154.40.
+- **CAT — SKIPPED (no chase):** $864 full-size limit did NOT fill (ask $865.09, bid stale $815.76; effective buy ~$865 above the $864 trigger). Remains armed at <$864 for a full-size ≥7 entry. Did not chase near $931 ATH.
+- **XLE** dropped (oil structurally rolling). No tech/semis (outside top-3 cyclical set).
+- Midday: re-check ISM PMI at 10:00 ET; 10% trails + 1/3 sizing cap the same-day data risk.
