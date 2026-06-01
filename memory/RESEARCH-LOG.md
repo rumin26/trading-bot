@@ -807,3 +807,49 @@ But this run does not just kick the can — it hands market-open a concrete, low
   - SPY **$755.90** — flat at record; cyclicals leading, breadth healthy.
 - **Decision:** HOLD — no rule-compliant entry at midday; rule-12 does not override the ≥7 gate and nothing clears it. The de-escalation/lower-oil tape pushed materials/industrials further above entry rather than into pullback zones. No midday action taken; no notification sent.
 - Carry triggers unchanged into next run. Rule-12 Option A vs B ruling still owed at today's weekly review.
+
+## 2026-06-01 — Pre-market Research
+
+### Account
+- Equity: $100,000 | Cash: $100,000 | BP: $200,000 | DT: 0 | Positions: 0 | Orders: 0 (balance_asof 5/29)
+- 0% deployed — would be the **12th consecutive flat session** if no entry today. **Rule-12 floor is LIVE and breached 6x over (11 ≫ 5).** Per the 5/29 weekly review, Option B is now adopted in TRADING-STRATEGY.md: a 1/3-size starter fires at **avg ≥6.5 AND Mom ≥8 AND defined stop** — this REPLACES the ≥7-at-market gate for starters. **The forcing function can finally open today.**
+
+### Market Context
+- **Oil:** WTI **$87.36** (−1.7%), Brent **$92.05** (−1.7%). May closed −16% (WTI) / −17% (Brent), the worst month since 2020, on the tentative US-Iran 60-day ceasefire + Hormuz reopening. Lower oil = eased inflation, margin relief — direct tailwind for **Materials/Industrials**, confirms Energy demotion.
+- **S&P futures:** +0.2-0.3% premarket; building on May's record close. SPY live **$757.9** (vs $755.9 Fri). Dual engine: falling oil + Nvidia Computex keynote (new PC chip → ARM/HPE/IBM/SNOW bid). Polymarket ~80% open-higher.
+- **VIX:** **15.32** (Fri close, −2.7%) — calm.
+- **Today's catalysts:** Nvidia Computex (AI/PC chip), Dell record rev ($43.8B, +88% YoY) afterglow, Berkshire/Taylor Morrison $6.8B deal, calmer Iran backdrop.
+- **Earnings before open:** HPE, HIVE (today). This week: Ulta/PANW/DG (Tue), AVGO/CRWD/VEEV (Wed), Fastenal/BF.B (Thu). None are candidates.
+- **Economic calendar:** **ISM Mfg PMI 10:00 ET today** — direct read on the materials/industrials thesis; Chicago PMI already printed 62.7 (4-yr high). Jobs report Jun 5.
+
+### Catalyst Calendar (Held Positions)
+- None held.
+
+### Re-score AT MARKET (Option B starter bar now live; ETF quotes stale 5/29 close, SPY live)
+| Candidate (sector) | Ref px | Moat/Val/Mom/Cat/RR | Avg | Clears 6.5/Mom≥8 starter? |
+|---|---|---|---|---|
+| **XLB (Materials ETF)** | ~$51-52 (bid $49.67 stale) | 6/5/9/6/6 | **6.6** | **YES — avg 6.6, Mom 9, stop defined. FIRES.** |
+| XLI (Industrials ETF) | ~$168-173 (bid $168.2 stale) | 6/6/9/7/5 | **6.6** | **YES — avg 6.6, Mom 9. Eligible 2nd starter.** |
+| CAT (Industrials) | ~$823-868 (wide) | 9/5/8/6/4 | **6.4** | No (full-size idea; ≥7 only at <$864 limit) |
+| XLE (Energy ETF) | — | 5/4/4/4/5 | ~4.4 | DROPPED — oil rolling, thesis impaired |
+
+### Trade Ideas (Option B starters; ≥7 for full-size)
+1. **XLB — Materials #1 YTD sector (~+22%), PRIMARY rule-12 starter (FIRES at open).** Catalyst: cup-with-handle breakout continuation + lower-oil/eased-inflation tailwind; ISM PMI today. Size: 1/3 starter (~$6.5-7K, ~6-7%, ~125-135 sh). Entry at-market / stop = 10% trailing GTC at fill / target ~$56.8 → R:R ~2:1. **Fundamental score 6.6 (Mom 9) → clears the 6.5/Mom≥8 starter bar.** Thesis: own the #1 momentum sector via the basket as a foot-in-the-door starter the day the forcing function finally opens. No earnings risk (ETF).
+2. **XLI — Industrials ETF (eligible 2nd starter @ 6.6/Mom 9).** AI-power capex / reshoring / data-center electrification — most durable non-oil catalyst. Size: 1/3 starter (~$6.5-7K). Entry at-market / 10% trailing GTC / target ~$185 → R:R ~2:1. Optional second starter if discipline allows ≤2 concurrent.
+3. **CAT — full-size ≥7 only at <$864 limit.** Reshoring + grid/data-center capex, but un-chaseable near $931 ATH. Armed limit-buy $864, ≤20%, 10% trailing GTC at fill. Do NOT chase.
+
+### Risk Factors
+- **ISM Mfg PMI 10:00 ET** moves materials/industrials directly — a miss could hit a same-day starter. Mitigant: Chicago PMI 62.7 (4-yr high) is supportive; starter is 1/3 size with a 10% trail.
+- **Iran deal unsigned** — collapse re-spikes oil, reverses the cyclical tailwind.
+- **Cyclical leaders extended near 52w highs** → Valuation 5 + sub-2:1 R:R cap scores at 6.4-6.6 (exactly why Option B exists).
+- **Chronic underdeployment (11 flat sessions / ~3 wks, ~−2.4% vs SPY)** is the dominant standing risk. A 12th flat day after fixing the rule = the worst outcome.
+
+### Decision
+**DEPLOY — fire the XLB 1/3-size starter AT THE OPEN (mandatory rule-12, clears Option B 6.6/Mom 9 bar).** This is the first session under the amended rule and the floor is breached 6x over; XLB clears the new starter bar cleanly with a defined 10% trailing stop and ~2:1 R:R. Patience-default does NOT apply — rule-12 is a forcing function and today is its trigger session.
+
+**Standing triggers for the 6/1 market-open run:**
+- **PRIMARY (mandatory): XLB ~$6.5-7K (1/3) starter AT-MARKET at the open**, attach 10% trailing-stop GTC at fill. Target ~$56.8, R:R ~2:1. End the day >0% deployed — full stop.
+- **OPTIONAL 2nd starter: XLI ~$6.5-7K (1/3) at-market** if it still clears 6.5/Mom≥8 at the open (cap 2 concurrent starters; counts toward max-3-new-trades/week).
+- **CAT** limit-buy **$864** for a full-size ≥7 entry, ≤20%, 10% trailing GTC at fill. Do NOT chase >$864.
+- **XLE DROPPED**; no Tech/semis (outside top-3 cyclical set).
+- **Re-check ISM PMI at 10:00 ET** at midday; the starter's 10% trail and 1/3 size cap the data risk.
