@@ -853,3 +853,10 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - **CAT** limit-buy **$864** for a full-size ≥7 entry, ≤20%, 10% trailing GTC at fill. Do NOT chase >$864.
 - **XLE DROPPED**; no Tech/semis (outside top-3 cyclical set).
 - **Re-check ISM PMI at 10:00 ET** at midday; the starter's 10% trail and 1/3 size cap the data risk.
+
+### Midday Addendum (2026-06-01, ~1:55pm ET) — positions holding, ISM beat, no action
+- **Account:** XLB +0.76% ($50.945 vs $50.56 entry), XLI +0.54% ($172.48 vs $171.56 entry). Both green vs entry, modestly red on the day (broad tape soft). 2 positions, 2 trailing-stop GTC orders live.
+- **ISM Mfg PMI (10:00 ET): 54.0** — beat, +1.3 vs April, highest since May 2022; 19th month of expansion. New Orders 56.8 (+2.7), 5th straight month expanding. **Directly validates the materials/industrials cyclical thesis — strengthened, not impaired.**
+- **Exit checks:** neither position at −7% → no cuts. Neither at +15/+20% → no trail tightening. Stops: XLB GTC @ $45.882 (hwm $50.98, 10% trail), XLI GTC @ $155.475 (hwm $172.75, 10% trail) — both trailing correctly, well clear of the 3% no-touch zone.
+- **Thesis check:** intact for both. Oil-disinflation + ISM expansion tailwind confirmed. No standing trigger fired (CAT not re-checked — un-chaseable near ATH).
+- **Decision:** HOLD both starters. No midday action; no notification sent.
