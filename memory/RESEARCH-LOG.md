@@ -892,3 +892,10 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - CAT full-size limit-buy $864, ≤20%, 10% trailing GTC at fill — do NOT chase >$864 (currently ~$938).
 - Promote XLB/XLI to full size ONLY on a pullback to documented entry AND a clean ≥7 score.
 - Midday: re-run exit checks; tighten trails only at +15/+20%.
+
+### Midday Addendum (2026-06-02, midday scan) — positions holding, no action
+- **Account:** XLB +1.40% ($51.27 vs $50.56), XLI +1.26% ($173.72 vs $171.56). Both green; 2 positions, 2 trailing-stop GTC orders live. Deployed ~13.6%.
+- **Exit checks:** neither position ≤−7% → no cuts. Neither at +15/+20% → no trail tightening. Trails ratcheting: XLB GTC $46.4985 (hwm $51.665), XLI GTC $157.05 (hwm $174.5) — both moved up with HWM, never down, well clear of the 3% no-touch zone.
+- **Thesis check:** intact. Cyclical materials/industrials thesis unbroken (ISM 54.0 beat 6/01); oil two-way (~$90) but no thesis-breaking move. No held-position earnings proximity.
+- **Candidates:** CAT still un-chaseable (>$931 ATH, far above $864 trigger); ≤2 concurrent-starter cap still hit → no new starter. No qualifying full-size ≥7 setup.
+- **Decision:** HOLD both starters. No midday action; no notification sent.
