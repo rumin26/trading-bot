@@ -860,3 +860,35 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - **Exit checks:** neither position at −7% → no cuts. Neither at +15/+20% → no trail tightening. Stops: XLB GTC @ $45.882 (hwm $50.98, 10% trail), XLI GTC @ $155.475 (hwm $172.75, 10% trail) — both trailing correctly, well clear of the 3% no-touch zone.
 - **Thesis check:** intact for both. Oil-disinflation + ISM expansion tailwind confirmed. No standing trigger fired (CAT not re-checked — un-chaseable near ATH).
 - **Decision:** HOLD both starters. No midday action; no notification sent.
+
+## 2026-06-02 — Market-Open (inline research; no prior pre-market entry) — Day 13, week 4
+
+### Account
+- Equity: $100,096.95 | Cash: $86,564.80 (deployed ~13.5%) | DT: 0/5 | Positions: 2/6 | Orders: 2 (trailing-stop GTC)
+- Rule-12 streak RESET 6/01 (positions opened) → forcing function NOT live today.
+
+### Market Context
+- **Oil:** WTI ~$90.82 (−1.5%), Brent ~$93.62 (−1.4%) — sliding again on mixed US-Iran Hormuz negotiation signals; oil ticked up off yesterday's ~$87 but two-way on war-flare headlines.
+- **S&P futures:** −0.2% after the major indexes closed at fresh records (SPX 7,599.96, +0.26%; Nasdaq 27,086.81, +0.42%); 8-day win streak pausing.
+- **VIX:** calm (~15-16 area).
+- **Sector momentum:** Tech led Monday (NVDA +6% on new PC chip), Energy the only other green sector. Cyclical/materials-industrials thesis intact on ISM beat (54.0, 6/01).
+- **Earnings/data:** Jobs report Jun 5 the week's key macro; no held-position earnings proximity.
+
+### Held Positions (exit checks)
+- **XLB** 130 @ $50.56 → $50.995 (+0.86%). Not at −7%, not at +15/+20%. Trail GTC stop $46.26 (hwm $51.40) — ratcheting, never moved down.
+- **XLI** 40 @ $171.56 → $172.57 (+0.59%). Not at −7%, not at +15/+20%. Trail GTC stop $157.05 (hwm $174.5) — ratcheting.
+
+### Candidate Re-check
+| Candidate | Live px | Note |
+|---|---|---|
+| CAT (full-size ≥7 @ <$864) | ask ~$938 / bid $845.9 (wide) | Above $931 ATH, far above $864 trigger → UN-CHASEABLE. Skip. |
+| XLB / XLI (promotion?) | $51.0 / $172.6 | No pullback to entry; scores 6.6 <7 → no full-size promotion. |
+| New starter? | — | ≤2 concurrent-starter cap already HIT (XLB+XLI). Cannot add a 3rd. |
+
+### Decision
+**HOLD — no qualifying new trade.** (1) The ≤2 concurrent-starter cap is hit, so no new starter is permitted; (2) CAT, the only full-size ≥7 idea, is un-chaseable ~$938 (the $864 limit is nowhere near); (3) neither held starter qualifies for promotion (no pullback to entry, score 6.6). The single remaining weekly slot (2/3 used) is reserved for a clean full-size ≥7 setup, not a forced 3rd starter that would breach the concurrency cap. Held starters working as designed; trails ratcheting. No notification (no trade placed).
+
+**Standing triggers:**
+- CAT full-size limit-buy $864, ≤20%, 10% trailing GTC at fill — do NOT chase >$864 (currently ~$938).
+- Promote XLB/XLI to full size ONLY on a pullback to documented entry AND a clean ≥7 score.
+- Midday: re-run exit checks; tighten trails only at +15/+20%.
