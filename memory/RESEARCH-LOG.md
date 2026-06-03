@@ -899,3 +899,52 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - **Thesis check:** intact. Cyclical materials/industrials thesis unbroken (ISM 54.0 beat 6/01); oil two-way (~$90) but no thesis-breaking move. No held-position earnings proximity.
 - **Candidates:** CAT still un-chaseable (>$931 ATH, far above $864 trigger); ≤2 concurrent-starter cap still hit → no new starter. No qualifying full-size ≥7 setup.
 - **Decision:** HOLD both starters. No midday action; no notification sent.
+
+## 2026-06-03 — Pre-market Research — Day 14, week 4
+
+### Account
+- Equity: $100,216.40 | Cash: $86,564.80 | Buying power: $186,781.20
+- Deployed: ~13.6% (vs 75-85% target) | Daytrade count: 0/5 | Positions: 2/6 | Orders: 2 (trailing-stop GTC)
+
+### Market Context
+- **Oil — REVERSING UP:** WTI ~$95.91 (+2.3%), Brent ~$95.96 — 3rd straight up session on US-Iran escalation (CENTCOM intercepted Iranian missiles/drones, "self-defense" strikes on Qeshm Island). Oil has round-tripped from the ~$87 end-of-May low. **This flips the disinflation tailwind I entered on (WTI ~$87, "lower-oil margin relief") into a mild headwind for materials/industrials margins — watch item, not yet thesis-breaking.**
+- **S&P futures:** −0.1% after all 3 majors closed at fresh record highs (SPX >7,600 first time). 8-day streak paused.
+- **VIX:** ~15.77 — calm.
+- **Sector momentum YTD:** Energy #1 (~+26-27%, geopolitical bid), **Materials #2 (~+22%)**, **Industrials (~+12-14%)** — held cyclical thesis intact. Tech/semis re-surging (Marvell +12% on Huang "next trillion-$" call, IPGP +10%, NVDA) — momentum rotating back toward AI.
+- **Data today:** ADP private payrolls (May), April durable goods, factory orders. **Jobs report Fri Jun 5** = week's key macro.
+- **Earnings today:** FIVE, MDT, M (beat+raised, +2.3%), VEEV, **CF Industries** (materials/fertilizer — XLB constituent but I hold the basket, no single-name risk), OLLI; AVGO/CRWD/VEEV after close. None are candidates.
+
+### Catalyst Calendar (Held Positions)
+- **XLB / XLI** — no single-stock earnings (ETFs). Macro catalysts this week: ADP today, **Jobs report Fri Jun 5** (cyclical-sensitive). Oil/Iran headline risk is the live swing factor.
+
+### Held Positions (exit checks)
+| Ticker | Shares | Entry | Last | Unrl P&L | Trail stop (GTC) | hwm |
+|---|---|---|---|---|---|---|
+| XLB | 130 | $50.56 | $51.48 | +$119.60 (+1.82%) | $46.4985 | $51.665 |
+| XLI | 40 | $171.56 | $173.98 | +$96.80 (+1.41%) | $157.05 | $174.50 |
+- Neither at −7% → no cut. Neither at +15/+20% → no trail tightening. Both trails ratcheting off HWM, never down, well clear of the 3% no-touch zone. No exit triggers.
+
+### Candidate Re-check / Trade Ideas
+| Candidate | Live | Score | Action |
+|---|---|---|---|
+| XLB / XLI promotion to full size | $51.48 / $173.98 | 6.6 (<7) | NO — extended above entry (no pullback to documented entry); score <7. Hold starter size. |
+| CAT (full-size ≥7 @ <$864 limit) | ~$930-938 (>$931 ATH) | 6.4 at mkt | NO — un-chaseable, ~$70+ above the $864 trigger. Armed limit stays. Do NOT chase. |
+| New starter (3rd) | — | — | BLOCKED — **≤2 concurrent-starter cap already HIT** (XLB+XLI). |
+| XLE / Energy (#1 YTD on oil) | — | ~5 | SKIP — geopolitical risk premium is asymmetric to the downside (a US-Iran ceasefire dumps oil); fragile, not a clean ≥7. |
+| Tech/semis (MRVL/NVDA) | — | <7 at mkt | SKIP — outside top-3 cyclical set; extended near highs, valuation/R:R cap score <7. No chase. |
+
+### Risk Factors
+- **Oil reversal (WTI $87→$96, +2.3% today, 3 up days)** — the single biggest thesis swing factor. Higher oil = margin pressure for materials/industrials AND reverses the disinflation tailwind I entered on. Mitigant: ETFs (diversified), 1/3 starter size, 10% trails ratcheting. If oil keeps ripping and XLB/XLI roll, the −7%/trail discipline handles it.
+- **US-Iran two-way headline risk** — escalation (oil up) vs. ceasefire optimism (oil down); whipsaw both ways.
+- **Momentum rotating back to AI/semis** — cyclical leadership could cede to Tech, capping XLB/XLI upside.
+- **Jobs report Fri Jun 5** — cyclical-sensitive; a hot/cold print moves rate expectations and industrials.
+- **Chronic underdeployment (~13.6% vs 75-85%)** — standing risk, but now improving off zero; methodical adds > chasing.
+
+### Decision
+**HOLD — no qualifying new trade.** Three gates each independently block action today: (1) the ≤2 concurrent-starter cap is HIT, so no 3rd starter is permitted; (2) CAT, the only full-size ≥7 idea, is un-chaseable ~$935 (far above the $864 limit); (3) neither held starter qualifies for full-size promotion (extended above entry, score 6.6 <7). The single remaining weekly slot (2/3 used) stays reserved for a clean full-size ≥7 setup — not a forced trade. Held starters are green and working; trails ratcheting; oil reversal logged as the elevated watch item but is not yet thesis-breaking (ISM 54.0 beat 6/01, sector momentum intact). Patience-default applies — rule-12 forcing function is NOT live (streak reset 6/01).
+
+**Standing triggers:**
+- **CAT** full-size limit-buy **$864**, ≤20%, 10% trailing GTC at fill — do NOT chase (currently ~$935).
+- Promote XLB/XLI to full size ONLY on a pullback to documented entry ($50.56 / $171.56) AND a clean ≥7 score.
+- **Oil watch:** if WTI sustains >$100 and XLB/XLI break entry, lean on −7%/10% trail discipline; reassess cyclical thesis at midday.
+- Midday: re-run exit checks; tighten trails only at +15/+20%.
