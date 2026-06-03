@@ -948,3 +948,11 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - Promote XLB/XLI to full size ONLY on a pullback to documented entry ($50.56 / $171.56) AND a clean ≥7 score.
 - **Oil watch:** if WTI sustains >$100 and XLB/XLI break entry, lean on −7%/10% trail discipline; reassess cyclical thesis at midday.
 - Midday: re-run exit checks; tighten trails only at +15/+20%.
+
+### Midday Addendum (2026-06-03, midday scan) — positions holding, no action
+- **XLB** 130 @ $50.56 → $51.655 | **+$142.35 (+2.17%)** | trail GTC $46.8225 (hwm $52.025) — ratcheted up from pre-market $46.4985, never down.
+- **XLI** 40 @ $171.56 → $174.71 | **+$126.00 (+1.84%)** | trail GTC $158.4927 (hwm $176.103) — ratcheted up from pre-market $157.05, never down.
+- **STEP 3 (cut losers):** neither near −7% → no cut.
+- **STEP 4 (tighten):** neither at +15/+20% → no trail change. Alpaca trails auto-ratcheting off new HWMs, well clear of the 3% no-touch zone.
+- **STEP 5 (thesis):** cyclical thesis intact — Materials #2 / Industrials top-3 YTD; oil watch still elevated but not thesis-breaking (no sustained >$100 WTI; XLB/XLI both above entry). No intraday break.
+- **Decision:** HOLD both starters. No trade, no notification. Standing triggers (CAT $864 limit; full-size promotes on pullback+≥7) unchanged.
