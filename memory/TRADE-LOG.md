@@ -139,3 +139,13 @@ No positions yet. Bot launches tomorrow.
 | XLI    | 40     | $171.56 | $174.29 | +1.10% | +$109.20 (+1.59%) | $157.05 (10% trail GTC) |
 
 **Notes:** Day 13, week 4. Alpaca confirms equity=$100,257.40, cash=$86,564.80, two long positions (XLB, XLI), two open trailing-stop GTC orders, no new trades today. Deployed ~13.7% vs. 75-85% target — still well under but both starters are extending. Both ETFs printed solid green sessions (XLB +1.53%, XLI +1.10%), pushing unrealized gains to +2.26% / +1.59% and ratcheting both trailing stops higher off new highs (XLB stop $45.945→$46.4985 off hwm $51.665; XLI $155.574→$157.05 off hwm $174.50) — never moving down, locking in more of the run. Day P&L +$163.90 (+0.16%); Phase P&L now +$257.40 (+0.26%) — second consecutive green day. Trades today: none. Trades this week: 2/3 (one slot left). Positions 2/6; DT count 0/5. Neither starter has yet hit a clean ≥7 promote trigger; CAT still armed at <$864 (no chase near ATH). Tomorrow: hold both winners, let trails do the work; deploy the final weekly slot only on a qualifying ≥7 setup, and keep building methodically toward the 75-85% target — do not chase to fill the budget.
+
+### Jun 03 — EOD Snapshot (Day 14, Wednesday)
+**Portfolio:** $100,277.50 | **Cash:** $86,564.80 (86.3%) | **Day P&L:** +$20.10 (+0.02%) | **Phase P&L:** +$277.50 (+0.28%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| XLB    | 130    | $50.56 | $51.83 | +0.60% | +$165.10 (+2.51%) | $46.8225 (10% trail GTC) |
+| XLI    | 40     | $171.56 | $174.37 | +0.10% | +$112.40 (+1.64%) | $158.4927 (10% trail GTC) |
+
+**Notes:** Day 14, week 4. Alpaca confirms equity=$100,277.50, cash=$86,564.80, two long positions (XLB, XLI), two open trailing-stop GTC orders, no new trades today. Deployed ~13.7% vs. 75-85% target — still well under but both starters keep grinding higher. Both ETFs printed modest green sessions (XLB +0.60%, XLI +0.10%), lifting unrealized gains to +2.51% / +1.64% and ratcheting both trailing stops up off fresh highs (XLB stop $46.4985→$46.8225 off hwm $52.025; XLI $157.05→$158.4927 off hwm $176.103) — never moving down, third straight day of locking in more of the run. Day P&L +$20.10 (+0.02%); Phase P&L now +$277.50 (+0.28%) — third consecutive green day. Trades today: none. Trades this week: 2/3 (one slot left). Positions 2/6; DT count 0/5. Neither starter has hit a clean ≥7 promote trigger; CAT still armed at <$864 (no chase near ATH). Tomorrow: hold both winners, let trails do the work; deploy the final weekly slot only on a qualifying ≥7 setup, and keep building methodically toward the 75-85% target — do not chase to fill the budget.
