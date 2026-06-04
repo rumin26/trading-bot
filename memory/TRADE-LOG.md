@@ -149,3 +149,13 @@ No positions yet. Bot launches tomorrow.
 | XLI    | 40     | $171.56 | $174.37 | +0.10% | +$112.40 (+1.64%) | $158.4927 (10% trail GTC) |
 
 **Notes:** Day 14, week 4. Alpaca confirms equity=$100,277.50, cash=$86,564.80, two long positions (XLB, XLI), two open trailing-stop GTC orders, no new trades today. Deployed ~13.7% vs. 75-85% target — still well under but both starters keep grinding higher. Both ETFs printed modest green sessions (XLB +0.60%, XLI +0.10%), lifting unrealized gains to +2.51% / +1.64% and ratcheting both trailing stops up off fresh highs (XLB stop $46.4985→$46.8225 off hwm $52.025; XLI $157.05→$158.4927 off hwm $176.103) — never moving down, third straight day of locking in more of the run. Day P&L +$20.10 (+0.02%); Phase P&L now +$277.50 (+0.28%) — third consecutive green day. Trades today: none. Trades this week: 2/3 (one slot left). Positions 2/6; DT count 0/5. Neither starter has hit a clean ≥7 promote trigger; CAT still armed at <$864 (no chase near ATH). Tomorrow: hold both winners, let trails do the work; deploy the final weekly slot only on a qualifying ≥7 setup, and keep building methodically toward the 75-85% target — do not chase to fill the budget.
+
+### Jun 04 — Midday Scan (Day 15, Thursday) — NO ACTION
+**Portfolio:** ~$100,283.40 | **Cash:** $86,564.80 (86.3%) | **Day P&L:** ~+$5.90 | **Phase P&L:** ~+$283.40 (+0.28%)
+
+| Ticker | Shares | Entry | Last | Unrealized P&L | Trail stop (GTC) | hwm |
+| ------ | ------ | ----- | ---- | -------------- | ---------------- | --- |
+| XLB    | 130    | $50.56 | $51.46 | +$117.00 (+1.78%) | $46.97991 | $52.1999 |
+| XLI    | 40     | $171.56 | $175.72 | +$166.40 (+2.43%) | $158.562 | $176.18 |
+
+**Notes:** Midday scan, week 4. Two long positions (XLB, XLI), two trailing-stop GTC orders live, no new trades. **No exit/tighten triggers:** neither at −7% (no cut); neither at +15/+20% (no trail tightening). Both trails ratcheting off fresh HWM and never down, well clear of the 3% no-touch zone (XLB $46.8225→$46.97991 off hwm $52.1999; XLI $158.4927→$158.562 off hwm $176.18). **Thesis check — intact:** the premarket AI-trade crack (AVGO −13-15%, CRWD −10%) did NOT broaden into the cyclical rotation — XLI +0.96% intraday, XLB ~flat. The AI-leadership unwind arguably reinforces the rotation into late-cycle cyclicals; held thesis holds. Oil easing (WTI ~$95, below $100 psych) — not thesis-breaking. No sharp unexplained move requiring intraday research. Trades today: none. Trades this week: 2/3. Positions 2/6; DT 0/5. Hold both winners into NFP (Fri Jun 5); let trails work. Final weekly slot reserved for a clean full-size ≥7 setup — no chase into pre-NFP tape.
