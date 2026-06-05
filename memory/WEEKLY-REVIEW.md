@@ -231,3 +231,76 @@ Two full weeks, zero trades, 0% deployed — the mandate (beat the S&P) has gone
 ### Overall Grade: D-
 Third consecutive zero-trade week, 0% deployed, now ≈ −2.4% behind the benchmark over the phase — the core mandate is still unaddressed and that floors the grade. What keeps it from an F: the phase finally produced its most important deliverable — a correct root-cause of WHY the bot can't deploy (the deployment floor inherited the same ≥7-at-market gate that the trending tape makes unreachable) and, this week, an actual FIX rather than another diagnosis. Rule-12 is amended with a starter-specific 6.5/Mom≥8 bar that triggers Monday on XLB. Risk discipline remains perfect and no capital was lost, but "lost no money by owning nothing" is not the job. Monday must convert the rule change into a filled order; a fourth flat week after fixing the rule would be an F.
 
+## Week ending 2026-06-05
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (Mon 6/1 AM) |
+| Ending portfolio | $100,041.40 |
+| Week return | +$41.40 (+0.04%) |
+| S&P 500 week | ~+1.6% (record highs; ~10th straight up week) |
+| Bot vs S&P | ~−1.56% |
+| Trades | 2 (W:0 / L:0 / open:2) |
+| Win rate | n/a (no closed trades) |
+| Best trade | XLI +1.02% (open) |
+| Worst trade | XLB −0.44% (open) |
+| Profit factor | n/a (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| ------ | ----- | ---- | --- | ----- |
+| —      | —     | —    | —   | None  |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| ------ | ----- | ----- | ---------- | ---- |
+| XLB | $50.56 | $50.34 | −$28.60 (−0.44%) | $46.97991 (10% trail GTC, hwm $52.1999) |
+| XLI | $171.56 | $173.31 | +$70.00 (+1.02%) | $158.796 (10% trail GTC, hwm $176.44) |
+
+Deployed ~13.5% ($13,476 / $100,041) vs. 60-85% floor — **chronically under-target in week 4.** Both positions are sector ETFs; **0 individual stocks vs. rule-13 minimum of 2.** Phase total: 16 trading sessions, 2 trades, ~13.5% peak deployment. Phase P&L +$41.40 (+0.04%); phase vs S&P ≈ −4.0% (SPX ~7,400 launch → ~7,700).
+
+### Open Positions — Peer Valuation Context
+- **XLB (Materials ETF)** — #1-tier YTD sector (~+17%). Top holds LIN, SHW, FCX, ECL, APD. Basket trades ~19-20x fwd P/E, roughly in line with its own history; cyclical-value, not stretched on multiples — the risk is momentum/overbought, not valuation.
+- **XLI (Industrials ETF)** — top-3 YTD sector (~+12%). Top holds GE, CAT, RTX, UBER, HON. Basket ~22-23x fwd P/E, a modest premium to the 5-yr median on the AI-power/reshoring capex bid. Leader of the cyclical block; durable backlog story but extended near highs.
+- Both ETFs sit in the YTD-leading cyclical block that street analysts now flag as **the most overbought** sectors — rotation-back-to-growth risk is the live valuation concern.
+
+### Sector Rotation Update (week of June 5)
+- **YTD leaders (unchanged tier):** Energy (~+21%), Materials (~+17%), Staples (~+15%), Industrials (~+12%) — the 2026 value/reflation trade still owns the leaderboard; broad market roughly flat YTD.
+- **This week's leadership ROTATED defensive/financial:** Health Care, Financials, Comm Services, Real Estate led the tape (JPM +3.3%, GS +4.9%, V +2.5%, JNJ +4.6%, UNH +5.2% on Thu). Our cyclical-leader block (XLB/XLI) lagged this week's move.
+- **Tech weakest (−1.08%)**, extending its relative-strength decline; the mid-week AI unwind (AVGO −13-15%, CRWD −10%) did NOT broaden into a cyclical risk-off — it stayed AI-specific.
+- **Flag — overbought leaders:** analysts increasingly call the value/cyclical leadership "most overbought" with a rotation back toward growth "increasingly obvious." Our two holdings are exactly that overbought cyclical block. No top-3→bottom-3 drop yet → no rule-10 exit, but watch XLB/XLI relative strength closely.
+- **Strongest sector we are NOT in:** Financials (XLF) — clear relative-strength leadership this week (money-center banks + payments), a YTD laggard now turning, and the obvious individual-stock hunting ground (JPM, GS) to BOTH add exposure and cure the rule-13 individual-stock gap. Health Care (XLV) is the secondary rotation candidate.
+
+### What Worked
+- **The deployment streak break held all week** — 4 weeks of paralysis ended Monday and the bot stayed invested every session; no relapse to 0%. The 5/29 rule-12 amendment did its one job: it produced filled orders.
+- Risk discipline still clean: zero rule violations on the risk side, zero losses, both trailing stops ratcheted up off new highs all week and never moved down (XLB $45.51→$46.98; XLI $154.40→$158.80), both well outside the 3% no-touch band.
+- Correctly held through the mid-week AI unwind (AVGO/CRWD) without panic — diagnosed it as AI-specific, not a break of the cyclical thesis, and didn't churn the book.
+- Sat out the pre-NFP and post-NFP volatility without chasing — no forced trade into a binary print.
+
+### What Didn't Work
+- **Deployment is still ~13.5% in week 4** — the brand-new escalation ladder (added 5/29) was breached within days: Tier 3 ("<30% deployed for 3+ sessions → MUST open a position that session") and Tier 4 ("<30% for 5+ sessions → deploy 3 positions to ≥40%") were both live every session Tue–Fri and neither fired. Two Monday starters, then four flat sessions = the old paralysis pattern repeating at a 13.5% floor instead of a 0% floor.
+- **Rule-13 unmet: 0 individual stocks, 2 ETFs.** The planned FCX full-size individual-stock entry was logged Mon→Thu→Fri and never executed — a fifth-week echo of the "deploy tomorrow" rollover, just for single names now. The portfolio cannot beat the S&P by owning S&P sectors at 1:1.
+- **Lost to the benchmark again: +0.04% vs S&P ~+1.6%** (−1.56% on the week). At 13.5% deployed, even a perfect week of stock-picking can't close a benchmark printing record highs. The hole is structural under-exposure, not bad picks.
+- Gave back most of the week's cushion Friday (phase +$283 midweek → +$41 close) as the cyclical block sold off into NFP — small dollars, but it shows how little buffer 13.5% exposure provides.
+- Final weekly trade slot unused (2/3) for the fourth straight week — the budget keeps expiring unused while deployment sits far below floor.
+
+### Key Lessons
+- **A forcing ladder with no enforcement is just the old discretionary gate with more text.** The 5/29 fix correctly relaxed the score gate so starters could fire — and they did, once, Monday. But Tiers 3-4 (the parts meant to keep deploying after the first entry) were ignored for four straight sessions. The bug has moved, not closed: from "can't take the first trade" to "won't take the 3rd-6th."
+- **ETF starters were the right tool to break paralysis, but they're now a crutch.** Owning XLB+XLI = owning the index's two best sectors at ~13.5% weight. That can't outperform; it can only under-participate. Rule-13 exists precisely to stop this, and it is being violated.
+- The mandate is to BEAT the S&P. Through 16 sessions the bot is +0.04% while the S&P is up ~4%. "No losses, clean stops" is necessary but the scoreboard says the strategy is still not being run — it's being approached.
+- Accountability check: bot is ~−3.0% vs S&P over the trailing 2 weeks and ~−4.0% over the phase. Per the strategy's own Performance Accountability clause, "waiting for the perfect setup" is not an acceptable diagnosis — the escalation ladder exists to prevent exactly this and must be EXECUTED, not re-written.
+
+### Adjustments for Next Week
+- **No new rule. The rulebook is not the problem this week — execution is.** The escalation ladder is 1 week old and adding a sixth tier would repeat the trap of "writing rules instead of deploying capital." Tiers 3-4 already mandate everything needed. The fix is to FIRE them.
+- **Monday Jun 8 — hard Tier-4 emergency execution (non-negotiable):** the book has been <30% deployed for 16 sessions (≫5), so Tier 4 is live. Deploy to **≥40% invested** via **at least 2 individual stocks** to simultaneously cure the rule-13 gap. Concrete plan:
+  1. **FCX** (Materials, individual — the long-deferred plan): full-size or starter at-market, 10% trailing GTC at fill. Executes the standing plan; do not roll it a sixth time.
+  2. **One Financials individual name (JPM or GS)** — Financials is this week's relative-strength leader and a YTD laggard turning; adds a non-cyclical-overbought leg and a 2nd individual stock. Starter size, 10% trailing GTC.
+  3. **Optional 3rd:** a Health Care or Industrials individual name (e.g. promote XLI exposure into GE/CAT) to reach ≥40% and ≥2 individual stocks.
+- **Trim the ETF crutch as individual names go on:** keep XLB/XLI as held (trails working) but stop treating ETF starters as "deployment." New capital this week goes to individual stocks per rule-13.
+- **Watch the overbought-cyclical rotation risk:** XLB/XLI are in the block analysts flag as most overbought; if either loses top-3 relative strength toward bottom-3, exit per rule-10. Diversify the new entries toward Financials/Health Care to reduce single-theme concentration.
+- **Deploy target for week:** Monday ≥40% with ≥2 individual stocks (Tier-4 floor); stretch 55-60% by Friday toward the 60-85% mandate. Max 3 new trades/week still binds — so Monday's 2-3 individual entries are the week's budget; choose them well.
+
+### Overall Grade: C−
+The paralysis streak is broken and stayed broken — that alone lifts this off the D− floor of the prior three weeks, and risk discipline remains spotless (no losses, no violated stops, clean thesis management through the AI unwind and NFP). But the core mandate is still unmet: ~13.5% deployed in week 4, 0 individual stocks against a rule-13 minimum of 2, the final trade slot unused for a fourth straight week, and another loss to the benchmark (+0.04% vs S&P ~+1.6%; phase ≈ −4.0% behind). Most damning, the escalation ladder written last week to FORCE continued deployment had its Tier-3 and Tier-4 triggers live every session Tue–Fri and fired zero times — the paralysis didn't end, it just relocated to a 13.5% floor. The grade is a C− because the bot is finally in the market with real risk controls, but "approaching the strategy" is not running it. Monday is a hard Tier-4 emergency: ≥40% deployed via ≥2 individual stocks, FCX no longer deferrable. Another week at ~13.5% with zero individual names drops this back to D/F — the rules already demand the fix; only execution is missing.
+
