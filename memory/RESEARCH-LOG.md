@@ -1004,3 +1004,60 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - **Oil watch:** if WTI sustains >$100 and XLB/XLI break entry, lean on −7%/10% trail discipline; reassess cyclical thesis at midday.
 - **AI-unwind watch:** if AVGO/CRWD-led selloff broadens to a market-wide risk-off and drags cyclicals, the trails + −7% cut handle it.
 - Midday: re-run exit checks; tighten trails only at +15/+20%.
+
+## 2026-06-05 — Pre-market Research — Day 16, week 4 (NFP day; weekly review this PM)
+
+### Account
+- Equity: $100,304.20 | Cash: $86,564.80 | Buying power: $373,738
+- Deployed: ~13.7% ($13,739) vs 60-85% target | Daytrade: 0/5 | Positions: 2/6 | Orders: 2 (trailing-stop GTC)
+- **Individual stocks held: 0** (rule 13 requires ≥2 of 5-6) — standing rule gap to close.
+
+### Market Context
+- **NFP (May) +172K vs ~190K est — soft headline, resilient underneath:** unemployment steady 4.3%; March/April revised **+93K combined**. Goldilocks read: soft enough to keep Fed-cut hopes alive, revisions show no labor crack. Cyclical-supportive.
+- **Futures risk-off on AI/semis, NOT cyclicals:** S&P futures −0.5 to −0.6% premarket, driven by continued chip/AI weakness (post AVGO/CRWD). The leadership unwind is rotating INTO late-cycle cyclicals (my thesis) — not a broad risk-off.
+- **Oil easing:** Brent ~$95, WTI low/mid-$90s, −~3% Thu on US-Iran diplomacy hopes (Strait of Hormuz reopening). Below $100 psych. **Disinflation tailwind for Materials/Industrials margins** = the tailwind I entered on; bearish XLE (not held).
+- **VIX ~15.4** — calm, ticked down into the print.
+- **Sector momentum YTD:** Energy / **Materials / Industrials** / Staples = Leading quadrant. "Great Rotation" into the real economy intact; Tech cooling on AI-capex-payoff doubts. **Directly confirms held XLB/XLI thesis.**
+
+### Catalyst Calendar (Held Positions)
+- **XLB / XLI** — ETFs, no single-stock earnings. Macro: NFP digested today; eyes on next CPI/FOMC. Oil/Iran headline risk = live two-way swing factor.
+
+### Held Positions (exit checks)
+| Ticker | Shares | Entry | Last | Unrl P&L | Trail stop (GTC) | hwm |
+|---|---|---|---|---|---|---|
+| XLB | 130 | $50.56 | $51.62 | +$137.80 (+2.10%) | $46.97991 | $52.1999 |
+| XLI | 40 | $171.56 | $175.72 | +$166.40 (+2.43%) | $158.796 | $176.44 |
+- Neither at −7% → no cut. Neither at +15/+20% → no trail tightening. Both trails ratcheting off HWM, never down, well clear of 3% no-touch zone. No exit triggers.
+
+### Trade Ideas (Fundamental Scoring)
+**1. FCX (Freeport-McMoRan) — Materials — PROMOTE (full-size ≥7)**
+- Live ~$61.12 | Analyst avg PT $70 (+14.5%) | Q1 (Apr 23) beat: EPS $0.57 vs $0.47 (+21%), rev +5%, EBITDA +24%.
+- Catalyst: copper at ATH **$6.44/lb** on structural data-center / grid / electrification + reshoring demand; supply-deficit theme. Date: ongoing thematic; next earnings ~late-Jul (Q2) → **clear of 5-day window**.
+- Entry ~$61.5 (limit, do NOT chase >$63) | Stop: 10% trail GTC at fill (~$55.4) + −7% manual (~$57.2) | Target $70 → **R:R ~2:1**.
+- Score: Moat 7 / Valuation 7 / Momentum 7 / Catalyst 7 / Risk-Reward 7 → **avg 7.0** (full-size gate). NOT a starter → ≤2-starter cap does not apply.
+- Thesis: own the #1-2 momentum sector via a leader trading below PT on an AI-electrification copper supercycle — the individual-stock leg rule 13 requires.
+- Size: full-size **15%** (~$15k, ~245 sh) — 15 not 20 given NFP-day vol; room to add to 20% on confirmation.
+
+**2. GEV (GE Vernova) — Industrials — WATCH**
+- ~$961, +40% YTD but −10.6% over 30d (caught in AI-unwind pullback). Power/grid electrification supercycle, multi-yr backlog.
+- Score ~6.4 (Val 5 expensive post-run; Mom 6 falling). High share price clunky for sizing. Watch for a clean ≥7 re-entry after the pullback stabilizes.
+
+**3. ETN (Eaton) — Industrials — WATCH**
+- AI data-center electrification "grid-to-chip" + Boyd Thermal liquid-cooling (Mar acq). Q1 EPS $2.22 (May 5); next earnings ~early-Aug. Strong thematic, ~7 thesis; confirm live price/entry at open before acting. Would be 2nd Industrials name (XLI) — within ≤2/sector.
+
+### Risk Factors
+- **AI-unwind broadening** — if semis selloff turns into a market-wide risk-off, cyclicals get dragged regardless of thesis. Mitigant: full-size ≥7 name with defined stop; −7% / 10% trail discipline.
+- **Oil/Iran two-way** — ceasefire dumps oil (helps my margins, hurts XLE not held); escalation >$100 pressures materials/industrials. Whipsaw.
+- **Copper-specific** — FCX is a copper price-taker; a sharp copper reversal hits it harder than the XLB basket. Stop handles it.
+- **Chronic underdeployment (~13.7% vs 60-85%)** — 5 sessions <30% deployed. The escalation ladder + rule 13 (0 individual stocks) both argue against more waiting. FCX is the disciplined fix — a real ≥7 setup, not a forced chase.
+
+### Decision
+**TRADE — at the open, enter FCX full-size (~15%, ~245 sh, limit ~$61.5, do NOT chase >$63) with a 10% trailing-stop GTC at fill.** Rationale: (1) clean full-size **≥7** setup — the exact bar reserved for the final weekly slot; (2) satisfies **rule 13** (first individual stock; portfolio is 100% ETF); (3) materially improves deployment (~13.7% → ~28.6%); (4) backdrop strongly confirms the cyclical thesis (rotation INTO materials, copper ATH, oil-easing disinflation, soft-but-resilient NFP). This uses weekly trade slot **3/3**. Today's risk-off is AI/semis-specific, not a cyclical risk-off, so this is not a chase into weakness. **Hold XLB/XLI; let trails work.** Execution is the market-open routine's job; this entry is teed up with a limit to avoid open-print volatility.
+
+**Standing triggers:**
+- **FCX** full-size limit-buy ~**$61.5** (≤20%), 10% trailing GTC at fill — do NOT chase >$63.
+- **CAT** armed limit **$864** — now superseded for the week (FCX takes slot 3/3); do NOT chase (~$930+).
+- Promote XLB/XLI to full size ONLY on a pullback to entry ($50.56 / $171.56) AND a clean ≥7.
+- **Oil watch:** WTI sustains >$100 → lean on −7%/10% trail; reassess cyclicals at midday.
+- **Weekly review (this PM):** reconcile the Tier-3/rule-13 deployment policy — 5 sessions <30% deployed despite "streak reset"; codify that ETF-only ≠ deployed for mission purposes.
+- Midday: re-run exit checks; tighten trails only at +15/+20%.
