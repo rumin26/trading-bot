@@ -1061,3 +1061,52 @@ But this run does not just kick the can — it hands market-open a concrete, low
 - **Oil watch:** WTI sustains >$100 → lean on −7%/10% trail; reassess cyclicals at midday.
 - **Weekly review (this PM):** reconcile the Tier-3/rule-13 deployment policy — 5 sessions <30% deployed despite "streak reset"; codify that ETF-only ≠ deployed for mission purposes.
 - Midday: re-run exit checks; tighten trails only at +15/+20%.
+
+---
+
+## 2026-06-08 — Pre-market Research — Day 17, week 5 (Iran-Israel escalation; CPI Wed)
+
+### Account
+- Equity: $100,174.80 | Cash: $86,564.80 | Buying power: $384,367
+- Deployed: ~13.6% ($13,610: XLB $6,604 + XLI $7,006) vs 60-85% target | Daytrade: 0/5 | Positions: 2/6 | Orders: 2 (trailing-stop GTC)
+- **Individual stocks held: 0** (rule 13 requires ≥2 of 5-6) — standing gap; FCX was the intended fix but see Decision.
+
+### Market Context
+- **REGIME SHIFT — Iran-Israel war re-escalated over the weekend:** missile exchanges Sun; IDF airstrikes on Iranian petrochemical facilities Mon. Friday's "diplomacy/ceasefire" oil-easing thesis is **reversed**. Strait of Hormuz near-closure persists.
+- **Oil spiking:** Brent +4.93% to **~$97.68**, WTI **~$91.68** (+1.26%). The >$100-escalation risk I flagged Friday is now live. **Disinflation tailwind that anchored the FCX entry is gone** — now an inflation impulse.
+- **S&P futures +0.6%** premarket — modest rebound off Friday's slide as chips recovered; not a risk-off open despite the war headlines. VIX ~15.4 (Fri close; calm).
+- **CPI (May) — Wed Jun 10:** consensus ~**4.2% YoY**, lifted by energy; sticky-inflation print into a fresh oil spike. ECB +25bp Thu Jun 11. **No FOMC this week.** Macro calendar (Sec 9): do not initiate fresh risk into the CPI print.
+- **Sector momentum YTD:** Energy **+34.5%** (leader, on the war), Materials **+22%** (sticky-inflation hedge), Industrials **+9-11%** (AI/grid/defense capex). Cyclical rotation intact; **confirms held XLB/XLI**. Energy not held (no single-name energy setup scored).
+
+### Catalyst Calendar (Held Positions)
+- **XLB / XLI** — ETFs, no single-stock earnings. Macro: **CPI Wed Jun 10** is the week's swing factor; oil/Iran headline risk now skewed to escalation (two-way but hotter).
+
+### Held Positions (exit checks)
+| Ticker | Shares | Entry | Last | Unrl P&L | Trail stop (GTC) | hwm |
+|---|---|---|---|---|---|---|
+| XLB | 130 | $50.56 | $50.80 | +$31.20 (+0.47%) | $46.97991 | $52.1999 |
+| XLI | 40 | $171.56 | $175.15 | +$143.60 (+2.09%) | $158.796 | $176.44 |
+- Neither at −7% → no cut. Neither at +15/+20% → no trail tightening. Both trails ratcheting off HWM, never down, well clear of 3% no-touch zone. **No exit triggers.** Thesis intact — rotation into Materials/Industrials confirmed by YTD leadership; rising oil is a mild margin headwind but Materials is acting as the sticky-inflation hedge.
+
+### Trade Ideas (Fundamental Scoring)
+**1. FCX (Freeport-McMoRan) — Materials — STAND DOWN (gapped above no-chase line)**
+- Live **~$63.27** | +17% past month, +71.8% past year. Copper at ATH >$5.5/lb on supply tightness + tariff dislocations. Next earnings ~late-Jul (clear of 5-day veto).
+- **Entry plan was limit ~$61.5, do NOT chase >$63 — FCX is now $63.27, past the line.** Chasing violates the no-chase / no-buy-into-extension discipline. Momentum/catalyst legs still score ~7, but two thesis legs degraded: (a) the oil-easing **disinflation** tailwind is now an inflation impulse; (b) headlines flag "overvalued" + **insider selling**. Net: hold the discipline — **no entry at this price.**
+- Re-arm: limit **$61.5** on a pullback; do NOT chase >$63.
+
+**2. GEV / ETN (Industrials electrification) — WATCH** — unchanged from prior; no clean ≥7 non-chase entry. ETN would be a 2nd Industrials name (XLI), within ≤2/sector.
+
+### Risk Factors
+- **Oil >$100 escalation** — sustained Strait-of-Hormuz disruption pressures Materials/Industrials input costs and lifts CPI → higher-for-longer rates. Two-way war headlines = whipsaw.
+- **Hot CPI Wed** — a hotter-than-4.2% print into the oil spike is a risk-off catalyst that could drag cyclicals regardless of thesis. Trails (−10% GTC) handle downside.
+- **Chronic underdeployment (~13.6%)** — persists, but no qualifying *non-chase* setup exists today and a CPI print + war shock argue against forcing risk. Per Sec 4.2, holding cash when nothing qualifies at a disciplined entry is correct, not a failure.
+
+### Decision
+**HOLD — no new entry today.** FCX, the teed-up slot-3 trade, **gapped to $63.27 above its own $63 no-chase line**, so the disciplined entry is invalidated; do not chase, re-arm a $61.5 limit on a pullback. Compounding factors: (1) Iran-Israel re-escalation reversed the oil-easing disinflation leg of the FCX thesis; (2) sticky CPI Wed Jun 10 into a fresh oil spike — Sec 9 says don't initiate fresh risk into the print. **Hold XLB/XLI; let trails work** — thesis intact, no exit/tighten triggers. New week → turnover window resets to 0/3.
+
+**Standing triggers:**
+- **FCX** re-armed limit-buy **$61.5** (≤20%), 10% trailing GTC at fill — do NOT chase >$63. Reassess thesis if oil sustains >$100 (margin headwind) or insider-selling/valuation flags worsen.
+- Promote XLB/XLI to full size ONLY on a pullback to entry ($50.56 / $171.56) AND a clean ≥7.
+- **Oil watch:** WTI sustains >$100 → lean on −7%/10% trail; reassess cyclicals at midday.
+- **CPI Wed Jun 10:** no fresh entries into the print; manage existing only.
+- Midday: re-run exit checks; tighten trails only at +15/+20%.
