@@ -64,3 +64,43 @@ Risk-OFF rebound / momentum-crash-guard (§4.1, §9): price is above 200d but we
 
 ### Decision
 HOLD. No candidate clears the full gate (≥7.0) and the regime is crash-guard (high-vol rebound + Hormuz tail + CPI in 2 days). Stay 100% cash; reassess post-CPI Wed. Patience > activity.
+
+## 2026-06-09 — Pre-market Research
+
+### Account
+- Equity: $100,053.96
+- Cash: $100,053.96 (100% cash, settled)
+- Buying power: $400,215.84 (4x margin shown; irrelevant — cash account, long-only per strategy)
+- Daytrade count: 0
+- Open positions: none. Open orders: none. (Book flattened externally Jun 08; still flat.)
+
+### Market Context
+- WTI / Brent: ~$90.2 / ~$93.3 — WTI −1.2%, Brent −0.9%. Geopolitical risk premium unwinding as Iran/Israel pause attacks. Down from yesterday's ~$94/$96 spike.
+- S&P 500 futures: +0.4% premarket; chip-led rebound continuing. Index >200d and >50d.
+- VIX: ~18.9, declining (was 21.5 yesterday) — fear cooling, regime improving.
+- Today's catalysts: AI/chip rebound continues; NFIB small-biz optimism slipped to 95.3 (price-hike intentions near 4yr high — sticky-inflation tell).
+- Earnings before open: 22 reports today; none portfolio-relevant (book is flat). ORCL Wed eve (AI/datacenter read-through). SpaceX IPO prices Thu night.
+- Economic calendar: **CPI Wed Jun 10** — consensus +4.2% YoY (largest since Apr '23), +0.5% MoM headline; core +0.2% MoM. PPI Thu Jun 11. No FOMC.
+- Sector momentum (YTD): Materials +~22% and Energy now co-leading; Healthcare/Staples defensive bid; Tech cooling after AI run (questioning capex payoff). Rotation toward inflation hedges (materials/energy).
+
+### Regime Assessment
+Improving from yesterday's crash-guard toward **Neutral** (§4.1): price >200d, VIX cooled to ~19, oil premium deflating, futures green. BUT **§9 macro calendar binds**: a hot-expected CPI (+4.2% YoY) prints tomorrow — do NOT initiate fresh risk into the binary. Gross-exposure target stays ≤30% today; new entries paused until post-CPI.
+
+### Catalyst Calendar (this week)
+- Wed Jun 10: CPI (pre-open). | Wed eve: ORCL earnings.
+- Thu Jun 11: PPI (pre-open); SpaceX IPO prices ~$135 night.
+- No held positions → no position-specific earnings/stop exposure.
+
+### Trade Ideas (watchlist — gated by CPI veto)
+1. **FCX** — Materials/copper, sector is RS leader and a sticky-inflation hedge. Re-armed limit ~$61.5, stop ~$56.6 (8% cap), target ~$72, R:R ~2.1:1. Score ~6.6 (Mom 8 / Cat 5 / R:R 7 / Moat 6 / Val 6) — starter-tier only; **§9 CPI veto blocks entry today.** Primary post-CPI candidate if it holds the level.
+2. **XLB (Materials)** — clean expression of the leading sector; liquid, lower single-name risk. Entry on post-CPI confirmation only. Score ~6.3.
+3. **NVDA / SMH (semis)** — chip rebound is today's tape leader, but Tech is cooling/extended and entering pre-CPI is low-quality. Score ~6.0. HOLD/watch.
+
+### Risk Factors
+- CPI Wed is binary and skewed hot (+4.2% exp); an upside surprise re-prices rate-cut odds and hits equities — fresh risk into it is asymmetric-negative.
+- Sticky-inflation signal (NFIB price intentions) reinforces upside CPI risk.
+- Geopolitical whipsaw: Hormuz headlines can re-spike oil either way.
+- Sector rotation mid-flight (Tech→Materials/Energy) — momentum signals noisier during the handoff.
+
+### Decision
+**HOLD.** No candidate clears the full gate (≥7.0), and §9 bars initiating fresh risk the day before a hot-expected CPI. Stay 100% cash; reassess post-CPI Wed Jun 10 with FCX as the lead candidate. Patience > activity.
