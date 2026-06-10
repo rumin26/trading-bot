@@ -104,3 +104,47 @@ Improving from yesterday's crash-guard toward **Neutral** (§4.1): price >200d, 
 
 ### Decision
 **HOLD.** No candidate clears the full gate (≥7.0), and §9 bars initiating fresh risk the day before a hot-expected CPI. Stay 100% cash; reassess post-CPI Wed Jun 10 with FCX as the lead candidate. Patience > activity.
+
+## 2026-06-10 — Pre-market Research
+
+### Account
+- Equity: $100,053.96
+- Cash: $100,053.96 (100% cash, settled)
+- Buying power: $400,215.84 (4x margin shown; irrelevant — cash account, long-only per strategy)
+- Daytrade count: 0
+- Open positions: none. Open orders: none. (Flat since Jun 08 external flatten; 3rd straight idle session.)
+
+### Market Context
+- **CPI (May, released today) HOT: +4.2% YoY** (accel from 3.8% Apr), +0.6% MoM headline; energy drove >60% of the monthly gain. Came in at/above the hot consensus — confirms sticky/re-accelerating inflation, pushes back rate-cut odds into next week's FOMC.
+- WTI / Brent: ~$91 / ~$93, ticking back up (~+1% o/n) on renewed escalation. Strait of Hormuz still under dual US/Iran blockade.
+- S&P 500 futures: **−0.47%** premarket; Polymarket implied just ~22% odds index opens green.
+- VIX: ~20.5 and rising (was 18.9 Jun 08, 20.45 Jun 09) — fear re-building, not cooling.
+- **Geopolitics RE-ESCALATING:** US launched new strikes on Iran after Trump said Tehran shot down a US military helicopter. Yesterday's de-escalation narrative has reversed — live conflict tail.
+- Tech selling off premarket on AI-overheating fears: NVDA −2.1%, MU −3.9%, ARM −4%.
+- Earnings: ORCL reports tonight (AI/datacenter read-through). None portfolio-relevant (book flat).
+- Economic calendar: **CPI today (done, hot)**; PPI Thu Jun 11; **FOMC next week**. SpaceX IPO prices Thu night.
+- Sector momentum (YTD/monthly): Materials and Energy leading; Industrials firm; Tech rolling over. Inflation-hedge rotation intact, but leadership is being driven by the same war/oil tail now turning into a risk.
+
+### Regime Assessment
+**Risk-OFF / crash-guard (§4.1, §9).** Hot CPI + re-escalating US–Iran conflict + rising VIX (~20.5) + red futures + tech breaking down. This is the high-volatility / panic-tail environment the §9 momentum-crash guard explicitly bars adding exposure into. New entries **PAUSED**; gross-exposure target ≤30%. FOMC next week is an added near-term macro veto.
+
+### Catalyst Calendar (this week)
+- Wed Jun 10: CPI done (hot). | Wed eve: ORCL earnings.
+- Thu Jun 11: PPI (pre-open); SpaceX IPO prices ~night.
+- Next week: FOMC.
+- No held positions → no position-specific earnings/stop exposure.
+
+### Trade Ideas (watchlist — all gated by crash-guard regime)
+1. **FCX** — Materials/copper, RS-leading sector, inflation hedge. Prior re-armed limit ~$61.5, stop ~$56.6 (8% cap), target ~$72, R:R ~2.1:1. Score ~6.4 (Mom 7 / Cat 5 / R:R 7 / Moat 6 / Val 6) — starter-tier only, and **§9 crash-guard blocks all fresh entries today.** Re-evaluate once VIX cools and the Iran tail settles.
+2. **XLB / XLE (Materials/Energy)** — leading sectors, but the leadership IS the war/oil spike now turning two-sided; chasing into an escalation + hot CPI is poor-quality entry. Score ~6.0. HOLD/watch.
+3. **NVDA / SMH (semis)** — actively breaking down premarket (−2% to −4%) on AI-capex doubts; no reason to catch a falling knife into a risk-off tape. Score ~5.5. Avoid.
+
+### Risk Factors
+- Hot CPI (+4.2% YoY) re-prices Fed path hawkish into next week's FOMC — pressure on multiples.
+- Live US–Iran military escalation + closed Strait of Hormuz: oil/equity gap risk in either direction, headline-driven.
+- VIX ~20.5 and rising — wide, expensive stops; elevated realized vol.
+- Tech/AI leadership rolling over; if the prior leaders break, breadth thins further.
+- PPI Thu + FOMC next week — back-to-back binary macro.
+
+### Decision
+**HOLD.** Stay 100% cash. No candidate clears the full gate (≥7.0); regime is crash-guard (hot CPI + escalating war + rising VIX + tech breakdown), and §9 explicitly bars adding exposure into a high-vol panic tail. This is the correct defended-cash posture, not paralysis — nothing qualifies, so cash is the right position (§4.2). Reassess post-PPI / once VIX cools and the Iran tail settles; FCX remains lead candidate when regime permits. Patience > activity.
