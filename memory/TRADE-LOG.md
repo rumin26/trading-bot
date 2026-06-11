@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jun 11 — EOD Snapshot (Day 20, Thursday)
+**Portfolio:** $100,053.96 | **Cash:** $100,053.96 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** +$53.96 (+0.05%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Day 20, week 5. Alpaca confirms equity=$100,053.96, cash=$100,053.96 (100%), **zero positions, zero open orders.** Fourth straight fully idle session — book has been flat cash since Monday's (Jun 08) external flatten. Day P&L vs Jun 10 EOD ($100,053.96): $0.00 (0.00%), no drift. Phase P&L +$53.96 (+0.05%), all cash. Deployed 0% vs 75-85% target — no benchmark exposure, no protective stops, four days running. Trades today: 0. New entries this week: 0/3; positions 0/6; DT 0/5. CPI (Wed Jun 10) is behind us — the prior reason to sit out is gone, yet the pre-market FCX re-arm ($61.5 limit) and Sec 9 setups remain un-actioned for a fourth day. Patience has long since tipped into pure drag on the S&P goal with no catalyst left to wait on. Tomorrow (Fri Jun 12): weekly-review day — and **redeploy from cash is overdue**. Rebuild toward 75-85% with discipline: size <=20%/name, 10% trailing-stop GTC at every fill. Continued idleness is indefensible.
+
 ### Jun 10 — EOD Snapshot (Day 19, Wednesday)
 **Portfolio:** $100,053.96 | **Cash:** $100,053.96 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** +$53.96 (+0.05%)
 
