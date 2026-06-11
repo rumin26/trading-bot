@@ -148,3 +148,45 @@ Improving from yesterday's crash-guard toward **Neutral** (§4.1): price >200d, 
 
 ### Decision
 **HOLD.** Stay 100% cash. No candidate clears the full gate (≥7.0); regime is crash-guard (hot CPI + escalating war + rising VIX + tech breakdown), and §9 explicitly bars adding exposure into a high-vol panic tail. This is the correct defended-cash posture, not paralysis — nothing qualifies, so cash is the right position (§4.2). Reassess post-PPI / once VIX cools and the Iran tail settles; FCX remains lead candidate when regime permits. Patience > activity.
+
+## 2026-06-11 — Pre-market Research
+
+### Account
+- Equity: $100,053.96
+- Cash: $100,053.96 (100% cash, settled)
+- Buying power: $400,215.84 (4x margin shown; irrelevant — cash account, long-only per strategy)
+- Daytrade count: 0
+- Open positions: none. Open orders: none. (Flat since Jun 08 external flatten; 4th straight idle session.)
+
+### Market Context
+- **PPI (May) due 8:30 ET — TODAY's binary.** Consensus +0.7% headline / +0.4% core MoM, a *decel* from April's +1.4% / +1.0%. Below-est print = relief; above = confirms upstream inflation building (post-yesterday's hot +4.2% CPI). Research runs pre-print — no read yet.
+- WTI / Brent: ~$89 / ~$94, **easing** (off intraday highs) after US announced its latest Iran strikes are **complete**; limited oil flow resuming through Hormuz despite Iran's "closed to all vessels" declaration. Two-sided headline tail remains.
+- S&P 500 futures: **+0.7–0.8%** premarket — relief bounce after Wed's −1.62% (SPX close 7,266.99; Dow −900). Polymarket ~95% odds index opens green.
+- VIX: ~21.5, down ~3% from Wed's 22.22 close — **still elevated above 20**; fear easing but not cooled.
+- **Geopolitics de-escalating (for now):** US strikes "completed," peace-talk hopes; but Hormuz still nominally closed and the conflict tail is live/two-sided.
+- Earnings: ADBE & LEN report (ADBE after close). ECB rate decision today. None portfolio-relevant (book flat).
+- Economic calendar: **PPI today (8:30 ET)**; **FOMC next week.** SpaceX IPO prices tonight.
+- Sector momentum (YTD): **Energy #1 (~27–34%), Tech #2 (~22–24%), Industrials #3 (~13%), Materials #4 (~12%).** FCX's sector (Materials) sits just *outside* the top-3 full-gate requirement; Tech reasserting on May strength.
+
+### Regime Assessment
+**Risk-OFF / crash-guard — the rebound case (§4.1, §9).** Wed's sharp decline → today's high-vol green-futures bounce, with VIX still ~21.5, is *exactly* the "sharp decline followed by a high-volatility rebound" §4.1 names as crash-guard, and the single environment §9's momentum-crash guard bars adding exposure into (Daniel & Moskowitz). New entries **PAUSED**; gross target ≤30%. PPI binary today + FOMC next week are added macro vetoes (§9 macro calendar).
+
+### Catalyst Calendar (this week)
+- Thu Jun 11: **PPI 8:30 ET**; ECB decision; ADBE/LEN earnings; SpaceX IPO prices tonight.
+- Next week: **FOMC.**
+- No held positions → no position-specific earnings/stop exposure.
+
+### Trade Ideas (watchlist — all gated by crash-guard regime)
+1. **FCX** — Materials/copper, inflation hedge. Re-armed limit ~$61.5, stop ~$56.6 (8% cap), target ~$72, R:R ~2.1:1. Score ~6.3 (Mom 6 / Cat 5 / R:R 7 / Moat 6 / Val 6) — starter-tier at best, and its sector has slipped to #4 YTD (outside top-3), weakening the gate. **§9 crash-guard blocks all fresh entries today.** Re-evaluate once VIX < 20 and the Iran/PPI tails clear.
+2. **Energy (XLE) / single-name E&P** — #1 YTD sector, but the leadership IS the war/oil spike now mean-reverting as strikes complete and oil eases. Chasing a fading spike into a vol tape is poor-quality entry. Score ~5.8. HOLD/watch.
+3. **Tech (semis / QQQ)** — reasserting on May strength (Tech #2 YTD), but whipsawing on AI-capex headlines and a 1-day relief bounce isn't a confirmed re-leadership signal. No breakout to buy into a risk-off rebound. Score ~5.5. Avoid today.
+
+### Risk Factors
+- **PPI at 8:30 ET** — hot print stacks on yesterday's +4.2% CPI, re-prices Fed hawkish into next week's FOMC; research is pre-print, so any fresh entry would be blind into a binary.
+- Live, two-sided US–Iran tail: Hormuz nominally closed; oil can re-spike or keep mean-reverting on a single headline.
+- VIX ~21.5 — still elevated: wide, expensive stops; elevated realized vol.
+- Relief bounce after a −1.6% day is the classic momentum-crash trap (§9) — strength here is the regime we're warned not to chase.
+- FOMC next week — back-to-back macro after PPI.
+
+### Decision
+**HOLD.** Stay 100% cash. No candidate clears the full gate (≥7.0); FCX is starter-tier *and* its sector dropped out of the top-3. Regime is crash-guard *rebound* — a sharp drop followed by a high-vol bounce with VIX still >20 — which §4.1/§9 explicitly bar adding into, and PPI prints at 8:30 ET today (blind binary) with FOMC next week. This is defended cash per §4.2 (nothing qualifies → cash is correct), **not** time-based paralysis: the strategy removed all forced-deployment triggers (Appendix A). Reassess post-PPI / once VIX < 20 and the Iran tail settles; FCX the lead candidate only if Materials re-enters the top-3. Patience > activity.
