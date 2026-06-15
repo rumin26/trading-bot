@@ -1,45 +1,59 @@
 # Trading Strategy
 
-> **Version 2.0 — institutional rewrite.** This document replaces the prior
-> "Deployment Escalation" framework. The core change: capital is deployed as a
-> function of *opportunity and market regime*, never as a function of elapsed
-> time. The forcing functions that mandated buying after N idle sessions have
-> been removed and replaced with a mechanical, signal-driven entry rule plus
-> portfolio-level risk controls. See **Appendix A** for the rationale and the
-> sources this document is grounded in.
+> 1. **A regime-conditioned participation FLOOR**, filled by a benchmark proxy,
+>    so the *neutral* position is the benchmark — not cash. Cash above the floor
+>    requires a written, dated bearish thesis, not an accretion of vetoes.
+> 2. **A quantitative, falsifiable, auto-expiring regime filter** — "rebound"
+>    can no longer be invoked indefinitely.
+> 3. **A trend/momentum entry path** that does not require a dated catalyst,
+>    reconciling the gate with the strategy's own 30% momentum weight.
+> 4. **An anti-paralysis recalibration trigger** — N idle sessions in a
+>    permitting regime forces a diagnosis, not another identical HOLD.
+> 5. **A macro-veto scope fix** — prints pause *fresh single-name risk* in the
+>    session before them only; they never unwind the benchmark floor.
+> 6. **An operational exception halt** — an unexplained position/cash change
+>    stops the loop and escalates, instead of becoming the new baseline.
+>
+> See **Appendix A** for the full rationale and sources.
 
 ---
 
 ## 1. Mission
 
 Generate risk-adjusted returns that beat the S&P 500 total-return index over the
-challenge window. Stocks only — no options, ever; no crypto. The benchmark is
-fully invested, so any cash we hold is a deliberate, defended decision, not a
-default.
+challenge window. Stocks and ETFs only — no options, ever; no crypto.
+
+**The benchmark is 100% invested. That fact is structural, not incidental.**
+Holding cash is therefore not a neutral act: relative to the benchmark, every
+dollar in cash is an active short on the equity market. The correct *default*
+exposure for a book measured against the S&P is the S&P itself (held via a broad
+proxy), with alpha expressed by tilting *away* from it into researched names.
+Going to cash is a deliberate bearish decision that must be defended in writing
+(Section 10.1) — never a residue left behind when nothing clears the gate.
 
 ---
 
 ## 2. Operating Account & Mechanical Constraints
 
-The strategy executes in a single account. These constraints are structural and bound everything below.
+The strategy executes in a single account. These constraints are structural and
+bound everything below.
 
 - **Cash account, long-only.** No margin, no leverage, no short selling. Every
   buy must be covered by *settled* cash at the time of purchase.
 - **T+1 settlement.** Proceeds from a sale settle one business day after the
   trade. Unsettled proceeds cannot fund a new purchase without risking a
   **good-faith violation**, and buying-then-selling before paying with settled
-  funds risks a **freeriding violation** (prohibited under Reg T). This makes the
-  natural cadence position/swing trading, *not* intraday recycling of capital.
+  funds risks a **freeriding violation** (Reg T). The natural cadence is
+  position/swing trading, *not* intraday recycling of capital.
 - **Pattern Day Trader rule does not apply.** PDT is a margin-account concept;
-  this is a cash account. Separately, FINRA eliminated the $25,000 PDT minimum
-  effective 4 June 2026, replacing it with intraday-margin standards for *margin*
-  accounts — irrelevant here. The binding constraint is settlement, above, not
-  PDT.
-- **Capital.** Strategy is capital-agnostic; sizing rules below are expressed as
-  percentages of current account equity (E). The account must be funded before
-  any entry — an empty account deploys nothing.
+  this is a cash account. FINRA eliminated the $25,000 PDT minimum effective
+  4 June 2026 in any case. The binding constraint is settlement, above.
+- **Capital.** Sizing rules below are expressed as percentages of current
+  account equity (E).
 - **Instrument whitelist.** Common stocks and ETFs only. No options, futures,
-  crypto, or leveraged/inverse ETFs.
+  crypto, or leveraged/inverse ETFs. **One broad-market ETF (the "benchmark
+  proxy", e.g. an S&P 500 / total-market fund) is designated for floor
+  participation under Section 4.1a.**
 
 ---
 
@@ -47,83 +61,132 @@ The strategy executes in a single account. These constraints are structural and 
 
 | Parameter | Rule |
 |-----------|------|
-| Core positions | 5–6 names when fully deployed |
+| Core alpha positions | 5–6 names when fully deployed |
 | Max single position | 20% of E (concentration cap) |
 | Max per sector | 2 positions |
-| Individual-stock floor | ≥ 2 of the held names must be single stocks, not ETFs |
-| Gross exposure | Regime-conditioned target (Section 4) — not a fixed floor |
+| Individual-stock floor | ≥ 2 of the held *alpha* names must be single stocks, not ETFs |
+| Benchmark proxy | Held to satisfy the participation floor (Section 4.1a); not counted against the alpha-name caps above |
+| Gross exposure | Regime-conditioned **floor and target** (Section 4.1) |
 
-**Why the individual-stock floor exists.** A book of sector ETFs held at index
-weight cannot, by construction, beat the index — it *is* the index minus fees.
-Alpha requires single-name selection. ETFs are permitted as liquid expressions
-of a sector view or as a temporary holding while a single-name thesis is built,
-but the book must always carry at least two researched individual names.
+**Two layers, one book.** The book has a *core* layer (the benchmark proxy,
+satisfying the participation floor and capturing market beta) and an *alpha*
+layer (5–6 researched single names + sector ETFs that tilt the book away from
+the index). As single names qualify, they are funded by trimming the proxy —
+rotating beta into alpha. As names exit or are stopped, proceeds return to the
+proxy, not to idle cash, unless a bearish thesis is on file.
+
+**Why the individual-stock floor exists.** A book of sector ETFs at index weight
+*is* the index minus fees. Alpha requires single-name selection. The alpha layer
+must always carry at least two researched individual names whenever it holds
+anything at all.
 
 ---
 
-## 4. Deployment Logic (replaces the Escalation Ladder)
+## 4. Deployment Logic
 
-Deployment is governed by two independent questions asked every session:
-**(a) what does the market regime allow, and (b) what setups actually qualify?**
-Capital is never deployed because time has passed.
+Deployment answers two independent questions every session: **(a) what gross
+exposure does the regime require (floor) and allow (ceiling), and (b) which
+alpha setups qualify?** The proxy fills any gap between the floor and what the
+qualifying alpha names consume. Capital is never deployed *or withheld* because
+time has passed.
 
-### 4.1 Market Regime Filter (sets the *ceiling*)
+### 4.1 Market Regime Filter — quantitative, falsifiable, auto-expiring
 
-Assess the regime from the S&P 500 (or a broad proxy) before any entry:
+Classify the regime from the S&P 500 each session using hard thresholds. Where
+inputs conflict, take the **more cautious** classification.
 
-- **Risk-on** — index above its 200-day moving average, broad participation,
-  volatility subdued. → Gross-exposure *target* 60–85%.
-- **Neutral** — index near its 200-day MA, mixed breadth, or rising volatility.
-  → Gross-exposure *target* 30–60%.
-- **Risk-off / crash-guard** — index below 200-day MA, or a sharp decline
-  followed by a high-volatility rebound. → Gross-exposure *target* ≤ 30%; new
-  entries paused; manage existing positions only.
+| Regime | Conditions (all-of unless noted) | Gross floor | Gross ceiling |
+|--------|----------------------------------|:-----------:|:-------------:|
+| **Risk-on** | SPX > 200-DMA **and** > 50-DMA; VIX < 18; breadth (% of S&P above 200-DMA) ≥ 50% | **60%** | 85% |
+| **Neutral** | SPX > 200-DMA, but not all risk-on conditions met (VIX 18–26, or price near 50-DMA, or breadth 40–50%) | **30%** | 60% |
+| **Risk-off / crash-guard** | SPX < 200-DMA, **OR** VIX > 26, **OR** the crash-guard-rebound trigger below is active | **0%** | 30% |
 
-The risk-off rebound case is deliberate: momentum strategies suffer their worst,
-most persistent drawdowns precisely in "panic" states — after a market decline,
-when volatility is high, contemporaneous with the rebound (Daniel & Moskowitz,
-*Momentum Crashes*). We will not chase strength into that environment.
+**Crash-guard-rebound trigger (precise definition).** Active only when *both*:
+(i) the SPX fell **≥ 5% peak-to-trough within the last 10 trading sessions**,
+*and* (ii) **VIX > 26** at the time of assessment. This is the panic-tail state
+Daniel & Moskowitz identify as the home of momentum crashes — high volatility,
+contemporaneous with a rebound off a sharp decline.
 
-### 4.2 Entry Trigger (decides whether to *act*)
+**Auto-expiry (kills the indefinite-rebound excuse).** The crash-guard-rebound
+trigger **lifts automatically** once VIX closes **< 22 for two consecutive
+sessions**, regardless of the prior decline. After expiry the regime reverts to
+whatever the price/breadth table dictates. A "rebound" may not be cited as a
+reason to stay flat once volatility has demonstrably normalized.
 
-Within the regime ceiling, a position is opened **whenever, and only when**, a
-candidate passes the Entry Gate (Section 6) *and* portfolio risk budget remains
-(Section 5) *and* the portfolio is not in a de-risk state (Section 8).
+> *Calibration note vs. the v2.0 logs:* a −1.6% day with VIX ~19–21 and SPX above
+> both moving averages is **Neutral**, not crash-guard. Under v2.1 that regime
+> carries a 30% floor — the benchmark proxy would have been held, not cash.
 
-This dissolves the old paralysis problem without forcing bad trades:
+### 4.1a Participation Floor (the core counterweight)
 
-- **If a name passes the gate and budget exists, the bot MUST act.** "Waiting
-  for a better setup" is not permitted — hesitation in the presence of a
-  qualifying, budgeted setup is a process failure flagged in the weekly review.
-- **If no name passes the gate, holding cash is the correct outcome** — not a
-  failure, and never a reason to buy something sub-threshold. There is no rule
-  anywhere in this document that forces a purchase below the conviction gate.
+The book's gross exposure **must meet the regime floor** in Section 4.1 at every
+EOD, satisfied by the benchmark proxy if qualifying alpha names do not yet fill
+it. Holding gross exposure *below the floor* is permitted **only** when a current,
+dated **bearish thesis** is recorded in the research log (Section 10.1) with an
+explicit invalidation level. Absent that written thesis, the proxy is bought to
+the floor — mechanically, not discretionarily.
 
-The distinction the old ladder missed: *skipping a qualifying setup* is the error
-to prevent; *finding no qualifying setup* is information, and the right response
-to it is patience, not a forced trade.
+The macro calendar (Section 9) does **not** override the floor: you are measured
+against an index that itself sits through every print, so baseline index
+participation is never paused for a scheduled release. Only *fresh single-name
+risk* is paused pre-print (Section 9).
+
+### 4.2 Entry Trigger — alpha layer
+
+Within the regime ceiling, an alpha position is opened **whenever, and only
+when**, a candidate clears an Entry Gate (Section 6), portfolio risk budget
+remains (Section 5), and the portfolio is not in a de-risk state (Section 8).
+
+- **If a name clears the gate and budget exists, the bot MUST act.** Hesitation
+  in the presence of a qualifying, budgeted setup is a process failure flagged
+  in the weekly review.
+- **If no name clears the gate, the floor is held via the proxy — not cash.**
+  "Nothing qualified" is information about the *alpha* layer; it is never a
+  reason to drop below the regime floor (Section 4.1a).
 
 ### 4.3 Turnover Cap
 
-Maximum **3 new positions opened per rolling 7-day window.** This is a brake on
-overtrading, not a quota — there is no minimum.
+Maximum **3 new alpha positions opened per rolling 7-day window.** A brake on
+overtrading, not a quota — there is no minimum. Buying/trimming the benchmark
+proxy to maintain the floor does **not** count against this cap.
+
+### 4.4 Anti-Paralysis Recalibration Trigger (the missing counterweight)
+
+If the regime is **Neutral or Risk-on** and **3 consecutive sessions** produce
+**zero alpha-gate clears**, the next session must run a **recalibration audit**
+before logging another HOLD. The audit explicitly tests whether the *process*,
+not the market, is the blocker:
+
+1. **Score calibration:** are conviction scores clustering just below threshold
+   (e.g. a run of 6.0–6.9)? A persistent sub-threshold cluster in a rising tape
+   is a calibration red flag, not evidence the market is uninvestable.
+2. **Catalyst-path coherence:** is the dated-catalyst requirement (Section 6.2)
+   wrongly being applied to trend/momentum candidates that should be judged on
+   the trend path (Section 6.1)?
+3. **Screen breadth:** has the idea-generation screen (Section 11) actually been
+   run across all leading sectors, or only re-checked the same one name?
+
+The audit resolves in exactly one of two ways, both recorded:
+- **(a)** A name that in fact clears a gate is identified and deployed; or
+- **(b)** A specific, defensible reason the *entire* qualifying universe is
+  uninvestable is written down — at which point the benchmark floor still
+  stands, so the book is never below the regime floor regardless.
+
+This does **not** force a low-conviction single-name trade (the v1.0 error). It
+forces a *diagnosis*, and guarantees benchmark participation in the meantime.
 
 ---
 
-## 5. Risk Budgeting & Position Sizing
+## 5. Risk Budgeting & Position Sizing (alpha layer)
 
-Sizing is risk-based, not notional-based. Each position is sized so that being
-stopped out costs a fixed, known fraction of equity — and more volatile names
-therefore get *smaller* dollar allocations.
+Sizing is risk-based, not notional-based. Each alpha position is sized so that
+being stopped out costs a fixed, known fraction of equity.
 
 **Definitions**
 
-- `R` = risk per trade = **0.75% of E** (full position) / **0.40% of E**
-  (starter). This is the dollars lost if the initial stop is hit.
+- `R` = risk per trade = **0.75% of E** (full) / **0.40% of E** (starter).
 - `ATR` = 14-day Average True Range of the candidate (Wilder).
-- Initial stop distance = `min(2.5 × ATR, 8% of entry price)`. The ATR term
-  adapts the stop to each name's volatility; the 8% cap is a hard catastrophe
-  backstop so a high-volatility name can never carry an oversized stop.
+- Initial stop distance = `min(2.5 × ATR, 8% of entry price)`.
 
 **Position size**
 
@@ -136,159 +199,196 @@ Then apply two caps, taking the smaller:
 1. **Concentration cap:** dollar size ≤ 20% of E.
 2. **Settled-cash cap:** dollar size ≤ available settled cash.
 
-**Portfolio open-risk cap.** The sum of `R` across all open positions must not
-exceed **5% of E**. This single rule governs how many positions can coexist:
-roughly 5–7 full positions, consistent with the 5–6 target, and it prevents the
-book from quietly accumulating more total risk than intended.
+**Portfolio open-risk cap.** The sum of `R` across all open *alpha* positions must
+not exceed **5% of E** — roughly 5–7 full positions, consistent with the 5–6
+target.
 
-This framework intentionally unifies the stop and the size — the same ATR figure
-that places the stop also determines the share count — eliminating the prior
-redundancy between a "10% trailing stop" and a separate "-7% manual cut."
+**Benchmark proxy is exempt from per-name risk budgeting.** The proxy is index
+beta held to satisfy the participation floor, not a stop-managed single bet. It
+carries no `R` allocation and no GTC stop (Section 8); it is managed by the
+regime floor/ceiling (Section 4.1) and trimmed to fund qualifying alpha names. It
+*does* count toward gross exposure.
 
 ---
 
-## 6. Entry Gates
+## 6. Entry Gates — alpha layer
 
-A candidate is scored on the framework in Section 7, then must clear the
-checklist for its tier. Earnings proximity is a hard veto in both tiers.
+A candidate is scored on Section 7, then must clear the checklist for **one of
+two entry paths**. The earnings veto is a hard veto on both paths.
 
-### 6.1 Full Position — Gate
+> **Why two paths.** v2.0 required a "specific, dated catalyst" *and* vetoed
+> entry within 5 days of earnings — yet earnings are the most common dated
+> catalyst, and trend-following (30% of the conviction weight) needs no discrete
+> catalyst at all. The result was that clean momentum leaders were perpetually
+> disqualified for "no dated catalyst." v2.1 splits the gate so a confirmed trend
+> in a leading sector is sufficient on its own.
 
-- [ ] Conviction score ≥ **7.0 / 10**
-- [ ] Specific, dated catalyst or clearly defined trigger
+### 6.1 Path A — Trend / Momentum entry (no dated catalyst required)
+
+For names whose thesis *is* the trend. The confirmed trend plus relative-strength
+leadership **is** the trigger.
+
+- [ ] **Confirmed uptrend:** price > 50-DMA > 200-DMA, **or** a fresh breakout to
+      an N-week high on above-average volume
 - [ ] Candidate's sector is a current relative-strength leader (top-3 YTD)
+- [ ] Conviction score ≥ **7.0** (full) / ≥ **6.0** (starter). For this path the
+      *Catalyst* factor is scored on **trend quality** — freshness, slope, and
+      strength of the breakout and the sector's RS (Section 7)
 - [ ] Initial stop defined per Section 5; reward-to-risk ≥ 2:1 to a defined target
-- [ ] **Earnings veto:** not reporting within 5 trading days; if it is, run a
-      pre-earnings scenario analysis and do not enter into binary uncertainty
+- [ ] **Earnings veto:** not reporting within 5 trading days (full) / 3 (starter)
 - [ ] Would not become a 3rd position in the same sector
 - [ ] Portfolio open-risk budget available (Section 5)
 
-### 6.2 Starter Position — Gate
+### 6.2 Path B — Event / Catalyst entry
 
-A starter is a deliberately smaller, lower-conviction position (`R` = 0.40% of E,
-~6–8% notional). It is **available whenever it qualifies** — not gated on any
-paralysis trigger, and not gated on the passage of time.
+For event-driven setups built around a discrete, dated trigger.
 
-- [ ] Conviction score ≥ **6.0 / 10**
-- [ ] Sector in top-3 by relative strength, or a clearly identified thematic tailwind
-- [ ] Initial stop defined per Section 5
-- [ ] **Earnings veto:** not reporting within 3 trading days
+- [ ] **Specific, dated catalyst** (deal close, product launch, index inclusion,
+      guidance event, etc.) — *not* an earnings report inside the veto window
+- [ ] Conviction score ≥ **7.0** (full) / ≥ **6.0** (starter)
+- [ ] Sector in top-3 RS, or a clearly identified thematic tailwind
+- [ ] Initial stop defined per Section 5; R:R ≥ 2:1 to a defined target
+- [ ] **Earnings veto:** not reporting within 5 trading days (full) / 3 (starter)
 - [ ] Would not become a 3rd position in the same sector
-- [ ] Max **3 concurrent starters**
 - [ ] Portfolio open-risk budget available
 
-### 6.3 Promoting a Starter to Full Size
+### 6.3 Starter sizing & limits (both paths)
 
-A starter is promoted (added to, up to full size and the 20% cap) when **either**:
-1. It is **+5% or more** from the average entry and its sector remains a leader, **or**
+A starter is a deliberately smaller position (`R` = 0.40% of E, ~6–8% notional),
+score ≥ 6.0, max **3 concurrent starters**. Available whenever it qualifies — not
+gated on the passage of time.
+
+### 6.4 Promoting a Starter to Full Size
+
+Promote (up to full size / the 20% cap) when **either**:
+1. It is **+5% or more** from average entry and its sector remains a leader, **or**
 2. It pulls back toward entry **and** its conviction score now reads ≥ 7.0.
 
-Promotion still requires open-risk budget. The added shares are sized by the same
-risk formula in Section 5 against the *current* price and ATR.
+Promotion requires open-risk budget; added shares are sized per Section 5 against
+the *current* price and ATR.
 
 ---
 
 ## 7. Conviction Scoring
 
-Score each factor 1–10, then take the **weighted** average. Factors are weighted
-because they are not equally informative and they sometimes conflict (a strong
-momentum name is rarely statistically cheap); equal-weighting them produces mushy
-mid-scores. **Full-size threshold ≥ 7.0; starter threshold ≥ 6.0.**
+Score each factor 1–10, take the **weighted** average. **Full ≥ 7.0; starter ≥ 6.0.**
 
 | Factor | Weight | Question |
 |--------|:------:|----------|
 | Momentum | 30% | Is price trend *and* sector relative strength in our favor? |
-| Catalyst | 25% | Is there a specific, near-term, identifiable trigger? |
+| Catalyst | 25% | **Path A:** how fresh/strong is the trend signal? **Path B:** is there a specific, near-term, dated trigger? |
 | Risk/Reward | 20% | Is R:R ≥ 2:1 to a defensible target with a defined stop? |
 | Moat | 15% | Durable competitive advantage / pricing power? |
 | Valuation | 10% | Reasonable vs. peers and own history given the growth? |
 
-**Scoring discipline.** Score the *individual name*, not just its sector. The
-score must be recorded *before* entry in `TRADE-LOG.md`. There is no provision to
-"document why the score is below threshold and buy anyway" — a sub-threshold
-score means no trade.
+**Scoring discipline & anti-gaming.** Score the *individual name* against the
+absolute rubric, not relative to whatever threshold would force a decision. The
+score is recorded *before* entry in `TRADE-LOG.md`. There is no "document why the
+score is below threshold and buy anyway." Conversely, a **persistent cluster of
+scores 6.0–6.9 across multiple sessions in a Neutral/Risk-on regime** is a
+calibration failure to be caught by Section 4.4 and the weekly review — not a
+neutral observation about the market.
 
 ### 7.1 Comparable-Company Check (single stocks only)
 
-Before any individual-stock entry, sanity-check relative value: P/E and
-EV/EBITDA vs. the sector median, and whether the company is gaining or losing
-share against its peer set. A name trading at a large premium to its peers
-(e.g., ~2× the sector multiple) requires an exceptional, specific catalyst to
-justify — note it explicitly in the thesis or pass.
+Before any individual-stock entry, sanity-check relative value: P/E and EV/EBITDA
+vs. the sector median, and share gain/loss vs. peers. A large unexplained premium
+(~2× the sector multiple) requires an exceptional, specific catalyst — note it in
+the thesis or pass.
 
 ---
 
-## 8. Exits & Stop Management
+## 8. Exits & Stop Management (alpha layer)
 
-Every position carries a **live GTC stop order** from the moment it is filled.
+Every *alpha* position carries a **live GTC stop order** from the moment it is
+filled. (The benchmark proxy does not — Section 5.)
 
-- **Initial stop:** placed at entry per Section 5
-  (`entry − min(2.5 × ATR, 8%)`).
-- **Trailing rule (chandelier-style):** the stop ratchets to
-  `highest close since entry − (k × ATR)`. It only ever moves **up**, never down,
-  and is never placed within 3% of the current price.
+- **Initial stop:** `entry − min(2.5 × ATR, 8%)`, placed at entry.
+- **Trailing rule (chandelier-style):** stop ratchets to
+  `highest close since entry − (k × ATR)`. Moves **up** only, never down; never
+  placed within 3% of current price.
 - **Tightening schedule** (reduce `k` as the gain matures):
-  - at **+15%** unrealized: tighten to `k = 2.0`
-  - at **+20%** unrealized: tighten to `k = 1.5`
-  - starters tighten one step earlier (at +10%), since the position is smaller
-    and the goal is to lock the asymmetry.
+  - **+15%** unrealized → `k = 2.0`
+  - **+20%** unrealized → `k = 1.5`
+  - starters tighten one step earlier (at +10%)
 - **No separate fixed-percent cut.** The ATR stop (capped at the 8% initial loss)
-  is the single, authoritative downside mechanism. This removes the old
-  redundancy where a -7% manual cut pre-empted the 10% trailing stop.
+  is the single authoritative downside mechanism.
+
+**Proceeds routing.** When an alpha position is closed or stopped, proceeds (once
+settled) return to the **benchmark proxy** to maintain the regime floor — not to
+idle cash — unless a dated bearish thesis is on file (Section 10.1).
 
 ### 8.1 Thesis-Invalidation Exit
 
-Independent of price, exit if the *reason you bought* breaks: the catalyst fails
-or is cancelled, guidance is cut, the competitive position deteriorates, or the
-sector thesis reverses. Document the trigger when entering (Section 10) so the
-exit is mechanical, not emotional.
+Independent of price, exit if the *reason you bought* breaks: catalyst fails or is
+cancelled, guidance is cut, competitive position deteriorates, or the sector
+thesis reverses. Document the trigger at entry (Section 10) so the exit is
+mechanical.
 
 ### 8.2 Sector-Rotation Exit
 
 - Exit a sector after **2 consecutive failed trades** in it.
-- When a sector falls from the top-3 to the bottom-3 by relative strength, exit
-  all positions in that sector.
+- When a sector falls from top-3 to bottom-3 by relative strength, exit all alpha
+  positions in that sector.
 
 ---
 
 ## 9. Portfolio-Level Risk Controls
 
-Individual stops protect single positions; these protect the *book*, because a
-momentum book of 5–6 leaders is effectively one concentrated factor bet and its
-stops tend to fire together in a drawdown.
+Individual stops protect single positions; these protect the *book*.
 
-- **Drawdown circuit breaker.** If account equity falls **12% from its
-  high-water mark**, halt all new entries, tighten every trailing stop by one
-  `k` step, and reduce gross exposure toward the neutral band. Resume normal
-  entries only after equity recovers above the −8%-from-high level *and* the
-  regime filter is no longer risk-off.
-- **Factor/correlation awareness.** Treat the 5–6 names as correlated momentum
-  exposure, not independent bets. The 2-per-sector cap is necessary but not
-  sufficient; avoid stacking names that are effectively the same trade (same
-  theme, same beta profile) even across different sectors.
-- **Momentum crash guard.** In the risk-off rebound regime (Section 4.1), do not
-  add exposure — this is the single environment most associated with momentum
-  crashes.
-- **Earnings calendar.** Track earnings dates for all holdings; flag any position
-  reporting within 3 days in the daily scan. Never *open* a position the day
-  before its report (Section 6 vetoes).
-- **Macro calendar.** Track FOMC, CPI, PPI, and jobs releases for the week and
-  avoid initiating fresh risk into the print.
+- **Drawdown circuit breaker.** If equity falls **12% from its high-water mark**,
+  halt new *alpha* entries, tighten every trailing stop by one `k` step, and
+  reduce gross exposure toward the **neutral** band (the proxy floor still
+  applies). Resume normal entries only after equity recovers above the
+  −8%-from-high level *and* the regime is no longer risk-off.
+- **Factor/correlation awareness.** Treat the 5–6 alpha names as correlated
+  momentum exposure. The 2-per-sector cap is necessary but not sufficient; avoid
+  stacking names that are effectively the same trade.
+- **Momentum crash guard.** In the crash-guard-rebound regime (Section 4.1), do
+  not add *alpha* exposure. (The proxy floor in that regime is 0%, so the book
+  may be fully de-risked — but only when the regime is *quantitatively*
+  risk-off, not on a discretionary "feels like a bounce" call.)
+- **Macro calendar — scoped veto.** Pause *initiating fresh single-name risk*
+  in the **single trading session immediately before** a scheduled FOMC, CPI,
+  PPI, or jobs print. This veto:
+  - applies to **new alpha entries only** — never to the benchmark proxy floor
+    (you are measured against an index that takes the print);
+  - lasts **one session**, not a week — a cluster of prints does not compound
+    into a multi-session block of the floor;
+  - lifts at the open of the session *after* the print.
+- **Earnings calendar.** Track earnings for all alpha holdings; flag any
+  reporting within 3 days. Never *open* a position inside the earnings veto
+  window (Section 6).
 
 ---
 
-## 10. Thesis Documentation (mandatory per position)
+## 10. Thesis Documentation (mandatory per alpha position)
 
 Record in `TRADE-LOG.md` at entry:
 
-1. **Thesis** — one sentence: why this name, why now.
+1. **Entry path** (A trend / B catalyst) and **thesis** — one sentence.
 2. **Three pillars** supporting the trade.
-3. **Two–three invalidators** — what would prove the thesis wrong.
+3. **Two–three invalidators** — what would prove it wrong.
 4. **Conviction score** with the per-factor breakdown (Section 7).
-5. **Levels** — entry, initial stop, target, and resulting R:R.
+5. **Levels** — entry, initial stop, target, resulting R:R.
 6. **Early-exit trigger** — the thesis-invalidation condition (Section 8.1).
 
-No position is opened without this record.
+No alpha position is opened without this record.
+
+### 10.1 Bearish-Thesis Documentation (mandatory to hold cash below the floor)
+
+To carry gross exposure *below the regime floor* (Section 4.1a), record in
+`RESEARCH-LOG.md`:
+
+1. **Bearish thesis** — one sentence: why the market itself is a sell here.
+2. **Evidence** — the specific signals (breadth, trend break, vol regime).
+3. **Invalidation level** — the price/VIX/date at which the proxy floor is
+   restored.
+4. **Review date** — when the thesis is re-tested.
+
+Absent this record, the proxy is bought to the floor. "Nothing in the alpha
+layer qualified" is **not** a bearish thesis and never justifies sub-floor cash.
 
 ---
 
@@ -297,12 +397,13 @@ No position is opened without this record.
 Screen, in order of preference:
 
 1. Relative-strength sector leaders (top-3 YTD), then the top-5 single names
-   *within* each leading sector's ETF as individual-stock candidates.
-2. Stocks breaking out on volume confirmation.
-3. Post-earnings drift: beats accompanied by guidance raises.
-4. Thematic tailwinds (AI, energy, defense, infrastructure, etc.).
-5. **Avoid:** declining revenue, margin compression, insider selling, names
-   trading at large unexplained premiums to peers.
+   *within* each leading sector as individual-stock candidates.
+2. Stocks breaking out on volume confirmation (Path A candidates).
+3. Dated event setups: deal closes, launches, index inclusions (Path B).
+4. Post-earnings drift: beats with guidance raises (outside the earnings veto).
+5. Thematic tailwinds (AI, energy, defense, infrastructure, etc.).
+6. **Avoid:** declining revenue, margin compression, insider selling, names at
+   large unexplained premiums to peers.
 
 Score the *name*, not the theme. A good theme with a mediocre single-name score
 is, at most, a starter — or an ETF expression.
@@ -313,79 +414,102 @@ is, at most, a starter — or an ETF expression.
 
 Assess and record:
 
-- **Regime & rotation:** which sectors gained/lost relative strength; current
-  regime classification and the gross-exposure target it implies.
-- **Process audit (the key check):** were there setups that *passed the Entry
-  Gate but were not taken*? If yes → process failure, diagnose it. If deployment
-  was low because *nothing qualified*, that is acceptable and is recorded as
-  such. This is how paralysis is policed without forcing trades.
-- **Held-position health:** thesis still intact? catalyst still pending?
-  competitive position holding? stop levels current?
-- **Valuation drift:** are any names now expensive vs. peers on the thesis?
+- **Regime & rotation:** which sectors gained/lost RS; current regime and the
+  floor/ceiling it implies.
+- **Process audit (key check):** (i) were there setups that *cleared a gate but
+  were not taken*? → process failure. (ii) Did the book sit **below the regime
+  floor** without a written bearish thesis on any session? → control failure,
+  diagnose it. (iii) Did conviction scores **cluster 6.0–6.9** in a permitting
+  regime? → calibration failure (Section 4.4).
+- **Floor adherence:** confirm gross exposure met the regime floor every session,
+  or that a dated bearish thesis covered each exception.
+- **Held-position health:** thesis intact? catalyst pending? stops current?
+- **Valuation drift:** any names now expensive vs. peers on the thesis?
 
 ---
 
 ## 13. Performance Accountability
 
-- **Evaluation window.** Judge performance vs. the S&P 500 over a **rolling
-  60-trading-day (≈ quarter) window**, not a 2-week window. A concentrated 5–6
-  name book has high tracking error; ±5% deviations over two weeks are statistical
-  noise, and reacting to them would just curve-fit the strategy to recent luck.
+- **Evaluation window.** Judge vs. the S&P 500 over a **rolling 60-trading-day
+  (≈ quarter) window.** A concentrated book has high tracking error; ±5% over two
+  weeks is noise.
 - **Underperformance trigger.** If the strategy trails the benchmark by more than
-  the rolling window's expected tracking error over a full quarter, the review
-  must diagnose the cause and propose a concrete, *rule-level* fix — not a
-  one-off discretionary override.
-- **Acceptable vs. unacceptable diagnoses.** "We skipped qualifying setups" is
-  actionable (tighten execution). "Nothing qualified and we held cash through a
-  rally" is examined but is not automatically a fault — it may mean the regime
-  filter or relative-strength screen needs recalibration, which is a deliberate,
-  tested change, not a forced-deployment patch.
-- **Anti-overfitting principle.** Do not re-architect the strategy on small
-  samples (a few weeks / a handful of sessions). Rule changes require a stated
-  hypothesis and, where feasible, evidence — not a reaction to the last losing
-  streak.
+  the window's expected tracking error over a full quarter, the review must
+  propose a concrete, *rule-level* fix.
+- **Acceptable vs. unacceptable diagnoses.** "We skipped qualifying setups" →
+  actionable. "We sat below the regime floor with no bearish thesis through a
+  rally" → **a control failure, not acceptable** (this is the v2.0 cash-drag, now
+  prohibited by Section 4.1a). "We held the benchmark floor but our alpha names
+  lagged" → examined; may indicate a screen-calibration issue.
+- **Anti-overfitting principle.** Do not re-architect on small samples. Rule
+  changes require a stated hypothesis and, where feasible, evidence.
+
+---
+
+## 14. Operational Controls & Exception Handling
+
+The bot manages a **live** account. State changes it did not originate are
+control events, not market data.
+
+- **Reconciliation each session.** Compare live Alpaca positions/orders/cash
+  against the expected state implied by the bot's own last logged orders.
+- **Exception halt.** If positions, orders, or cash changed **without a
+  corresponding bot-originated, logged order** (e.g. an external/manual flatten):
+  1. **HALT** — open no new positions and modify no orders;
+  2. send one alert (`scripts/notify.sh`) naming the discrepancy;
+  3. write a dated **exception entry** in `TRADE-LOG.md`;
+  4. **do not adopt the changed state as the new baseline** — remain halted until
+     the owner confirms/reconciles, then resume per the strategy.
+
+  An unexplained change is never silently absorbed into the status quo, and a
+  reconciliation question is never carried forward unanswered across sessions.
 
 ---
 
 ## Appendix A — Rationale & Grounding
 
-**Why the Escalation Ladder was removed.** The prior framework forced deployment
-after a fixed number of idle sessions and lowered the conviction floor over time
-(7 → 6 → 5.5), eventually mandating a purchase regardless of setup quality. This
-inverts sound risk management: the environments in which a quality-gated process
-finds nothing to buy are typically the choppy or topping tapes where cash is the
-correct position. A time-based forcing function guarantees deployment into weak
-setups in exactly those conditions, and it contradicted the document's own stated
-preference for patience over activity. The replacement (Section 4) keeps the
-useful half of the original intent — *don't skip qualifying setups out of
-hesitation* — while discarding the harmful half — *don't manufacture trades when
-nothing qualifies.*
+**Why v1.0's Escalation Ladder was removed (retained from v2.0).** It forced
+deployment after a fixed number of idle sessions and lowered the conviction floor
+over time (7 → 6 → 5.5), eventually mandating a purchase regardless of setup
+quality — guaranteeing deployment into weak setups in exactly the choppy/topping
+tapes where cash (or the benchmark) is the right posture.
 
-**Why thresholds now reconcile.** The old document set a 60% deployment floor yet
-defined escalation triggers around <30% deployment and a ≥40% target — mutually
-inconsistent numbers. Here, gross exposure is a regime-conditioned *target range*,
-not an absolute floor, so "low deployment in a weak regime" is consistent with the
-rules rather than a violation of them.
+**Why v2.0 still failed, and what v2.1 fixes.** v2.0 deleted the forcing function
+but added nothing to counterbalance three serially-stacked vetoes (regime,
+conviction gate, macro calendar). With `P(trade) = P(regime) × P(gate) ×
+P(no veto)` and each factor frequently near 0, the product was ≈ 0: the book sat
+100% cash for a full week while the S&P set record highs (+1.6%), and every HOLD
+was "defended" by whichever veto was active. v2.1's six counterweights
+(participation floor, quantitative/auto-expiring regime, dual entry paths,
+anti-paralysis trigger, scoped macro veto, exception halt) break the ratchet
+without reinstating forced single-name trades.
 
-**Why stops and sizing are ATR-based.** Fixed-percent stops apply one width to
-every name regardless of its volatility — too tight on a high-beta name, too loose
-on a low-beta one. ATR-based stops (Wilder) scale to each name's actual volatility,
-and the risk-based sizing formula derived from them gives more volatile names
-smaller dollar allocations for the same portfolio risk. The 8% cap preserves a
-hard worst-case loss per position.
+**Why the neutral position is the benchmark, not cash.** The mandate is to *beat*
+a 100%-invested index. Relative to that index, cash is a short. The only coherent
+default for a benchmark-relative book is to hold the benchmark and express alpha
+as tilts away from it; cash then becomes an explicit, defended bearish bet
+(Section 10.1), as it should be.
 
-**Why the momentum crash guard exists.** Daniel & Moskowitz show momentum's
-largest, most persistent drawdowns ("momentum crashes") cluster in panic states —
-after market declines, in high volatility, contemporaneous with rebounds — because
-the strategy behaves like a short call option in those rebounds. The risk-off
-rebound regime in Section 4.1 and the crash guard in Section 9 are the direct
-response.
+**Why the regime filter is now quantitative and auto-expiring.** v2.0's
+"sharp decline followed by a high-volatility rebound" had no defined magnitude,
+lookback, or exit, so it could be — and was — invoked indefinitely, and applied
+to a −1.6% day at VIX ~19. The momentum-crash literature is about *genuine* panic
+tails (high VIX, sharp drawdown), so v2.1 gates crash-guard on a ≥5%/10-session
+drawdown *and* VIX > 26, and auto-lifts it once VIX closes < 22 for two sessions.
 
-**Why PDT language was corrected.** The strategy runs in a cash account, where PDT
-(a margin-account rule) does not apply; and FINRA eliminated the $25,000 PDT
-minimum effective 4 June 2026 in any case. The real mechanical constraint is T+1
-settlement and the cash-account violations (good-faith, freeriding, cash
-liquidation) that limit recycling unsettled proceeds.
+**Why stops and sizing stay ATR-based (retained).** Fixed-percent stops misfit
+volatility; ATR scales to each name and yields smaller dollar size for more
+volatile names at constant portfolio risk. The 8% cap preserves a hard worst case.
+
+**Why the momentum crash guard exists (retained).** Daniel & Moskowitz show
+momentum's largest, most persistent drawdowns cluster in panic states — after
+declines, in high volatility, contemporaneous with rebounds — because the
+strategy behaves like a short call option there.
+
+**Why PDT language was corrected (retained).** Cash account → PDT (a
+margin-account rule) does not apply; FINRA eliminated the $25k minimum effective
+4 June 2026 regardless. The real constraint is T+1 settlement and cash-account
+violations (good-faith, freeriding, cash-liquidation).
 
 ### Sources
 
