@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jun 15 — EOD Snapshot (Day 22, Monday)
+**Portfolio:** $100,053.96 | **Cash:** $100,053.96 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** +$53.96 (+0.05%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Day 22, start of week 6. Reconcile (§14): Alpaca confirms equity=$100,053.96, cash=$100,053.96 (100%), **zero positions, zero open orders** — matches Friday's logged baseline, no external/manual change, so no HALT. Day P&L vs Jun 12 EOD ($100,053.96): $0.00 (0.00%). Phase P&L +$53.96 (+0.05%), still 100% cash. **Sixth straight fully idle session** — book flat cash since Mon Jun 08's external flatten. Deployed 0% vs 75-85% regime floor — no benchmark exposure, no protective stops, six days running. Trades today: 0. New entries this week (fresh cap): 0/3; positions 0/6; DT 0/5. Friday's note flagged Monday redeploy as "the only acceptable action," yet the book sits at 0% for a seventh calendar day with no dated bearish thesis on file — a direct, ongoing breach of the participation-floor mandate (§4.1a) and pure drag vs the S&P goal. The pre-market FCX re-arm ($61.5 limit) and Sec 9 setups remain un-actioned. Anti-paralysis (§4.4): 3+ idle sessions in a non-bearish regime mandates a recalibration audit — overdue. Tomorrow (Tue Jun 16): **redeploy is mandatory** — at minimum buy the benchmark proxy to the floor, then rebuild alpha toward 75-85% with discipline (size <=20%/name, 10% trailing-stop GTC at every fill). Continued cash-sitting is indefensible.
+
 ### Jun 12 — EOD Snapshot (Day 21, Friday)
 **Portfolio:** $100,053.96 | **Cash:** $100,053.96 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** +$53.96 (+0.05%)
 
