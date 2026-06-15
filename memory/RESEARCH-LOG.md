@@ -231,3 +231,45 @@ Improving from yesterday's crash-guard toward **Neutral** (§4.1): price >200d, 
 
 ### Decision
 **HOLD — but the posture has changed.** Stay 100% cash *today*, on a **specific macro veto (FOMC Jun 17, §9)**, not on regime fear. The crash-guard rationale that justified the prior 5 idle sessions has **lifted** (VIX <20, war tail resolving, futures green, Materials back to #1) — the regime now *permits* neutral-band deployment (30–60%). What's missing is a qualifying name: FCX is starter-tier (~6.25) with no dated catalyst, and entering ahead of FOMC is poor-quality timing. This is defended cash per §4.2 (nothing clears the gate → cash is correct), and a defined macro veto — **not** time-based paralysis. **Action plan: re-score FCX + Healthcare/Industrials single-names immediately post-FOMC (Jun 18); if regime stays neutral/risk-on and a name clears the gate, deploy toward the neutral band with discipline (≤20%/name, ATR/8%-cap stop as GTC at every fill).** Patience > activity — but the clock on this cash drag is now FOMC, not open-ended.
+
+## 2026-06-15 — Pre-market Research
+
+### Account
+- Equity: $100,053.96
+- Cash: $100,053.96 (100% cash, settled)
+- Buying power: $400,215.84 (4x margin shown; irrelevant — cash account, long-only per strategy)
+- Daytrade count: 0
+- Open positions: none. Open orders: none. (Flat since Jun 08 external flatten; **6th straight idle session.**)
+
+### Market Context
+- **US–Iran interim deal reached** — agreement to reopen the Strait of Hormuz. The war tail that drove the Jun 09–11 panic is resolving. Futures jumped on the headline.
+- WTI / Brent: **~$80 / ~$87, WTI −5.7%** — Brent at its lowest since March on supply-surge fears as the deal raises Mideast flow expectations. War premium deflating hard.
+- S&P 500 futures: **+1.3%** premarket; prediction markets ~93% odds of an "Up" open. Index near records, above 200-day.
+- VIX: **~17.7** (prev close 17.68; opened 19.51) — well below 20 and **still cooling** (was 19.44 Fri). Panic fully unwound.
+- M&A tape hot: Fox/Roku (~$22B cash-and-stock), Amex/TheFork ($700M); broad risk-on sentiment.
+- Earnings this week: LEN, KMX, ACN, KR, FDX, Jabil, Progressive — none portfolio-relevant (book flat).
+- Economic calendar: **today** Empire State Mfg, Industrial Production, Capacity Util, NAHB (minor). **FOMC Jun 16–17, decision Wed Jun 17** — Warsh's first meeting as Chair (hawkish). **Markets CLOSED Fri Jun 19 (Juneteenth).**
+- Sector momentum (YTD): **Energy #1 (~34.5%), Tech #2 (~22.3%), Materials ~22% (breaking out, top-3), Industrials/Staples/RE ~9–11%.** Materials remains a top-3 leader → FCX sector gate satisfied.
+
+### Regime Assessment
+**NEUTRAL → leaning risk-on (§4.1).** The crash-guard rationale is fully lifted: VIX ~17.7 and falling, war tail resolving (deal reached, oil −5.7%), futures +1.3%, index near records above 200-day. Regime now *permits* the 30–60% neutral band, edging toward risk-on (60–85%). **The binding constraint today is NOT regime — it is the §9 macro veto: FOMC decision lands Wed Jun 17 (~1–2 trading days out).** Warsh's first meeting + hot CPI (+4.2%) / PPI (+1.1%) keep a hawkish bias-shift live (≈70% odds of a hike by year-end); a hold is near-certain but the dot-plot/tone is the real risk. §9 bars initiating fresh risk into the print.
+
+### Catalyst Calendar (this week)
+- Mon Jun 15: Empire State Mfg, Industrial Production, NAHB (minor).
+- **Tue–Wed Jun 16–17: FOMC** (decision + Warsh presser Wed).
+- Fri Jun 19: **market CLOSED (Juneteenth).**
+- No held positions → no position-specific earnings/stop exposure.
+
+### Trade Ideas (watchlist — all gated by FOMC macro veto)
+1. **FCX** — Materials/copper. Sector #2–3 YTD (~22%), gate satisfied. Re-armed limit ~$61.5, stop ~$56.6 (8% cap), target ~$72, R:R ~2.1:1. Score **~6.25** (Mom 7 / Cat 5 / R:R 7 / Moat 6 / Val 6) → **starter-tier (≥6.0), below full gate (7.0).** No dated catalyst; copper holds up better than oil, but the broad inflation-hedge bid is fading. **§9 macro-veto: do not initiate into FOMC.** Lead candidate to re-score **post-FOMC (Thu Jun 18).**
+2. **Industrials (XLI) / single-name** — clean top-tier momentum, benefits from lower oil + infrastructure theme; no single-name breakout scored yet. Build watchlist; score post-FOMC.
+3. **Energy (XLE)** — #1 YTD but leadership IS the war/oil spike now mean-reverting (oil −5.7% on the deal). Chasing a fading spike is poor-quality entry. Avoid.
+
+### Risk Factors
+- **FOMC Wed Jun 17** — Warsh's debut, hot CPI+PPI → hawkish surprise/dot-plot risk; §9 bars fresh risk into the print.
+- Deal is interim, not ratified — Hormuz mines / vessel strikes / Iranian approval remain open; a reversal re-spikes oil & vol.
+- Juneteenth closure Fri Jun 19 compresses the post-FOMC window to a single session (Thu Jun 18).
+- Regime improving but only days off the panic; confirm VIX holds sub-20 post-FOMC.
+
+### Decision
+**HOLD — 100% cash today, on a specific §9 macro veto (FOMC Jun 17), not regime fear.** The crash-guard that justified the prior idle stretch has fully lifted (VIX ~17.7, war tail resolving, oil −5.7%, futures +1.3%, index near records) — the regime now permits neutral-band deployment. What blocks action is timing, not opportunity: FOMC decision is ~1 trading day out, and no name clears the full gate anyway (FCX is starter-tier ~6.25 with no dated catalyst; Energy leadership is mean-reverting). Entering ahead of Warsh's first print is poor-quality risk. This is defended cash per §4.2 + a defined macro veto — **not** time-based paralysis (Appendix A: all forced-deployment triggers removed). **Action plan: re-score FCX + Industrials/Materials single-names Thu Jun 18 (post-FOMC; Fri is closed). If regime stays neutral/risk-on and a name clears the gate, deploy toward the band with discipline — ≤20%/name, ATR/8%-cap stop as GTC at every fill.** Patience > activity — the clock on this cash drag is now FOMC, two sessions out.
