@@ -273,3 +273,52 @@ Improving from yesterday's crash-guard toward **Neutral** (§4.1): price >200d, 
 
 ### Decision
 **HOLD — 100% cash today, on a specific §9 macro veto (FOMC Jun 17), not regime fear.** The crash-guard that justified the prior idle stretch has fully lifted (VIX ~17.7, war tail resolving, oil −5.7%, futures +1.3%, index near records) — the regime now permits neutral-band deployment. What blocks action is timing, not opportunity: FOMC decision is ~1 trading day out, and no name clears the full gate anyway (FCX is starter-tier ~6.25 with no dated catalyst; Energy leadership is mean-reverting). Entering ahead of Warsh's first print is poor-quality risk. This is defended cash per §4.2 + a defined macro veto — **not** time-based paralysis (Appendix A: all forced-deployment triggers removed). **Action plan: re-score FCX + Industrials/Materials single-names Thu Jun 18 (post-FOMC; Fri is closed). If regime stays neutral/risk-on and a name clears the gate, deploy toward the band with discipline — ≤20%/name, ATR/8%-cap stop as GTC at every fill.** Patience > activity — the clock on this cash drag is now FOMC, two sessions out.
+
+## 2026-06-16 — Pre-market Research
+
+### Account (pre-deployment snapshot)
+- Equity: $100,053.96
+- Cash: $100,053.96 (100% cash, settled)
+- Buying power: $400,215.84 (4x margin shown; irrelevant — cash account, long-only)
+- Daytrade count: 0
+- Open positions: none. Open orders: none. (**7th straight idle session** since Jun 08 external flatten.)
+
+### Reconciliation (§14)
+Live Alpaca = equity $100,053.96, cash 100%, **zero positions, zero open orders** — matches Jun 15 EOD baseline exactly. No external/manual change since Jun 08. **No HALT.**
+
+### Market Context
+- **VIX ~16.2** (−~8% on day; opened 16.19) — well below 18, third+ consecutive sub-22 close → **crash-guard auto-expiry condition fully met** (§4.1). Panic fully unwound.
+- S&P 500 futures: ~flat to slightly higher (+0.1% to +1.2% across sources); three-day rally taking a breather ahead of FOMC.
+- SPX cash (Jun 15 close): **7554.29**, +1.49% — well above 50-DMA (7267) and 200-DMA (6887). Strong, clean uptrend.
+- WTI / Brent: **~$77 / ~$83** — oil down ~5% on the week; US–Iran 60-day deal to reopen Hormuz deflating the war premium (briefly <$80, two-month low).
+- M&A / IPO tape active (SpaceX/SPCX, Robinhood, Huntsman movers). Broad risk-on.
+- Earnings this week: LEN, KMX, ACN, KR, FDX, Jabil — none portfolio-relevant.
+- Economic calendar: **FOMC Jun 16–17, decision Wed Jun 17 2pm ET** — Warsh's debut as Chair; consensus = hold, but Fed expected to **remove the easing bias / drop the 2026 cut from the dot-plot** (hot CPI +4.2% / PPI +1.1%). Real risk is the dot-plot/tone, not the rate. **Markets CLOSED Fri Jun 19 (Juneteenth).**
+- Sector momentum (YTD): Energy/Tech/Materials top-3; Materials still a top-3 leader → FCX sector gate satisfied. Energy leadership = the mean-reverting oil spike (avoid chasing).
+
+### Regime Assessment
+**NEUTRAL (leaning risk-on) — crash-guard now FULLY EXPIRED (§4.1).** VIX 16.2 (<18), SPX above both MAs near records, oil/war tail resolving. Risk-on conditions are largely met; taking the **more cautious** read (breadth flagged as a caution: "70% of warning signals" headline) → **Neutral, 30% floor / 60% ceiling**.
+
+**Correction of the prior 7 sessions' error.** Jun 09–15 logs defended 0% cash on the §9 FOMC veto. That was a **misapplication**: §4.1a and §9 state explicitly that the macro veto pauses *fresh single-name risk only* and **never** the benchmark proxy floor — "you are measured against an index that itself sits through every print." Holding 0% with **no dated bearish thesis** (§10.1) was an ongoing **control failure** (the exact v2.0 cash-drag §4.1a was written to prohibit). **Action taken today: bought the benchmark proxy to the floor.**
+
+### Action Taken
+- **BUY 40 SPY @ market (day TIF), ≈ $30,176 = 30.2% of E** — order id 61e770c2, queued pre-market for the 9:30 ET open. Satisfies the Neutral 30% participation floor (§4.1a). **Proxy = index beta, NOT alpha:** exempt from per-name R-budget and GTC stop (§5/§8), exempt from the §9 macro veto. Trimmed back into qualifying alpha post-FOMC.
+
+### Catalyst Calendar (this week)
+- **Wed Jun 17: FOMC decision + Warsh presser.**
+- Fri Jun 19: **market CLOSED (Juneteenth).** Post-FOMC window = single session (Thu Jun 18).
+- No alpha positions held → no position-specific earnings/stop exposure.
+
+### Trade Ideas (alpha layer — single-name entries vetoed today by §9, re-score Thu Jun 18)
+1. **FCX** — Materials/copper. Sector top-3 YTD, gate satisfied. Limit ~$61.5, stop ~$56.6 (8% cap), target ~$72, R:R ~2.1:1. Score **~6.25** (Mom 7 / Cat 5 / R:R 7 / Moat 6 / Val 6) → starter-tier, below full gate. No dated catalyst; inflation-hedge bid fading with oil. **§9 veto today; re-score post-FOMC.**
+2. **Industrials (XLI) / single-name** — clean momentum, benefits from lower oil + infra theme; no single-name breakout scored. Build watchlist; score Thu Jun 18.
+3. **Energy (XLE)** — #1 YTD but leadership is the war/oil spike now mean-reverting (oil −5%). Chasing a fading spike = poor entry. Avoid.
+
+### Risk Factors
+- **FOMC Wed Jun 17** — Warsh debut + hot CPI/PPI → hawkish dot-plot / removal-of-cut risk; §9 bars fresh single-name risk today (proxy floor exempt).
+- US–Iran deal interim, not ratified — Hormuz mines / vessel strikes / Iranian approval open; a reversal re-spikes oil & vol.
+- Juneteenth closure Fri Jun 19 compresses post-FOMC window to one session.
+- Breadth caution flagged despite index highs — keep alpha deployment disciplined.
+
+### Decision
+**DEPLOY PROXY TO FLOOR, HOLD ALPHA.** Bought 40 SPY (30.2%) to meet the Neutral 30% participation floor — ending a 7-session, no-bearish-thesis floor breach (§4.1a control failure now corrected). **No single-name alpha entry today**: §9 vetoes fresh single-name risk the session before FOMC, and no name clears the full gate anyway (FCX starter-tier ~6.25, no dated catalyst). This is the strategy working as written — the proxy floor is held *through* the print; alpha tilts wait for a clean post-FOMC setup. **Next session (Thu Jun 18, post-FOMC; Fri closed): re-score FCX + Industrials/Materials single-names; if regime stays Neutral/risk-on and a name clears ≥7.0 (or ≥6.0 starter), fund it by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. Consider scaling proxy toward 60% if FOMC confirms risk-on.**
