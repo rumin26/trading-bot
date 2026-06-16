@@ -13,6 +13,15 @@
 
 **Status:** This **ends a 7-session, no-bearish-thesis floor breach** (§4.1a control failure, Jun 09–15) — corrected by deploying the proxy to the Neutral floor. Trades today: 1 (SPY proxy buy). New alpha entries this week (proxy excluded from cap, §4.3): 0/3; positions 1/6; DT 0/5. **Next session (Thu Jun 18, post-FOMC; Fri Jun 19 closed Juneteenth):** re-score FCX + Industrials/Materials single-names; if regime stays Neutral/risk-on and a name clears ≥7.0 (or ≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. Consider scaling proxy toward 60% if FOMC confirms risk-on.
 
+### Jun 16 — EOD Snapshot (Day 23, Tuesday)
+**Portfolio:** $99,842.11 | **Cash:** $69,847.71 (70.0%) | **Day P&L:** -$211.85 (-0.21%) | **Phase P&L:** -$157.89 (-0.16%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 40     | $755.15625 | $749.86 | -0.66% | -$211.85 (-0.70%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 23, week 6. Reconcile (§14): live Alpaca = equity $99,842.11, cash $69,847.71, SPY 40 sh, zero open orders — matches the bot's own logged market-open state (SPY proxy buy, order 61e770c2). No external/manual change → no HALT. Day P&L vs Jun 15 EOD ($100,053.96): -$211.85 (-0.21%), driven entirely by SPY drift (-0.66% on the day, $755.16 entry → $749.86 close). Phase P&L -$157.89 (-0.16%) vs $100k start. Deployed 30.0% (SPY proxy) — meets the Neutral participation floor (§4.1a); ends the 7-session floor breach corrected this morning. No alpha exposure, proxy carries no per-name stop by design. Trades today: 1 (SPY proxy buy, not alpha — excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5. **Tomorrow (Wed Jun 17): FOMC decision** — §9 macro veto already absorbed (no fresh single-name risk; proxy floor unaffected). Thu Jun 18 post-FOMC: re-score FCX + Industrials/Materials single-names; if regime holds Neutral/risk-on and a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY (≤20%/name, ATR/8%-cap GTC stop at every alpha fill). Consider scaling proxy toward 60% if FOMC confirms risk-on. Fri Jun 19 closed (Juneteenth).
+
 ### Jun 15 — EOD Snapshot (Day 22, Monday)
 **Portfolio:** $100,053.96 | **Cash:** $100,053.96 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** +$53.96 (+0.05%)
 
