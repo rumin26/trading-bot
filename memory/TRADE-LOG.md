@@ -1,5 +1,18 @@
 # Trade Log
 
+### Jun 16 — Market-Open Execution (Day 23, Tuesday)
+**Portfolio:** $100,021.08 | **Cash:** $69,847.71 (69.8%) | **Long MV:** $30,173.37 (30.2%) | **Phase P&L:** +$21.08 (+0.02%)
+
+| Ticker | Side | Shares | Entry | Stop | Mkt Value | Thesis |
+| ------ | ---- | ------ | ----- | ---- | --------- | ------ |
+| SPY    | BUY  | 40     | $755.15625 | none (proxy, §5/§8 exempt) | $30,173.37 | Benchmark-proxy floor |
+
+**Trade:** BUY 40 SPY @ market (day TIF), order id `61e770c2`, filled 13:35:15 UTC @ **$755.15625** = $30,206.25 cost (30.2% of E). **Benchmark proxy, NOT alpha** — held to satisfy the Neutral 30% participation floor (§4.1a); exempt from per-name R-budget and GTC stop (§5/§8), exempt from the §9 macro veto. No alpha entry today: §9 vetoes fresh single-name risk the session before FOMC (Wed Jun 17), and no name clears the gate (FCX starter-tier ~6.25, no dated catalyst). Target/R:R: n/a (index beta, no per-name stop). 
+
+**Reconcile (§14):** Live Alpaca = equity $100,021.08, cash $69,847.71, SPY 40 sh, zero open orders. The SPY position matches the bot's own documented pre-market order (id 61e770c2, source access_key) — **bot-originated, logged → no external change, no HALT.** Cash math: $100,053.96 − $30,206.25 = $69,847.71 ✓.
+
+**Status:** This **ends a 7-session, no-bearish-thesis floor breach** (§4.1a control failure, Jun 09–15) — corrected by deploying the proxy to the Neutral floor. Trades today: 1 (SPY proxy buy). New alpha entries this week (proxy excluded from cap, §4.3): 0/3; positions 1/6; DT 0/5. **Next session (Thu Jun 18, post-FOMC; Fri Jun 19 closed Juneteenth):** re-score FCX + Industrials/Materials single-names; if regime stays Neutral/risk-on and a name clears ≥7.0 (or ≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. Consider scaling proxy toward 60% if FOMC confirms risk-on.
+
 ### Jun 15 — EOD Snapshot (Day 22, Monday)
 **Portfolio:** $100,053.96 | **Cash:** $100,053.96 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** +$53.96 (+0.05%)
 
