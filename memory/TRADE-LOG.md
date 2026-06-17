@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jun 17 — EOD Snapshot (Day 24, Wednesday)
+**Portfolio:** $99,555.30 | **Cash:** $69,847.70 (70.2%) | **Day P&L:** -$286.81 (-0.29%) | **Phase P&L:** -$444.70 (-0.44%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 40     | $755.15625 | $742.69 | -1.02% | -$498.65 (-1.65%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 24, week 6, **FOMC decision day**. Reconcile (§14): live Alpaca = equity $99,555.30, cash $69,847.70, SPY 40 sh, zero open orders — matches yesterday's logged state (SPY proxy buy, order 61e770c2; cash unchanged). No external/manual change → no HALT. Day P&L vs Jun 16 EOD ($99,842.11): -$286.81 (-0.29%), driven entirely by SPY drift (close $749.86→$742.69, -1.02% on the day into/through the FOMC print). Phase P&L -$444.70 (-0.44%) vs $100k start; SPY now -1.65% from $755.16 entry. Deployed 29.8% (SPY proxy) — meets the Neutral participation floor (§4.1a). No alpha exposure; proxy carries no per-name stop by design. Trades today: none (§9 macro veto absorbed pre-FOMC; no fresh single-name risk taken). New alpha entries this week: 0/3; positions 1/6; DT 0/5. **Tomorrow (Thu Jun 18, post-FOMC):** re-score FCX + Industrials/Materials single-names; if regime holds Neutral/risk-on and a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY (≤20%/name, ATR/8%-cap GTC stop at every alpha fill). Consider scaling proxy toward 60% if FOMC confirmed risk-on. Fri Jun 19 closed (Juneteenth).
+
 ### Jun 16 — Market-Open Execution (Day 23, Tuesday)
 **Portfolio:** $100,021.08 | **Cash:** $69,847.71 (69.8%) | **Long MV:** $30,173.37 (30.2%) | **Phase P&L:** +$21.08 (+0.02%)
 
