@@ -368,3 +368,53 @@ Live Alpaca = equity $99,886.50, cash $69,847.70, **SPY 40 sh, zero open orders*
 
 ### Decision
 **HOLD — proxy floor met, no alpha into the print.** Book sits at SPY 30.1%, satisfying the Neutral 30% participation floor (§4.1a). No single-name alpha today: §9 vetoes fresh single-name risk into today's FOMC decision (veto lifts Thu Jun 18 open), and no name clears the full gate anyway (FCX starter-tier ~6.25, no dated catalyst; Energy mean-reverting). This is the strategy working as written — floor held *through* the print, alpha tilts wait for a clean post-FOMC read. **Next session (Thu Jun 18, post-FOMC; Fri closed): re-score FCX + Industrials/Materials single-names. If regime stays Neutral/risk-on and a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. If FOMC confirms risk-on, consider scaling proxy toward the 60% ceiling.**
+
+## 2026-06-18 — Pre-market Research
+
+### Account (snapshot)
+- Equity: $99,657.30
+- Cash: $69,847.70 (70.1%, settled)
+- Buying power: $362,857.68 (4x shown; irrelevant — cash account, long-only)
+- Daytrade count: 0
+- Open positions: SPY 40 sh @ $755.156 (mkt $29,809.60, **29.9% of E**, unrealized -$396.65 / -1.31%). Open orders: none.
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,657.30, cash $69,847.70, **SPY 40 sh, zero open orders** — matches Jun 16/17 logged state (proxy buy, order 61e770c2 filled, no per-name stop by design). No external/manual change → **No HALT.**
+
+### Market Context
+- **VIX ~16.1** (<18) — calm; multi-session sub-22 close, crash-guard fully expired.
+- S&P 500: **rebound day.** Futures +0.87%, Nasdaq +1.32% premarket (Polymarket ~98% open-higher). This follows Wed's hawkish-FOMC drop: SPX **-1.21% to 7420.10**, Dow -0.98%, Nasdaq -1.34%; 2y yield +16bp to 4.216%. SPX 7420 still **above 50-DMA (~7267) and 200-DMA (~6887)** — uptrend intact.
+- **FOMC (Wed Jun 17) — hawkish hold.** Held 3.50–3.75% (4th straight). Warsh abstained from a dot, repeatedly stressed "price stability"; ≥3 members dotted hikes, 2026 cut dropped / easing bias removed. Rate path now skews to a *possible hike* late-2026.
+- WTI / Brent: **~$74.6 (-2.9%) / ~$79** — oil sliding; Trump signed US–Iran agreement (Versailles), supply-return expectations deflating the war premium.
+- Movers: INTC +9.8% (Apple US-chip design partnership) — chips surging; QURE +78% (Huntington's gene-therapy data); LZB +14.8% (earnings beat); ACN buying Dragos/runZero/NetRise ($4.18B). ORCL -2.6% (MSFT deal report).
+- Earnings this week: LEN, KMX, ACN, KR, FDX, Jabil — **none portfolio-relevant** (only proxy held).
+- Economic calendar: **today** = jobless claims (226k prior wk), Philly Fed, LEI — no §9 monthly-jobs/CPI/PPI/FOMC print. **Fri Jun 19: market CLOSED (Juneteenth).**
+- Sector momentum (YTD): **Energy #1 (~+22%)** but it *is* the mean-reverting oil spike (avoid). **Materials top of the broad pack (~+3.2%)** → FCX sector gate still satisfied. Tech cooling after AI run. Industrials ~+1.4%.
+
+### Regime Assessment
+**NEUTRAL (§4.1).** VIX 16.1 (<18) and SPX above both MAs argue risk-on, but a hawkish Fed (yields surging, hike risk back on the table) plus the breadth caution → take the **more cautious** read. **Neutral: 30% floor / 60% ceiling.** SPY at **29.9% meets the floor.**
+
+### Action Taken
+- **None.** Proxy floor met. §9 veto lifted at today's open (post-FOMC), but no single name clears the full alpha gate (see ideas). Floor held *through* the print as designed.
+
+### Catalyst Calendar (this week)
+- **Wed Jun 17: FOMC done (hawkish).**
+- **Fri Jun 19: market CLOSED (Juneteenth)** — only one post-FOMC session (today) before the long weekend.
+- No alpha positions held → no position-specific earnings/stop exposure.
+
+### Trade Ideas (alpha layer)
+1. **FCX** — Materials/copper, sector top-3. **Thesis broke on price:** the planned ~$61.5 pullback entry is dead — FCX ran ~16% to an **all-time high $71.79** (ATH $72.28 Jun 17). Entering at ATH, *at/above* fair value (~$67.95 narrative), on a ceasefire-driven copper bid that is itself sentiment-prone → poor R:R chasing strength. Re-score **~6.3** (Mom 8 / Cat 6 / R:R 5 / Moat 6 / Val 5) → fails full gate; chasing an extended ATH into a hawkish tape is undisciplined. **Pass; re-arm only on a constructive pullback toward the 50-DMA.**
+2. **Semis (INTC/AAPL deal pop)** — one-day event spike (+9.8%) in a *cooling* sector; not a researched, scored single-name setup. **Watchlist only.**
+3. **Energy (XLE)** — #1 YTD but leadership = the mean-reverting oil spike (WTI ~$74.6, -2.9%). Chasing a fading spike = poor entry. **Avoid.**
+
+### Risk Factors
+- **Hawkish-Fed overhang** — rate-hike risk back for late-2026; today's bounce is a relief rally, not an all-clear. Keep alpha deployment disciplined; don't chase ATHs.
+- US–Iran deal signed but interim — any Hormuz/vessel reversal re-spikes oil & vol.
+- Juneteenth closure (Fri) → no trading after today until Mon Jun 22; size/entries with the gap in mind.
+- Breadth caution persists despite index near highs.
+
+### Anti-Paralysis Check (§4.4)
+Jun 16–17 alpha gates were closed by the **§9 FOMC veto**, not by paralysis; today is the **first unvetoed session**. Today's pass on FCX is a genuine re-score (price ran away from the planned entry → R:R failure), not a sub-threshold calibration cluster. **No audit triggered.** If the next 3 unvetoed sessions also clear nothing, run the §4.4 audit.
+
+### Decision
+**HOLD — proxy floor met (29.9%), no qualifying alpha.** Book sits SPY ~30%, satisfying the Neutral 30% floor (§4.1a); no dated bearish thesis, so the floor is correct and no sub-floor cash. §9 veto lifted, but no single name clears ≥7.0 (FCX ~6.3, blew past its entry to an ATH; Energy mean-reverting; semis a one-day pop). This is discipline, not paralysis — the floor is held *through* the hawkish print, alpha waits for a clean, non-chasing setup. **Next session (Mon Jun 22, post-Juneteenth): re-score FCX on any pullback toward the 50-DMA + screen Materials/Industrials single-names; if regime stays Neutral/risk-on and a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. If the tape digests the hawkish Fed constructively, consider scaling the proxy toward the 60% ceiling.**
