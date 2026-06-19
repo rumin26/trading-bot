@@ -418,3 +418,46 @@ Jun 16–17 alpha gates were closed by the **§9 FOMC veto**, not by paralysis; 
 
 ### Decision
 **HOLD — proxy floor met (29.9%), no qualifying alpha.** Book sits SPY ~30%, satisfying the Neutral 30% floor (§4.1a); no dated bearish thesis, so the floor is correct and no sub-floor cash. §9 veto lifted, but no single name clears ≥7.0 (FCX ~6.3, blew past its entry to an ATH; Energy mean-reverting; semis a one-day pop). This is discipline, not paralysis — the floor is held *through* the hawkish print, alpha waits for a clean, non-chasing setup. **Next session (Mon Jun 22, post-Juneteenth): re-score FCX on any pullback toward the 50-DMA + screen Materials/Industrials single-names; if regime stays Neutral/risk-on and a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. If the tape digests the hawkish Fed constructively, consider scaling the proxy toward the 60% ceiling.**
+
+## 2026-06-19 — Pre-market Research (MARKET CLOSED — Juneteenth)
+
+### Account (snapshot)
+- Equity: $99,717.30
+- Cash: $69,847.70 (70.0%, settled)
+- Buying power: $363,025.68 (margin figure; irrelevant — cash account, long-only)
+- Daytrade count: 0
+- Open positions: SPY 40 sh @ $755.156 (mkt $29,869.60, **30.0% of E**, unrealized -$336.65 / -1.12%). Open orders: none.
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,717.30, cash $69,847.70, **SPY 40 sh, zero open orders** — matches Jun 16–18 logged state (proxy buy order 61e770c2, no per-name stop by design). `change_today` 0 / current = lastday ($746.74) confirms no session today. No external/manual change → **No HALT.**
+
+### Market Status
+- **US equity market CLOSED — Juneteenth National Independence Day.** No pre-market, no session, no fills possible. Both Jun 17 and Jun 18 logs flagged this closure.
+- Next session: **Mon Jun 22.**
+
+### Regime Assessment (carried; no new prints)
+**NEUTRAL (§4.1).** Last close (Thu Jun 18): VIX ~16, SPX above 50/200-DMA but hawkish-Fed overhang. **Neutral: 30% floor / 60% ceiling.** SPY at **30.0% meets the floor.**
+
+### Action Taken
+- **None — market closed.** Proxy floor met (SPY 30.0%); no trading available regardless. No bearish thesis on file, none needed (floor satisfied).
+
+### Catalyst Calendar
+- **Today: CLOSED (Juneteenth).**
+- Mon Jun 22: first post-Juneteenth session — re-score FCX on any pullback toward the 50-DMA; screen Materials/Industrials single-names.
+- No alpha positions held → no position-specific earnings/stop exposure.
+
+### Trade Ideas (carried — no market to act in)
+1. **FCX** — Materials/copper, sector top-3. Ran to ATH (~$72) Jun 17; planned $61.5 pullback entry dead. **Pass; re-arm only on a constructive pullback toward the 50-DMA.**
+2. **Semis (INTC/AAPL pop)** — one-day event spike in a cooling sector; watchlist only.
+3. **Energy (XLE)** — #1 YTD but mean-reverting oil spike (WTI ~$74.6). Avoid.
+
+### Risk Factors
+- Hawkish-Fed overhang (late-2026 hike risk back on table) persists into next week.
+- US–Iran deal interim, not ratified — Hormuz reversal would re-spike oil & vol.
+- Long weekend gap risk: no trading until Mon Jun 22; headlines accumulate over a 3-day break.
+
+### Anti-Paralysis Check (§4.4)
+Not triggered. Today is a market holiday (no gate to clear); Jun 16–17 were §9-vetoed, Jun 18 was a genuine FCX re-score (price ran past entry). No sub-threshold calibration cluster. Resume the §4.4 clock at Mon Jun 22.
+
+### Decision
+**HOLD — market CLOSED (Juneteenth).** No trading possible. Book sits SPY 30.0%, satisfying the Neutral 30% participation floor (§4.1a); no sub-floor cash, no action required. **Next session (Mon Jun 22): re-score FCX on any pullback toward the 50-DMA + screen Materials/Industrials single-names; if regime holds Neutral/risk-on and a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. If the tape digests the hawkish Fed constructively, consider scaling the proxy toward the 60% ceiling.**
