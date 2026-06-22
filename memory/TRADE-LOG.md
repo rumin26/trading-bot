@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jun 22 — EOD Snapshot (Day 27, Monday)
+**Portfolio:** $99,631.70 | **Cash:** $69,847.70 (70.1%) | **Day P&L:** -$85.60 (-0.09%) | **Phase P&L:** -$368.30 (-0.37%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 40     | $755.15625 | $744.60 | -0.29% | -$422.25 (-1.40%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 27, start of week 7. Reconcile (§14): live Alpaca = equity $99,631.70, cash $69,847.70, SPY 40 sh, zero open orders — matches Jun 19 logged state (SPY proxy buy, order 61e770c2; cash unchanged). No external/manual change → no HALT. Day P&L vs Jun 19 EOD ($99,717.30): -$85.60 (-0.09%), driven entirely by SPY drift (close $746.74→$744.60, -0.29% on the day; account last_equity $99,717.30, intraday_pl -$85.60 confirm). Phase P&L -$368.30 (-0.37%) vs $100k start; SPY now -1.40% from $755.16 entry. Deployed 29.9% (SPY proxy) — meets the Neutral participation floor (§4.1a). No alpha exposure; proxy carries no per-name stop by design. Trades today: none — fresh week reset the 3-trade cap, but no single-name cleared the gate (FCX still starter-tier, no dated catalyst; Industrials/Materials RS unconfirmed). New alpha entries this week: 0/3; positions 1/6; DT 0/5. **Tomorrow (Tue Jun 23):** re-score FCX + Industrials/Materials single-names; if regime holds Neutral/risk-on and a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY (≤20%/name, ATR/8%-cap GTC stop at every alpha fill). Consider scaling proxy toward 60% if tape confirms risk-on. Note: proxy has now drifted -1.40% since the Jun 16 entry — pure beta, acceptable as floor exposure but adding alpha remains the week's objective.
+
 ### Jun 19 — EOD Snapshot (Day 26, Friday — Juneteenth, market closed)
 **Portfolio:** $99,717.30 | **Cash:** $69,847.70 (70.0%) | **Day P&L:** -$46.80 (-0.05%) | **Phase P&L:** -$282.70 (-0.28%)
 
