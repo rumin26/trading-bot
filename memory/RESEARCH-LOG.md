@@ -461,3 +461,52 @@ Not triggered. Today is a market holiday (no gate to clear); Jun 16–17 were §
 
 ### Decision
 **HOLD — market CLOSED (Juneteenth).** No trading possible. Book sits SPY 30.0%, satisfying the Neutral 30% participation floor (§4.1a); no sub-floor cash, no action required. **Next session (Mon Jun 22): re-score FCX on any pullback toward the 50-DMA + screen Materials/Industrials single-names; if regime holds Neutral/risk-on and a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. If the tape digests the hawkish Fed constructively, consider scaling the proxy toward the 60% ceiling.**
+
+## 2026-06-22 — Pre-market Research (Day 24, Monday — post-Juneteenth)
+
+### Account (snapshot)
+- Equity: $99,758.10
+- Cash: $69,847.70 (70.0%, settled)
+- Buying power: $363,139.92 (margin figure; irrelevant — cash account, long-only)
+- Daytrade count: 0/5
+- Open positions: SPY 40 sh @ $755.156 (mkt $29,910.40, **30.0% of E**, unrealized -$295.85 / -0.98%; intraday +$40.80). Open orders: none.
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,758.10, cash $69,847.70, **SPY 40 sh, zero open orders** — matches Jun 16–19 logged state (proxy buy order 61e770c2, no per-name stop by design). No external/manual change since last session → **No HALT.**
+
+### Market Context
+- **VIX ~16.8** (last close Jun 18, <18) — calm; multi-session sub-22, crash-guard fully expired.
+- **S&P 500: muted open after Juneteenth.** Futures ~flat (S&P -0.1%, Nasdaq-100 +0.3%, Dow +0.2%) as Wall St weighs US–Iran progress. Last close SPX **~7,500**, above **50-DMA (~7,308)** and **200-DMA (~6,884)** — uptrend intact.
+- **WTI ~$75–77.5 / Brent ~$79** — oil easing further (-17% MoM). Qatar/Pakistan brokered a "roadmap toward a final deal within 60 days"; Hormuz supply risk deflating.
+- Movers: **Memory complex surging** — MU at fresh ATH, STX/WDC/SNDK best S&P premarket performers (Micron earnings Wed). APGE +47% (AbbVie $10.9B all-cash buyout). VST +11% MoM (Helix AI-power deal). SPCX -5% (3rd straight down day).
+- Earnings this week: **MU (Wed)**, none portfolio-relevant (only SPY proxy held).
+- Economic calendar: **nothing Monday.** **Thu Jun 25: May PCE / core PCE** (Fed's preferred gauge) — *not* in the §9 scoped veto list (FOMC/CPI/PPI/jobs); no veto today regardless, and any veto would land on Wed's session, not today.
+- Sector momentum (leading quadrant): **Consumer Staples, Industrials, Materials, Energy.** Tech/semis **lagging** (cooling after AI run). Materials top-3 → FCX sector gate still satisfied; **semis fail the Path A top-3 RS sector gate despite price pop.**
+
+### Regime Assessment
+**NEUTRAL (§4.1).** VIX 16.8 (<18) + SPX above both MAs argue risk-on, but hawkish-Fed overhang (Oct hike pulled forward post-FOMC) + breadth caution → take the **more cautious** read. **Neutral: 30% floor / 60% ceiling.** SPY at **30.0% meets the floor.**
+
+### Action Taken
+- **None.** Proxy floor met (SPY 30.0%); no single name clears the full alpha gate. No dated bearish thesis on file → floor is correct, no sub-floor cash.
+
+### Catalyst Calendar (this week)
+- **Thu Jun 25: May PCE / core PCE.** Watch for an upside surprise feeding the hawkish-hike narrative.
+- **Wed Jun 24: Micron (MU) earnings** — not held; memory-sentiment tell.
+- No alpha positions held → no position-specific earnings/stop exposure.
+
+### Trade Ideas (alpha layer)
+1. **FCX** — Materials/copper, sector top-3 (leading quadrant). Now **$68.58**, ~5% off the $72 ATH (Jun 17). This is a *shallow* dip, **not** the constructive pullback toward the 50-DMA the plan required; copper bid is ceasefire-sentiment-driven and oil/commodities are easing. Re-score **~6.4** (Mom 7 / Cat 6 / R:R 5 / Moat 6 / Val 6) → fails full gate (≥7.0). **Pass; re-arm only on a deeper, constructive pullback toward the 50-DMA with copper holding.**
+2. **Memory/semis (MU, STX, WDC, SNDK)** — strong price momentum into MU earnings, but the **sector is in the lagging RS quadrant** → fails the Path A top-3 sector gate; MU also inside the §6 earnings veto (reports Wed). **Watchlist only — no entry.**
+3. **Industrials single-names** — sector in the leading quadrant; screen top-5 RS names for a Path A trend setup next session. **No scored candidate clears ≥7.0 today.**
+
+### Risk Factors
+- **Hawkish-Fed overhang** — Oct hike pulled forward; PCE Thursday is the week's pivot. An upside print revives hike fears.
+- US–Iran "60-day roadmap" is interim, not a signed deal — any Hormuz/vessel reversal re-spikes oil & vol.
+- Chasing extended ATHs (FCX copper, memory complex) into a hawkish tape = poor R:R. Keep alpha disciplined.
+- Breadth caution persists despite index near highs.
+
+### Anti-Paralysis Check (§4.4)
+Recent gate history: Jun 16–17 **§9-vetoed** (FOMC), Jun 18 **genuine FCX re-score** (price ran past entry), Jun 19 **holiday** (no gate), today **2nd unvetoed session** with no clear (genuine FCX re-score + sector-gated semis, not a sub-threshold calibration cluster). **No audit triggered** (need 3 consecutive unvetoed no-clears). **If Tue Jun 23 also clears nothing, run the §4.4 recalibration audit** before logging another HOLD.
+
+### Decision
+**HOLD — proxy floor met (30.0%), no qualifying alpha.** Book sits SPY 30.0%, satisfying the Neutral 30% floor (§4.1a); no dated bearish thesis, so the floor is correct and there is no sub-floor cash. No name clears ≥7.0 (FCX ~6.4 — shallow dip, still near ATH; semis sector-gated + in earnings veto; no Industrials candidate scored). Holding at the floor through PCE week is disciplined, not paralysis. **Next session (Tue Jun 23): re-score FCX on any deeper pullback toward the 50-DMA + screen Materials/Industrials single-names; if a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. This is the 3rd unvetoed session — if it also clears nothing, the §4.4 audit is mandatory. Optionally scale the proxy toward the 60% ceiling if the tape digests PCE constructively.**
