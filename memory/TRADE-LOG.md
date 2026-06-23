@@ -1,5 +1,20 @@
 # Trade Log
 
+### Jun 23 — Market-Open Execution (Day 25, Tuesday)
+**Portfolio:** $99,364.70 | **Cash:** ~$69,109.65 (69.6%) | **Long MV:** $30,255.11 (30.45%) | **Phase P&L:** -$635.30 (-0.64%)
+
+| Ticker | Side | Shares | Entry | Stop | Mkt Value | Thesis |
+| ------ | ---- | ------ | ----- | ---- | --------- | ------ |
+| SPY    | BUY  | 1      | $738.05 | none (proxy, §5/§8 exempt) | $30,255.11 (41 sh total) | Benchmark-proxy floor top-up |
+
+**Trade:** BUY 1 SPY @ market (day TIF), order id `95b235fd`, filled ~$738.05 → position now **41 sh, avg $754.739, MV $30,255.11 = 30.45% of E**. **Benchmark proxy, NOT alpha** — bought to restore the Neutral 30% participation floor (§4.1a) after overnight SPY drift left the book at 29.7% (sub-floor). Mechanical floor move, not a discretionary entry; exempt from per-name R-budget, the 20% concentration cap, and the GTC stop (§5/§8), and from the §4.3 alpha turnover cap. No dated bearish thesis on file → topping to the floor is the correct (mandated) action; no sub-floor cash.
+
+**No alpha entry.** Regime **Neutral** (§4.1; VIX ~17 <18, SPX > 50/200-DMA, but tech-led risk-off tape → cautious read; crash-guard NOT active, VIX << 26). No name clears ≥7.0: semis/memory in lagging RS quadrant AND active rout (Samsung/Hynix −12%, MU −9%) → Path A sector-gate fail + worst-R:R falling knife into MU earnings; FCX ~6.2 (copper bid deflating, no constructive 50-DMA pullback, near ATH); defensives (HC/Staples) a one-day flight-to-safety rotation, unscreened to ≥7.0. **§9 momentum crash guard** bars adding momentum into a tech-led selloff.
+
+**Reconcile (§14):** Pre-trade live Alpaca = equity $99,364.70, cash $69,847.70, SPY 40 sh, zero open orders — matches Jun 22 logged state (proxy buy 61e770c2). No external/manual change → no HALT.
+
+**Status:** Trades today: 1 (SPY proxy floor top-up, not alpha — excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5. §4.4: today is the 2nd consecutive unvetoed no-clear; soft audit run pre-market resolved (b) — disciplined floor hold into a risk-off tape, book never below regime floor. **Next session (Wed Jun 24, MU earnings; Thu Jun 25 PCE):** re-check floor; screen HC/Staples/Industrials top-5 RS for a Path A trend setup; if a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. If Wed also clears nothing, run the hard §4.4 audit. Hold alpha flat through MU + PCE.
+
 ### Jun 22 — EOD Snapshot (Day 27, Monday)
 **Portfolio:** $99,631.70 | **Cash:** $69,847.70 (70.1%) | **Day P&L:** -$85.60 (-0.09%) | **Phase P&L:** -$368.30 (-0.37%)
 
