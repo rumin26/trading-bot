@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jun 23 — EOD Snapshot (Day 28, Tuesday)
+**Portfolio:** $99,224.56 | **Cash:** $69,109.65 (69.6%) | **Day P&L:** -$407.14 (-0.41%) | **Phase P&L:** -$775.44 (-0.78%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 41     | $754.739 | $734.51 | -1.33% | -$829.39 (-2.68%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 28, week 7. Reconcile (§14): live Alpaca = equity $99,224.56, cash $69,109.65, SPY 41 sh (avg $754.739), zero open orders — matches the bot's own logged state after this morning's SPY proxy floor top-up (BUY 1 SPY, order 95b235fd). No external/manual change → no HALT. Day P&L vs Jun 22 EOD ($99,631.70): -$407.14 (-0.41%), driven entirely by SPY drift (close $744.39→$734.51, -1.33% on the day) into a tech-led risk-off tape. Phase P&L -$775.44 (-0.78%) vs $100k start; SPY proxy now -2.68% from $754.74 avg. Deployed 30.4% (SPY proxy) — meets the Neutral participation floor (§4.1a). No alpha exposure; proxy carries no per-name stop by design. Trades today: 1 (SPY proxy floor top-up, not alpha — excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5. §4.4: 2nd consecutive unvetoed no-clear, soft audit resolved (b) — disciplined floor hold into risk-off; book never below floor. **Tomorrow (Wed Jun 24, MU earnings; Thu Jun 25 PCE):** re-check floor; screen HC/Staples/Industrials top-5 RS for a Path A trend setup; if a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY (≤20%/name, ATR/8%-cap GTC stop at every alpha fill). Hold alpha flat through MU + PCE; if Wed clears nothing, run the hard §4.4 audit.
+
 ### Jun 23 — Market-Open Execution (Day 25, Tuesday)
 **Portfolio:** $99,364.70 | **Cash:** ~$69,109.65 (69.6%) | **Long MV:** $30,255.11 (30.45%) | **Phase P&L:** -$635.30 (-0.64%)
 
