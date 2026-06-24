@@ -607,3 +607,16 @@ Unvetoed no-clear sessions: Jun 22 (#1), Jun 23 (#2), **Jun 24 (#3)** → hard t
 
 ### Decision
 **HOLD on alpha; floor met (30.4%), no top-up needed.** No name clears ≥7.0 (semis sector-gated + in earnings veto; FCX ~6.0, momentum rolling over; defensives a one-day rotation, unscreened to ≥7.0). Adding single-name risk into a tech-led selloff violates the §9 momentum crash guard. Hard §4.4 audit resolved (b) — disciplined floor hold, book never below the regime floor. **Next session (Thu Jun 25, May PCE; MU reaction):** re-check floor; gauge MU print's read-through to memory RS; screen HC/Staples/Industrials top-5 RS for a Path A trend; if a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. Hold alpha flat through PCE.
+
+### Intraday Refresh (Day 26 re-run, market open)
+Second pre-market/open pass today; account unchanged from the morning entry.
+
+**Reconciliation (§14):** Live = equity $99,275.39, cash $69,109.64, **SPY 41 sh, zero open orders** — matches the morning Jun 24 state (proxy top-up 95b235fd) to the cent; equity differs only by SPY mark. No external/manual change → **No HALT.**
+
+**What changed vs. the open:** the risk-off open **reversed to a modest bounce**. Intraday: **S&P +0.35%, Nasdaq +0.62%, Russell +0.41%, Dow −0.17%** (vs. −0.68%/−0.95% logged premarket) — MU rebound +4.1% premarket stabilized semis; WEN +22% (CFO + meme bid, noise). **VIX prior close 19.49, easing intraday** (still <26, no crash-guard). **Oil fell further: WTI ~$71, Brent <$75 (3-mo low)** on Strait-of-Hormuz/US–Iran de-escalation — copper/commodity bid keeps deflating (FCX headwind intact).
+
+**Sector RS (unchanged lean):** defensives still lead (Staples, Energy, Healthcare, Real Estate); tech/semis bouncing but not RS leaders. **MU after close** — consensus rev ~$35B / EPS ~$20, HBM acceleration the make-or-break metric; +324% YTD = extreme expectations (binary, not held). **Thu Jun 25 PCE** — Wells Fargo sees headline +0.5% m/m → 4.1% y/y, core +0.3% → 3.4% y/y (energy-hot; an upside print revives the hawkish narrative).
+
+**Regime:** still **NEUTRAL** (VIX <26, no ≥5%/10-session SPX crash drawdown, SPX > 50/200-DMA). Floor 30% / ceiling 60%. **SPY = 30.4% of E — above floor; no top-up needed.**
+
+**Decision: HOLD on alpha — unchanged.** No name clears ≥7.0 (semis lagging RS + MU in earnings veto; FCX ~6.0, commodity bid deflating; defensives a flight-to-safety rotation, not a screened ≥7.0 Path A trend). The intraday bounce on light follow-through ahead of MU (tonight) + PCE (Thu) is not a confirmed trend to chase, and §9 momentum crash guard still cautions against fresh single-name risk into the chip-rout tape. Floor met, book never below the regime floor. **No trades. Next session (Thu Jun 25): re-check floor; read MU's print through to memory RS; screen HC/Staples/Industrials top-5 RS for a Path A setup; if a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. Hold alpha flat through PCE.**
