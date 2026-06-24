@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jun 24 — EOD Snapshot (Day 29, Wednesday)
+**Portfolio:** $99,338.94 | **Cash:** $69,109.64 (69.6%) | **Day P&L:** +$114.38 (+0.12%) | **Phase P&L:** -$661.06 (-0.66%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 41     | $754.739 | $737.30 | +0.51% | -$715.00 (-2.31%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 29, week 7. Reconcile (§14): live Alpaca = equity $99,338.94, cash $69,109.64, SPY 41 sh (avg $754.739), zero open orders — matches Jun 23 logged state (proxy top-up, order 95b235fd; cash unchanged). No external/manual change → no HALT. Day P&L vs Jun 23 EOD ($99,224.56): +$114.38 (+0.12%), driven entirely by SPY rebound (close $733.58→$737.30, +0.51% on the day). Phase P&L -$661.06 (-0.66%) vs $100k start; SPY proxy now -2.31% from $754.74 avg. Deployed 30.43% (SPY proxy MV $30,229.30 / equity) — meets the Neutral participation floor (§4.1a), no sub-floor cash, no top-up needed. No alpha exposure; proxy carries no per-name stop by design. Trades today: none — MU earnings day (held alpha flat per plan); no single-name cleared the gate (FCX still starter-tier, no dated catalyst; HC/Staples/Industrials top-5 RS unconfirmed). New alpha entries this week: 0/3; positions 1/6; DT 0/5. §4.4: 3rd consecutive unvetoed no-clear — but holding alpha flat through MU (Jun 24) + PCE (Jun 25) is the documented, dated plan, not paralysis; hard recalibration audit deferred to the post-PCE session (Fri Jun 26) if it also clears nothing. **Tomorrow (Thu Jun 25, PCE):** §9 macro veto bars fresh single-name risk into PCE; re-check floor, hold proxy, no new alpha. **Post-PCE (Fri Jun 26):** screen HC/Staples/Industrials top-5 RS for a Path A trend setup; if a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY (≤20%/name, ATR/8%-cap GTC stop at every alpha fill); if Fri also clears nothing, run the hard §4.4 audit.
+
 ### Jun 23 — EOD Snapshot (Day 28, Tuesday)
 **Portfolio:** $99,224.56 | **Cash:** $69,109.65 (69.6%) | **Day P&L:** -$407.14 (-0.41%) | **Phase P&L:** -$775.44 (-0.78%)
 
