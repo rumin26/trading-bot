@@ -620,3 +620,50 @@ Second pre-market/open pass today; account unchanged from the morning entry.
 **Regime:** still **NEUTRAL** (VIX <26, no ≥5%/10-session SPX crash drawdown, SPX > 50/200-DMA). Floor 30% / ceiling 60%. **SPY = 30.4% of E — above floor; no top-up needed.**
 
 **Decision: HOLD on alpha — unchanged.** No name clears ≥7.0 (semis lagging RS + MU in earnings veto; FCX ~6.0, commodity bid deflating; defensives a flight-to-safety rotation, not a screened ≥7.0 Path A trend). The intraday bounce on light follow-through ahead of MU (tonight) + PCE (Thu) is not a confirmed trend to chase, and §9 momentum crash guard still cautions against fresh single-name risk into the chip-rout tape. Floor met, book never below the regime floor. **No trades. Next session (Thu Jun 25): re-check floor; read MU's print through to memory RS; screen HC/Staples/Industrials top-5 RS for a Path A setup; if a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. Hold alpha flat through PCE.**
+
+## 2026-06-25 — Pre-market Research (Day 27, Thursday)
+
+### Account (snapshot)
+- Equity: $99,395.52
+- Cash: $69,109.64 (69.5%, settled)
+- Buying power: $361,239 (margin avail, unused — cash-account discipline §2)
+- Daytrade count: 0/5
+- Open positions: **SPY 41 sh @ $754.739** (mkt $30,285.88, **30.47% of E**, unrealized -$658.42 / -2.13%; current ~$738.68, intraday +0.74%). Open orders: none.
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,395.52, cash $69,109.64, **SPY 41 sh, zero open orders** — matches Jun 24 EOD logged state to the cent (cash $69,109.64; SPY 41 sh, proxy top-up 95b235fd). Equity differs only by SPY mark drift. No external/manual change → **No HALT.**
+
+### Market Context — RISK-OFF REVERSES; AI rally reignites, PCE in-line
+- **S&P futures +0.8% premarket**; Micron's blowout earnings + Qualcomm's aggressive AI data-center targets reignited semis/AI enthusiasm. Dow/Nasdaq futures up with it.
+- **May Core PCE +3.4% y/y (+0.3% m/m) — IN LINE** with consensus (highest core since Oct '23); headline PCE +4.1% y/y (+0.4% m/m), hottest since Apr '23. Hot but **no upside surprise** → the feared hawkish-revival tail did not materialize; event risk passes.
+- **VIX 18.24, −6.41%** (range 18.24–19.54, open 19.13) — easing toward the 18 line but not yet < 18; far below the 26 crash-guard.
+- **Oil multi-month lows:** Brent ~$73.4 (low since late Feb), WTI ~$70–73 — Strait-of-Hormuz tanker traffic + US–Iran progress keep the supply premium bleeding out → copper/commodity bid keeps deflating (FCX headwind intact).
+- **Sector RS (late-May→June):** Leading quadrant **Materials (+22% YTD), Staples (XLP), Industrials (XLI), Energy (XLE), Healthcare**. **Lagging: Technology (XLK), Comm, Discretionary, Financials.** Real Estate/Utilities improving. Tech still LAGGING on a multi-month basis despite today's semi bounce.
+
+### Catalyst Calendar (this week)
+- **Today: May PCE (in-line, done), Q1 GDP final, May durable orders; Darden (DRI) + 33 reports.** None held.
+- No alpha positions held → no position-specific earnings/stop exposure. SPY proxy carries no per-name stop by design (§5/§8).
+
+### Regime Assessment
+**NEUTRAL (§4.1).** VIX 18.24 (<26 → no crash-guard; no ≥5%/10-session SPX drawdown), SPX > 50/200-DMA, but VIX not yet <18 and tech-lagging breadth caution → take the more cautious read. **Neutral: 30% floor / 60% ceiling.**
+- **Floor:** SPY = **30.47% of E** — above the 30% floor. **No top-up required.** Mechanical floor met; no sub-floor cash, no bearish thesis warranted (uptrend intact, vol easing).
+
+### Trade Ideas (alpha layer)
+1. **Semis / memory (MU, NVDA, QCOM, STX, WDC)** — MU blowout (rev ~$34.7B, 81% GM guide, HBM4 sold-out) is reigniting the group, but **Technology remains in the LAGGING RS quadrant** (multi-month) — a one-day earnings-gap bounce is not a confirmed Path A trend in a top-3 RS sector. Chasing a +17%-implied-move gap = poor R:R. **Fails Path A sector gate. Pass.**
+2. **FCX / Materials** — sector is a top-3 RS *leader* (+22% YTD), but copper/commodity bid is deflating with oil at 4-month lows; momentum rolling over (~$62), no constructive 50-DMA pullback. Re-score **~6.0** (Mom 5 / Cat 6 / R:R 5 / Moat 6 / Val 6) → fails ≥7.0. **Pass.**
+3. **Defensive leaders (Healthcare/Staples — XLV, XLP)** — leading on the flight-to-safety bid, but with risk reversing today that leadership is more likely fading than confirming; no single name screened to ≥7.0 Path A. **Watchlist — screen XLV/XLP/XLI top-5 RS next session.**
+
+### §4.4 Recalibration Audit (rolling)
+Hard 3-consecutive trigger was met & resolved (b) on Jun 24. Re-running lightweight today:
+1. **Score calibration:** semis fail the *sector RS* gate (Tech lagging quadrant), not a sub-threshold cluster being gamed; FCX's momentum is genuinely rolling over with the commodity bid. **Not a calibration failure.**
+2. **Catalyst-path coherence:** semis correctly rejected on Path A sector RS; no dated-catalyst rule misapplied. **Coherent.**
+3. **Screen breadth:** leading sectors (Materials/Staples/Industrials/Energy/Healthcare) screened; none produced a ≥7.0 Path A name. **Resolution (b):** a one-day AI-bounce on an unconfirmed multi-month tech downtrend, with commodity leaders deflating, does not yield a qualifying Path A name. **Floor held — book never below regime floor.**
+
+### Risk Factors
+- **Chase risk:** a single-session AI bounce on an MU gap is the classic "buy the spike, get the reversal" trap; Tech RS is still lagging — no confirmed trend to fund.
+- **Sticky-inflation overhang:** core PCE 3.4% (hottest since Oct '23) keeps the Fed hawkish even though today's print was in-line — caps multiple expansion.
+- **Commodity deflation:** oil/copper at multi-month lows pressures Materials/Energy leadership (two-sided if Hormuz reverses).
+- **Floor slippage watch:** proxy at 30.47%; restore to ≥30% only if SPY drifts below ~$718 (−2.7%) intraday into EOD.
+
+### Decision
+**HOLD on alpha; floor met (30.47%), no top-up needed.** No name clears ≥7.0 — semis fail the Path A sector gate (Tech lagging RS; today's blowout is a one-day gap, not a confirmed trend); FCX ~6.0 with momentum rolling over; defensives a fading flight-to-safety rotation, unscreened to ≥7.0. PCE in-line removed the hawkish tail but doesn't create a qualifying setup. Holding the benchmark floor (not chasing beta toward the 60% ceiling on a single-day bounce) is the disciplined posture; book never below the regime floor, no bearish thesis warranted. **No trades. Next session (Fri Jun 26, weekly review): re-check floor; confirm whether the AI bounce is building into a multi-week Tech RS recovery (would re-open semis on Path A) or fading; screen Materials/Staples/Industrials/Healthcare top-5 RS for a ≥7.0 Path A name; if one clears (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill.**
