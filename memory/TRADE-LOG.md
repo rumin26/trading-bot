@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jun 25 — EOD Snapshot (Day 30, Thursday — PCE)
+**Portfolio:** $99,238.49 | **Cash:** $69,109.64 (69.6%) | **Day P&L:** -$100.45 (-0.10%) | **Phase P&L:** -$761.51 (-0.76%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 41     | $754.739 | $734.86 | +0.22% | -$815.04 (-2.63%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 30, week 7, PCE print day. Reconcile (§14): live Alpaca = equity $99,238.49, cash $69,109.64, SPY 41 sh (avg $754.739), zero open orders — matches Jun 24 logged state (cash unchanged, no fills). No external/manual change → no HALT. Day P&L vs Jun 24 EOD ($99,338.94): -$100.45 (-0.10%), pure SPY mark drift (proxy now -2.63% from $754.74 avg). Phase P&L -$761.51 (-0.76%) vs $100k start. Deployed 30.36% (SPY proxy MV $30,128.85 / equity) — meets the Neutral participation floor (§4.1a); no sub-floor cash, no top-up needed. No alpha exposure; proxy carries no per-name stop by design. Trades today: none — **§9 macro veto in force into PCE** barred fresh single-name risk; held proxy/alpha flat per the documented Jun 23-24 plan. New alpha entries this week: 0/3; positions 1/6; DT 0/5. §4.4: 4th consecutive unvetoed no-clear in spirit, but veto-driven hold through PCE is the dated plan, not paralysis — hard recalibration audit due Fri Jun 26 if the post-PCE screen also clears nothing. **Tomorrow (Fri Jun 26, post-PCE, weekly-review):** §9 veto lifts; screen HC/Staples/Industrials top-5 RS for a Path A trend setup; if a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY (≤20%/name, ATR/8%-cap GTC stop at every alpha fill); if Fri clears nothing, run the hard §4.4 recalibration audit. Re-check floor first; top proxy if drift pushes sub-30%.
+
 ### Jun 24 — EOD Snapshot (Day 29, Wednesday)
 **Portfolio:** $99,338.94 | **Cash:** $69,109.64 (69.6%) | **Day P&L:** +$114.38 (+0.12%) | **Phase P&L:** -$661.06 (-0.66%)
 
