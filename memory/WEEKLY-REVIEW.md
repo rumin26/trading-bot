@@ -165,3 +165,68 @@ None. v2.1 was only deployed Jun 16 — too small a sample to re-architect (§13
 
 ### Overall Grade: D
 The one structural win — finally enforcing the participation floor and ending the 7-session breach — is real and was overdue. But the outcome was another clear miss: -0.34% vs the S&P's +1.6% (-1.9%), a third straight week of benchmark lag, caused by enforcing the floor a day late (missing Monday's rally) and then under-participating at the bare 30% floor through a record-high, low-VIX tape. Discipline improving; deployment calibration still costing us against the mandate.
+
+## Week ending 2026-06-26
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,717.30 (Mon Jun 22 AM ≈ Fri Jun 19 close) |
+| Ending portfolio | $99,066.29 (≈ Jun 26 EOD close $99,092.94) |
+| Week return | -$651.01 (-0.65%) |
+| S&P 500 week | ≈ -1.9% (tech-led risk-off; AI-capex payback fears) |
+| Bot vs S&P | **+1.25%** (first relative win in 4 weeks) |
+| Trades | 1 (W:0 / L:0 / open:1) — SPY proxy floor top-up, no alpha |
+| Win rate | N/A (no closed trades) |
+| Best trade | SPY -3.19% (only position, unrealized) |
+| Worst trade | SPY -3.19% (same) |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | None closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| SPY | $754.739 (41 sh) | $730.65 | -$987.65 (-3.19%) | none (proxy, §5/§8 exempt) |
+
+- **SPY** = benchmark proxy held to the Neutral 30% floor (§4.1a). One floor top-up Tue Jun 23 (BUY 1 SPY, order `95b235fd`) to keep ≥30% as the mark drifted. Deployed **30.3% of E** at week end; alpha layer empty all week (9th straight session SPY-only since Jun 16). Peer-valuation review N/A — the position *is* the index.
+
+### Sector Rotation Update
+- **Leaders (this week):** **Industrials, Energy, Healthcare** led as money rotated *out of* tech; **Materials (+22% YTD)** and **Staples (XLP)** held leadership. Six of 11 sectors rose even as the index fell — healthy breadth under the surface.
+- **Laggards:** **Technology (XLK)** dragged the tape (AI-capex payback doubts, OpenAI IPO-delay report, chip selling); Comm Services, Consumer Discretionary, Financials soft.
+- **Change vs last week:** Tech demoted further into the lagging RS quadrant — the multi-month breakdown deepened on AI-cost fears rather than reversing. The defensive + Industrials rotation flagged the prior two weeks was **confirmed**, not faded. Energy firmed despite WTI ~$70 (3rd straight weekly oil drop) — energy equities outran the commodity.
+- **Strongest sector we're NOT in:** **Industrials / Healthcare** — both confirmed RS leaders, but no single name screened to a clean ≥7.0 Path A breakout (defined entry + R:R ≥ 2:1) this week. Materials = FCX still ~6.0 (commodity deflation). The alpha gap remains single-name selection, not sector identification.
+
+### What Worked
+- **First relative win in four weeks: beat the S&P by ~+1.25%** (-0.65% vs ≈-1.9%). The 30% proxy / 70% cash posture — the *same* under-deployment that lagged three rising weeks — cushioned the book through a tech-led down week. The cash short paid off when the index fell.
+- **The "don't reflexively scale to ceiling" call was vindicated.** Last week's escalation watch said scale the proxy toward 60% in a low-VIX record tape; VIX instead rose to 18.68 on a tech-led risk-off, the regime stayed Neutral, and *not* chasing beta to the ceiling avoided a deeper mark loss. The quantitative Neutral read held correctly.
+- **Floor met every session, reconciliation clean every session.** One disciplined proxy top-up (Jun 23) kept gross ≥30% as SPY drifted; no sub-floor cash, no bearish-thesis breach, no operational exception.
+- **No forced trade into a falling knife.** Semis (lagging RS + active rout) correctly passed; §9 crash-guard logic and the gate kept us out of the tech drawdown.
+- **§9 macro veto scoped correctly through PCE (Jun 25):** held the proxy floor through the print, paused only fresh single-name risk — never flattened the floor.
+
+### What Didn't Work
+- **Still zero alpha — 9 straight sessions of SPY-only beta.** The book is pure index proxy; the entire week's relative win is asset-allocation luck (being light in a down tape), not stock selection. We have generated no alpha since the Jun 16 redeploy.
+- **The single-name pipeline gap persists for a 4th week.** Defensive/Industrial RS leadership has been confirmed for weeks, yet no specific ≥7.0 Path A breakout name was ever isolated — only ETF-level observations. The screen identifies sectors but never converts to a fundable single name.
+- **Absolute return negative (-0.65%, phase -0.93%, a phase low).** Beating a falling benchmark is the mandate, but the account still lost money; the proxy is now -3.19% from its Jun 16 entry — uncompensated beta drag while we wait for alpha.
+- **Hard §4.4 recalibration audit came due and is still outstanding** (5th consecutive unvetoed no-clear as of Jun 26). It was deferred through the MU/PCE veto window legitimately, but must be run in full next session — not deferred again.
+
+### Key Lessons
+- **The under-deployment debate cuts both ways.** Three weeks the 30%-floor posture lagged a rising tape; this week it beat a falling one. That is exactly why §4.1 ties exposure to a *quantitative regime read* rather than a directional guess — the floor/ceiling band is the discipline, and reflexively scaling to the ceiling last week would have hurt this week. The lesson is not "cash is good" but "let the regime, not recency, set exposure."
+- **Relative outperformance from allocation ≠ edge.** A down week flattered a book that holds no alpha. The win does not retire the pipeline problem; if anything it masks it. The fixable gap is still converting confirmed sector RS into a qualifying single name.
+- **A confirmed sector rotation with no isolated single name is an incomplete screen, not an uninvestable market.** Four weeks of "Industrials/Healthcare lead but nothing screened to ≥7.0" is itself the §4.4 signal — the screen breadth (top-5 RS names *within* each leader) has not been executed to a concrete breakout candidate.
+
+### Adjustments for Next Week
+- **Run the overdue hard §4.4 audit FIRST on Mon Jun 29** — diagnose the screening process, then act. Specifically isolate the top-5 RS single names within Industrials (XLI), Healthcare (XLV), and Staples (XLP) and score each on Path A; produce at least one concrete pass/fail per name, not an ETF-level "nothing qualified."
+- **If a name clears ≥7.0 (≥6.0 starter), fund it by trimming SPY** — ≤20%/name, 2-per-sector, ATR/8%-cap GTC stop at every alpha fill. The objective is to convert beta into alpha, not to add beta.
+- **Hold the Neutral 30% floor; do not chase the 60% ceiling** while the tape is tech-led risk-off and VIX sits 18–19. Re-check the floor each session; top the proxy if SPY closes sub-~$722 (the 30% break level).
+- **Watch the AI-capex derating.** SPY is ~32% Tech; a deepening chip selloff hits the proxy mark directly. That is a reason to manage the proxy/floor, not to add alpha into the falling group.
+- **Calendar:** Mon Jun 29 — VZ out of Dow, GOOG in (pre-open); Jun 30 — consumer confidence, NKE + STZ earnings. No §9 veto Monday.
+
+### Rule Change
+None. §13 anti-overfitting bars re-architecting on a sample where the same posture lagged 3 weeks then won 1 — the variance is the point, and the quantitative regime band already governs it correctly (this week vindicated *not* overriding it). The persistent issue (no alpha for 9 sessions) is a screen-execution gap the existing §4.4 / §11 rules already address; the fix is to *run* the audit and the top-5-RS single-name screen, not to change a rule. **Watch:** if the hard §4.4 audit next session again resolves (b) with no isolated single-name candidate from a confirmed-leader sector, escalate to a §11 screen-process tightening (mandate scoring the top-5 RS names within each leading sector to a recorded pass/fail), since "sector identified, name never isolated" is now a 4-week pattern.
+
+### Overall Grade: B-
+The mandate is to beat the S&P, and this week we did — +1.25% relative, the first win in four weeks, by letting the quantitative Neutral read hold the line rather than chasing beta to the ceiling (which would have hurt). Discipline was clean: floor met every session, reconciliation clean, no forced trade into the tech rout. The grade is held back from higher by honesty about the mechanism — the win is allocation, not alpha; the book has held zero alpha for 9 sessions, posted an absolute -0.65% (phase low), and the single-name pipeline gap is now a 4-week pattern with the hard §4.4 audit still owed. A real relative win, earned by discipline, on an unfinished process.
