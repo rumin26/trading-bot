@@ -667,3 +667,54 @@ Hard 3-consecutive trigger was met & resolved (b) on Jun 24. Re-running lightwei
 
 ### Decision
 **HOLD on alpha; floor met (30.47%), no top-up needed.** No name clears ≥7.0 — semis fail the Path A sector gate (Tech lagging RS; today's blowout is a one-day gap, not a confirmed trend); FCX ~6.0 with momentum rolling over; defensives a fading flight-to-safety rotation, unscreened to ≥7.0. PCE in-line removed the hawkish tail but doesn't create a qualifying setup. Holding the benchmark floor (not chasing beta toward the 60% ceiling on a single-day bounce) is the disciplined posture; book never below the regime floor, no bearish thesis warranted. **No trades. Next session (Fri Jun 26, weekly review): re-check floor; confirm whether the AI bounce is building into a multi-week Tech RS recovery (would re-open semis on Path A) or fading; screen Materials/Staples/Industrials/Healthcare top-5 RS for a ≥7.0 Path A name; if one clears (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill.**
+
+---
+
+## 2026-06-26 — Pre-market Research (Day 31, Friday — post-PCE, weekly-review day)
+
+### Account (snapshot)
+- Equity: **$98,999.87** (last_equity $99,215.94; intraday -0.72% on SPY mark)
+- Cash: **$69,109.64** (69.8%, settled)
+- Buying power: $360,131 (margin avail, unused — cash-account discipline §2)
+- Daytrade count: 0/5
+- Open positions: **SPY 41 sh @ $754.739** (mkt $29,890.23, **30.2% of E**, unrealized -$1,054.07 / -3.41%; current $729.03). Open orders: **none**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $98,999.87, cash $69,109.64, **SPY 41 sh @ $754.739, zero open orders** — matches Jun 25 EOD logged state to the cent (cash $69,109.64; SPY 41 sh, proxy top-up 95b235fd). Equity differs only by SPY mark drift (close $734.86 → $729.03). No external/manual change → **No HALT.**
+
+### Market Context — TECH-LED RISK-OFF; AI-capex cost fears, OpenAI IPO delay
+- **S&P futures -0.3% to -0.7%; Nasdaq-100 futures -1.0% to -1.6%; Dow futures +0.1%** — narrow, tech-specific selloff (defensives/Dow holding). Trigger: report OpenAI may **delay its IPO** + mounting worry over AI data-center/infrastructure costs. **Kospi -8%, 20-min halt; Asia -3.2%.**
+- **VIX 18.68** (+0.3%; Jun 25 close 18.89) — elevated within the 18–26 Neutral band, **far below the 26 crash-guard**; no ≥5%/10-session SPX drawdown.
+- **SPX ~7,365** > 50-DMA (~7,316) > 200-DMA (~6,894) — **multi-month uptrend intact**; nearly a year above both MAs.
+- **Oil at multi-month lows:** WTI ~$70 (<$71), Brent ~$73 — **third straight weekly drop**; Hormuz traffic normalizing despite a tanker strike off Oman. Commodity/copper bid keeps deflating → **FCX/Materials headwind persists**.
+- **Sector RS:** Leaders = **Materials (+22% YTD), Staples (XLP), Industrials (XLI), Energy (XLE), Healthcare**. Laggers = **Technology (XLK), Comm, Discretionary, Financials** — Tech cooling as the market questions AI-capex payback. Today's tape **confirms** the defensive/anti-Tech RS rotation rather than reversing it.
+
+### Catalyst Calendar (this week)
+- **Today (light):** UMich final consumer sentiment + inflation expectations; goods trade balance (-$85.0B f/c); Fed speakers Williams & Kashkari; Baker Hughes rig count. **No heavyweight data → §9 macro veto NOT in force** (PCE was Jun 25; next prints later).
+- **Mon Jun 29:** **VZ removed from the Dow, replaced by GOOG** (pre-open). **Jun 30:** consumer confidence; NKE + STZ earnings.
+- No alpha positions held → no position-specific earnings/stop exposure. SPY proxy carries no per-name stop by design (§5/§8).
+
+### Regime Assessment
+**NEUTRAL (§4.1).** VIX 18.68 (<26 → no crash-guard; no ≥5%/10-session drawdown), SPX > 50/200-DMA, but VIX >18 and a tech-led risk-off tape → take the more cautious read. **Neutral: 30% floor / 60% ceiling.**
+- **Floor:** SPY = **30.2% of E** — **above the 30% floor; no top-up required pre-market.** Floor-break level ≈ SPY **$722.4** (vs current $729.03, ~0.9% buffer). **Watch:** on a tech-led down day SPY can slip — if SPY closes below ~$722 the proxy goes sub-floor and must be topped at EOD execution. No sub-floor cash now; no bearish thesis warranted (uptrend intact, VIX << 26).
+
+### Trade Ideas (alpha layer)
+1. **Semis / Tech (NVDA, MU, QCOM, AVGO)** — actively selling off on AI-capex cost fears + OpenAI IPO-delay; **Technology in the LAGGING RS quadrant** (multi-month). Today is a falling knife, not a confirmed Path A trend in a top-3 sector. Score ~4.5 (Mom 3 / Cat 4 / R:R 4 / Moat 8 / Val 5). **Fails Path A sector gate + §9 crash-guard bars adding momentum into a tech selloff. Pass.**
+2. **FCX / Materials** — sector still top-3 RS leader (+22% YTD), but copper/oil deflating (WTI $70, 3rd weekly drop); momentum rolling over (~$62), no constructive 50-DMA pullback. Re-score **~6.0** (Mom 5 / Cat 6 / R:R 5 / Moat 6 / Val 6) → fails ≥7.0. **Pass.**
+3. **Defensive leaders (Healthcare/Staples — XLV, XLP)** — RS leadership **confirmed** by today's risk-off (not the fading bid feared Jun 25). Sector-level trend is real, but **no single name screened to a ≥7.0 Path A setup** (defined breakout + R:R ≥ 2:1) this session — ETF-level, low-vol rotation. **Watchlist — isolate XLV/XLP/XLI top-5 RS single-name(s) next session; consider a starter if one clears ≥6.0 on a defined breakout.**
+
+### §4.4 Recalibration Audit (HARD — post-PCE session, ~5th consecutive unvetoed no-clear)
+Triggered audit run in full (the dated "if Fri clears nothing" condition from Jun 23–25):
+1. **Score calibration:** scores are **not** a suppressed 6.0–6.9 cluster being gamed. Semis ~4.5 (active rout, lagging RS — genuinely uninvestable today); FCX ~6.0 on a **real** commodity-deflation headwind (oil 3rd weekly drop). **Not a calibration failure.**
+2. **Catalyst-path coherence:** semis rejected on the Path A **sector-RS** gate (Tech lagging), not on a misapplied dated-catalyst rule; defensives judged on Path A trend. **Coherent.**
+3. **Screen breadth:** all five leading sectors screened (Materials/Staples/Industrials/Energy/Healthcare). **Honest gap:** defensive single-names not yet isolated to a specific ≥7.0 breakout — actioned as the explicit next-session task.
+- **Resolution (b):** the qualifying universe genuinely does not yield a clean ≥7.0 Path A **single name** today — the two leading-RS engines are commodities (deflating) and low-vol defensives (ETF-level rotation, no isolated breakout), while the usual momentum engine (Tech) is in a multi-week RS breakdown and an active selloff. This is a **market condition, not process paralysis**; forcing a low-conviction trade is the prohibited v1.0 error. **Floor held via the proxy — book never below the regime floor.** Diagnosis: holding the benchmark rather than chasing the 60% ceiling has been correct (book -1.0% vs $100k, no tech drawdown exposure).
+
+### Risk Factors
+- **AI-capex repricing:** OpenAI IPO delay + data-center cost fears could deepen the Tech derating; contagion risk to broad beta (SPY ~32% Tech) — direct hit to the proxy mark, the floor-slip watch above.
+- **Floor slippage:** proxy at 30.2%, break ≈ SPY $722; top up at EOD if it closes sub-floor.
+- **Commodity deflation:** WTI $70 / 3rd weekly drop pressures Materials/Energy RS leadership (two-sided if Hormuz re-escalates).
+- **Sticky inflation overhang:** core PCE 3.4% (Jun 25) keeps the Fed hawkish — caps multiple expansion; watch Williams/Kashkari tone today.
+
+### Decision
+**HOLD on alpha; floor met (30.2%), no top-up needed pre-market.** No name clears ≥7.0 — semis a lagging-RS falling knife (§9 crash-guard bars adding momentum into a tech selloff); FCX ~6.0 on deflating commodities; defensives RS-confirmed but no isolated ≥7.0 Path A single name yet. Hard §4.4 audit resolved (b): genuine market condition (commodity + defensive low-vol leadership, Tech RS breakdown), not paralysis — floor held, book never below regime floor, no bearish thesis warranted. **No trades.** **Next session (Mon Jun 29): re-check floor first (top SPY if closed sub-$722); isolate XLV/XLP/XLI top-5 RS single-names for a ≥7.0 Path A breakout (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill; reassess whether the Tech selloff is stabilizing or deepening (deeper → proxy mark risk, not an alpha entry).**
