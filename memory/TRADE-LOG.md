@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jun 26 — EOD Snapshot (Day 31, Friday — post-PCE, weekly-review)
+**Portfolio:** $99,092.94 | **Cash:** $69,109.64 (69.7%) | **Day P&L:** -$145.55 (-0.15%) | **Phase P&L:** -$907.06 (-0.91%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 41     | $754.739 | $731.30 | -0.41% | -$960.99 (-3.11%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 31, week 7, post-PCE weekly-review Friday. Reconcile (§14): live Alpaca = equity $99,092.94, cash $69,109.64, SPY 41 sh (avg $754.739), zero open orders — matches Jun 25 logged state (cash unchanged, no fills). No external/manual change → no HALT. Day P&L vs Jun 25 EOD ($99,238.49): -$145.55 (-0.15%), pure SPY mark drift (close $734.86→$731.30, -0.41% on the day; proxy now -3.11% from $754.74 avg). Phase P&L -$907.06 (-0.91%) vs $100k start — phase low. Deployed 30.26% (SPY proxy MV $29,983.30 / equity) — still meets the Neutral participation floor (§4.1a); no sub-floor cash, no top-up needed. No alpha exposure; proxy carries no per-name stop by design. Trades today: none. New alpha entries this week: 0/3; positions 1/6; DT 0/5. **§9 macro veto lifted post-PCE**, but the post-PCE screen cleared no name to the ≥7.0 gate — this is the 5th consecutive unvetoed no-clear, so the **hard §4.4 recalibration audit is now DUE and remains OUTSTANDING** (must run next pre-market: diagnose the screening process, not just log another HOLD). Book has carried SPY-only proxy for 9 sessions (since Jun 16) with zero alpha — pure beta drag, -3.11% on the proxy and -0.91% phase. **Tomorrow / next session (Mon Jun 29):** run the overdue hard §4.4 audit FIRST; then screen HC/Staples/Industrials top-5 RS for a Path A trend setup; if a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY (≤20%/name, ATR/8%-cap GTC stop at every alpha fill). Re-check floor first; top proxy if drift pushes sub-30%.
+
 ### Jun 25 — EOD Snapshot (Day 30, Thursday — PCE)
 **Portfolio:** $99,238.49 | **Cash:** $69,109.64 (69.6%) | **Day P&L:** -$100.45 (-0.10%) | **Phase P&L:** -$761.51 (-0.76%)
 
