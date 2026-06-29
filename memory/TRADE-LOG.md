@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jun 29 — EOD Snapshot (Day 32, Monday)
+**Portfolio:** $99,480.80 | **Cash:** $69,109.64 (69.5%) | **Day P&L:** +$387.86 (+0.39%) | **Phase P&L:** -$519.20 (-0.52%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 41     | $754.739 | $740.76 | +1.62% | -$573.14 (-1.85%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 32, start of week 8. Reconcile (§14): live Alpaca = equity $99,480.80, cash $69,109.64, SPY 41 sh (avg $754.739), zero open orders — matches Jun 26 logged state (cash unchanged, no fills). No external/manual change → no HALT. Day P&L vs Jun 26 EOD ($99,092.94): +$387.86 (+0.39%), pure SPY mark recovery (close $731.30→$740.76, +1.62% on the day; proxy now -1.85% from $754.74 avg, recovering off Friday's phase low). Phase P&L -$519.20 (-0.52%) vs $100k start. Deployed 30.53% (SPY proxy MV $30,371.16 / equity) — meets the Neutral participation floor (§4.1a); no sub-floor cash, no top-up needed. No alpha exposure; proxy carries no per-name stop by design. Trades today: none. New alpha entries this week (fresh cap): 0/3; positions 1/6; DT 0/5. **§4.4 hard recalibration audit remains OUTSTANDING** — carried over from Jun 26 (5th+ consecutive unvetoed no-clear); book has held SPY-only proxy since Jun 16 (10 sessions) with zero alpha — beta drag. Audit must run next pre-market: diagnose the screening process (gate calibration vs. genuine no-setup tape), not just log another HOLD. **Tomorrow (Tue Jun 30):** run the overdue hard §4.4 audit FIRST; then screen HC/Staples/Industrials top-5 RS for a Path A trend setup; if a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY (≤20%/name, ATR/8%-cap GTC stop at every alpha fill). Re-check floor first; top proxy if drift pushes sub-30%.
+
 ### Jun 26 — EOD Snapshot (Day 31, Friday — post-PCE, weekly-review)
 **Portfolio:** $99,092.94 | **Cash:** $69,109.64 (69.7%) | **Day P&L:** -$145.55 (-0.15%) | **Phase P&L:** -$907.06 (-0.91%)
 
