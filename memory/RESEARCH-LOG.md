@@ -774,3 +774,61 @@ Main jobs print = **NFP Thu Jul 2** → the one-session pre-print veto on fresh 
 
 ### Decision
 **HOLD on alpha; floor met (30.42%), no top-up needed.** No name clears ≥7.0 — semis a lagging-RS name into an unresolved Kospi rout; FCX ~6.0 on deflating commodities (today's oil pop is geopolitical, not structural); defensive/energy leaders RS-intact but no isolated ≥7.0 Path A single name yet. Today's broad bounce is an Iran-truce relief move, not a Tech-trend repair — holding the benchmark floor (not chasing the 60% ceiling on a headline bounce) is the disciplined posture; book never below the regime floor, no bearish thesis warranted. **No trades.** **Next session (Tue Jun 30): re-check floor (top SPY if sub-$727 at close); isolate XLE/XLV/XLP top-5 RS single-names for a ≥7.0 Path A breakout (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill; note §9 veto on fresh single-name risk binds Wed Jul 1 ahead of NFP (Thu Jul 2). Watch whether the Iran truce holds and whether the Kospi/Tech rout contagions into broad beta.**
+
+---
+
+## 2026-06-30 — Pre-market Research (Day 33, Tuesday — week 7)
+
+### Account (snapshot)
+- Equity: **$99,488.59** (last_equity $99,490.64; ~flat intraday)
+- Cash: **$69,109.64** (69.5%, settled)
+- Buying power: $361,499 (margin avail, unused — cash-account discipline §2)
+- Daytrade count: 0/5
+- Open positions: **SPY 41 sh @ $754.739** (mkt $30,378.95, **30.54% of E**, unrealized -$565.35 / -1.83%; current $740.95). Open orders: **none**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,488.59, cash $69,109.64, **SPY 41 sh @ $754.739, zero open orders** — matches Jun 29 logged state to the cent (cash $69,109.64; SPY 41 sh, proxy top-up 95b235fd). Equity differs only by SPY mark drift (Jun 29 mark $737.08 → $740.95... lastday $741, ~flat today). No external/manual change → **No HALT.**
+
+### Market Context — RISK-ON; record close, tech rebound, Iran de-escalation
+- **Mon Jun 29 ripped:** S&P +1.2%, **Nasdaq +2%**, **Dow closed >52,000 (record)** — snapped a 5-day losing streak. Broad-based bargain-hunting, **mega-cap tech spearheaded the rebound, breadth noticeably improved.** GOOG (joined Dow Mon) +4%.
+- **Drivers:** US–Iran agreed to halt strikes + pursue talks in Doha; **SCOTUS let Fed Gov. Cook stay** (reinforced Fed independence/policy continuity).
+- **S&P futures +~0.15%** Tue (ES ~7,455 vs ~7,444 open) — holding the record close ahead of jobs data.
+- **VIX 17.55** (Jun 29 close, -0.57%) — **now <18**, far below the 26 crash-guard; no ≥5%/10-session drawdown.
+- **SPX > 50-DMA > 200-DMA** — multi-month uptrend intact.
+- **Oil still soft despite the bounce:** WTI ~$70 (on track **-19% month / -24% quarter**), Brent ~$73 (**-20% month**) — Doha peace talks + expected Gulf supply weigh; structural deflation pressures Materials/Energy RS.
+- **Sector RS:** **Healthcare the YTD leader (+22%)**, alongside Materials/Staples/Energy/Industrials. Tech rebounding hard off the AI-capex selloff but still questioned (concentration: ~17% of S&P beat the index over the past month) — **one-day bounce ≠ confirmed Tech RS-leadership repair.**
+- **Holiday-shortened week:** bond market closed Fri Jul 3 (Independence Day).
+
+### Catalyst Calendar (this week)
+- **Today (Tue Jun 30):** FHFA HPI 9:00, **Chicago PMI 9:45, Consumer Confidence 10:00, JOLTS (May) 10:00** — labor-demand read into NFP. **STZ earnings BMO; NKE earnings AMC.**
+- **Wed Jul 1:** ADP private payrolls; ISM Mfg. → **§9 macro-veto session (pre-NFP).**
+- **Thu Jul 2:** **Nonfarm payrolls (released early, consensus +172k)** — week's heavyweight print.
+- **Fri Jul 3:** bond market closed; equities half/closed session.
+- No alpha positions held → no position-specific earnings/stop exposure. SPY proxy carries no per-name stop by design (§5/§8).
+
+### Regime Assessment
+**NEUTRAL — on the cusp of Risk-on (§4.1).** VIX 17.55 (<18 ✓, no crash-guard) and SPX > 50/200-DMA ✓; Risk-on's third leg (breadth ≥50% above 200-DMA) is **improving but unconfirmed** (concentration still narrow). Take the more cautious read → **Neutral: 30% floor / 60% ceiling.** If breadth confirms ≥50% and VIX holds <18, the floor steps to 60% — watch for a proxy step-up.
+- **Floor:** SPY = **30.54% of E** — **above the 30% floor; no top-up required pre-market.** Floor-break level ≈ SPY **$722.5** (vs current $740.95, ~2.5% buffer). No sub-floor cash; no bearish thesis warranted (uptrend intact, VIX <18).
+
+### §9 Macro-Veto Status
+Heavyweight print = **NFP Thu Jul 2** → the one-session pre-print veto on fresh single-name risk falls **Wed Jul 1**. **NOT in force today** (JOLTS/consumer confidence are secondary). Floor is never paused regardless (§4.1a). → **Today is the cleanest window this week to add a qualifying alpha name** before the Wed veto.
+
+### Trade Ideas (alpha layer)
+1. **Mega-cap Tech / Semis (NVDA, AVGO, GOOG, MU)** — Mon's +2% Nasdaq rebound is real, but **Technology remains in the multi-month LAGGING RS quadrant**; a single risk-on session off an Iran-truce headline is not a confirmed Path A trend in a top-3 sector. Score **~5.0** (Mom 4 / Cat 5 / R:R 5 / Moat 8 / Val 5). **Fails Path A sector-RS gate. Pass** — but note if Tech RS re-leads on follow-through, re-score next session.
+2. **FCX / Materials** — sector still top-3 RS (+22% YTD theme), but copper/oil structurally deflating (WTI -19% MTD); momentum rolling over (~$62), no constructive 50-DMA pullback. Re-score **~6.0** (Mom 5 / Cat 6 / R:R 5 / Moat 6 / Val 6) → fails ≥7.0. **Pass.**
+3. **Healthcare leaders (XLV top-5 single names — e.g. LLY, UNH, ABBV)** — **Healthcare is the #1 YTD RS sector (+22%)**, breaking out of multi-year consolidation as a flight-to-safety bid; this is the strongest Path A sector backdrop on the board. **Honest gap (multi-session):** no isolated XLV single name screened to a clean ≥7.0 Path A setup (defined breakout + R:R ≥ 2:1) this session — still ETF-level. **Action: this is now the top next-session task — isolate the specific XLV breakout name today's clean (no-veto) window favors; starter if one clears ≥6.0.**
+
+### §4.4 Recalibration Audit (rolling — ~7th consecutive unvetoed no-clear)
+1. **Score calibration:** not a gamed 6.0–6.9 cluster. Tech ~5.0 (lagging RS, one-day relief bounce); FCX ~6.0 on a real commodity-deflation headwind. **Not a calibration failure.**
+2. **Catalyst-path coherence:** Tech rejected on the Path A **sector-RS** gate (lagging), not a misapplied dated-catalyst rule; Healthcare/Materials judged on Path A trend. **Coherent.**
+3. **Screen breadth:** all five leading sectors screened. **Persistent honest gap — flagged for weekly review:** Healthcare/defensive single-names have been carried as "isolate next session" for multiple sessions without a named breakout. The screen-depth follow-through (drill XLV top-5 to a specific ≥7.0/≥6.0 name) is **overdue** and is the explicit task for the next clean window.
+- **Resolution (b):** the qualifying universe still does not yield a clean ≥7.0 Path A **single name** today — Tech's rebound is one risk-on session off a geopolitical headline (RS still lagging), Materials/Energy are structurally deflating, and the strongest sector (Healthcare) remains an un-drilled ETF-level rotation. Today's tape is a record-high relief rally, not a fresh confirmed single-name trend to fund. **Floor held via the proxy — book never below the regime floor.** Note: the *process* gap (un-isolated Healthcare name) is real and named, distinct from a market-condition pass.
+
+### Risk Factors
+- **Jobs-week cluster:** JOLTS (6/30) → ADP (7/1) → NFP (7/2, early) on back-to-back sessions in a holiday-shortened week; any payrolls surprise prices Thursday with no Friday to absorb it. §9 veto binds Wed 7/1.
+- **Rally durability:** Mon's record close hangs on the Iran truce + Fed-independence relief; a failed Doha meeting or hot/cold jobs print could snap the bid. Narrow breadth (~17% beat the index over a month) leaves the advance concentration-dependent.
+- **Tech round-trip risk:** the +2% Nasdaq bounce could fade if AI-capex doubts resurface — SPY ~32% Tech, direct proxy-mark exposure (floor-slip watch ≈ SPY $722.5).
+- **Commodity deflation:** WTI -19% MTD / -24% QTD pressures Materials/Energy RS leadership (two-sided only if Hormuz re-escalates).
+
+### Decision
+**HOLD on alpha; floor met (30.54%), no top-up needed pre-market.** No name clears ≥7.0 — Tech's record-rally rebound is one risk-on session with RS still lagging (Pass); FCX ~6.0 on structurally deflating commodities; Healthcare is the strongest Path A sector but no isolated ≥7.0 single name has been drilled yet. Regime is **Neutral on the cusp of Risk-on** (VIX <18, breadth improving but unconfirmed) — hold the 30% floor, watch for a step-up to 60% if breadth confirms. **No trades.** **Next session task (high priority — today/Tue is the cleanest no-veto window before Wed 7/1 NFP veto): drill XLV top-5 RS single-names to a specific ≥7.0 Path A breakout (≥6.0 starter), fund by trimming SPY — ≤20%/name, ATR/8%-cap GTC stop at every alpha fill. Re-check floor at close (top SPY if sub-$722.5). Reassess whether breadth confirms Risk-on (→ 60% floor) and whether Tech RS genuinely re-leads on follow-through vs. a one-day relief bounce.**
