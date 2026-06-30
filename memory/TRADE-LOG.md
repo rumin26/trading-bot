@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jun 30 — EOD Snapshot (Day 33, Tuesday)
+**Portfolio:** $99,692.36 | **Cash:** $69,109.64 (69.3%) | **Day P&L:** +$211.56 (+0.21%) | **Phase P&L:** -$307.64 (-0.31%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 41     | $754.739 | $745.92 | +0.66% | -$361.58 (-1.17%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 33, week 8. Reconcile (§14): live Alpaca = equity $99,692.36, cash $69,109.64, SPY 41 sh (avg $754.739), zero open orders — matches Jun 29 logged state (cash unchanged, no fills). No external/manual change → no HALT. Day P&L vs Jun 29 EOD ($99,480.80): +$211.56 (+0.21%), pure SPY mark recovery (close $741.00→$745.92, +0.66% on the day; proxy now -1.17% from $754.74 avg, continuing to recover off Friday's phase low). Phase P&L -$307.64 (-0.31%) vs $100k start. Deployed 30.68% (SPY proxy MV $30,582.72 / equity) — meets the Neutral participation floor (§4.1a); no sub-floor cash, no top-up needed. No alpha exposure; proxy carries no per-name stop by design. Trades today: none. New alpha entries this week: 0/3; positions 1/6; DT 0/5. **§4.4 hard recalibration audit STILL OUTSTANDING** — carried from Jun 26/29; book has held SPY-only proxy since Jun 16 (now 11 sessions) with zero alpha — pure beta drag. The audit must run next pre-market: diagnose the screening process (gate calibration vs. genuine no-setup tape), not just log another HOLD. **Tomorrow (Wed Jul 01):** run the overdue hard §4.4 audit FIRST; then screen HC/Staples/Industrials top-5 RS for a Path A trend setup; if a name clears ≥7.0 (≥6.0 starter), fund by trimming SPY (≤20%/name, ATR/8%-cap GTC stop at every alpha fill). Re-check floor first; top proxy if drift pushes sub-30%.
+
 ### Jun 29 — EOD Snapshot (Day 32, Monday)
 **Portfolio:** $99,480.80 | **Cash:** $69,109.64 (69.5%) | **Day P&L:** +$387.86 (+0.39%) | **Phase P&L:** -$519.20 (-0.52%)
 
