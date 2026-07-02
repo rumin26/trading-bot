@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 02 — EOD Snapshot (Day 35, Thursday)
+**Portfolio:** $99,384.38 | **Cash:** $39,852.38 (40.1%) | **Day P&L:** -$258.78 (-0.26%) | **Phase P&L:** -$615.62 (-0.62%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.519 | $744.17 | -0.21% | -$667.96 (-1.11%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 35, week 8. Reconcile (§14): EOD live Alpaca = equity $99,384.38, cash $39,852.38, SPY 80 sh (avg $752.5195), 1 open order (JPM $322 buy-limit GTC, OTO $305 stop, unfilled) — matches the Jul 02 market-open logged state exactly (SPY floor step-up to 80 sh + JPM armed limit). No external/manual change → no HALT. Day P&L vs Jul 01 EOD ($99,643.16): -$258.78 (-0.26%). Today's SPY step-up (30%→60%) added 39 sh @ ~$750.19; the tape then faded (SPY close $745.76→$744.17, -0.21%), so the larger book took the full drift — proxy now -$667.96 (-1.11%) from $752.52 avg. Phase P&L -$615.62 (-0.62%) vs $100k start. Deployed 59.9% (SPY proxy MV $59,533.60 / equity) — RISK-ON floor is 60%; the book sits fractionally under on intraday drift (rounding-level, not a breach) — top SPY tomorrow only if it drifts further sub-floor. No alpha exposure yet; proxy carries no per-name stop by design. **JPM Path A limit rests unfilled** at $322 (mkt ~$333) — disciplined pullback entry, arms $305 stop on fill; counts 1/3 alpha when hit. Trades today: 1 fill (SPY proxy step-up, not alpha — excluded from §4.3 cap) + 1 armed alpha limit (JPM, unfilled). New alpha entries this week: 0/3; positions 1/6; DT 0/5. **§4.4 audit resolved today** — JPM is the named, drilled Path A leader armed at its qualifying price; regime confirmed NEUTRAL→RISK-ON on NFP (SPX>50/200-DMA, VIX<18, breadth 61.6%). **Tomorrow (Fri Jul 03 — early close, holiday-thinned ahead of July 4):** confirm JPM fill + live $305 stop; re-check floor at RISK-ON 60% (top SPY if drift holds sub-floor); if floor holds and a 2nd Path A name clears ≥7.0, fund by trimming SPY (≤20%/name, GTC stop at every fill). Thin tape — avoid chasing.
+
 ### Jul 02 — Market-Open Execution (Day 35, Thursday — NFP print, §9 veto lifted)
 **Portfolio:** $99,868.87 | **Cash:** ~$39,852 (39.9%) | **Long MV:** $60,014 (60.1%) | **Phase P&L:** -$131.13 (-0.13%)
 
