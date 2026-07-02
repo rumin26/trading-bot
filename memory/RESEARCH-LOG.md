@@ -886,3 +886,55 @@ Heavyweight print = **NFP Thu Jul 2** → the one-session pre-print veto on **fr
 
 ### Decision
 **HOLD on alpha; floor met (30.65%), no top-up needed. §9 veto binds today — no fresh single-name risk regardless of score.** No name clears ≥7.0 anyway — Energy ~6.0 (sector RS strong but crude deflating), Industrials/Staples strongest Path A backdrop but no isolated ≥7.0 breakout drilled, Tech ~5.0 (lagging RS). Regime **Neutral on the cusp of Risk-on** (VIX 16.45 <18; breadth unconfirmed) — hold the 30% floor, watch for a step-up to 60% if breadth confirms and VIX holds <18. **No trades.** **Next session (Thu Jul 2 — §9 veto LIFTS at open, but NFP prints early with no Friday buffer): the clean no-veto window is Thu post-print — drill XLE/XLI/XLP top-5 RS single-names to a specific ≥7.0 Path A breakout (≥6.0 starter), fund by trimming SPY (≤20%/name, ATR/8%-cap GTC stop at every alpha fill). Re-check floor at close (top SPY if sub-$729.2). Reassess Risk-on step-up (→ 60% floor) if breadth confirms; confirm Healthcare RS demotion and whether Energy RS survives further crude deflation.**
+
+---
+
+## 2026-07-02 — Pre-market Research (Day 35, Thursday — week 7, NFP-print session, §9 veto LIFTED)
+
+### Account (snapshot)
+- Equity: **$99,758.78** (last_equity $99,685.80; ~flat, SPY mark drift higher)
+- Cash: **$69,109.64** (69.3%, settled)
+- Buying power: $362,256 (margin avail, unused — cash-account discipline §2)
+- Daytrade count: 0/5
+- Open positions: **SPY 41 sh @ $754.739** (mkt $30,644.22, **30.72% of E**, unrealized -$300.08 / -0.97%; current $747.42, intraday +$68). Open orders: **none**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,758.78, cash $69,109.64, **SPY 41 sh @ $754.739, zero open orders** — matches Jul 1 logged state to the cent (cash $69,109.64; SPY 41 sh, proxy top-up 95b235fd). Equity differs only by SPY mark drift ($745.07 → $747.42). No external/manual change → **No HALT.**
+
+### Market Context — RISK-ON tape into the NFP print
+- **Futures:** ES +0.15% (~7,554.5) pre-open; modest bid after a record H1. Stocks digesting a soft **ADP (+98K, below ~118K cons.)** and awaiting **NFP 8:30 ET** + Fed Chair Warsh at the open.
+- **VIX 16.45** (Jul 1 close; opened **17.54** today, range 16.27–17.75) — **still <18**, well below the 26 crash-guard; no ≥5%/10-session drawdown. Note: intraday crept toward the 18 boundary — NFP could push it across.
+- **SPX > 50-DMA > 200-DMA** — multi-month uptrend intact (index ~7,600 area, modest late-June pullback).
+- **Breadth (NEW hard read):** **61.6% of S&P above 200-DMA, 62.6% above 50-DMA** (StreetStats, late June). **This confirms the ≥50% breadth leg** that was "unconfirmed" for prior sessions.
+- **Oil deflating further:** WTI **~$68** (fell below $69 Jul 1 — first since Feb 27), Brent ~$73. Strait-of-Hormuz reopening + surging Iran/Russia exports = accelerating supply glut. **Structural headwind now pressuring Energy RS** (sector -0.95% on the day).
+- **Sector RS (rotating):** recent leadership tilting to **Financials (+1.97%) and Communication Services (+2.63%)**; **Energy weakening** as crude breaks down; Tech still lagging (-1.69% on the day). Banks (JPM/GS/BAC) printing fresh highs on elevated yields (30Y ~4.98%).
+
+### Regime Assessment — steps to RISK-ON (pending post-NFP VIX recheck)
+All three Risk-on legs now met on the data in hand: **SPX > 50/200-DMA ✓; VIX 16.45 <18 ✓; breadth 61.6% ≥50% ✓.** No conflicting input points to Neutral. → **Regime: RISK-ON — 60% floor / 85% ceiling.** The multi-session "Neutral on the cusp" holding pattern resolves once breadth is confirmed.
+- **Caveat (more-cautious, §4.1):** VIX opened 17.54, hovering near the 18 boundary on an NFP morning. A hot/cold print could push VIX >18 → revert Neutral. **Execution therefore sequenced to the market-open workflow post-print:** recheck VIX/breadth at the open, then step SPY to the confirmed floor. This is same-day sequencing around a scheduled 8:30 print — **not** a "wait for confirmation" ratchet.
+- **Floor math:** 60% floor = **$59,855**; SPY currently **$30,644 (30.72%)** → **sub-floor by ~$29.2K (~39 sh @ $747)** *under Risk-on*. Note SPY already meets the 30% Neutral floor, so **no floor breach exists right now**; the top-up is triggered only once Risk-on confirms at the open. Even if VIX>18 reverts Neutral, 60% SPY sits at the Neutral ceiling (permissible). No bearish thesis on file → floor is mechanical.
+
+### §9 Macro-Veto Status — LIFTED at today's open
+NFP (the week's heavyweight) prints **8:30 ET today**; the one-session pre-print veto bound **Wed Jul 1** and **lifts at today's open (post-print)**. → **Fresh single-name risk is permitted today** once the market opens with the print out. Floor never paused regardless (§4.1a).
+
+### Trade Ideas (alpha layer) — single-name drill finally isolates a named leader
+1. **JPM (Financials) — NAMED Path A candidate.** Clean uptrend off May $295 lows → **ATH $343.45 (Jun 25)**, modest healthy pullback to **$334.07 (Jul 1)**; +6.8% June, sector at fresh highs on elevated yields. Score ≈ **7.3** (Mom 8 / Cat 7 trend-quality / R:R 6 / Moat 9 / Val 6). **Clears the conviction gate — BUT fails the Path A R:R ≥2:1 leg at $334:** 2.5×ATR stop (~$7 ATR → ~$17.5, stop ~$316) vs. a defensible target near the ATH gives only ~1.5:1; the name is **extended, 2.7% off ATH with limited room to next resistance.** §7.1: P/E ~15x, a modest (not 2×) premium to bank median — OK. Earnings **Jul 14** (~8 trading days out → **clears the 5-day full veto now**, but plan the position around it). **Action: arm a pullback BUY-LIMIT ≈ $322** (50-DMA / breakout-retest zone) where R:R to ~$355 clears **2:1**; size full per §5 (R=$748, ~42 sh, ~13% E), **GTC ATR stop ~$305 at fill.** Do **not** chase at $334.
+2. **Energy leaders (XLE — XOM/CVX/COP)** — sector RS fading as WTI breaks below $69; price trend now diverging bearishly from the earlier RS leadership. Score ≈ **5.5** (Mom 5 / Cat 5 / R:R 5 / Moat 7 / Val 6). **Pass** — commodity deflation is a structural headwind, not a fresh uptrend.
+3. **Mega-cap Comm Services / Tech (META, GOOGL, NVDA)** — Comm Services led today (+2.63%) but Tech RS still lagging on a multi-week basis; one strong session is not confirmed Path A leadership. Score ≈ **5.5**. **Pass** — re-score if the group sustains RS leadership on follow-through.
+
+### §4.4 Recalibration Audit — RESOLVES with a deployment (resolution (a))
+The multi-session "isolate a leading-sector single name" gap is now **closed**: **JPM is the named, drilled Path A leader** (Financials RS, clean uptrend, conviction 7.3). It does not enter at the market price only because the **R:R gate legitimately fails when extended** — the correct disciplined response is to **arm the qualifying-price limit**, not to chase or to log another vague "isolate next session." Combined with the Risk-on floor step-up, today is a **deployment session**, not another idle HOLD. The rotating-RS moving-target problem noted prior sessions is acknowledged: Financials/Comm-Services now lead; Energy/Healthcare have rolled.
+
+### Risk Factors
+- **NFP prints into a short week with no Friday buffer** (Fri Jul 3 closed) — any payrolls surprise prices entirely today; ADP already soft (+98K) skews toward a weak-labor read. Warsh remarks at the open add rate-path headline risk.
+- **VIX at the 18 boundary:** a hot/cold print could tip regime back to Neutral (60% ceiling) — 60% SPY still permissible either way; only VIX>26 (unlikely on jobs data) would force de-risk.
+- **Chasing risk in JPM:** name is 2.7% off ATH; entering at market gives sub-2:1 R:R. Discipline = the armed pullback limit, accepting it may not fill.
+- **Commodity deflation:** WTI sub-$69 undercuts Energy/Materials RS — avoid stale commodity-sector watchlist names.
+- **Narrow-but-improving breadth:** 61.6% >200-DMA is a genuine confirm, but the advance has been concentration-dependent; SPY ~32% Tech means proxy-mark is Tech-sensitive.
+
+### Decision
+**TRADE (deployment session).** Two actions, both executed at the market-open workflow **after the 8:30 NFP print**, with a VIX/breadth recheck:
+1. **Regime step-up:** if VIX holds <18 & breadth ≥50% at the open → **Risk-on confirmed → step SPY to the 60% floor** (~+39 sh, ~$29.2K, funded from settled cash). If VIX >18 → Neutral; SPY already meets the 30% floor, top opportunistically toward the 60% Neutral ceiling.
+2. **Alpha:** **arm JPM BUY-LIMIT ≈ $322** (Path A, size full per §5 ≈ 42 sh / ~$13.5K, GTC ATR stop ≈ $305 at fill, target ~$355 for ≥2:1). Do not chase at $334; the limit rests until a constructive pullback. Earnings Jul 14 — reassess before then.
+
+Turnover: JPM = 1/3 new alpha this week; proxy step-up doesn't count (§4.3). Positions post-fill: 2 (SPY proxy + JPM). Open-risk after JPM ≈ 0.75% of E, well under the 5% cap. **Next session task:** confirm JPM fill/stop, verify floor at the confirmed regime, and screen a 2nd single name (≥2 single-stock floor is not yet binding with one alpha name).
