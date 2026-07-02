@@ -1,5 +1,21 @@
 # Trade Log
 
+### Jul 02 — Market-Open Execution (Day 35, Thursday — NFP print, §9 veto lifted)
+**Portfolio:** $99,868.87 | **Cash:** ~$39,852 (39.9%) | **Long MV:** $60,014 (60.1%) | **Phase P&L:** -$131.13 (-0.13%)
+
+| Ticker | Side | Shares | Entry | Stop | Mkt Value | Thesis |
+| ------ | ---- | ------ | ----- | ---- | --------- | ------ |
+| SPY    | BUY  | 39     | ~$750.19 | none (proxy, §5/§8 exempt) | $60,014 (80 sh total, avg $752.519) | Risk-on floor step-up 30%→60% |
+| JPM    | BUY-LIMIT (armed) | 42 | $322 (limit, GTC) | $305 GTC (OTO, arms on fill) | not filled (~13.5% E at $322) | Path A — Financials RS leader, clean uptrend; tgt ~$355 (≥2:1) |
+
+**Trade 1 — SPY floor step-up.** BUY 39 SPY @ market (day TIF), order `49b7e7c0`, filled ~$750.19 → position now **80 sh, avg $752.519, MV $60,014 = 60.1% of E**. Regime steps **NEUTRAL → RISK-ON** (§4.1): SPX > 50/200-DMA ✓; VIX <18 ✓ (prior close 16.45, tape green +0.60% post-NFP → no vol spike); breadth 61.6% >200-DMA ✓ (confirms the ≥50% leg). 60% is the confirmed Risk-on **floor** — and also within the Neutral ceiling, so the step-up is valid under either read. **Benchmark proxy, NOT alpha** — exempt from per-name R-budget, 20% cap, GTC stop (§5/§8), and §4.3 turnover cap. No dated bearish thesis on file → mechanical floor move.
+
+**Trade 2 — JPM Path A entry (armed).** BUY-LIMIT **42 sh @ $322 GTC** with OTO stop-loss **$305 GTC** (order `143817ed`; stop leg held, arms on fill). Rests below current ~$333 — **disciplined pullback entry, no chase** (§6 Path A: Financials RS leader, uptrend off May lows to ATH $343.45, healthy pullback; conviction ~7.3). At $334 market the R:R fails 2:1 (extended, 2.7% off ATH); the $322 breakout-retest/50-DMA zone restores R:R to ~$355 target ≥2:1. Size full per §5 (R≈$749, stop dist $17 → open-risk ~$714 = 0.72% E). §7.1 P/E ~15x OK. Earnings **Jul 14** — clears the 5-day full veto; reassess before then. Counts **1/3 new alpha this week when filled**.
+
+**Reconcile (§14):** Pre-trade live Alpaca = equity $99,868.87, cash $69,109.64, SPY 41 sh (avg $754.739), zero open orders — matches Jul 01 logged state to the cent. No external/manual change → no HALT.
+
+**Status:** Trades today: 1 fill (SPY proxy step-up, not alpha — excluded from §4.3 cap) + 1 armed alpha limit (JPM, unfilled). New alpha entries this week: 0/3 filled (JPM → 1/3 on fill); positions 1/6 (2/6 on JPM fill); DT 0/5. **§4.4 audit resolves (a):** the multi-session "isolate a leading-sector single name" gap closes — JPM is the named, drilled Path A leader, armed at its qualifying price. Today is a **deployment session**, not another HOLD. **Next session (Fri Jul 03 — early close, holiday-thinned ahead of July 4):** confirm JPM fill + live stop; re-check floor at RISK-ON 60% (top SPY if drift pushes sub-floor); if floor holds and a 2nd Path A name clears ≥7.0, fund by trimming SPY (≤20%/name, GTC stop at every fill). Thin tape — avoid chasing.
+
 ### Jul 01 — EOD Snapshot (Day 34, Wednesday)
 **Portfolio:** $99,643.16 | **Cash:** $69,109.64 (69.4%) | **Day P&L:** -$49.20 (-0.05%) | **Phase P&L:** -$356.84 (-0.36%)
 
