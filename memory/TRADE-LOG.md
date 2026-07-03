@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 03 — EOD Snapshot (Day 36, Friday — market closed, Independence Day observed)
+**Portfolio:** $99,434.77 | **Cash:** $39,852.37 (40.1%) | **Day P&L:** +$50.39 (+0.05%) | **Phase P&L:** -$565.23 (-0.57%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.5195 | $744.78 | 0.00% | -$619.16 (-1.03%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 36, week 8. **Market closed all day** — NYSE observes Independence Day on Fri Jul 03 (July 4 falls Saturday), so no session, no fills, no price movement (`change_today=0`, `last_equity==equity`, `balance_asof=2026-07-02`). Reconcile (§14): live Alpaca = equity $99,434.77, cash $39,852.37, SPY 80 sh (avg $752.5195, MV $59,582.40), 1 open order (JPM $322 buy-limit GTC + OTO $305 stop, unfilled) — matches Jul 02 EOD logged state exactly. No external/manual change → no HALT. Day P&L vs Jul 02 EOD ($99,384.38): +$50.39 (+0.05%) — **not a trading gain**; it's a mark-to-settle reconciliation (yesterday's EOD used a stale SPY $744.17 vs the settled $744.78). Phase P&L -$565.23 (-0.57%) vs $100k start. Deployed 59.9% (SPY MV $59,582.40 / equity) — RISK-ON floor is 60%; fractionally under on drift (rounding-level, not a breach) and no action possible with the market shut. No alpha exposure; proxy carries no per-name stop by design. **JPM Path A limit rests unfilled** at $322 (mkt ~$333 pre-holiday) — market closed, so no fill today; arms $305 stop on fill, counts 1/3 alpha when hit. Trades today: none (market closed). New alpha entries this week: 0/3; positions 1/6; DT 0/5. **Tomorrow's session is Mon Jul 06** (fresh week → 3-trade cap resets): confirm JPM fill status + live $305 stop; re-check floor at RISK-ON 60% (top SPY if drift holds sub-floor); if floor holds and a 2nd Path A name clears ≥7.0, fund by trimming SPY (≤20%/name, GTC stop at every fill). Watch for holiday gap on the Monday reopen.
+
 ### Jul 02 — EOD Snapshot (Day 35, Thursday)
 **Portfolio:** $99,384.38 | **Cash:** $39,852.38 (40.1%) | **Day P&L:** -$258.78 (-0.26%) | **Phase P&L:** -$615.62 (-0.62%)
 
