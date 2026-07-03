@@ -938,3 +938,56 @@ The multi-session "isolate a leading-sector single name" gap is now **closed**: 
 2. **Alpha:** **arm JPM BUY-LIMIT ≈ $322** (Path A, size full per §5 ≈ 42 sh / ~$13.5K, GTC ATR stop ≈ $305 at fill, target ~$355 for ≥2:1). Do not chase at $334; the limit rests until a constructive pullback. Earnings Jul 14 — reassess before then.
 
 Turnover: JPM = 1/3 new alpha this week; proxy step-up doesn't count (§4.3). Positions post-fill: 2 (SPY proxy + JPM). Open-risk after JPM ≈ 0.75% of E, well under the 5% cap. **Next session task:** confirm JPM fill/stop, verify floor at the confirmed regime, and screen a 2nd single name (≥2 single-stock floor is not yet binding with one alpha name).
+
+---
+
+## 2026-07-03 — Pre-market Research (Day 36, Friday — NYSE HOLIDAY CLOSE, no trading)
+
+### Account (snapshot)
+- Equity: **$99,434.77** (last_equity $99,434.77; pre-holiday mark, SPY current $744.78)
+- Cash: **$39,852.37** (40.1%, settled)
+- Buying power: $312,716 (margin avail, unused — cash-account discipline §2)
+- Daytrade count: 0/5
+- Open positions: **SPY 80 sh @ $752.5195** (mkt $59,582.40, **59.92% of E**, unrealized -$619.16 / -1.03%). Open orders: **JPM buy-limit 42 @ $322 GTC (OTO $305 stop), unfilled** (order 143817ed).
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,434.77, cash $39,852.37, **SPY 80 sh (avg $752.5195), 1 open order (JPM $322 buy-limit GTC, OTO $305 stop, unfilled)** — matches Jul 02 EOD logged state to the cent (cash $39,852.38; SPY 80 sh; JPM armed limit 143817ed). Equity differs only by SPY mark drift. No external/manual change → **No HALT.**
+
+### ⚠️ Market status — NYSE CLOSED TODAY (holiday, full close)
+**July 4, 2026 falls on Saturday → Independence Day is observed Friday, July 3 → NYSE, Nasdaq and bond markets are CLOSED all day.** Reopen **Monday, July 6.** Prior EOD notes assumed an "early close"; that was incorrect — it is a **full holiday close, no trading session at all.** **No execution is possible today**; the book rests exactly as positioned Jul 02. This session is documentation-only.
+
+### Market Context (last print = Jul 02 close; carried through the holiday)
+- **June NFP (released Jul 02): +57K vs ~110K cons.** — lowest in 4 months (May revised to +129K); unemployment 4.2%, wage growth 3.5%. **Dovish read:** market eased rate-hike bets (Sep), 2Y yield -3.5bp to 4.13%, dollar fell, **equity futures rose post-print.** Risk-on-supportive labor softness, not a growth scare.
+- **VIX 16.15** (Jul 02 close, -2.65%) — **<18**, far below the 26 crash-guard; no ≥5%/10-session drawdown. Vol regime benign.
+- **SPX > 50-DMA > 200-DMA** — multi-month uptrend intact (~7,600 area; ES futures ~7,545 in the holiday-thinned tape, not a real session).
+- **Breadth: 61.6% >200-DMA / 62.6% >50-DMA** (late-June StreetStats) — confirms the ≥50% Risk-on leg.
+- **Oil deflating further:** WTI **~$68.55**, Brent **~$71.57** (Brent below $71, lowest since late Feb). Strait-of-Hormuz flows >10 Mbpd + US-Iran progress = accelerating glut. **Structural headwind on Energy RS.**
+- **Sector RS (mixed signal to watch):** Materials #1 YTD (+22%); Staples/Industrials/Materials/Energy in the leading momentum quadrant. **One source (Investing.com sector-rotation) now flags Financials in the LAGGING momentum quadrant** — a tension with the Jul 02 read (Financials leading on elevated yields, banks at fresh highs). **Flag for Monday: re-confirm Financials RS before/at JPM fill** (Path A requires top-3 sector RS).
+
+### Regime Assessment — RISK-ON (unchanged, 60% floor / 85% ceiling)
+All three legs hold: **SPX > 50/200-DMA ✓; VIX 16.15 <18 ✓; breadth 61.6% ≥50% ✓.** No conflicting input → **RISK-ON.** Dovish NFP + falling VIX reinforce it. No dated bearish thesis on file → floor is mechanical.
+- **Floor math:** 60% floor = **$59,660.86**; SPY MV **$59,582.40 (59.92%)** → sub-floor by **$78 (~0.1 sh)** — pure rounding/mark drift, **not a breach.** Cannot act today anyway (closed). **Monday: top SPY ~1 sh only if it still marks sub-floor at the open.**
+
+### §9 Macro-Veto Status — none in force
+NFP is behind us (Jul 02); no FOMC/CPI/PPI/jobs print in the immediate session ahead. Next heavyweight is **CPI mid-July**. No veto binds Monday's open.
+
+### Catalyst Calendar — held/armed names
+- **JPM (armed limit):** **Earnings Tue Jul 14** (~6 trading days out from Mon Jul 06). Clears the 5-day full-veto **now**, but the window tightens fast — a fill early next week is fine; a fill Jul 07+ starts crowding the veto. **Bullish flow this week:** post-stress-test **dividend raise $1.50→$1.65** and **new $50B buyback**; Morgan Stanley PT→$362; fair-value bumped to ~$344.71. JPM closed **$334.47** Jul 02 (limit $322 rests ~3.7% below — disciplined pullback entry, no chase).
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8).
+
+### Trade Ideas (alpha layer) — carried; no action possible today
+1. **JPM (Financials) — Path A, already armed at $322 GTC.** Thesis intact: clean uptrend off May lows to ATH $343.45, healthy pullback; conviction ~7.3. Corporate-action tailwind (buyback/dividend). **Caveat surfaced today:** a sector-rotation read puts Financials in the lagging momentum quadrant — **re-confirm the top-3 RS leg Monday**; if Financials RS has genuinely rolled, the Path A sector gate weakens and the limit should be re-evaluated, not blindly left to fill. **No change today — market closed.**
+2. **Energy leaders (XLE — XOM/CVX/COP)** — WTI sub-$69, price trend diverging bearishly from earlier RS. Score ~5.5. **Pass** — structural commodity deflation, not a fresh uptrend.
+3. **2nd single-name (≥2 single-stock floor, §3)** — not yet binding with one alpha name; still need a 2nd Path A ≥7.0 to complement JPM. **Monday task:** screen Industrials/Materials/Staples top-5 RS for a clean breakout, fund by trimming SPY within caps.
+
+### §4.4 Recalibration Audit
+Not triggered — resolved Jul 02 via resolution (a) (JPM named/armed). Today is a holiday close, not an idle decision session.
+
+### Risk Factors
+- **Holiday illiquidity gap:** three-day weekend (closed Jul 03, reopen Jul 06). Any weekend headline prices entirely at Monday's open into thin early-week liquidity — the JPM $322 limit and SPY floor both sit exposed to a gap. Acceptable: limit is a *buy* below market (a down-gap simply improves the entry); proxy is index beta.
+- **Oil deflation** continues to pressure Energy/Materials RS — avoid stale commodity-sector watchlist names.
+- **Financials RS ambiguity** (above) — the single most important thing to re-confirm before JPM fills.
+- **JPM earnings Jul 14 approaching** — fills after ~Jul 07 start crowding the 5-day veto; reassess the limit's validity daily next week.
+
+### Decision
+**HOLD — no action possible (NYSE closed for the holiday).** Book rests correctly positioned: **SPY 80 sh = 59.92% of E** (RISK-ON 60% floor, fractional rounding under; not a breach), **JPM $322 buy-limit GTC + $305 OTO stop resting through the weekend.** Regime **RISK-ON** (VIX 16.15, dovish NFP, breadth 61.6%). No §9 veto. No trades. **Next session (Mon Jul 06):** (1) reconcile; (2) re-confirm RISK-ON + **Financials RS** before allowing the JPM fill to stand — if Financials RS has rolled to lagging, re-evaluate the limit; (3) re-check floor, top SPY ~1 sh only if still sub-$59,661; (4) if JPM fills, confirm the $305 stop went live (§8) and log 1/3 alpha; (5) screen a 2nd Path A single name; (6) watch the JPM Jul 14 earnings veto window as it tightens.
