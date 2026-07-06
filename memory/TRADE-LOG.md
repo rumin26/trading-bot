@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 06 — EOD Snapshot (Day 37, Monday) — ⚠️ §14 RECONCILIATION EXCEPTION / HALT
+**Portfolio:** $99,979.57 | **Cash:** $39,852.37 (39.9%) | **Day P&L:** +$544.80 (+0.55%) | **Phase P&L:** -$20.43 (-0.02%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.5195 | $751.59 | +0.91% | -$74.36 (-0.12%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 37, start of week 9. **§14 RECONCILIATION EXCEPTION — HALT declared.** Last logged state (Jul 03 EOD): SPY 80 sh, cash $39,852.37, **1 open order — JPM $322 buy-limit GTC + OTO $305 stop, unfilled.** Live Alpaca now: SPY 80 sh ✓, cash $39,852.37 ✓, **zero open orders** — the JPM OTO order (`143817ed` limit + `2d01e1c5` stop leg) was **canceled 2026-07-06T13:02:58Z, filled_qty=0**. No bot routine ran or logged any Jul 06 action, and no bot-originated cancel exists; the cancel carries `source:null` (same signature as the Jun 08 external flatten, vs `access_key` on bot orders). → **External/manual cancellation of an armed alpha order.** Per §14, HALT, one alert sent, this dated exception logged; the changed order-book state is **not adopted as baseline** and no new action taken this session (JPM **not** re-armed). Positions/cash are otherwise intact, so SPY floor stands untouched. Day P&L vs Jul 03 EOD ($99,434.77): +$544.80 (+0.55%) — pure SPY mark-up on the holiday reopen (settle $744.78 → $751.59, +0.91% on 80 sh); no trading gain. Phase P&L -$20.43 (-0.02%) vs $100k start — book essentially flat to benchmark start. Deployed 60.14% (SPY MV $60,127.20 / equity) — meets the RISK-ON 60% floor. No alpha exposure; proxy carries no per-name stop by design. Trades today (bot): none. External events: 1 (JPM alpha limit canceled). New alpha entries this week: 0/3; positions 1/6; DT 0/5. **Stay HALTED until the owner confirms whether the JPM cancel was intended.** If confirmed intentional → clear halt, re-screen Path A (JPM re-arm at $322 or fresh leader) and re-check floor. If unexpected → investigate account access before any redeploy. Do not adopt the flat-order baseline until reconciled.
+
 ### Jul 03 — EOD Snapshot (Day 36, Friday — market closed, Independence Day observed)
 **Portfolio:** $99,434.77 | **Cash:** $39,852.37 (40.1%) | **Day P&L:** +$50.39 (+0.05%) | **Phase P&L:** -$565.23 (-0.57%)
 
