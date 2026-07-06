@@ -991,3 +991,61 @@ Not triggered — resolved Jul 02 via resolution (a) (JPM named/armed). Today is
 
 ### Decision
 **HOLD — no action possible (NYSE closed for the holiday).** Book rests correctly positioned: **SPY 80 sh = 59.92% of E** (RISK-ON 60% floor, fractional rounding under; not a breach), **JPM $322 buy-limit GTC + $305 OTO stop resting through the weekend.** Regime **RISK-ON** (VIX 16.15, dovish NFP, breadth 61.6%). No §9 veto. No trades. **Next session (Mon Jul 06):** (1) reconcile; (2) re-confirm RISK-ON + **Financials RS** before allowing the JPM fill to stand — if Financials RS has rolled to lagging, re-evaluate the limit; (3) re-check floor, top SPY ~1 sh only if still sub-$59,661; (4) if JPM fills, confirm the $305 stop went live (§8) and log 1/3 alpha; (5) screen a 2nd Path A single name; (6) watch the JPM Jul 14 earnings veto window as it tightens.
+
+---
+
+## 2026-07-06 — Pre-market Research (Day 37, Monday — reopen after holiday)
+
+### Account (snapshot)
+- Equity: **$99,714.77** (last_equity $99,434.77; SPY current ~$748.28)
+- Cash: **$39,852.37** (40.0%, settled)
+- Buying power: $313,500 (margin avail, unused — cash-account discipline §2)
+- Daytrade count: 0/5
+- Open positions: **SPY 80 sh @ $752.5195** (mkt $59,862.40, **60.03% of E**, unrealized -$339.16 / -0.56%). Open orders: **0** (JPM $322 limit canceled today — see Decision).
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,714.77, cash $39,852.37, **SPY 80 sh (avg $752.5195)**, and — at session start — the **JPM buy-limit 42 @ $322 GTC (OTO $305 stop), unfilled** (order 143817ed). This matches Jul 03 EOD logged state to the cent (cash $39,852.37; SPY 80 sh; JPM armed limit). Equity differs only by SPY mark drift. No external/manual change → **No HALT.**
+
+### Market Context — RISK-ON tape, but a violent intra-market rotation
+- **Futures:** ES +0.4%, **Nasdaq-100 +1.1%** pre-open after a strong holiday-shortened week; Dow ~flat. Tech/semis bid at the index level (SMH +2.4% pre-bell) even as individual AI-hardware names bleed (below).
+- **VIX 15.81** (intraday Jul 06) — **<18**, far below the 26 crash-guard; no ≥5%/10-session drawdown. VIX futures -2%; benign vol.
+- **SPX > 50-DMA > 200-DMA** — multi-month uptrend intact; index consolidating (~7,600 area) while sectors rotate.
+- **Breadth:** last hard read **61.6% >200-DMA / 62.6% >50-DMA** (late-June StreetStats) — confirms the ≥50% Risk-on leg; no fresh reading below 50%.
+- **Oil:** WTI **~$68** (range 67.8–69.2), Brent **~$72**. Strait-of-Hormuz normalization + supply glut = ongoing structural headwind on Energy RS.
+- **Sector RS — MAJOR ROTATION (the key read):** capital rotating **out of mega-cap Tech/semis and Financials, into Dow blue-chips / Industrials / Materials / value / defensives.** SOX fell **>12% in a handful of sessions**; MU -5.5%, AMD -4.3%, INTC -5.3% (2nd down day). **Both Technology AND Financials now sit in the LAGGING momentum quadrant** (Investing.com sector-rotation map, Jul 2026). Materials remains #1 YTD (+22%); Dow at record highs on the value/cyclical bid.
+
+### Regime Assessment — RISK-ON (60% floor / 85% ceiling), unchanged
+All three legs hold: **SPX > 50/200-DMA ✓; VIX 15.81 <18 ✓; breadth 61.6% ≥50% ✓.** No index-level input points to Neutral. → **RISK-ON.** No dated bearish thesis on file → floor is mechanical.
+- **More-cautious note (§4.1):** the semi/AI-hardware distribution (SOX -12%, MU/AMD/INTC -5%) is a real intra-market divergence — monitor for breadth deterioration. It does **not** flip the regime while SPX holds both MAs and VIX <18, but it re-shapes which sectors are investable (see ideas).
+- **Floor math:** 60% floor = **$59,828.86**; SPY MV **$59,862.40 (60.03%)** → **above floor by ~$34** (rounding). **No breach, no top-up.** 85% ceiling = $84,758 — ample room to fund alpha by holding cash, not by trimming the proxy.
+
+### §9 Macro-Veto Status — none binding today
+No FOMC decision / CPI / PPI / jobs print in the session ahead. **FOMC minutes Wed Jul 8** is a headline-risk event but not an §9-listed decision/print → no hard veto on fresh single-name risk. Next heavyweight: **CPI mid-July.** Floor never paused regardless (§4.1a).
+
+### Catalyst Calendar — held/watched names
+- **JPM (canceled today):** **Earnings Tue Jul 14 BMO** (EPS cons. ~$5.59). **Ex-dividend today (Jul 06, $1.50)** — stock trades ~$1.50 lower mechanically. Closed **$334.47** Jul 02; ATH $335.12 (Jun 25).
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8).
+
+### Trade Ideas (alpha layer)
+1. **JPM (Financials) — Path A gate now FAILS → limit CANCELED.** The Jul 03 flag ("re-confirm Financials RS before letting the fill stand") resolved against the trade: **Financials have rolled from leading into the LAGGING momentum quadrant.** Path A (§6.1) requires the sector to be a top-3 RS leader — that leg is no longer met. Reinforcing: (a) **earnings Jul 14** — a fill Jul 07+ crowds the 5-day full veto; (b) name still extended near ATH; (c) ex-div today. Disciplined action = **cancel the resting $322 buy-limit + OTO $305 stop**, do not let it fill into a failing setup. Score now ≈ **6.2** (Mom cut on sector-RS roll). **PASS/CANCEL.**
+2. **Industrials / Materials single names — the new RS leaders to drill (Path A candidates).** Rotation favors blue-chip cyclicals/value; Materials #1 YTD (+22%), Industrials bid with the Dow at record highs. **No single name isolated and scored ≥7.0 today** — needs a clean uptrend + top-5-within-sector drill before arming. **Screen next session** (e.g. Industrials/Materials leaders on constructive setups); fund from cash within caps if one clears.
+3. **Semis / AI hardware (MU, AMD, INTC, SMH) — AVOID.** Active multi-day distribution (SOX -12%; -5% individual names). Do not catch the knife; re-score only after the group stabilizes and rebuilds RS.
+4. **Energy (XLE) — PASS.** WTI ~$68, structural glut; RS fading.
+
+### §4.4 Recalibration Audit
+Not yet triggered as paralysis: the prior resolution (JPM, resolution (a)) was **legitimately invalidated today by a sector-RS roll** — that is new information acted upon (cancel), not an idle repeat HOLD. This session executed a risk-control decision. If the next **2 consecutive sessions** also produce zero alpha-gate clears with no named Industrials/Materials candidate drilled → run the full audit then.
+
+### Risk Factors
+- **Semi/AI-hardware distribution** (SOX -12%; MU/AMD/INTC -5%) — SPY is ~30%+ Tech, so proxy mark is exposed to further semi weakness even as the index holds. Monitor breadth for follow-through.
+- **Two former leaders (Tech + Financials) now lagging** — the investable universe has narrowed to Industrials/Materials/value; do not re-arm stale Financials/Tech watchlist names.
+- **Oil deflation** continues to pressure Energy/Materials commodity-linked RS (Materials RS is broad, but watch metals/chem vs. index).
+- **FOMC minutes Wed Jul 8** — rate-path headline risk mid-week; not an §9 veto but size any new single-name risk with it in view.
+- **Thin post-holiday early-week liquidity** — first full session since Jul 02.
+
+### Decision
+**HOLD on new alpha; one executed risk-control action.**
+1. **CANCELED the JPM $322 buy-limit (+ OTO $305 stop)** — order 143817ed, both legs canceled 13:02:58 UTC (verified: 0 open orders). Path A sector gate failed on the Financials→Lagging RS roll, with the Jul 14 earnings veto tightening. Turnover: removal, not a new entry (0/3 new alpha this week stands).
+2. **Floor:** SPY 80 sh = **60.03% of E** already meets the RISK-ON 60% floor → **no proxy action.**
+3. **No new single-name entry:** no Industrials/Materials name cleared ≥7.0 today; will not force one. Book correctly positioned: **SPY 60.03% (RISK-ON floor met), 0 alpha, 0 open orders, cash $39,852 available to fund a qualifying name.**
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session task:** (1) reconcile; (2) drill Industrials/Materials top-5 single names for a Path A ≥7.0 leader to deploy the cash toward the 85% ceiling; (3) re-check breadth for semi-distribution spillover; (4) confirm regime legs still hold.
