@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 07 — EOD Snapshot (Day 38, Tuesday) — ⚠️ §14 RECONCILIATION EXCEPTION / HALT (position removed)
+**Portfolio:** $39,852.37 | **Cash:** $39,852.37 (100%) | **Day P&L:** -$60,127.20 (-60.14%) *(external, not trading)* | **Phase P&L:** -$60,147.63 (-60.15%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Day 38, week 9. **§14 RECONCILIATION EXCEPTION — HALT continues, escalated.** Account was already HALTED (Jul 06, external JPM order cancel). Now a second, more severe external change: last logged state (Jul 06 EOD) = SPY 80 sh (MV ~$60,127), cash $39,852.37, equity $99,979.57. **Live Alpaca now = equity $39,852.37, cash $39,852.37 (unchanged), zero positions, zero open orders.** The entire SPY floor position (80 sh) is gone and equity fell ~$60,127 (-60%), **yet cash is unchanged and there is NO SPY sell order anywhere in the order history** — closed orders show only the Jul 06 JPM OTO cancels and the prior SPY/sector buys. A market sale would have created an order and credited cash; neither occurred. → **External/non-trade removal of the SPY position** (admin/journal-level, `source:null` family — same signature as the Jun 08 external flatten, not a bot action and not a rulebook trigger). No bot routine ran or logged any Jul 07 order; the bot did not sell. Per §14: **remain HALTED, one alert sent, this dated exception logged; the changed state is NOT adopted as baseline and NO new action taken** (no redeploy to floor, no proxy rebuild) until the owner reconciles. Day P&L vs Jul 06 EOD ($99,979.57): -$60,127.20 (-60.14%) — **entirely external, not trading performance.** Phase P&L -$60,147.63 (-60.15%) vs $100k start, same caveat. Deployed 0% (all cash) — the participation floor is deliberately breached because §14 reconciliation overrides the floor mandate: do not trade into an unreconciled account. Trades today (bot): none. External events: 1 (SPY 80 sh removed, no offsetting cash). New alpha entries this week: 0/3; positions 0/6; DT 0/5. **STAY HALTED until the owner confirms what happened to the SPY position and whether account access is compromised.** If confirmed intentional reset → clear halt, treat $39,852.37 cash as the new baseline, re-classify regime and rebuild to the floor via SPY proxy with discipline. If unexpected → investigate account security BEFORE any redeploy. Do not adopt the flat baseline until reconciled.
+
 ### Jul 06 — EOD Snapshot (Day 37, Monday) — ⚠️ §14 RECONCILIATION EXCEPTION / HALT
 **Portfolio:** $99,979.57 | **Cash:** $39,852.37 (39.9%) | **Day P&L:** +$544.80 (+0.55%) | **Phase P&L:** -$20.43 (-0.02%)
 
