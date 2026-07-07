@@ -1049,3 +1049,62 @@ Not yet triggered as paralysis: the prior resolution (JPM, resolution (a)) was *
 3. **No new single-name entry:** no Industrials/Materials name cleared ≥7.0 today; will not force one. Book correctly positioned: **SPY 60.03% (RISK-ON floor met), 0 alpha, 0 open orders, cash $39,852 available to fund a qualifying name.**
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session task:** (1) reconcile; (2) drill Industrials/Materials top-5 single names for a Path A ≥7.0 leader to deploy the cash toward the 85% ceiling; (3) re-check breadth for semi-distribution spillover; (4) confirm regime legs still hold.
+
+---
+
+## 2026-07-07 — Pre-market Research (Day 38, Tuesday)
+
+### Account (snapshot)
+- Equity: **$99,867.57** (last_equity $99,434.77; SPY current ~$750.19)
+- Cash: **$39,852.37** (39.9%, settled)
+- Buying power: $69,859.97 non-marginable (cash-account discipline §2; margin unused)
+- Daytrade count: 0/5
+- Open positions: **SPY 80 sh @ $752.5195** (mkt $60,015.20, **60.1% of E**, unrealized -$186.36 / -0.31%). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,867.57, cash $39,852.37, **SPY 80 sh (avg $752.5195), 0 open orders** — matches Jul 06 EOD logged state to the cent (cash $39,852.37; SPY 80; JPM $322 limit canceled → 0 orders). Equity differs only by SPY mark drift. No external/manual change → **No HALT.**
+
+### Market Context
+- **Futures:** ES -0.1/-0.25%, **Nasdaq-100 lower** on renewed semi selloff; **Dow +225 (+0.4%)** to fresh records — rotation-out-of-AI, into-cyclicals theme persists. Micron -5% pre, KLA/MRVL/AVGO/AMD lower; Samsung -8.8% in Seoul (profit surge underwhelmed).
+- **VIX 15.88** (Jul 07 intraday; Jul 06 close 15.81) — **<18**, far below 26 crash-guard; no ≥5%/10-session drawdown. Benign vol.
+- **SPX > 50-DMA > 200-DMA** — uptrend intact. SPY $750.19 vs 200-DMA ~$745.25 (only ~0.7% above — proximity worth watching, but above both MAs).
+- **Breadth:** last hard read **61.6% >200-DMA / 62.6% >50-DMA** (late-June StreetStats), ≥50% ✓. One undated search hit cited "21% >200-DMA" — conflicts sharply with the recent 61.6%, treated as stale/misattributed noise, **not actioned**. **Re-confirm breadth next session** — it's the one leg that could flip RISK-ON→Neutral if it has genuinely rolled.
+- **Oil:** WTI **~$69** (1-week high; range 67.8–69.2), Brent **~$73**. OPEC+ raised production quotas over the weekend + Strait-of-Hormuz normalization = ongoing supply pressure; still structurally soft, small bounce.
+- **Sector RS:** **Materials #1 YTD (+22%), Industrials +16% (CAT largest contributor, +32% YTD)**; Dow at records (~53K) on the value/cyclical bid. Utilities/Staples/Materials/Financials(!) cited as value-sector drivers by one source, but the momentum-quadrant map still puts **Tech AND Financials in LAGGING** — universe remains Industrials/Materials/defensive-value. Jul 06 daily: Industrials +0.82%, Materials -1.04%.
+
+### Regime Assessment — RISK-ON (60% floor / 85% ceiling), unchanged
+All three legs hold: **SPX > 50/200-DMA ✓; VIX 15.88 <18 ✓; breadth 61.6% ≥50% ✓.** No dated bearish thesis on file → floor is mechanical.
+- **More-cautious note (§4.1):** semi/AI-hardware distribution continues (Micron -5%, Samsung -8.8%) and SPY sits only ~0.7% over its 200-DMA — monitor for breadth follow-through. Does **not** flip the regime while SPX holds both MAs and VIX <18.
+- **Floor math:** 60% floor = **$59,920.54**; SPY MV **$60,015.20 (60.1%)** → **above floor by ~$95.** No breach, no top-up. 85% ceiling = $84,887 — ample cash ($39,852) to fund a qualifying alpha name.
+
+### §9 Macro-Veto Status — none binding today
+No FOMC decision / CPI / PPI / jobs print in the session ahead. **FOMC minutes Wed Jul 8** = headline risk, not an §9-listed decision/print → no hard veto on fresh single-name risk. Big-bank earnings (GS/WFC/Citi/BofA) later this week; JPM Jul 14. Next §9 heavyweight: **CPI mid-July.** Floor never paused regardless (§4.1a).
+
+### Catalyst Calendar — held/watched names
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8).
+- **No alpha holdings.** Watchlist earnings: **CAT Aug 4** (outside veto); big banks this week (JPM Jul 14).
+
+### Trade Ideas (alpha layer)
+1. **CAT (Industrials) — Path A, screened & SCORED → FAILS gate. PASS.** The rotation's marquee name (Industrials top-3 RS, +32% YTD), but the **individual setup is broken near-term:** -11% from the Jun 30 ATH ($1,073 → ~$956) in days — active distribution, not a clean uptrend to buy. Michael Burry disclosed a first-ever CAT **short at $1,060 on overvaluation** (Jul 01). Earnings Aug 4 (clears veto). **Score ≈ 5.75** — Momentum 6 (sector leads, name distributing), Catalyst/trend-quality 5 (slope negative near-term), R/R 5.5 (no defensible 2:1 mid-knife), Moat 8 (dominant franchise, record backlog), Valuation 4 (extended, Burry short). Below the 6.0 starter floor → **do not catch the knife; re-score after it stabilizes and rebuilds.**
+2. **Industrials/Materials other single names — screen continues.** Sector RS is the right pond, but no name isolated at a clean Path A ≥7.0 today (Materials -1.04% Jul 06; CAT distributing). **Next session:** drill top-5 Industrials/Materials names for a non-extended, constructive breakout; fund from cash within caps.
+3. **Semis / AI hardware (MU, AMD, AVGO, KLA, SMH) — AVOID.** Multi-day distribution deepening (Micron -5% pre, Samsung -8.8%). Do not bottom-fish.
+4. **Financials (JPM/XLF) — PASS.** Lagging momentum quadrant; big-bank earnings this week add binary risk. JPM already canceled Jul 06.
+5. **Energy (XLE) — PASS.** OPEC+ quota hike + glut; WTI bounce is not a fresh uptrend.
+
+### §4.4 Recalibration Audit
+Not triggered. Sessions with zero alpha-gate clears: Jul 06 (JPM cancel = risk-control action + named Industrials/Materials as the new pond) and Jul 07 (today). That is 2, not 3 — and today's session **actively screened and scored a named candidate (CAT)**, satisfying the §4.4.3 screen-breadth check rather than repeating an idle HOLD. If Jul 08 also produces zero clears with no Industrials/Materials name drilled → run the full audit then.
+
+### Risk Factors
+- **Semi/AI-hardware distribution** (Micron -5%, Samsung -8.8%) — SPY is ~30%+ Tech; proxy mark exposed to further semi weakness even as the Dow makes records. Watch for breadth spillover.
+- **SPY only ~0.7% above its 200-DMA** — less cushion than the RISK-ON label implies; a breadth roll below 50% would flip the regime to Neutral. Re-confirm breadth.
+- **Cyclical leaders extended** — CAT -11% off ATH shows how fast the rotation's winners can unwind; avoid chasing extended Industrials/Materials names.
+- **FOMC minutes Wed Jul 8** — rate-path headline risk mid-week (not an §9 veto).
+- **Oil:** OPEC+ supply add keeps Energy/commodity-Materials RS structurally capped.
+
+### Decision
+**HOLD — no new alpha; floor already met, no action required.**
+- **Floor:** SPY 80 sh = **60.1% of E** ≥ RISK-ON 60% floor → **no proxy top-up.**
+- **No single-name entry:** no Industrials/Materials name cleared ≥7.0 (CAT scored 5.75, PASS on the pullback/valuation). Will not force one.
+- Book correctly positioned: **SPY 60.1% (RISK-ON floor met), 0 alpha, 0 open orders, $39,852 cash available to fund a qualifying name toward the 85% ceiling.**
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks:** (1) reconcile; (2) **re-confirm breadth** (resolve the 61.6% vs undated-21% conflict) and that SPX holds both MAs; (3) drill Industrials/Materials top-5 single names for a Path A ≥7.0 that is NOT extended; (4) monitor semi distribution for regime spillover; (5) if a name clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8).
