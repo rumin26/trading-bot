@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 08 — EOD Snapshot (Day 39, Wednesday)
+**Portfolio:** $99,395.27 | **Cash:** $39,108.59 (39.3%) | **Day P&L:** -$273.90 (-0.27%) | **Phase P&L:** -$604.73 (-0.60%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 81     | $752.4116 | $744.28 | -0.46% | -$658.66 (-1.08%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 39, week 9. Reconcile (§14): live EOD Alpaca = equity $99,395.27, cash $39,108.59, SPY 81 sh (avg $752.4116, MV $60,286.68), zero open orders — matches this morning's logged market-open state (81 sh after the +1 proxy top-up, order `3d21e7de`). No external/manual change this session → account reconciles, **no HALT.** The Jul 06/07 §14 exceptions are **resolved**: the Jul 07 "phantom SPY removal" ($39,852 zero-position read) was confirmed a transient data glitch — Alpaca's own `last_equity` today reads **$99,669.17** (not $39,852), proving the 80-sh floor was never actually removed. Day P&L computed vs that authoritative prior-day close ($99,669.17): **-$273.90 (-0.27%)**, all SPY mark drift (close $747.71→$744.28, -0.46% on the day). Phase P&L -$604.73 (-0.60%) vs $100k start; proxy now -1.08% from $752.41 avg. **Regime RISK-ON** (SPX >50/200-DMA, VIX ~16 <18, breadth ~61%); 60% floor mechanical, no dated bearish thesis on file. Deployed **60.65%** (SPY MV $60,286.68 / equity) — meets the RISK-ON 60% floor. No alpha exposure; proxy carries no per-name stop by design. Trades today (bot): 1 fill (SPY +1 proxy floor top-up @ $743.78, not alpha — excluded from §4.3 cap). External events: 0. New alpha entries this week: 0/3; positions 1/6; DT 0/5. **NOTE FOR OWNER:** three §14 flags in ~a week (Jun 08 external flatten, Jul 06 JPM cancel, Jul 07 phantom SPY removal) — even resolved, the pattern warrants a check that account access/data feed is sound. **Next session (Thu Jul 09):** reconcile; confirm VIX <18 + breadth ≥50% held; top SPY only if drift pushes sub-60%; drill Industrials/Materials/Financials top-5 for a non-extended Path A ≥7.0 (JPM re-arm candidate at $322) — if a name clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8).
+
 ### Jul 08 — Market-Open Execution (Day 39, Wednesday) — §14 HALT RESOLVED (Jul 07 "removal" was a data-read glitch)
 **Portfolio:** $99,343.84 | **Cash:** $39,108.59 (39.4%) | **Long MV:** $60,235.25 (60.63%) | **Phase P&L:** -$656.16 (-0.66%)
 
