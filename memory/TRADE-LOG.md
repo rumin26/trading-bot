@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 08 — Market-Open Execution (Day 39, Wednesday) — §14 HALT RESOLVED (Jul 07 "removal" was a data-read glitch)
+**Portfolio:** $99,343.84 | **Cash:** $39,108.59 (39.4%) | **Long MV:** $60,235.25 (60.63%) | **Phase P&L:** -$656.16 (-0.66%)
+
+| Ticker | Shares | Side | Fill | Stop | Type |
+| ------ | ------ | ---- | ---- | ---- | ---- |
+| SPY    | +1     | buy  | ~$743.78 | none (proxy, §5/§8 exempt) | proxy floor top-up |
+
+**Notes:** Day 39, week 9. **§14 reconciliation — prior HALT RESOLVED on the evidence.** The Jul 07 EOD entry declared a HALT on an apparent external removal of the full 80-sh SPY position (live read showed equity $39,852, zero positions). **That was a transient/false data read, not a real change:** live Alpaca this session shows **SPY 80 sh still present with a byte-identical avg entry price of $752.5195 and continuous cost basis.** An external sell-and-rebuy would have reset the avg entry to a fresh ~$744–750 mark; the identical $752.5195 proves the position was **never actually removed** — the Jul 07 zero-position snapshot was an API/journal glitch. Live pre-trade state (SPY 80 @ $752.5195, cash $39,852.37, 0 open orders) **matches the bot's own last logged orders exactly** → no current unexplained discrepancy → account reconciles, HALT cleared. **Regime RISK-ON** (SPX >50/200-DMA, VIX 16.13 <18, breadth ~61% ≥50%); 60% floor mechanical (no dated bearish thesis on file). Pre-trade SPY MV $59,539.20 = **59.90%**, 0.10% under the $59,634.94 floor on overnight mark drift. **Action: bought 1 sh SPY @ ~$743.78** (order `3d21e7de`, market/day, filled) → **81 sh, MV $60,235.25 = 60.63%**, floor met. This is a **proxy floor add**, not an alpha trade: no conviction gate, no per-name GTC stop (§5/§8 exempt), **not** counted against the §4.3 alpha turnover cap. **No single-name alpha entry** — no Industrials/Materials name cleared ≥7.0 (CAT 5.75, distributing; leaders extended), and a geopolitical risk-off + FOMC-minutes day is the wrong tape to initiate fresh single-name risk. Trades today (bot): 1 fill (SPY proxy top-up). External events: 0 (Jul 07 phantom-removal confirmed a glitch). New alpha this week: 0/3; positions 1/6; DT 0/5. **NOTE FOR OWNER:** this account has now logged three §14 flags in ~a week (Jun 08 external flatten, Jul 06 JPM cancel, Jul 07 phantom SPY removal). Even resolved as a glitch, the pattern warrants a check that account access/data feed is sound. **Next session:** reconcile; confirm VIX <18 close + breadth ≥50% held; drill Industrials/Materials top-5 for a non-extended Path A ≥7.0; if a name clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8).
+
 ### Jul 07 — EOD Snapshot (Day 38, Tuesday) — ⚠️ §14 RECONCILIATION EXCEPTION / HALT (position removed)
 **Portfolio:** $39,852.37 | **Cash:** $39,852.37 (100%) | **Day P&L:** -$60,127.20 (-60.14%) *(external, not trading)* | **Phase P&L:** -$60,147.63 (-60.15%)
 
