@@ -1108,3 +1108,63 @@ Not triggered. Sessions with zero alpha-gate clears: Jul 06 (JPM cancel = risk-c
 - Book correctly positioned: **SPY 60.1% (RISK-ON floor met), 0 alpha, 0 open orders, $39,852 cash available to fund a qualifying name toward the 85% ceiling.**
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks:** (1) reconcile; (2) **re-confirm breadth** (resolve the 61.6% vs undated-21% conflict) and that SPX holds both MAs; (3) drill Industrials/Materials top-5 single names for a Path A ≥7.0 that is NOT extended; (4) monitor semi distribution for regime spillover; (5) if a name clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8).
+
+---
+
+## 2026-07-08 — Pre-market Research (Day 39, Wednesday)
+
+### Account (snapshot)
+- Equity: **$99,304.37** (last_equity $99,669.17; SPY premkt ~$743.15)
+- Cash: **$39,852.37** (40.1%, settled)
+- Buying power: $69,578.37 non-marginable (cash-account discipline §2; margin unused)
+- Daytrade count: 0/5
+- Open positions: **SPY 80 sh @ $752.5195** (mkt $59,452, **59.87% of E**, unrealized -$749.56 / -1.24%). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,304.37, cash $39,852.37, **SPY 80 sh (avg $752.5195), 0 open orders** — matches Jul 07 EOD logged state to the cent (cash $39,852.37; SPY 80; 0 orders). Equity/MV differ only by SPY mark drift ($750.19 → $743.15 premkt). No external/manual change → **No HALT.**
+
+### Market Context
+- **Geopolitical shock:** Trump declared the Iran ceasefire "over" at the NATO summit; fresh US–Iran strikes exchanged. **Oil surged** — WTI **+6% to ~$74.79**, Brent **+6% to ~$78.66** (Treasury also revoked Iran's oil-export license → supply-disruption premium). Risk-off tone into the open.
+- **Futures:** ES **-0.6%**, Nasdaq-100 lower (tech/semis pressured — Samsung -8.8%, chips cooling); rotation-out-of-AI persists on top of the war headline.
+- **VIX 16.13** (intraday range 15.53–16.64; +3.6% / spiked ~13% intraday on the Iran news) — **still <18**, far below the 26 crash-guard. No ≥5%/10-session drawdown. Vol elevated-but-benign.
+- **SPX > 50-DMA > 200-DMA** — uptrend intact. SPX ~7,500 vs 200-DMA **~7,470** (Jul 06 close 7,537.43). Above both MAs but only **~0.4% over the 200-DMA** — thin cushion.
+- **Breadth — conflict RESOLVED toward RISK-ON.** S5TH (stocks >200-DMA) prints **~61.4 / 63.5** (recent), consistent with late-June StreetStats **61.6%** ≥50% ✓. The recurring undated **"21%"** hit is the stale/misattributed figure flagged the last two sessions — **not actioned**.
+- **Sector RS:** **Materials #1 YTD (+22%)**, Industrials highest large-cap RS (AI-infra/defense/electrification capex); Energy/Staples at recent highs on the cyclical/defensive rotation but **Energy lagged Q2 (-13%)** — today's oil pop is a war premium, not restored trend. Tech led Q2 but semis now distributing.
+
+### Regime Assessment — RISK-ON (60% floor / 85% ceiling), unchanged
+All three quantitative legs hold: **SPX > 50/200-DMA ✓; VIX 16.13 <18 ✓; breadth ~61% ≥50% ✓.** No crash-guard (VIX not >26; no ≥5%/10-session DD). No dated bearish thesis on file → floor is mechanical.
+- **More-cautious note (§4.1):** geopolitical risk-off + VIX spiking ~13% intraday + SPX only ~0.4% over its 200-DMA + ongoing semi distribution = fragile edges. Watch for a VIX >18 close or a breadth roll <50% that would flip RISK-ON→Neutral. Does **not** flip the regime while the hard thresholds hold.
+- **Floor math:** 60% floor = **$59,582.62**; SPY MV **$59,452 (59.87%)** → **under floor by ~$131 (0.13%)**, entirely overnight mark drift. 85% ceiling = $84,409 — ample cash to fund a qualifying alpha name.
+
+### §9 Macro-Veto Status — none binding on the floor
+**FOMC minutes today (2pm ET)** = headline/rate-path risk, but minutes are **not** an §9-listed decision/print (FOMC *decision*/CPI/PPI/jobs) → **no hard veto**. Regardless, floor is never paused (§4.1a). Not initiating fresh single-name risk today anyway. Next §9 heavyweight: CPI mid-July.
+
+### Catalyst Calendar — held/watched names
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8).
+- **No alpha holdings.** Watchlist: CAT earnings **Aug 4** (outside veto); big-bank earnings later this week (JPM Jul 14).
+
+### Trade Ideas (alpha layer)
+1. **Energy / XLE — PASS (do not chase the war premium).** WTI +6% on the Iran headline is a geopolitical spike, **not** a confirmed Path A uptrend (Energy lagged Q2 -13%, RS still repairing). No clean price>50>200-DMA leadership setup; entering into a binary geopolitical/oil tape is the opposite of the rulebook. Re-score only if a durable trend rebuilds.
+2. **Industrials / Materials single names — right pond, no clean ≥7.0 today.** Materials #1 RS (+22% YTD), Industrials top RS, but the marquee leaders are extended/distributing (CAT -11% off its Jun 30 ATH, scored 5.75 Jul 07 — below the 6.0 starter floor). No non-extended name isolates at a Path A ≥7.0. A geopolitical risk-off gap-down is not the session to initiate fresh single-name risk. **Drill again once the tape settles.**
+3. **Semis / AI hardware (MU, AMD, AVGO, SMH) — AVOID.** Distribution deepening (Samsung -8.8%, chips cooling). Do not bottom-fish.
+
+### §4.4 Recalibration Audit — mini-audit run (3rd consecutive zero-clear session)
+Zero alpha-gate clears Jul 06 (JPM cancel + named pond), Jul 07 (scored CAT), Jul 08 (today) = **3 consecutive** → audit armed. Ran it:
+1. **Score calibration:** CAT scored **5.75** — genuinely below even the 6.0 starter floor on a broken near-term setup, **not** a 6.0–6.9 near-threshold cluster. No calibration inflation to correct.
+2. **Path coherence:** Path A (trend) applied correctly to Industrials/Materials names — not wrongly demanding a dated catalyst.
+3. **Screen breadth:** universe screened across Industrials (CAT), Materials, Energy (oil pop), Semis (avoid), Financials — not a single re-checked name.
+- **Resolution (b):** the qualifying universe's leaders are extended/distributing and today carries a genuine geopolitical risk-off shock → no clean Path A ≥7.0 is investable today. **Critically, this is NOT paralysis-driven cash-sitting: the book is ~60% invested via the SPY proxy, meeting the RISK-ON floor.** The §4.4 concern (cash drag while making excuses) does not apply.
+
+### Risk Factors
+- **Iran/geopolitics** — headline-driven, two-way gap risk; oil spike could persist or fully retrace on a de-escalation headline.
+- **Oil +6%** pressures margins broadly but supports Energy/Materials commodity RS short-term; not a trade signal on its own.
+- **Semi/AI-hardware distribution** — SPY is ~30%+ Tech; proxy mark exposed to further semi weakness (Samsung -8.8%).
+- **SPX only ~0.4% above its 200-DMA** — thin cushion; a breadth roll <50% or VIX >18 close flips RISK-ON→Neutral.
+- **FOMC minutes 2pm ET** — rate-path headline risk (not an §9 veto).
+
+### Decision
+**HOLD — no new alpha. One floor-maintenance action queued.**
+1. **Floor top-up (proxy):** SPY 59.87% is **0.13% under the RISK-ON 60% floor** on overnight mark drift. This is within EOD mark tolerance, but with no dated bearish thesis on file the floor is mechanical → **market-open task: buy 1 sh SPY (→81 sh, ~60.6%) if the book remains <60% at the open.** Proxy add — not a §4.3-capped alpha trade, no conviction gate, no per-name stop (§5/§8).
+2. **No single-name entry:** no Industrials/Materials name cleared ≥7.0; will not force one — and a geopolitical risk-off + FOMC-minutes day is the wrong tape to initiate fresh single-name risk. Book correctly positioned: **SPY ~60% (RISK-ON floor, pending 1-sh top-up), 0 alpha, 0 open orders, $39,852 cash to fund a qualifying name toward the 85% ceiling.**
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks:** (1) reconcile + verify the floor top-up filled; (2) re-confirm VIX <18 close and breadth ≥50% held through the Iran/FOMC-minutes tape; (3) drill Industrials/Materials top-5 single names for a non-extended Path A ≥7.0 once the tape settles; (4) if a name clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8).
