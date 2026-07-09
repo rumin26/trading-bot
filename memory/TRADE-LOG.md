@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 09 — EOD Snapshot (Day 40, Thursday)
+**Portfolio:** $99,963.07 | **Cash:** $39,108.58 (39.1%) | **Day P&L:** +$477.09 (+0.48%) | **Phase P&L:** -$36.93 (-0.04%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 81     | $752.4116 | $751.29 | +0.79% | -$90.85 (-0.15%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 40, week 9. Reconcile (§14): live Alpaca = equity $99,963.07, cash $39,108.58, SPY 81 sh (avg $752.4116, MV $60,854.49), zero open orders — matches Jul 08 EOD logged state exactly (cash to the cent, 81 sh, byte-identical avg entry, no order-book change; most recent fill remains the Jul 08 +1 proxy top-up, order `3d21e7de`). No external/manual change this session → account reconciles, **no HALT.** Day P&L computed vs Alpaca's authoritative prior-day close (`last_equity` $99,485.98): **+$477.09 (+0.48%)** — matches Alpaca's own `unrealized_intraday_pl` exactly; all SPY mark-up (close $745.40→$751.29, +0.79% on the day). (The Jul 08 EOD snapshot logged $99,395.27 off an intraday $744.28 mark; the settled close is the higher $99,485.98 — using it keeps the Day P&L clean.) Phase P&L -$36.93 (-0.04%) vs $100k start — book essentially flat to benchmark start; proxy now -$90.85 (-0.15%) from $752.41 avg. **Regime RISK-ON** (SPX >50/200-DMA, VIX <18, breadth ≥50%); 60% floor mechanical, no dated bearish thesis on file. Deployed **60.88%** (SPY MV $60,854.49 / equity) — meets the RISK-ON 60% floor. No alpha exposure; proxy carries no per-name stop by design. Trades today (bot): none. External events: 0. New alpha entries this week: 0/3; positions 1/6; DT 0/5. **Next session (Fri Jul 10, weekly-review):** reconcile; confirm VIX <18 + breadth ≥50% held; top SPY only if drift pushes sub-60%; drill Industrials/Materials/Financials top-5 for a non-extended Path A ≥7.0 (JPM re-arm candidate ~$322) — if a name clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8). Run the Friday weekly-review template.
+
 ### Jul 08 — EOD Snapshot (Day 39, Wednesday)
 **Portfolio:** $99,395.27 | **Cash:** $39,108.59 (39.3%) | **Day P&L:** -$273.90 (-0.27%) | **Phase P&L:** -$604.73 (-0.60%)
 
