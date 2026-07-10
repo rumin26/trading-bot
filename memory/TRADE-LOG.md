@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 10 — EOD Snapshot (Day 41, Friday)
+**Portfolio:** $100,296.94 | **Cash:** $39,108.58 (39.0%) | **Day P&L:** +$299.85 (+0.30%) | **Phase P&L:** +$296.94 (+0.30%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 81     | $752.4116 | $755.41 | +0.49% | +$243.02 (+0.40%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 41, week 9, weekly-review Friday. Reconcile (§14): live Alpaca = equity $100,296.94, cash $39,108.58, SPY 81 sh (avg $752.411605, MV $61,188.36), zero open orders — matches Jul 09 EOD logged state exactly (cash to the cent, 81 sh, byte-identical avg entry, no order-book change; most recent fill remains the Jul 08 +1 proxy top-up, order `3d21e7de`). No external/manual change this session → account reconciles, **no HALT.** Day P&L computed vs Alpaca's authoritative prior-day close (`last_equity` $99,997.09): **+$299.85 (+0.30%)** — matches Alpaca's own `unrealized_intraday_pl` ($299.85) exactly; all SPY mark-up (close $751.71→$755.41, +0.49% on the day). Phase P&L **+$296.94 (+0.30%)** vs $100k start — book turns green vs benchmark start; proxy now +$243.02 (+0.40%) from $752.41 avg. **Regime RISK-ON** (SPX >50/200-DMA, VIX <18, breadth ≥50%); 60% floor mechanical, no dated bearish thesis on file. Deployed **61.01%** (SPY MV $61,188.36 / equity) — meets the RISK-ON 60% floor. No alpha exposure; proxy carries no per-name stop by design. Trades today (bot): none. External events: 0. New alpha entries this week: 0/3 (Jul 07 & Jul 08 were +1 SPY proxy top-ups, not alpha — excluded from §4.3 cap); positions 1/6; DT 0/5. **Weekly-review note:** week 9 closes with the book flat-to-green (+0.30% phase), 100%-proxy, still zero alpha names funded — four straight weeks of floor-only participation. The §14 flag cluster (Jun 08, Jul 06, Jul 07) resolved as glitches/external, no recurrence Jul 08–10; account/data feed reads sound this week. **Next session (Mon Jul 13, fresh week → 3-trade cap resets):** reconcile; confirm VIX <18 + breadth ≥50% held; top SPY only if drift pushes sub-60%; the persistent gap is the un-funded alpha layer — drill Industrials/Materials/Financials top-5 for a non-extended Path A ≥7.0 (JPM re-arm candidate ~$322) and, if a name clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8). Sitting 100% proxy indefinitely is defensible vs the floor but forfeits the alpha mandate.
+
 ### Jul 09 — EOD Snapshot (Day 40, Thursday)
 **Portfolio:** $99,963.07 | **Cash:** $39,108.58 (39.1%) | **Day P&L:** +$477.09 (+0.48%) | **Phase P&L:** -$36.93 (-0.04%)
 
