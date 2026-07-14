@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 14 — EOD Snapshot (Day 43, Tuesday)
+**Portfolio:** $99,988.18 | **Cash:** $39,108.58 (39.1%) | **Day P&L:** +$196.83 (+0.20%) | **Phase P&L:** -$11.82 (-0.01%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 81     | $752.4116 | $751.60 | +0.32% | -$65.74 (-0.11%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 43, week 10. Reconcile (§14): live Alpaca = equity $99,988.18, cash $39,108.58, SPY 81 sh (avg $752.411605, MV $60,879.60), zero open orders — matches Jul 13 EOD logged state exactly (cash to the cent, 81 sh, byte-identical avg entry, no order-book change; most recent fill remains the Jul 08 +1 proxy top-up, order `3d21e7de`). No external/manual change this session → account reconciles, **no HALT.** Day P&L computed vs Alpaca's authoritative prior-day close (`last_equity` $99,791.35): **+$196.83 (+0.20%)** — matches Alpaca's own `unrealized_intraday_pl` ($196.83) exactly; all SPY mark-up (close $749.17→$751.60, +0.32% on the day). Phase P&L **-$11.82 (-0.01%)** vs $100k start — book essentially flat to benchmark start; proxy now -$65.74 (-0.11%) from $752.41 avg. **Regime RISK-ON** (SPX >50/200-DMA, VIX <18, breadth ≥50%); 60% floor mechanical, no dated bearish thesis on file. Deployed **60.89%** (SPY MV $60,879.60 / equity) — meets the RISK-ON 60% floor. No alpha exposure; proxy carries no per-name stop by design. Trades today (bot): none. External events: 0. New alpha entries this week: 0/3; positions 1/6; DT 0/5. The persistent gap remains the un-funded alpha layer — six straight weeks of floor-only participation. **Next session (Wed Jul 15):** reconcile; confirm VIX <18 + breadth ≥50% held; top SPY only if drift pushes sub-60% ($59,993 floor); drill Industrials/Materials/Financials top-5 for a non-extended Path A ≥7.0 (JPM re-arm candidate ~$322) — if a name clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8). Sitting 100% proxy is defensible vs the floor but forfeits the alpha mandate.
+
 ### Jul 13 — EOD Snapshot (Day 42, Monday)
 **Portfolio:** $99,720.07 | **Cash:** $39,108.58 (39.2%) | **Day P&L:** -$539.46 (-0.54%) | **Phase P&L:** -$279.93 (-0.28%)
 
