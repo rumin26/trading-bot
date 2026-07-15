@@ -1405,3 +1405,66 @@ Zero-clear streak continues, but the book is **60.88% invested via the SPY proxy
 - Book correctly positioned: **SPY 60.88% (RISK-ON floor met), 0 alpha, 0 open orders, ~$39.1k cash available to fund a qualifying name toward the 85% ceiling once the veto lifts.**
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (Wed Jul 15):** (1) reconcile; (2) **check the Jul 14 close — if VIX closed >18 OR SPX closed below the 50-DMA (7509), regime flips to Neutral (60% ceiling) → trim SPY to ≤60%**; else RISK-ON floor stands; (3) PPI at 8:30 ET — §9 veto lifts at Wed open (no further print immediately after), so fresh single-name risk becomes available Thu Jul 16+ absent a new pre-print session; (4) re-confirm breadth ≥50% held through the Hormuz/CPI/PPI tape; (5) top SPY only if drift pushes sub-60% (RISK-ON) / sub-30% (Neutral); (6) post-PPI (Jul 16+) drill Industrials/Materials top-5 for a non-extended Path A ≥7.0; Financials stay earnings-vetoed until after today; (7) if a name clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8).
+
+---
+
+## 2026-07-15 — Pre-market Research (Day 46, Wednesday)
+
+### Account (snapshot)
+- Equity: **$100,201.07** (last_equity / Jul 14 close $100,006.81)
+- Cash: **$39,108.58** (39.0%, settled)
+- Buying power: $69,654.82 non-marginable (cash-account discipline §2; margin/multiplier unused)
+- Daytrade count: 0/5
+- Open positions: **SPY 81 sh @ $752.411605** (MV $61,092.49, **60.97% of E**, unrealized +$147.15 / +0.24%; intraday +$194.26 / +0.32%, current $754.23). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $100,201.07, cash $39,108.58, **SPY 81 sh (avg $752.411605), 0 open orders** — matches Jul 14 EOD logged state exactly (cash to the cent, 81 sh, byte-identical avg entry, no order-book change; most recent fill remains the Jul 08 +1 proxy top-up, order `3d21e7de`). No external/manual change → account reconciles, **No HALT.**
+
+### Market Context
+- **PPI (June) came in SOFT — downside surprise.** Headline **−0.3% m/m vs 0.0% consensus** (final-demand goods −1.4% on lower energy; services +0.2%); +5.5% YoY unadjusted. Back-to-back soft prints (CPI −ve surprise Jul 14 + PPI today) — rate-path-friendly into the Jul 28–29 FOMC; markets sharply pared July-hike odds. Released 8:30 ET.
+- **Geopolitics — still escalating.** US strikes Iran again; Washington reinstates the naval blockade of Iranian ports near Hormuz. Oil bid but choppy; a **forward** (July+) inflation risk, not in today's June print.
+- **Oil:** **Brent ~$85.8, WTI ~$79.7 (+0.45%)** — elevated on the Hormuz blockade. A geopolitical supply-shock spike, **not** a confirmed Path A Energy uptrend (Energy lagged Q2).
+- **Futures:** **ES +0.2%** premarket (+~13.5 pts) — ASML's bullish AI-demand signal + soft PPI; earnings-heavy tape.
+- **VIX:** **closed 16.50 (−3.85%)** Jul 14 — **<18 ✓**, well below the 26 crash-guard; volatility easing, not building. No ≥5%/10-session drawdown.
+- **SPX:** Jul 13 close 7515.84, **Jul 14 +0.4% → ~7546** — **> 50-DMA (7509.17) ✓ and > 200-DMA (7472.59) ✓**; cushion over the 50-DMA re-opened after Jul 14's gain.
+- **Breadth:** narrow leadership (28 S&P names at 52-wk highs Jul 14) but the >50-DMA breadth read held **≥50% ✓**.
+- **Sector RS:** **Tech** YTD leader (Q2 large-cap +43%, but top-heavy — 70%+ of weight in 2 names). **Industrials / Aerospace-Defense** strong RS (capex/electrification/AI-infra/defense tailwind). **Financials** in earnings this week. **Energy** war-premium only.
+
+### Regime Assessment — RISK-ON, firming (60% floor / 85% ceiling)
+Yesterday's flip-watch resolves **negative**: **VIX closed 16.50 (<18), SPX closed above the 50-DMA (~7546 > 7509)** — no flip to Neutral, **no SPY trim.** All three legs hold: SPX >50/200-DMA ✓; VIX <18 ✓; breadth ≥50% ✓. No crash-guard (VIX ≪26; no ≥5%/10-session DD). No dated bearish thesis on file → floor is mechanical.
+- **Floor math (RISK-ON):** 60% floor = **$60,120.64**; SPY MV **$61,092.49 (60.97%)** → **floor met, ~$972 (0.97%) above.** No proxy top-up. 85% ceiling = $85,170.91 → **~$24.1k headroom** for a qualifying alpha name.
+
+### §9 Macro-Veto Status — NOT BINDING TODAY
+PPI (the last-scheduled §9 print of the week) released **this morning**; its pre-print veto expired at today's open. Tomorrow's calendar (Thu Jul 16) is **weekly initial jobless claims + advance retail sales** — **not** §9-scoped prints (§9 = FOMC / CPI / PPI / monthly-jobs). **No FOMC/CPI/PPI/monthly-jobs print immediately ahead → §9 does not pause fresh single-name risk today.** First non-vetoed session in weeks — the alpha layer is genuinely open.
+
+### Catalyst Calendar — held/watched names
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8).
+- **No alpha holdings.** This week's earnings cluster gates the leaders: **GE Aerospace reports Jul 16** (pre-market); **Financials** MS/BLK/PNC/BNY report **today**, JPM/GS reported Jul 14 — all inside the §6 earnings veto. FOMC Jul 28–29.
+
+### §4.4 Recalibration Audit — genuinely re-drilled (first §9-open session)
+Zero-clear streak is long and §9 no longer blocks, so the audit was run with teeth, not deferred to a veto:
+1. **Score calibration:** no name is being scored into the 6.0–6.9 "just-miss" band to fake activity. The blocker is not a sub-threshold cluster.
+2. **Catalyst-path coherence:** leaders are being judged on Path A (trend), not wrongly held to a dated-catalyst requirement.
+3. **Screen breadth:** drilled Industrials/Aerospace-Defense, Financials, Refiners, Tech.
+**Resolution (b):** the cleanest Path A leaders in the leading theme are **transiently earnings-blocked this week** — GE Aerospace (the standout aerospace-defense leader) reports **tomorrow**; the top Financials report today/Jul 14. That is a specific, dated reason, **not** "the market is uninvestable." Floor participation stands via SPY regardless; the honest re-drill window is **post-earnings Jul 16–17** (post-earnings-drift, §11.4). No forced low-conviction trade.
+
+### Trade Ideas (alpha layer)
+1. **GE Aerospace (GE) — cleanest Path A leader, but EARNINGS-VETOED.** Confirmed uptrend (22% YTD, +44% 1-yr, top-18% trend strength), leading Aerospace/Defense theme with Palantir/Pentagon tailwinds — a genuine Path A ≥7.0-caliber setup **except** it reports Q2 **Jul 16**, inside the 5-day full / 3-day starter veto (§6). **Do not enter pre-print.** Re-score Jul 16+ for a post-earnings-drift entry if it beats + holds trend outside the veto.
+2. **Financials (MS/BLK/PNC/JPM/GS) — PASS (earnings veto).** Reporting today / Jul 14, inside the §6 window; Financials not top-3 RS. Reassess post-print Jul 16+.
+3. **Refiners (VLO/MPC/PBF) at 52-wk highs — PASS (war-premium spike).** Highs are driven by the Hormuz oil spike, headline-reversible on any de-escalation; §11 "avoid chasing geopolitical spikes." Not a durable Path A trend. Pass.
+4. **Wesco (WCC) / Industrials laggards — no clean ≥7.0.** WCC pulled back ~10% from highs (not a confirmed breakout); marquee industrials still extended. Nothing isolates a Path A ≥7.0 today. Pass.
+5. **Semis / broad Tech — AVOID/extended.** Top-heavy, concentrated; not a clean non-extended Path A entry.
+
+### Risk Factors
+- **Strait of Hormuz — active supply shock.** US strikes + naval blockade; oil at 1-month highs. Sharp two-way gap risk; a **forward** inflation threat (July+ prints) even as June CPI/PPI printed soft.
+- **Narrow breadth / near record** — leadership concentrated (28 names at highs); a breadth roll <50% or a VIX>18 close flips RISK-ON→Neutral (60% ceiling), which would put 60.97% marginally over-cap → small SPY trim.
+- **Earnings-cluster air-pocket** — GE + financials report this week; single-name gap risk keeps the best leaders un-enterable until they clear the veto.
+- **Oil-shock inflation into FOMC (Jul 28–29)** — a renewed Hormuz premium could re-harden the rate path despite this week's soft prints.
+
+### Decision
+**HOLD — no new alpha; floor already met, no proxy action.**
+- **Floor:** SPY 81 sh = **60.97% of E** ≥ RISK-ON 60% floor → **no top-up; no trim** (regime did not flip).
+- **No single-name entry:** §9 is open today, but the qualifying universe's leaders (GE Aerospace, top Financials) are **earnings-vetoed this week**; refiners are a war-premium spike; industrials laggards/semis show no non-extended Path A ≥7.0. Not forcing one (§7 anti-gaming).
+- Book correctly positioned: **SPY 60.97% (RISK-ON floor met), 0 alpha, 0 open orders, ~$39.1k cash ready to fund a qualifying name toward the 85% ceiling.**
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (Thu Jul 16):** (1) reconcile; (2) **GE Aerospace reports pre-market — if it beats + holds its uptrend, it exits the earnings veto and becomes a live Path A post-earnings-drift candidate; score it ≥7.0 and, if it clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8)**; (3) re-drill top Financials post-print for a clean Path A ≥7.0; (4) confirm VIX <18 + breadth ≥50% held (Thu claims/retail-sales are not §9 prints — no fresh-risk pause); (5) top SPY only if drift pushes sub-60% ($60,121 floor).
