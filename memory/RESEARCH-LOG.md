@@ -1468,3 +1468,65 @@ Zero-clear streak is long and §9 no longer blocks, so the audit was run with te
 - Book correctly positioned: **SPY 60.97% (RISK-ON floor met), 0 alpha, 0 open orders, ~$39.1k cash ready to fund a qualifying name toward the 85% ceiling.**
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (Thu Jul 16):** (1) reconcile; (2) **GE Aerospace reports pre-market — if it beats + holds its uptrend, it exits the earnings veto and becomes a live Path A post-earnings-drift candidate; score it ≥7.0 and, if it clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8)**; (3) re-drill top Financials post-print for a clean Path A ≥7.0; (4) confirm VIX <18 + breadth ≥50% held (Thu claims/retail-sales are not §9 prints — no fresh-risk pause); (5) top SPY only if drift pushes sub-60% ($60,121 floor).
+
+---
+
+## 2026-07-16 — Pre-market Research (Day 47, Thursday)
+
+### Account (snapshot)
+- Equity: **$100,044.88** (last_equity / Jul 15 close $100,248.19)
+- Cash: **$39,108.58** (39.09%, settled)
+- Buying power: $69,576.73 non-marginable (cash-account discipline §2; margin/multiplier unused)
+- Daytrade count: 0/5
+- Open positions: **SPY 81 sh @ $752.411605** (MV $60,936.30, **60.91% of E**, unrealized −$9.04 / −0.02%; intraday −$203.31 / −0.33%, current $752.30). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $100,044.88, cash $39,108.58, **SPY 81 sh (avg $752.411605), 0 open orders** — matches Jul 15 EOD logged state exactly (cash to the cent, 81 sh, byte-identical avg entry, no order-book change; most recent fill remains the Jul 08 +1 proxy top-up, order `3d21e7de`). No external/manual change → account reconciles, **No HALT.**
+
+### Market Context
+- **GE Aerospace Q2 — BEAT + RAISED, but selling the news.** Adj EPS **$2.02 vs $1.86 cons** (~8.6% beat); FY26 adj-EPS guide raised to **$7.65–$7.85** from $7.10–$7.40 (above $7.54 cons). Sell-side PT bumps (Susquehanna $430, Citi $431). **Yet the stock is DOWN ~1.7% premarket (~$349 vs $355.12 prev close; Alpaca bid $349.23 / ask $353.79).** A fundamentally strong print the tape is fading.
+- **Rotation tape — chips down, cyclicals up.** TSMC beat (+77% profit) but lifted FY capex to $60–64B (from $52–56B); TSM ADR −3–4.6% premarket, dragging semis; **Nasdaq-100 fut ~−1%, S&P fut ~flat-to−0.1%, Dow fut +130** → value/industrials bid, tech soft.
+- **Data (not §9-scoped):** June **retail sales +0.2% (in line)**; initial **jobless claims 208k** (−8k, below 218k cons — still-tight labor). Neither is an §9 print.
+- **Oil:** **Brent ~$84.6 (−0.4%), WTI ~$78–80.5** — easing off the Hormuz spike; still a *forward* (July+) inflation risk, not a confirmed Path A Energy uptrend.
+- **VIX:** **~16.2** (range 15.9–16.6) — **<18 ✓**, far below 26 crash-guard. No ≥5%/10-session drawdown.
+- **SPX:** near record, **> 50-DMA (7509) ✓ and > 200-DMA (7473) ✓**.
+- **Sector RS (YTD):** **Industrials #1 (+24.6%)**, Real Estate +20.6%, **Materials +17.9%**; Tech strong Q2 but top-heavy; **Financials +5.8% (not top-3)**; Energy war-premium only.
+
+### Regime Assessment — RISK-ON holds (60% floor / 85% ceiling)
+All three legs hold: SPX >50/200-DMA ✓; VIX ~16.2 <18 ✓; breadth ≥50% ✓. No crash-guard (VIX ≪26; no ≥5%/10-session DD). No dated bearish thesis on file → floor is mechanical.
+- **Floor math (RISK-ON):** 60% floor = **$60,026.93**; SPY MV **$60,936.30 (60.91%)** → **floor met, ~$909 (0.91%) above.** No proxy top-up, no trim (regime did not flip). 85% ceiling = $85,038.15 → **~$24.1k headroom** for a qualifying alpha name.
+
+### §9 Macro-Veto Status — NOT BINDING
+Today's releases (retail sales, jobless claims) are **not** §9-scoped (§9 = FOMC / CPI / PPI / monthly-jobs). Next §9 print is **FOMC Jul 28–29**. **No print immediately ahead → fresh single-name risk is open.**
+
+### Catalyst Calendar — held/watched names
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8).
+- **No alpha holdings.** GE Aerospace reported this morning (below). Netflix reports after the close today; UnitedHealth pre-market (neither held). FOMC Jul 28–29.
+
+### Trade Ideas (alpha layer)
+1. **GE Aerospace (GE) — the teed-up leader, FAILS Path A on its actual reaction. PASS.** Fundamentals are excellent (beat + raise, $170B services backlog, narrowbody-engine duopoly), but Path A requires a *confirmed uptrend* and GE is now **~6% below its 50-DMA ($371.79)** and **fading a beat-and-raise (−1.7% premarket)**. A "sell-the-news" gap below the 50-DMA is a broken momentum signal, not a post-earnings-drift long. Score below.
+   - **Score (Path A):** Momentum 4 (below 50-DMA, negative reaction) · Catalyst/trend-quality 3 (trend broken, tape fading the print) · R:R 4 (no clean stop under a falling knife) · Moat 9 · Valuation 5 (premium; "valuation could cap the rally"). **Weighted avg ≈ 4.6 → well below 7.0. PASS.** Re-drill only if it reclaims the 50-DMA on volume.
+2. **Financials (JPM/GS/MS reported) — PASS.** Sector **+5.8% YTD, not top-3 RS**; no Path A leadership. Reassess only on a sector RS improvement.
+3. **Semis / Tech — AVOID today.** TSMC capex overhang, TSM −3–4.6%, Nasdaq fut −1%; top-heavy and soft. No clean non-extended Path A entry.
+4. **Refiners / Energy (war-premium) — PASS.** Highs are Hormuz-driven and headline-reversible; §11 "avoid chasing geopolitical spikes." Not a durable trend.
+5. **Industrials/Materials ex-GE — no isolated ≥7.0.** Sector is #1 RS but marquee names extended; nothing isolates a non-extended Path A ≥7.0 today.
+
+### §4.4 Recalibration Audit — re-drilled with teeth (§9 open)
+1. **Score calibration:** not gaming names into the 6.0–6.9 band — GE scores ~4.6 on an *honest* read of a broken momentum leg, not a near-miss.
+2. **Catalyst-path coherence:** GE judged on Path A (trend), which it genuinely fails; not wrongly held to a dated-catalyst rule.
+3. **Screen breadth:** drilled Industrials/Aerospace-Defense (GE), Financials, Semis/Tech, Refiners/Energy, Materials.
+**Resolution (b):** a specific, defensible reason the qualifying universe is un-actionable today — the teed-up leader **faded its own beat and sits below the 50-DMA**; other leaders are extended, earnings-gated, or war-premium spikes. Floor participation stands via SPY regardless. No forced low-conviction trade (§7 anti-gaming).
+
+### Risk Factors
+- **Semiconductor air-pocket** — TSMC capex overhang could pressure the tech-heavy index/proxy mark intraday even as cyclicals hold.
+- **Sell-the-news breadth** — GE fading a strong print signals a demanding, priced-for-perfection tape near record highs; single-name gap risk is two-way.
+- **Strait of Hormuz** — active supply-shock backdrop; sharp two-way oil gap risk and a forward (July+) inflation threat into FOMC Jul 28–29.
+- **Regime knife-edge** — near record with narrow leadership; a VIX>18 close or breadth roll <50% would flip RISK-ON→Neutral (60% ceiling), putting 60.91% marginally over-cap → small SPY trim.
+
+### Decision
+**HOLD — no new alpha; floor already met, no proxy action.**
+- **Floor:** SPY 81 sh = **60.91% of E** ≥ RISK-ON 60% floor → **no top-up; no trim** (regime did not flip).
+- **No single-name entry:** §9 is open, but the teed-up leader **GE fails Path A** (below 50-DMA, fading its beat; score ≈4.6); Financials not top-3 RS; semis/tech soft; refiners a war-premium spike. Not forcing one (§7 anti-gaming).
+- Book correctly positioned: **SPY 60.91% (RISK-ON floor met), 0 alpha, 0 open orders, ~$39.1k cash ready to fund a qualifying name toward the 85% ceiling.**
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (Fri Jul 17):** (1) reconcile; (2) **re-check GE — if it reclaims the 50-DMA ($371.79) on volume, it re-arms as a Path A post-earnings-drift candidate; score ≥7.0 and, if it clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8)**; (3) weekly-review Friday — run §12 process audit (floor adherence, any cleared-but-untaken gate, 6.0–6.9 cluster check); (4) confirm VIX <18 + breadth ≥50% held; (5) top SPY only if drift pushes sub-60% ($60,027 floor); (6) drill Industrials/Materials top-5 for a non-extended Path A ≥7.0 as semis stay soft.
