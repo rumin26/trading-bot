@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 17 — EOD Snapshot (Day 46, Friday)
+**Portfolio:** $99,288.34 | **Cash:** $39,108.58 (39.4%) | **Day P&L:** -$628.56 (-0.63%) | **Phase P&L:** -$711.66 (-0.71%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 81     | $752.4116 | $742.96 | -1.03% | -$765.58 (-1.26%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 46, week 10, weekly-review Friday. Reconcile (§14): live Alpaca = equity $99,288.34, cash $39,108.58, SPY 81 sh (avg $752.411605, MV $60,179.76), zero open orders — matches Jul 16 EOD logged state exactly (cash to the cent, 81 sh, byte-identical avg entry, no order-book change; most recent fill remains the Jul 08 +1 proxy top-up, order `3d21e7de`). No external/manual change this session → account reconciles, **no HALT.** Day P&L computed vs Alpaca's authoritative prior-day close (`last_equity` $99,916.90): **-$628.56 (-0.63%)** — matches Alpaca's own `unrealized_intraday_pl` (-$628.56) exactly; all SPY mark-down (close $750.72→$742.96, -1.03% on the day). Phase P&L **-$711.66 (-0.71%)** vs $100k start; proxy now -$765.58 (-1.26%) from $752.41 avg. **Regime RISK-ON** (SPX >50/200-DMA, VIX <18, breadth ≥50%); 60% floor mechanical, no dated bearish thesis on file. Deployed **60.61%** (SPY MV $60,179.76 / equity) — still meets the RISK-ON 60% floor ($59,573) after the drawdown, no top-up needed. No alpha exposure; proxy carries no per-name stop by design. Trades today (bot): none. External events: 0. New alpha entries this week: 0/3; positions 1/6; DT 0/5. **Weekly-review note:** week 10 closes red (-0.71% phase) on a broad-tape down day, book 100%-proxy at the RISK-ON floor, still zero alpha names funded — seven straight weeks of floor-only participation and the standing gap vs the alpha mandate. Regime held RISK-ON all week; no §14 flags. **Next session (Mon Jul 20, fresh week → 3-trade cap resets):** reconcile; confirm VIX <18 + breadth ≥50% held (watch mid-July CPI cadence — apply §9 one-session veto to fresh single-name risk if a print lands the prior day; floor never pauses); top SPY only if drift pushes sub-60% ($59,573 floor); re-drill Industrials/Materials/Financials top-5 for a non-extended Path A ≥7.0 — if a name clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8). Sitting 100% proxy is defensible vs the floor but continues to forfeit the alpha mandate.
+
 ### Jul 16 — EOD Snapshot (Day 45, Thursday)
 **Portfolio:** $99,848.86 | **Cash:** $39,108.58 (39.2%) | **Day P&L:** -$399.33 (-0.40%) | **Phase P&L:** -$151.14 (-0.15%)
 
