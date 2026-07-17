@@ -1530,3 +1530,65 @@ Today's releases (retail sales, jobless claims) are **not** §9-scoped (§9 = FO
 - Book correctly positioned: **SPY 60.91% (RISK-ON floor met), 0 alpha, 0 open orders, ~$39.1k cash ready to fund a qualifying name toward the 85% ceiling.**
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (Fri Jul 17):** (1) reconcile; (2) **re-check GE — if it reclaims the 50-DMA ($371.79) on volume, it re-arms as a Path A post-earnings-drift candidate; score ≥7.0 and, if it clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8)**; (3) weekly-review Friday — run §12 process audit (floor adherence, any cleared-but-untaken gate, 6.0–6.9 cluster check); (4) confirm VIX <18 + breadth ≥50% held; (5) top SPY only if drift pushes sub-60% ($60,027 floor); (6) drill Industrials/Materials top-5 for a non-extended Path A ≥7.0 as semis stay soft.
+
+---
+
+## 2026-07-17 — Pre-market Research (Day 48, Friday)
+
+### Account (snapshot)
+- Equity: **$99,323.17** (last_equity / Jul 16 close $99,916.90)
+- Cash: **$39,108.58** (39.38%, settled)
+- Buying power: $69,215.87 non-marginable (cash-account discipline §2; margin/multiplier unused)
+- Daytrade count: 0/5
+- Open positions: **SPY 81 sh @ $752.411605** (MV $60,214.59, **60.62% of E**, unrealized −$730.75 / −1.20%; intraday −$593.73 / −0.98%, current $743.39). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,323.17, cash $39,108.58, **SPY 81 sh (avg $752.411605), 0 open orders** — matches Jul 16 EOD logged state exactly (cash to the cent, 81 sh, byte-identical avg entry, no order-book change; most recent fill remains the Jul 08 +1 proxy top-up, order `3d21e7de`). Equity dip is pure proxy drift (SPY −0.98% on the day). No external/manual change → account reconciles, **No HALT.**
+
+### Market Context
+- **Risk-off tape — semis unwind + Netflix miss + Iran.** Nasdaq-100 fut **~−1.6%**, S&P fut **~−0.8%**, Dow fut ~−0.6%. **Netflix −9/−10% premarket** (guided Q3 rev/EPS below consensus); AI/semiconductor momentum trade continues its July unwind. US strikes on Iran hit a 6th consecutive night, reportedly striking a tanker near Iran's main export terminal.
+- **Oil:** **Brent ~$86 (+2%), WTI ~$79–80** — Hormuz/Iran war premium re-firming; forward (July+) inflation risk, not a durable Path A Energy uptrend (§11 avoid chasing geopolitical spikes).
+- **Earnings today:** TRV, TFC, FITB (financials), Intuitive Surgical, Netflix (last night). **None held**; none are alpha candidates today.
+- **Data (not §9-scoped):** June housing starts, building permits, industrial production; July prelim UMich sentiment. None are §9 prints.
+- **VIX:** **~16.73** (Jul 16 close) — ticking up on the risk-off open but no confirmed ≥18; **far below 26** crash-guard. No ≥5%/10-session drawdown.
+- **SPX:** near record, **> 50-DMA and > 200-DMA ✓** (proxy $743.39; index above both MAs).
+- **Sector RS (YTD):** leaders **Energy / Technology / Industrials** (top-3), Materials/Real Estate next; **Financials ~3.3% (not top-3)**. Breadth **68.6% > 200-DMA (≥50% ✓)**.
+
+### Regime Assessment — RISK-ON holds (60% floor / 85% ceiling)
+All three legs hold: SPX >50/200-DMA ✓; VIX ~16.7 <18 ✓; breadth 68.6% ≥50% ✓. No crash-guard (VIX ≪26; no ≥5%/10-session DD). No dated bearish thesis on file → floor is mechanical.
+- **Floor math (RISK-ON):** 60% floor = **$59,593.90**; SPY MV **$60,214.59 (60.62%)** → **floor met, ~$621 (0.62%) above.** No proxy top-up, no trim (regime did not flip). 85% ceiling = $84,424.69 → **~$24.2k headroom** for a qualifying alpha name.
+- **Sub-floor watch:** floor breaches only if SPY MV < $58,663 (SPY price < ~$724.23, ~2.6% below current $743.39). Cushion thin on a down day — top SPY +1 sh if the close prints sub-60%.
+
+### §9 Macro-Veto Status — NOT BINDING
+Today's releases (housing starts, permits, IP, UMich) are **not** §9-scoped (§9 = FOMC / CPI / PPI / monthly-jobs). Next §9 print is **FOMC Jul 28–29**. **No print immediately ahead → fresh single-name risk is open** (though the tape itself is risk-off).
+
+### Catalyst Calendar — held/watched names
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8).
+- **No alpha holdings.** GE Aerospace (watch): still below 50-DMA ($371.79) post beat-and-raise; a risk-off semis-down tape makes a volume reclaim unlikely today. FOMC Jul 28–29 is the next macro catalyst.
+
+### Trade Ideas (alpha layer)
+1. **GE Aerospace (GE) — re-check per Jul 16 note: still FAILS Path A. PASS.** Requires a 50-DMA reclaim on volume; instead the tape is risk-off and GE remains ~6% under the 50-DMA after fading its beat. No confirmed uptrend. **Score ≈4.6 (unchanged read). PASS.** Re-arm only on a volume reclaim of $371.79.
+2. **Semis / Tech — AVOID.** Nasdaq-100 fut −1.6%; the July AI/semi momentum unwind is actively continuing. No clean non-extended Path A entry; do not catch the falling knife.
+3. **Energy / Refiners (Brent +2%) — PASS.** Highs are Iran/Hormuz war-premium, headline-reversible on any de-escalation; §11 "avoid chasing geopolitical spikes." Not a durable Path A trend.
+4. **Financials (TRV/TFC/FITB reporting) — PASS.** Sector ~3.3% YTD, **not top-3 RS**; earnings-gated this week. Reassess only on a sector RS improvement.
+5. **Industrials/Materials ex-GE — no isolated ≥7.0.** Top-3 RS but marquee names extended, and a risk-off tape is a poor entry backdrop; nothing isolates a non-extended Path A ≥7.0 today.
+
+### §4.4 Recalibration Audit — re-drilled (§9 open, risk-off tape)
+1. **Score calibration:** not gaming names into the 6.0–6.9 band — GE scores ~4.6 on an honest broken-momentum read; no sub-threshold cluster being nudged over the line.
+2. **Catalyst-path coherence:** GE judged on Path A (trend), which it genuinely fails; not wrongly held to a dated-catalyst rule.
+3. **Screen breadth:** drilled Aerospace/Industrials (GE), Semis/Tech, Energy/Refiners, Financials, Materials.
+**Resolution (b):** a specific, defensible reason the qualifying universe is un-actionable today — the teed-up leader (GE) is below its 50-DMA, semis are in an active unwind, energy is a war-premium spike, and financials are non-top-3/earnings-gated. Floor participation stands via SPY regardless. No forced low-conviction trade (§7 anti-gaming).
+
+### Risk Factors
+- **Semiconductor/AI unwind** — Nasdaq-100 fut −1.6%; a tech-heavy proxy mark is pressured intraday, could push SPY toward the sub-60% floor line ($724.23).
+- **Netflix sell-the-news** — a strong-tape name gapping −10% signals a demanding, priced-for-perfection market near record highs; two-way single-name gap risk elevated.
+- **Iran / Strait of Hormuz** — 6th night of strikes, tanker hit, Brent +2%; sharp two-way oil gap risk and a forward (July+) inflation threat into FOMC Jul 28–29.
+- **Regime knife-edge** — near record with the risk-off open; a VIX>18 close or breadth roll <50% would flip RISK-ON→Neutral (60% ceiling), putting 60.62% marginally over-cap → small SPY trim.
+
+### Decision
+**HOLD — no new alpha; floor already met, no proxy action at snapshot.**
+- **Floor:** SPY 81 sh = **60.62% of E** ≥ RISK-ON 60% floor → **no top-up; no trim** (regime did not flip).
+- **No single-name entry:** §9 is open, but the tape is risk-off (semis unwind, NFLX −10%, Iran); GE fails Path A (below 50-DMA, score ≈4.6); financials not top-3 RS; energy a war-premium spike. Not forcing one (§7 anti-gaming).
+- Book correctly positioned: **SPY 60.62% (RISK-ON floor met), 0 alpha, 0 open orders, ~$39.1k cash ready to fund a qualifying name toward the 85% ceiling.**
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (Mon Jul 20):** (1) reconcile; (2) **weekly-review is due (§12) — Friday's separate workflow: run the process audit (floor adherence every session, any cleared-but-untaken gate, 6.0–6.9 cluster check)**; (3) re-check GE for a 50-DMA reclaim ($371.79) on volume → re-arms Path A post-earnings-drift, score ≥7.0, fund from cash within caps + ATR/8%-cap GTC stop (§8); (4) confirm VIX <18 + breadth ≥50% held after the risk-off open; (5) **top SPY +1 sh if Fri close prints sub-60% ($59,594 floor / ~$724.23 SPY)**; (6) drill Industrials/Materials top-5 for a non-extended Path A ≥7.0 once the semi unwind stabilizes; (7) FOMC Jul 28–29 — §9 fresh-risk pause applies the session before.
