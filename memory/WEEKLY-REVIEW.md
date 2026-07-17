@@ -362,3 +362,67 @@ None this week. The JPM-cancel miss argues for a **§8.2 tightening** — "an ar
 
 ### Overall Grade: C
 Better than the recent run of D's on the numbers that matter to the owner — **absolute return positive (+0.86%) and the phase finally back in the green (+0.29%)**, floor met every session, regime read stable and correct, no knife caught in the early-week semi wobble. But the mandate is to *beat* the S&P, and we lagged again (~-0.55%, the 5th miss in six weeks) for the same structural reason every time: pure beta at the bare 60% floor with 40% idle cash while a rising tape ran. This week added two avoidable costs — a drilled, armed alpha name (JPM) forfeited one week before its sector led, and two daily-loop process bugs (a false §14 HALT on the bot's own order, and uncommitted Jul 08–10 logs). Discipline is intact and the absolute result improved; the persistent under-deployment lag and the still-empty alpha layer keep this a C, not higher.
+
+## Week ending 2026-07-17
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,259.53 (Mon Jul 13 AM ≈ Fri Jul 10 Alpaca close) |
+| Ending portfolio | $99,295.63 (Fri Jul 17 live) |
+| Week return | -$963.90 (-0.96%) |
+| S&P 500 week | ≈ -1.6% (semis into a bear market; Nasdaq -2.9%, Dow -~1%) |
+| Bot vs S&P | **+0.64%** (relative win — 2nd in a down tape) |
+| Trades | 0 (W:0 / L:0 / open:1) — no bot order all week; SPY held 81 sh |
+| Win rate | N/A (no closed trades) |
+| Best trade | SPY -1.24% (only position, unrealized) |
+| Worst trade | SPY -1.24% (same) |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | None closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| SPY | $752.4116 (81 sh) | $743.05 | -$758.29 (-1.24%) | none (proxy, §5/§8 exempt) |
+
+- **SPY** = benchmark proxy held to the RISK-ON 60% floor (§4.1a). **Zero bot orders this week** — last fill remains the Jul 08 +1 top-up (order `3d21e7de`); the 60% floor held mechanically all five sessions without a top-up as SPY drifted (deployed 60.6–61.0% each day). Deployed **60.61% of E** at week end; alpha layer empty (**~23rd straight session SPY-only** since Jun 16). Peer-valuation review N/A — the position *is* the index.
+
+### Sector Rotation Update
+- **Leaders (this week):** **Materials, Energy, Financials, Industrials, Consumer Staples, Comm Services** — the value/cyclical + defensive bid; the **Dow printed a fresh intraday record midweek** on traditional industrials and financials. Basic resources +2.4%, oil & gas +1.3% (Jul 14).
+- **Laggards (this week):** **Semiconductors — the PHLX Semi Index (SOX) fell into a BEAR MARKET Friday** on AI-hyperscaler-capex-cut fears (TSMC lifted FY capex to $60–64B; hyperscaler-spend doubts). Technology rolled over late-week, Consumer Discretionary and Health Care soft.
+- **Change vs last week — REVERSAL BACK:** last week's tech/AI/Comm-Services rebound (Meta +15%, Nvidia +4%) **reversed hard**; the multi-week "rotate OUT of semis/AI, INTO value/industrials/defensive" theme reasserted and deepened into an outright semi bear market. The rotation map has now flipped in three of the last four weeks — momentum leadership is unstable and un-tradeable on a weekly RS read.
+- **Strongest sector we're NOT in:** **Financials / Industrials** (Dow-record leadership) — but no single name isolated to a clean ≥7.0 Path A entry; the teed-up Industrials leader **GE Aerospace faded its own beat-and-raise and sits ~6% below its 50-DMA** (score ≈4.6, PASS both Jul 16 and Jul 17). Financials remained non-top-3 RS (~3.3% YTD). Sector identified, fundable name still not isolated — the standing conversion gap.
+
+### What Worked
+- **Second relative win of the phase in a down tape (+0.64% vs the S&P): -0.96% vs ≈-1.6%.** The 60% proxy / 40% cash posture — the same under-deployment that lagged the rising weeks — cushioned the book as semis cracked into a bear market. The cash short paid off again on a down week (same mechanism as week ending Jun 26).
+- **Floor met every session with zero intervention.** SPY drift kept deployment at 60.6–61.0% all week; no top-up needed, no sub-floor cash, no bearish-thesis breach. Clean mechanical §4.1a adherence.
+- **Reconciliation clean every session** — cash to the cent, 81 sh, byte-identical avg entry, zero open orders each day; no §14 flags, no false HALTs (the process bugs that dogged Jul 06–08 did not recur). Daily logs committed each session — the persistence gap flagged last week is closed.
+- **No knife caught.** Correctly refused GE below its 50-DMA (fading a beat), semis in an active bear-market unwind, energy as a war-premium spike, and non-top-3 Financials into earnings. No forced sub-threshold trade (§7 anti-gaming).
+
+### What Didn't Work
+- **Absolute return negative again (-0.96%, phase -0.70%).** Beating a falling benchmark is the mandate and we did — but the account still lost ~$964 on the week and sits below its $100k start; the proxy is -1.24% from its Jun 16 entry. Uncompensated beta drag while the alpha layer stays empty.
+- **Zero alpha for the entire phase — ~23 straight sessions of pure SPY beta** since Jun 16. Every dollar of this week's relative win is asset-allocation luck (being light in a down tape), not stock selection. No alpha has ever funded this phase.
+- **The single-name conversion gap persists for a 6th+ week.** Industrials/Financials led (Dow record), yet no ≥7.0 Path A name was isolable: the marquee Industrials leader (GE) had broken its momentum leg, and Financials stayed non-top-3. The screen keeps identifying leading *sectors* but not converting to a fundable *name*.
+- **Zero trades all week — not even a proxy top-up.** Defensible (floor held mechanically, nothing cleared the gate), but it means a 5th straight week where the entire book is index beta and the ~$39.1k cash / 85% ceiling headroom went wholly unused.
+
+### Key Lessons
+- **The under-deployment posture is symmetric, and this is the proof.** Over the phase it has lagged five rising weeks and now cushioned two falling ones (Jun 26, Jul 17). That is exactly the quantitative-regime-band design: exposure tracks the RISK-ON floor, not a directional guess. The recurring cost is real but it is a *deployment-calibration* trade-off, not a defect — and on a down week it is an asset.
+- **Relative outperformance from allocation still ≠ edge.** A -1.6% tape flattered a book holding zero alpha for the second time this phase. The win does not retire the pipeline problem; it masks it. The fixable gap remains converting confirmed sector RS into a qualifying single name.
+- **Weekly RS leadership has become too unstable to trade on a one-week read.** The rotation map flipped in 3 of the last 4 weeks (value→tech→value→semi-bear). This vindicates §8.2's requirement for ≥2-session/≥2-source confirmation before acting on an RS move — and argues that Path A entries this phase should lean on *durable* multi-week leaders (Industrials/Materials YTD RS), not the week's momentum flavor.
+
+### Adjustments for Next Week
+- **Convert beta→alpha — now the phase-defining gap (~23 sessions of pure beta).** Drill the **durable YTD RS leaders (Industrials #1, Materials, Real Estate)** — not the unstable weekly-momentum names — for a non-extended Path A ≥7.0. **GE re-arms only on a volume reclaim of its 50-DMA ($371.79)**; do not anticipate it. Fund any qualifier from the ~$39.1k cash toward the 85% ceiling, ≤20%/name, 2-per-sector, ATR/8%-cap GTC stop at every alpha fill (§8).
+- **Hold the RISK-ON 60% floor; do not chase the ceiling into a semi bear market.** With SOX in a bear market and VIX ticking toward 17, the tape is risk-off-leaning inside a still-RISK-ON regime — top SPY +1 sh only if a close prints sub-60% (~$724 SPY). Scaling the proxy toward 85% is only justified on a firm re-confirmation (VIX <16, breadth >60%, semis stabilized).
+- **Watch the proxy's ~32% tech weight.** A deepening semi bear market hits the SPY mark directly; that is a reason to manage the floor, not to add alpha into the falling group. Avoid semis/AI entirely until the unwind stabilizes.
+- **Sector tilt:** favor durable Industrials/Materials/Financials RS leaders for any single-name work; avoid semis/Tech, chase-prone Energy war-premium spikes, and non-top-3 groups.
+- **Calendar:** no §9 print imminent — **FOMC Jul 28–29** is next (apply the one-session fresh-single-name-risk veto the session before; floor never pauses). Watch mid/late-July CPI cadence.
+
+### Rule Change
+None. §13 anti-overfitting bars re-architecting on a phase where the same under-deployment posture lagged five rising weeks and cushioned two falling ones — the variance is the point, and the quantitative regime band governs it correctly (this week it helped). The persistent issue (no alpha for ~23 sessions) is a **screen-execution** gap the existing §4.4/§11 rules already address; the fix is to *run* the durable-RS-leader single-name screen to a recorded pass/fail, not to change a rule. **Watch / escalation trigger (carried, now 2 weeks standing):** the proposed §8.2 tightening (no cancel of an armed Path A limit on an unconfirmed single-source RS flicker) remains flagged-to-validate — no new instance this week (no armed name to cancel). If the book holds pure beta through the FOMC week with a durable-RS name available and un-actioned, escalate to a §11 tightening: mandate scoring the top-5 RS names *within* each YTD-leading sector to a recorded pass/fail each Friday, since "sector identified, name never isolated" is now a 6-week pattern.
+
+### Overall Grade: B-
+The mandate is to beat the S&P and this week we did — +0.64% relative (-0.96% vs ≈-1.6%), the second down-tape win of the phase, by letting the quantitative RISK-ON floor hold the line rather than chasing beta into a market where semiconductors fell into a bear market. Discipline was clean across the board: floor met every session with zero intervention, reconciliation clean every day, no §14 flags, last week's log-persistence and false-HALT bugs both resolved, and no knife caught (GE, semis, energy all correctly passed). The grade is held back from higher by the same honesty as the last down-week win: the outperformance is allocation, not alpha — the book has now held zero alpha for ~23 straight sessions, posted an absolute -0.96% (phase -0.70%), and the single-name conversion gap is a 6-week pattern with the durable-RS-leader screen still owed. A real relative win, earned by discipline, on an unfinished process.
