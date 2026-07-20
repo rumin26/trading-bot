@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 20 — EOD Snapshot (Day 47, Monday)
+**Portfolio:** $99,176.56 | **Cash:** $39,108.58 (39.4%) | **Day P&L:** -$138.51 (-0.14%) | **Phase P&L:** -$823.44 (-0.82%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 81     | $752.4116 | $741.62 | -0.23% | -$874.12 (-1.43%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 47, start of week 11 (fresh 3-trade cap). Reconcile (§14): live Alpaca = equity $99,176.56, cash $39,108.58, SPY 81 sh (avg $752.411605, MV $60,071.22), zero open orders — matches Jul 17 EOD logged state exactly (cash to the cent, 81 sh, byte-identical avg entry, no order-book change; last fill remains Jul 08 +1 proxy top-up, order `3d21e7de`). No external/manual change → account reconciles, **no HALT.** Day P&L vs Alpaca's authoritative prior-day close (`last_equity` $99,315.07): **-$138.51 (-0.14%)** — driven by SPY mark-down (intraday -$135.27; close $743.29→$741.62, -0.23% on the day). Phase P&L **-$823.44 (-0.82%)** vs $100k start; proxy now -$874.12 (-1.43%) from $752.41 avg. **Regime RISK-ON** (SPX >50/200-DMA, VIX <18, breadth ≥50%); 60% floor mechanical, no dated bearish thesis on file. Deployed **60.57%** (SPY MV $60,071.22 / equity) — meets the RISK-ON 60% floor ($59,506), no top-up needed. No alpha exposure; proxy carries no per-name stop by design. Trades today (bot): none. External events: 0. New alpha entries this week: 0/3; positions 1/6; DT 0/5. **Eighth week running at floor-only participation, still zero alpha names funded** — defensible vs the floor but the standing gap vs the alpha mandate persists. **Next session (Tue Jul 21):** reconcile; confirm VIX <18 + breadth ≥50% held; top SPY only if drift pushes sub-60% ($59,506 floor); re-drill Industrials/Materials/Financials top-5 for a non-extended Path A ≥7.0 — if a name clears, fund from cash within caps + attach ATR/8%-cap GTC stop (§8). Apply §9 one-session veto to fresh single-name risk if a CPI/PPI/jobs print lands the prior day; floor never pauses.
+
 ### Jul 17 — EOD Snapshot (Day 46, Friday)
 **Portfolio:** $99,288.34 | **Cash:** $39,108.58 (39.4%) | **Day P&L:** -$628.56 (-0.63%) | **Phase P&L:** -$711.66 (-0.71%)
 
