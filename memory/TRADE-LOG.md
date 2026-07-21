@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 21 — EOD Snapshot (Day 48, Tuesday) — ⚠️ §14 HALT: external SPY sell
+**Portfolio:** $99,685.85 | **Cash:** $39,853.85 (40.0%) | **Day P&L:** +$467.98 (+0.47%) | **Phase P&L:** -$314.15 (-0.31%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.4116 | $747.90 | +0.78% | -$360.93 (-0.60%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 48, week 11. **§14 RECONCILE BREAK → HALT.** Live Alpaca = equity $99,685.85, cash $39,853.85, SPY **80 sh** (avg $752.411605, MV $59,832), zero open orders. This does **NOT** match Jul 20 EOD logged state (SPY **81 sh**, cash $39,108.58). Order history shows a **SELL 1 SPY @ $745.27 filled 2026-07-21T14:12:45Z, `source: null`, order `6b51b8ea`** — no matching bot-originated order (every bot order carries `source:"access_key"`; this `null` source matches the prior external/manual flatten signature of Jun 08). Cash rose by exactly the $745.27 proceeds. **This is an external/manual sell, not a strategy trigger** (SPY proxy carries no stop; nothing in the rulebook would trim it). Per §14: HALT, one alert sent, this dated exception logged, and the changed 80-sh/$39,853.85 state is **NOT adopted as reconciled baseline** — stay halted until the owner confirms intent. Day P&L computed vs Alpaca authoritative prior-day close (`last_equity` $99,217.87): **+$467.98 (+0.47%)** — SPY marked up (lastday $742.09 → $747.90, +0.78%; unrealized_intraday +$464.80); the external sell is equity-neutral (share MV → cash). Phase P&L **-$314.15 (-0.31%)** vs $100k start. Regime RISK-ON (SPX >50/200-DMA, VIX <18, breadth ≥50%); 60% floor mechanical, no dated bearish thesis. Deployed **60.02%** ($59,832/eq) — still at the RISK-ON 60% floor ($59,812) by a hair; the external sale left the book right at the floor edge. No alpha exposure; proxy carries no per-name stop. Trades today (bot): **none**. External events: **1 (unauthorized SPY -1 sh)**. New alpha entries this week: 0/3; positions 1/6; DT 0/5. **Next session (Wed Jul 22):** do NOT trade until reconciled — confirm with owner whether the 1-share sell was intended; if intended, adopt 80 sh as baseline and top SPY only if drift pushes sub-60% floor; if not, treat as incident. Once cleared, resume normal floor-maintenance + Path A alpha drill (Industrials/Materials/Financials top-5, ≥7.0 non-extended, ATR/8%-cap GTC stop at any fill).
+
 ### Jul 20 — EOD Snapshot (Day 47, Monday)
 **Portfolio:** $99,176.56 | **Cash:** $39,108.58 (39.4%) | **Day P&L:** -$138.51 (-0.14%) | **Phase P&L:** -$823.44 (-0.82%)
 
