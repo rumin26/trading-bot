@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 22 — EOD Snapshot (Day 51, Wednesday)
+**Portfolio:** $99,731.30 | **Cash:** $40,602.17 (40.7%) | **Day P&L:** +$45.45 (+0.05%) | **Phase P&L:** -$268.70 (-0.27%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 79     | $752.38 | $748.47 | +0.03% | -$308.68 (-0.52%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 51, week 11. Reconcile (§14): live Alpaca = equity $99,731.30, cash $40,602.17, SPY **79 sh** (avg $752.377297, MV $59,129.13), zero open orders — matches the Jul 22 market-open logged state (post-trim 79 sh after the SELL 1 SPY ceiling-compliance trim, order `1dbf9ada`). No unexplained position/cash move → no HALT. Yesterday's Jul 21 §14 external-sell HALT was cleared and the 80→79 baseline adopted this morning. Day P&L vs Jul 21 EOD ($99,685.85): **+$45.45 (+0.05%)** — driven by SPY marking up modestly (lastday $748.28 → $748.47, +0.03%); Alpaca `last_equity` $99,716.23 gives +$15.07 on its own convention. Phase P&L **-$268.70 (-0.27%)** vs $100k start. Deployed **59.29%** ($59,129/eq) — sits cleanly inside the Neutral 30–60% band (floor $29,919 met, ceiling $59,839 clear by ~$710). No alpha exposure; proxy carries no per-name stop by design. Trades today: **1** (SPY proxy ceiling trim, SELL 1 sh @ $748.34 — not alpha, excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. Regime **Neutral** (§4.1; VIX 18.65 > 18 fails RISK-ON leg, SPX > 50/200-DMA, no crash-guard). §9 does not bind (CPI/PPI passed; next pause ~Jul 27 pre-FOMC Jul 28–29). **Tomorrow (Thu Jul 23):** reconcile; digest GOOGL/TSLA/TXN post-earnings (reported after tonight's close) for a clean non-extended Path A leader; re-check GE for a pullback to ~$334 (50-DMA) or breakout > $383 restoring 2:1 R:R; a VIX close < 18 re-arms RISK-ON → 60% floor (buy SPY toward it). Hold the proxy floor while waiting for a qualifying name.
+
 ### Jul 22 — Market-Open Execution (Day 51, Wednesday)
 **Portfolio:** $99,720.24 | **Cash:** $40,602.17 (40.7%) | **Long MV:** $59,118.07 (59.28%) | **Phase P&L:** -$279.76 (-0.28%)
 
