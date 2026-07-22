@@ -1,5 +1,20 @@
 # Trade Log
 
+### Jul 22 — Market-Open Execution (Day 51, Wednesday)
+**Portfolio:** $99,720.24 | **Cash:** $40,602.17 (40.7%) | **Long MV:** $59,118.07 (59.28%) | **Phase P&L:** -$279.76 (-0.28%)
+
+| Ticker | Side | Shares | Entry | Stop | Mkt Value | Thesis |
+| ------ | ---- | ------ | ----- | ---- | --------- | ------ |
+| SPY    | SELL | 1      | $748.34 | none (proxy, §5/§8 exempt) | $59,118.07 (79 sh total) | Neutral 60% ceiling-compliance trim |
+
+**Trade:** SELL 1 SPY @ market (day TIF), order id `1dbf9ada`, filled $748.34 at 14:13:42 UTC → position now **79 sh, avg $752.377297, MV $59,118.07 = 59.28% of E**. **Benchmark proxy, NOT alpha** — trimmed to bring gross exposure back under the **Neutral 60% ceiling** ($59,832.14 = 60% × $99,720.24) after the open printed SPY MV $59,885.60 = **60.04%** (over ceiling by ~$42). Mechanical ceiling move pre-authorized by the Jul 22 pre-market plan; exempt from per-name R-budget, the 20% concentration cap, the GTC stop (§5/§8), and the §4.3 alpha turnover cap. Post-trim book sits cleanly in the 30–60% Neutral band: floor 30% ($29,916) met with wide room, ceiling 60% ($59,832) now clear by ~$714.
+
+**No alpha entry.** Regime **Neutral** (§4.1; VIX 18.65 > 18 fails the RISK-ON VIX leg, SPX > 50/200-DMA, no crash-guard, VIX ≪ 26). §9 does NOT bind today (June CPI printed Jul 15, PPI Jul 16 — both passed; next §9 pause ~Jul 27 pre-FOMC Jul 28–29). No single name clears a gate: **GE** fails R:R (~1.2:1 to ATH, §7.1 premium flag); **GOOGL/TSLA/TXN** inside the §6 earnings veto (report today after close); **Energy** a reversible Iran/Hormuz war-premium spike, YTD RS laggard (§11 avoid chasing). Not forcing a name (§4.4(b) — qualifying universe uninvestable today, floor stands via proxy).
+
+**Reconcile (§14):** Pre-trade live Alpaca = equity $99,738.63, cash $39,853.83, SPY 80 sh (avg $752.377297), zero open orders — matches Jul 22 pre-market logged state (post Jul 21 1-SPY external-sell baseline, adopted after reconciliation). No unexplained position/cash move → no HALT.
+
+**Status:** Trades today: 1 (SPY proxy ceiling trim, not alpha — excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Next session (midday Jul 22 / pre-market Jul 23):** reconcile; digest GOOGL/TSLA post-earnings (after tonight's close) for a clean non-extended Path A leader off the drift; re-check GE for a pullback to ~$334 (50-DMA) or breakout > $383 restoring 2:1; confirm regime (a VIX close < 18 re-arms RISK-ON → 60% floor, then buy SPY toward it); §9 pause arrives ~Jul 27 pre-FOMC.
+
 ### Jul 21 — EOD Snapshot (Day 48, Tuesday) — ⚠️ §14 HALT: external SPY sell
 **Portfolio:** $99,685.85 | **Cash:** $39,853.85 (40.0%) | **Day P&L:** +$467.98 (+0.47%) | **Phase P&L:** -$314.15 (-0.31%)
 
