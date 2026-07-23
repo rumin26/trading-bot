@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 23 — EOD Snapshot (Day 52, Thursday)
+**Portfolio:** $99,012.65 | **Cash:** $39,121.25 (39.5%) | **Day P&L:** -$718.65 (-0.72%) | **Phase P&L:** -$987.35 (-0.99%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 81     | $752.0487 | $739.40 | -1.07% | -$1,024.55 (-1.68%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 52, week 11. Reconcile (§14): live EOD Alpaca = equity $99,012.65, cash $39,121.25, SPY 81 sh (avg $752.048735, MV $59,891.40), zero open orders — matches the Jul 23 market-open logged state exactly (81 sh post the +2 proxy floor top-up, order `aaa474b2`; cash to the cent). No external/manual change this session → account reconciles, **no HALT.** Day P&L vs Jul 22 EOD ($99,731.30): **-$718.65 (-0.72%)** — all SPY mark-down (lastday $747.41 → close $739.40, -1.07%; Alpaca `unrealized_intraday_pl` -$648.81 on the 81-sh book); today's +2 SPY buy was cash→shares, equity-neutral at execution. (Alpaca `last_equity` reads 0 / `balance_asof` 2026-07-21 — stale — so Day P&L is computed against the logged prior EOD.) Phase P&L **-$987.35 (-0.99%)** vs $100k start — book's worst phase mark to date, entirely SPY beta drift; proxy now -$1,024.55 (-1.68%) from $752.05 avg. **Regime RISK-ON** (§4.1; VIX 16.64 < 18 confirmed intraday, second sub-18 print; SPX > 50/200-DMA golden cross; breadth ≥50%); floor 60% / ceiling 85%, no dated bearish thesis on file. Deployed **60.49%** (SPY MV $59,891.40 / equity) — meets the RISK-ON 60% floor ($59,408), no EOD top-up needed. No alpha exposure; proxy carries no per-name stop by design. Trades today (bot): **1** (SPY +2 proxy floor top-up @ ~$740.46, order `aaa474b2` — not alpha, excluded from §4.3 cap). Bot trades this week: 2 (Jul 22 -1 ceiling trim, Jul 23 +2 floor top-up — both proxy, no alpha). External events: 0. New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** eight-plus weeks of floor-only participation, zero alpha names funded — defensible vs the floor but continues to forfeit the alpha mandate. **Next session (Fri Jul 24, weekly-review):** reconcile; confirm VIX < 18 + breadth ≥50% held (floor stays 60%); top SPY only if drift pushes sub-60% ($59,408 floor); digest TXN/GOOGL/TSLA + Industrials/Defense (RTX/LMT/HON/UNP) post-earnings drift for a clean non-extended Path A leader; re-check GE (pullback ~$334 / breakout > $383 restoring 2:1) — if a name clears ≥7.0, fund from cash within caps + attach ATR/8%-cap GTC stop (§8). **§9 fresh-risk veto arrives ~Jul 27 pre-FOMC (Jul 28–29)** — floor never pauses. Run the Friday weekly-review template.
+
 ### Jul 23 — Market-Open Execution (Day 52, Thursday)
 **Portfolio:** $99,073.40 | **Cash:** $39,121.25 (39.5%) | **Long MV:** $59,952.15 (60.51%) | **Phase P&L:** -$926.60 (-0.93%)
 
