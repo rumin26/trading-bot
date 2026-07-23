@@ -1780,3 +1780,63 @@ CPI (Jul 15) and PPI (Jul 16) already passed; FOMC is Jul 28–29. No print in t
 - Book: **SPY ~60% (Neutral, ceiling-compliant), 0 alpha, 0 open orders, ~$39.85k cash** ready to fund a qualifying name once a clean 2:1 Path A setup appears (GE on a pullback/breakout, or post-earnings drift).
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (market-open Jul 22 / pre-market Jul 23):** (1) reconcile; (2) **trim 1 SPY only if the open prints SPY MV > 60% ceiling ($59,694.86)** — else hold; (3) re-check GE for a pullback to ~$334 or breakout > $383 restoring 2:1; (4) digest GOOGL/TSLA post-earnings — a clean, non-extended Path A leader emerging from the drift is the next candidate; (5) confirm regime (a VIX close < 18 re-arms RISK-ON → then buy SPY toward the 60% floor); (6) FOMC Jul 28–29 → §9 fresh-risk pause ~Jul 27.
+
+---
+
+## 2026-07-23 — Pre-market Research (Day 52, Thursday)
+
+### Account (snapshot)
+- Equity: **$99,108.78** (Alpaca `balance_asof` 2026-07-21; `last_equity` reset to 0 on the feed today)
+- Cash: **$40,602.17** (40.97%, settled)
+- Buying power: $40,602.17 (non-marginable $39,853.83; margin/4× multiplier unused, cash-account discipline §2)
+- Daytrade count: 0/5
+- Open positions: **SPY 79 sh @ $752.34212** (MV $58,506.61, **59.03% of E**, unrealized −$928.42 / −1.56%; current $740.59, intraday −0.91%). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,108.78, cash **$40,602.17**, **SPY 79 sh (avg $752.34212), 0 open orders** — matches Jul 22 EOD logged state to the cent (post ceiling-trim order `1dbf9ada`, SELL 1 SPY 80→79 @ $748.34). Cash byte-identical ($40,602.17); 79 sh, 0 orders reconcile. Equity delta vs Jul 22 EOD ($99,731.30) is pure SPY drift ($748.47→$740.59, −1.05%). No unexplained position/cash move → **No HALT.**
+
+### Market Context
+- **S&P futures modestly firmer / mixed into risk-off crosscurrents.** ES ~7,541 (opened 7,514, range 7,505–7,554); tape pressured by rising yields and an oil spike, cushioned by soft jobs data. GOOGL/TSLA weakness (below) weighs on the tech-heavy proxy mark.
+- **Oil SPIKING — geopolitical shock.** **Brent ~$98.49, WTI ~$90.14 (+3.8%, highest since Jun 8)** on reported tanker attacks off Saudi Arabia + renewed US threats to escalate strikes on Iran, plus a surprise US crude build (2.6M bbl) with emergency reserves at a 43-yr low. Sharp, reversible war-premium — **not** a durable Path A Energy uptrend (§11 avoid chasing spikes). Overnight news post-dates the VIX 17.05 close.
+- **Rates:** US 10-yr ~**4.63%**, a ~2-month high — a headwind for long-duration/tech multiples.
+- **Earnings — reported last night (Jul 22 AC):** **GOOGL −~2–5%** (beat all headline metrics but hiked 2026 capex to $195–205B → capex indigestion); **TSLA −~3%** (revenue beat, margin miss); **TXN +~1%** (big beat: EPS $2.14 vs $1.91, rev $5.46B vs $5.22B, +69.5% YTD — muted reaction to a strong print). **None held.**
+- **Earnings TODAY (BMO):** RTX, LMT, HON, UNP, INTC, TMUS, TMO, BX, CMCSA, **FCX**, NEM, SAP. Several are top-RS Industrials/Defense — but all report today → inside the §6 earnings veto; post-earnings-drift candidates for later sessions, not entries now.
+- **Data:** **Initial jobless claims 8:30 ET** (prior 208k, a 2-mo low). Whole week sits inside the Fed **blackout** ahead of FOMC **Jul 28–29**. ECB rate decision today (offshore). No CPI/PPI/jobs-report/FOMC in the session ahead → **§9 does NOT bind today.** (Next §9 pause ~Jul 27, pre-FOMC.)
+- **VIX:** **17.05** (Jul 22 close, **−8.6%**) — **now < 18 → the RISK-ON VIX leg CLEARS for the first time.** ≪ 26 (no crash-guard); no ≥5%/10-session drawdown.
+- **SPX:** > 50-DMA and > 200-DMA ✓ (golden cross intact); ~1.7% below the Jun 2 record.
+- **Sector RS (YTD):** leaders **Technology** and **Industrials/Capital Goods** (highest large-cap RS late-June); Energy strong on price but the move is geopolitical, not trend.
+
+### Regime Assessment — **RISK-ON triggered** (60% floor / 85% ceiling)
+The one leg that had held the book in Neutral — VIX ≥ 18 — flipped: **VIX closed 17.05 < 18.** With **SPX > 50-DMA > 200-DMA** and breadth presumed ≥ 50% (index ~1.7% off ATH on an intact golden cross), all three RISK-ON conditions read satisfied. Oil/yield jitters are **not** regime-filter inputs and cannot discretionarily override the quantitative classification (the inverse of the §4.1 "no discretionary feels-like-a-bounce" rule). → **RISK-ON.**
+- **Floor (RISK-ON):** 60% = **$59,465.27**; SPY MV **$58,506.61 (59.03%)** → **BELOW the floor by ~$959 (≈1.3 sh).** §4.1a makes the floor **mechanical** → top the proxy to ≥ 60%.
+- **Ceiling (RISK-ON):** 85% = **$84,242.46**; SPY 59.03% ≪ ceiling → wide room.
+- **Caveat / open-confirmation gate:** RISK-ON rests on a **single** VIX close (17.05) into an overnight oil shock that could re-expand VIX at the open. The floor top-up is therefore gated on VIX confirming **< 18** at the market-open session. If VIX has popped **> 18** at the open, regime reverts to **Neutral** (30% floor / 60% ceiling) and **no top-up** is needed (59.03% sits cleanly in the 30–60% band). Either way the book is ~59% invested — no cash-drag control-failure risk.
+
+### §9 Macro-Veto Status — **NOT binding today**
+No CPI/PPI/jobs-report/FOMC in the session ahead (claims are not a §9-listed print; FOMC is Jul 28–29). → fresh single-name/alpha risk is **not** §9-paused. Never touches the proxy floor regardless. Next §9 pause ~Jul 27.
+
+### Catalyst Calendar — held / watched names
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8). Tech-heavy mark exposed to GOOGL/TSLA capex-driven weakness + the oil/yield backdrop.
+- **No alpha holdings.** Watch list refreshed by last night's prints: **TXN** (semis, top-RS tech — clears the earnings veto now that it has reported) and today's Industrials/Defense reporters (**RTX, LMT, HON, UNP**) for a clean, non-extended Path A leader emerging from the post-earnings drift (§11.4). **GE** re-arms only on a pullback to ~$334 (50-DMA) or breakout > $383 restoring 2:1.
+
+### Trade Ideas (alpha layer)
+1. **TXN (Texas Instruments) — PASS (watch).** Big Q2 beat (EPS +52% y/y, rev +23%), semis top-RS, price > 50 > 200-DMA, earnings veto now clear. **But** only **+1% on a strong print** (muted reaction = exhausted buyers) and **+69.5% YTD** (extended) → a defensible **2:1 R:R** to a near-term target does **not** hold; ATR stop wide. Score ~**6.25** (Mom 8 / Trend-quality 5 / R:R 4.5 / Moat 8 / Val 5). Hard R:R checklist item fails → **documented PASS, not paralysis.** Re-check if it builds a fresh, non-extended base.
+2. **GE Aerospace (GE) — PASS (unchanged).** Trend confirmed (> 50-DMA, top-RS Industrials) but **R:R ~1.2:1 to the $383 ATH fails §6.1**; §7.1 ~44× P/E premium flag. Re-arms on a pullback to ~$334 or breakout > $383.
+3. **Energy / Refiners — PASS.** Brent $98 / WTI $90 is an Iran/Hormuz **war-premium spike** (reversible on ceasefire/de-escalation headlines) — not a durable Path A trend (§11 avoid chasing).
+4. **Today's BMO reporters (RTX, LMT, HON, UNP, FCX, INTC) — PASS, earnings veto.** All report today → inside the §6 window. Watch the drift for a later Path A setup.
+
+### Risk Factors
+- **Oil/geopolitics** — Brent ~$98 (+4%) on tanker attacks + US strike threats on Iran; a sharp, two-way, headline-driven tape. No energy alpha held → impact limited to the proxy mark.
+- **Rates** — 10-yr ~4.63% (2-mo high) pressures tech multiples into a tech-heavy proxy.
+- **Big-Tech capex indigestion** — GOOGL −2–5% on a $195–205B capex hike; TSLA −3% on margins. Overnight gap risk into the tech-heavy SPY mark.
+- **Regime knife-edge** — RISK-ON rests on one VIX close (17.05) into an oil shock; VIX could re-cross 18 at the open → gate the floor top-up on an open re-check.
+- **FOMC Jul 28–29 / Fed blackout** — event risk builds late next week; §9 fresh-risk pause ~Jul 27.
+
+### Decision
+**HOLD alpha; QUEUE a mechanical proxy floor top-up for market-open, gated on a VIX < 18 open confirmation.**
+- **Regime:** flips **Neutral → RISK-ON** (VIX 17.05 < 18; SPX > 50/200-DMA; breadth presumed ≥ 50%). Floor 60% / ceiling 85%.
+- **Floor:** SPY 59.03% is **~$959 (≈1.3 sh) below the new 60% floor** → **buy 2 sh SPY** at the open to restore ≥ 60% (→ ~60.5%), **contingent on VIX confirming < 18** at the open (if VIX > 18 → Neutral, no action; 59.03% sits mid-band). Mechanical proxy floor move (§4.1a) — **not** alpha, **not** §9-vetoed, **not** §4.3 turnover-capped.
+- **No single-name entry:** TXN (R:R fails, muted +1% on a beat, +69.5% YTD extended → score ~6.25), GE (R:R ~1.2:1), today's reporters (earnings veto), energy (war-premium spike). §9 does NOT bind, but no name independently clears a gate → not forcing one (§7 anti-gaming; §4.4(b) — qualifying universe uninvestable today, floor stands via proxy).
+- Book: **SPY 79 sh (59.03%), 0 alpha, 0 open orders, ~$40.6k cash** — ready to fund a qualifying name once a clean 2:1 Path A setup appears (TXN/RTX/LMT/HON drift, or GE on a pullback/breakout).
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (market-open Jul 23):** (1) reconcile; (2) **re-check VIX at the open — if < 18 (RISK-ON confirmed), BUY 2 sh SPY to restore the 60% floor; if > 18 (reverts Neutral), hold, no action**; (3) confirm breadth ≥ 50% supports RISK-ON; (4) watch TXN + Industrials/Defense (RTX/LMT/HON/UNP) post-earnings drift for a clean non-extended Path A leader; (5) re-check GE (pullback ~$334 / breakout > $383 restoring 2:1); (6) FOMC Jul 28–29 → §9 fresh-risk pause ~Jul 27.
