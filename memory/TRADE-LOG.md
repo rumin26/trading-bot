@@ -1,5 +1,22 @@
 # Trade Log
 
+### Jul 23 — Market-Open Execution (Day 52, Thursday)
+**Portfolio:** $99,073.40 | **Cash:** $39,121.25 (39.5%) | **Long MV:** $59,952.15 (60.51%) | **Phase P&L:** -$926.60 (-0.93%)
+
+| Ticker | Side | Shares | Entry | Stop | Mkt Value | Thesis |
+| ------ | ---- | ------ | ----- | ---- | --------- | ------ |
+| SPY    | BUY  | 2      | $740.46 | none (proxy, §5/§8 exempt) | $59,952.15 (81 sh total) | RISK-ON 60% floor mechanical top-up |
+
+**Trade:** BUY 2 SPY @ market (day TIF), order id `aaa474b2`, filled ~$740.46 at 14:13:17 UTC → position now **81 sh, avg $752.048735, MV $59,952.15 = 60.51% of E**. **Benchmark proxy, NOT alpha** — bought to restore gross exposure to the **RISK-ON 60% floor** ($59,444.04 = 60% × $99,073.40) after the open printed SPY MV $58,456.05 = **59.01%** (below floor by ~$979 ≈ 1.3 sh). Mechanical floor move (§4.1a) pre-authorized by the Jul 23 pre-market plan and gated on a VIX < 18 open confirmation; exempt from per-name R-budget, the 20% concentration cap, the GTC stop (§5/§8), and the §4.3 alpha turnover cap. Post-buy book sits just above the RISK-ON floor with wide room under the 85% ceiling ($84,212).
+
+**Regime — RISK-ON confirmed** (§4.1; **VIX 16.64 < 18** intraday, second consecutive sub-18 print after the 17.05 Jul 22 close; SPX > 50/200-DMA golden cross intact; breadth presumed ≥ 50%, index ~1.7% off ATH). The one leg that had held Neutral — VIX ≥ 18 — is now cleared, so the floor steps up 30% → 60%. Oil/yield jitters are not §4.1 regime inputs and cannot discretionarily override the quantitative classification. Floor 60% / ceiling 85%.
+
+**No alpha entry.** §9 does NOT bind today (June CPI Jul 15 / PPI Jul 16 both passed; no CPI/PPI/jobs-report/FOMC in the session ahead — claims are not a §9 print; next §9 pause ~Jul 27 pre-FOMC Jul 28–29). No single name clears a gate: **TXN** (only +1% on a strong Q2 beat = exhausted buyers, +69.5% YTD extended, R:R fails → score ~6.25); **GE** fails R:R (~1.2:1 to the $383 ATH, §7.1 premium flag); today's BMO reporters (**RTX/LMT/HON/UNP/FCX/INTC**) inside the §6 earnings veto; **Energy** a reversible Iran/Hormuz war-premium spike (§11 avoid chasing). Not forcing a name (§4.4(b) — qualifying universe uninvestable today, floor stands via proxy).
+
+**Reconcile (§14):** Pre-trade live Alpaca = equity $99,058.22, cash $40,602.17, SPY 79 sh (avg $752.34212), zero open orders — cash byte-identical to the Jul 23 pre-market logged state; equity delta is pure SPY drift (−0.99% intraday). No unexplained position/cash move → no HALT.
+
+**Status:** Trades today: 1 (SPY proxy floor top-up, not alpha — excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Next session (midday Jul 23 / pre-market Jul 24):** reconcile; watch TXN + Industrials/Defense (RTX/LMT/HON/UNP) post-earnings drift for a clean non-extended Path A leader; re-check GE (pullback ~$334 / breakout > $383 restoring 2:1); confirm regime holds RISK-ON (VIX < 18); §9 fresh-risk pause arrives ~Jul 27 pre-FOMC Jul 28–29. Hold the 60% proxy floor while waiting for a qualifying name.
+
 ### Jul 22 — EOD Snapshot (Day 51, Wednesday)
 **Portfolio:** $99,731.30 | **Cash:** $40,602.17 (40.7%) | **Day P&L:** +$45.45 (+0.05%) | **Phase P&L:** -$268.70 (-0.27%)
 
