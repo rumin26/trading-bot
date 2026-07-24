@@ -426,3 +426,66 @@ None. §13 anti-overfitting bars re-architecting on a phase where the same under
 
 ### Overall Grade: B-
 The mandate is to beat the S&P and this week we did — +0.64% relative (-0.96% vs ≈-1.6%), the second down-tape win of the phase, by letting the quantitative RISK-ON floor hold the line rather than chasing beta into a market where semiconductors fell into a bear market. Discipline was clean across the board: floor met every session with zero intervention, reconciliation clean every day, no §14 flags, last week's log-persistence and false-HALT bugs both resolved, and no knife caught (GE, semis, energy all correctly passed). The grade is held back from higher by the same honesty as the last down-week win: the outperformance is allocation, not alpha — the book has now held zero alpha for ~23 straight sessions, posted an absolute -0.96% (phase -0.70%), and the single-name conversion gap is a 6-week pattern with the durable-RS-leader screen still owed. A real relative win, earned by discipline, on an unfinished process.
+
+## Week ending 2026-07-24
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,295.63 (Mon Jul 20 AM ≈ Fri Jul 17 Alpaca close) |
+| Ending portfolio | $98,949.51 (Fri Jul 24 live) |
+| Week return | -$346.12 (-0.35%) |
+| S&P 500 week | ≈ -0.3% (2nd straight weekly decline; Nasdaq -2%, SOX -4.4%) |
+| Bot vs S&P | ≈ -0.05% (essentially in-line, marginal lag) |
+| Trades | 3 (W:0 / L:0 / open:1) — all SPY proxy, 0 alpha; + 1 external event |
+| Win rate | N/A (no closed trades) |
+| Best trade | SPY -1.79% (only position, unrealized) |
+| Worst trade | SPY -1.79% (same) |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | None closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| SPY | $752.0487 (80 sh) | $738.61 | -$1,075.02 (-1.79%) | none (proxy, §5/§8 exempt) |
+
+- **SPY** = benchmark proxy held inside the regime band (§4.1a). **Three proxy trades this week, all mechanical, no alpha:** Jul 22 SELL 1 (Neutral 60% ceiling trim, `1dbf9ada`), Jul 23 BUY 2 (RISK-ON 60% floor top-up, `aaa474b2`), Jul 24 SELL 1 (Neutral ceiling trim, `55851ea8`) — a trim/top-up/trim round-trip driven by VIX oscillating across the 18 line. Plus **1 external event**: Jul 21 unauthorized SELL 1 SPY (`6b51b8ea`, `source:null`) → §14 HALT, cleared Jul 22, 80-sh baseline adopted after reconcile. Deployed **59.7%** of E at week end (just under the Neutral 60% ceiling, well above the 30% floor). Alpha layer empty (~11 weeks floor-only since Jun 16). Peer-valuation review N/A — the position *is* the index.
+
+### Sector Rotation Update
+- **Leaders (RS ranking, StockCharts Best Five #75, wk of Jul 20):** **Technology #1** (multi-week RS intact despite an ugly week for semis), **Industrials #2** (Dow-record leadership), **Real Estate #3** (new top-3 entrant as yields fell on the oil retreat), **Materials #4, Financials #5.**
+- **Laggards (this week's price action):** **Semiconductors — SOX -4.4%**, the clear weekly laggard; **Mag-7 shed ~$800B Thursday** on AI-capex-spend fears (GOOGL/TSLA earnings underwhelmed). **Energy** rolled over from its 16% WTI war-premium spike as Brent slipped below $100 on US-Iran negotiation reports / traversable Hormuz routes.
+- **Change vs last week:** **Real Estate rotated INTO the top-3** (falling yields on the oil retreat, days ahead of the FOMC); **Energy demoted** as the war-premium unwound; **Staples/Comm-Services dropped out of the top-5.** Tech's multi-week RS held #1 even as this week's semi price action cracked — the rotation map's weekly instability (flipped in 4 of the last 5 weeks) persists; trade durable multi-week leaders, not the week's flavor (§8.2).
+- **Strongest sector we're NOT in:** **Industrials (#2, durable) / Real Estate (#3, fresh leader)** — both un-owned, neither screened to a clean ≥7.0 Path A breakout. GE (Industrials marquee) still fails R:R (~1.2:1 to the $383 ATH, §7.1 premium flag). The sector-identified-but-name-never-isolated gap stands.
+
+### What Worked
+- **The §14 reconciliation control fired correctly on a REAL external event.** The Jul 21 unauthorized SELL 1 SPY (`source:null`, matching the Jun 08 external-flatten signature) was caught, alerted, logged as a dated exception, HALT held, and **only adopted as baseline after reconcile Jul 22** — no silent absorption. This is a *true positive* (contrast the Jul 06 false-HALT bug on a bot-originated order); the control worked exactly as designed.
+- **Floor met every session inside the regime band; no sub-floor cash, no bearish-thesis breach.** Mechanical §4.1a adherence held through a whipsawing VIX.
+- **Avoided the semi/AI rout entirely.** No exposure as SOX fell -4.4% and Mag-7 shed ~$800B Thursday. No knife caught — GE passed on R:R, TXN passed as extended (+1% on a beat = exhausted buyers), Energy passed as a reversible war-premium spike (§11).
+- **Book roughly matched a slightly-down S&P** (-0.35% vs ≈-0.3%) through a choppy, headline-driven week; the 40% cash neither helped nor hurt materially.
+
+### What Didn't Work
+- **Absolute return negative again (-0.35%, phase -1.05% — a NEW phase low).** The account keeps grinding lower on pure beta drift; the proxy is now -1.79% from its Jun 16 entry. Uncompensated beta drag while the alpha layer stays empty.
+- **Zero alpha for the entire phase — ~11 weeks of floor-only participation.** Every week's outcome is asset allocation, not selection. No alpha has ever funded this phase; the single-name conversion gap is now a 7th+-week pattern (Industrials/Real Estate led, no fundable ≥7.0 name isolated).
+- **Self-inflicted proxy whipsaw.** VIX straddling the 18 line (RISK-ON Mon/Tue → Neutral Wed 18.65 → RISK-ON Thu 16.64 → Neutral Fri 18.7) drove **3 proxy round-trips (trim/top-up/trim) in one week** — churn with no edge, a small frictional cost from a binary threshold on a single input.
+- **Roughly matching the index while 40% in cash is not a win.** The cash cushion only pays on materially down weeks (Jun 26, Jul 17); on a near-flat week it just tracks. The persistent driver of the mandate miss remains the empty alpha layer, not the deployment level.
+
+### Key Lessons
+- **The §14 control is proven on a live true positive.** An unexplained 1-share external sell was correctly caught and did not become a silent baseline — the operational discipline the strategy demands, and this week it fired clean (no false HALT, unlike Jul 06). Reconciliation keying on the order `source` field (`null` = external, `access_key` = bot) is doing its job.
+- **A binary VIX-18 regime line generates whipsaw when VIX oscillates around it.** Three proxy round-trips in a week from a single input straddling one threshold is churn without edge. The ≥2-session-confirmation logic §8.2 already applies to RS moves is the natural fix for the VIX regime line too — step the floor/ceiling only on a *confirmed* cross, not a 1-session tick.
+- **In-line ≠ progress.** Tracking a flat index at 60% invested is neither the down-week cushion nor the alpha win the mandate needs. The fixable gap is the same one carried all phase: convert confirmed sector RS into a qualifying single name.
+
+### Adjustments for Next Week
+- **FOMC Jul 28-29:** apply the §9 one-session veto to *fresh single-name risk* on **Mon Jul 27** (session before); floor/ceiling never pause — hold the proxy inside the regime band through the print.
+- **Convert beta→alpha — the phase-defining gap (~11 weeks pure beta).** Drill the **durable RS leaders — Industrials (#2), Real Estate (#3, fresh), Materials** — for a non-extended Path A ≥7.0. Avoid semis/AI (SOX -4.4%, still unwinding) and the reversible Energy war-premium spike. Fund any qualifier from the ~$39.9k cash toward the ceiling, ≤20%/name, 2-per-sector, ATR/8%-cap GTC stop at every alpha fill (§8).
+- **Stop churning the proxy on single-session VIX flips.** With VIX oscillating 16.6-18.7 around the 18 line, hold the position inside the Neutral 30-60% band and top/trim only on a clear, *sustained* breach — not a 1-session tick across 18.
+- **GE re-arm only on a volume 50-DMA reclaim** (~$334 pullback or >$383 breakout restoring 2:1 R:R); do not anticipate it.
+
+### Rule Change
+None enacted. **Flagged to validate (§13 anti-overfitting bars enacting on n=1 week / 3 trades / trivial churn cost):** a proposed **§4.1 tightening** — require a VIX close on the same side of the 18 threshold for **≥2 consecutive sessions** before stepping the floor/ceiling between Neutral and RISK-ON, mirroring §8.2's ≥2-session RS-confirmation logic — to stop single-session VIX whipsaw from round-tripping the proxy. **Enact if VIX whipsaw drives ≥3 proxy round-trips again next week.** The standing alpha gap remains a screen-execution issue the existing §4.4/§11 rules already address (run the durable-RS single-name screen to a recorded pass/fail), not a rule defect. The carried §8.2 proposed tightening (no cancel of an armed Path A limit on an unconfirmed single-source RS flicker) remains flagged — no new instance this week (no armed name).
+
+### Overall Grade: C
+Discipline was clean and the operational control proved itself on a live true positive: the Jul 21 external 1-share SPY sell was caught by §14, alerted, logged, HALT held, and only adopted after reconcile — no silent absorption, no false HALT. The book met the floor every session, avoided the semi/AI rout (SOX -4.4%, Mag-7 -$800B) with no knife caught, and roughly matched a slightly-down S&P (-0.35% vs ≈-0.3%). But the mandate is to *beat* the index, and this week we merely tracked it: absolute return negative again to a **new phase low (-1.05%)**, zero alpha for the 11th straight week, and a bit of self-inflicted proxy whipsaw from the VIX-18 line churning 3 round-trips. Operational discipline is proven; the alpha mandate is still un-started and the equity mark keeps grinding lower. In-line, not ahead.
