@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 24 — EOD Snapshot (Day 53, Friday)
+**Portfolio:** $98,907.03 | **Cash:** $39,860.63 (40.3%) | **Day P&L:** -$105.62 (-0.11%) | **Phase P&L:** -$1,092.97 (-1.09%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.0487 | $738.08 | -0.18% | -$1,117.50 (-1.86%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 53, week 11, weekly-review Friday. Reconcile (§14): live EOD Alpaca = equity $98,907.03, cash $39,860.63, SPY 80 sh (avg $752.048735, MV $59,046.40), zero open orders — matches the Jul 24 market-open logged state exactly (80 sh post today's -1 proxy ceiling trim, order `55851ea8`; cash to the cent). No external/manual change this session → account reconciles, **no HALT.** Day P&L vs Jul 23 EOD ($99,012.65): **-$105.62 (-0.11%)** — all SPY mark-down (close $739.40 → $738.08). Phase P&L **-$1,092.97 (-1.09%)** vs $100k start — a new phase-low mark, entirely SPY beta drift; proxy now -$1,117.50 (-1.86%) from $752.05 avg. **Regime NEUTRAL** (§4.1; VIX ~18.7 ≥ 18 holds — the lone 17.05 Jul 22 close that armed RISK-ON reversed; SPX > 50/200-DMA golden cross intact); floor 30% / ceiling 60%, no dated bearish thesis on file. Deployed **59.7%** (SPY MV / equity) — sits just under the Neutral 60% ceiling, well above the 30% floor; no top-up/trim needed at close. No alpha exposure; proxy carries no per-name stop by design. Trades today (bot): **1** (SPY -1 proxy ceiling trim @ ~$739.41, order `55851ea8` — not alpha, excluded from §4.3 cap). Bot trades this week: 3 (Jul 22 -1 trim, Jul 23 +2 top-up, Jul 24 -1 trim — all proxy, no alpha). External events: 0. New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 11 weeks of floor-only participation, zero alpha names funded — defensible vs the floor but continues to forfeit the alpha mandate. **Next session (pre-market Mon Jul 27):** reconcile; a VIX close < 18 re-arms RISK-ON → 60% floor / 85% ceiling (buy SPY toward the floor); watch TXN + Industrials/Defense (RTX/LMT/HON/UNP) post-earnings drift for a clean non-extended Path A leader once the tech rout settles; re-check GE (pullback ~$334 / breakout > $383 restoring 2:1) — if a name clears ≥7.0, fund from cash within caps + attach ATR/8%-cap GTC stop (§8). **§9 fresh-single-name-risk pause arrives Mon Jul 27 pre-FOMC (Jul 28-29)** — floor/ceiling never pause. Hold the proxy inside the Neutral band while waiting for a qualifying name.
+
 ### Jul 24 — Market-Open Execution (Day 53, Friday)
 **Portfolio:** $99,015.03 | **Cash:** $39,860.63 (40.3%) | **Long MV:** $59,144.00 (59.73%) | **Phase P&L:** -$984.97 (-0.98%)
 
