@@ -1,5 +1,22 @@
 # Trade Log
 
+### Jul 24 — Market-Open Execution (Day 53, Friday)
+**Portfolio:** $99,015.03 | **Cash:** $39,860.63 (40.3%) | **Long MV:** $59,144.00 (59.73%) | **Phase P&L:** -$984.97 (-0.98%)
+
+| Ticker | Side | Shares | Entry | Stop | Mkt Value | Thesis |
+| ------ | ---- | ------ | ----- | ---- | --------- | ------ |
+| SPY    | SELL | 1      | $739.41 | none (proxy, §5/§8 exempt) | $59,144.00 (80 sh total) | NEUTRAL 60% ceiling mechanical trim |
+
+**Trade:** SELL 1 SPY @ market (day TIF), order id `55851ea8`, filled ~$739.41 at 14:13:44 UTC → position now **80 sh, avg $752.048735, MV $59,144.00 = 59.73% of E**. **Benchmark proxy, NOT alpha** — sold to restore gross exposure to the **NEUTRAL 60% ceiling** ($59,384.24 = 60% × pre-trim equity $98,973.74) after the open printed SPY MV $59,850 (81 sh) = **60.48%**, over the ceiling by ~$466 (≈0.63 sh). Mechanical ceiling-compliance move (§4.1/§3) pre-authorized by the Jul 24 pre-market plan and gated on a VIX ≥ 18 open confirmation; exempt from the per-name R-budget, the 20% cap, the GTC stop (§5/§8), and the §4.3 alpha turnover cap. Post-trim book sits just under the Neutral ceiling with wide room above the 30% floor ($29,692).
+
+**Regime — NEUTRAL confirmed** (§4.1; **VIX ~18.7 ≥ 18** at the open — intraday range 17.3–20.3, not clearly < 18 → RISK-ON does not re-arm; SPX > 50/200-DMA golden cross intact). The single VIX close (17.05 Jul 22) that had armed RISK-ON reversed to 18.70 (Jul 23) and holds ≥ 18 today. VIX ≪ 26, no ≥5%/10-session drawdown → no crash-guard. Floor 30% / ceiling 60%, no dated bearish thesis on file.
+
+**No alpha entry.** §9 does NOT bind today (June CPI/PPI passed; PMIs/home sales are not §9 prints; next §9 pause ~Jul 27 pre-FOMC Jul 28–29). No single name clears a gate: **GE** fails R:R (~1.2:1 to the $383 ATH, §7.1 premium flag); **TXN + Jul 23 Industrials/Defense (RTX/LMT/HON)** post-earnings tape extended/whippy into Thursday's Mag-7 AI-capex rout (−$800B) — no defensible 2:1 base; **Energy** a reversible Iran/Hormuz war-premium spike (§11 avoid chasing). Not forcing a name (§4.4(b) — qualifying universe uninvestable today, floor stands via proxy well above the 30% floor).
+
+**Reconcile (§14):** Pre-trade live Alpaca = equity $98,973.74, cash $39,121.22, SPY 81 sh (avg $752.048735), zero open orders — matches the Jul 24 pre-market logged state exactly (81 sh post the Jul 23 +2 proxy floor top-up, cash to the cent). No unexplained position/cash move → no HALT.
+
+**Status:** Trades today: 1 (SPY proxy ceiling trim, not alpha — excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Next session (weekly-review Fri Jul 24 PM / pre-market Mon Jul 27):** reconcile; a VIX close < 18 re-arms RISK-ON → 60% floor / 85% ceiling (buy SPY toward the floor); watch TXN + Industrials/Defense post-earnings drift for a clean non-extended Path A leader once the tech rout settles; re-check GE (pullback ~$334 / breakout > $383 restoring 2:1). **§9 fresh-single-name-risk pause arrives Mon Jul 27 pre-FOMC (Jul 28–29)** — floor/ceiling never pause. Hold the proxy inside the Neutral band while waiting for a qualifying name.
+
 ### Jul 23 — EOD Snapshot (Day 52, Thursday)
 **Portfolio:** $99,012.65 | **Cash:** $39,121.25 (39.5%) | **Day P&L:** -$718.65 (-0.72%) | **Phase P&L:** -$987.35 (-0.99%)
 
