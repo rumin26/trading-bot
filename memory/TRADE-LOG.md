@@ -1,5 +1,14 @@
 # Trade Log
 
+### Jul 27 — EOD Snapshot (Day 54, Monday)
+**Portfolio:** $98,984.69 | **Cash:** $39,860.61 (40.3%) | **Day P&L:** +$77.66 (+0.08%) | **Phase P&L:** -$1,015.31 (-1.02%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.0487 | $739.05 | +0.02% | -$1,036.71 (-1.72%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 54, week 12 (Monday). Reconcile (§14): live EOD Alpaca = equity $98,984.69, cash $39,860.61, SPY 80 sh (avg $752.0099, MV $59,124.08), zero open orders — matches the Jul 24 EOD logged state (80 sh; cash to the cent; the ~$0.04 avg-entry recompute is immaterial with no share/cash move). No external/manual change → account reconciles, **no HALT.** No bot trades today — **§9 fresh-single-name-risk pause is in effect the session before FOMC (Jul 28–29)**; floor/ceiling never pause but nothing forced a proxy move. Day P&L vs Jul 24 EOD ($98,907.03): **+$77.66 (+0.08%)** — SPY marked up modestly (close $738.08 → $739.05, +0.13%). Phase P&L **-$1,015.31 (-1.02%)** vs $100k start; proxy unrealized -$1,036.71 (-1.72%) from ~$752.05 avg. **Regime NEUTRAL** (§4.1; VIX ≥ 18 holds — no sustained sub-18 close; SPX > 50/200-DMA golden cross intact; no ≥5%/10-session drawdown → no crash-guard); floor 30% / ceiling 60%, no dated bearish thesis on file. Deployed **59.73%** (SPY MV / equity) — inside the Neutral band, just under the 60% ceiling, well above the 30% floor; no EOD top-up/trim needed. No alpha exposure; proxy carries no per-name stop by design. Trades today: **0**. Bot trades this week: 0 (new week resets the §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 11+ weeks of floor-only participation, zero alpha names funded — defensible vs the floor but continues to forfeit the alpha mandate. **Tomorrow (Tue Jul 28):** FOMC (Jul 28–29) — §9 keeps the fresh-single-name-risk pause on; hold the proxy inside the Neutral band, no new alpha into the print. **Post-FOMC (Thu Jul 30):** re-score TXN + Industrials/Defense (RTX/LMT/HON/UNP) and GE (pullback ~$334 / breakout > $383 restoring 2:1) for a clean non-extended Path A leader; a VIX close < 18 re-arms RISK-ON → 60% floor / 85% ceiling (buy SPY toward the floor). If a name clears ≥7.0 (≥6.0 starter), fund within caps + attach ATR/8%-cap GTC stop (§8).
+
 ### Jul 24 — EOD Snapshot (Day 53, Friday)
 **Portfolio:** $98,907.03 | **Cash:** $39,860.63 (40.3%) | **Day P&L:** -$105.62 (-0.11%) | **Phase P&L:** -$1,092.97 (-1.09%)
 
