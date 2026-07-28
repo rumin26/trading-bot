@@ -1962,3 +1962,62 @@ VIX 18.96 in the 18–26 band keeps the book out of Risk-on (needs VIX < 18); SP
 - Book: **SPY 80 sh (59.93%), 0 alpha, 0 open orders, ~$39.9k cash** — ready to fund a qualifying name once FOMC clears the §9 veto and a clean 2:1 Path A setup appears (AMD/TXN/Industrials drift, or GE on a pullback/breakout).
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (market-open Jul 27):** (1) reconcile; (2) **re-check VIX at the open — if ≥ 18 (Neutral) AND SPY MV > $59,684, SELL 1 sh SPY to restore ≤ 60% ceiling; if SPY MV ≤ 60% → no action; if VIX < 18 (RISK-ON re-arms) → hold**; (3) confirm §9 veto in force (pre-FOMC) → no fresh single-name risk today; (4) watch AMD / TXN / Industrials-Defense post-earnings drift for a clean non-extended Path A leader **post-FOMC**; (5) re-check GE (pullback ~$334 / breakout > $383 restoring 2:1); (6) **FOMC decision Wed Jul 29 2:00pm EDT — §9 veto lifts the session after.**
+
+---
+
+## 2026-07-28 — Pre-market Research (Day 55, Tuesday)
+
+### Account (snapshot)
+- Equity: **$99,032.61** (Alpaca `balance_asof` 2026-07-27)
+- Cash: **$39,860.61** (40.25%, settled)
+- Buying power: non-marginable **$69,446.61**; 4× margin multiplier unused (cash-account discipline §2 → usable = settled cash **$39,860.61**)
+- Daytrade count: **0/5**
+- Open positions: **SPY 80 sh @ $752.009891** (MV **$59,172.00**, **59.75% of E**, unrealized **−$988.79 / −1.64%**; current $739.65). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $99,032.61, cash **$39,860.61**, **SPY 80 sh (avg $752.009891), 0 open orders**. Jul 27 EOD logged SPY **80 sh**, cash $39,860.61, 0 orders. Live matches to the cent (SPY share count, cash, zero orders); equity differs only by the SPY mark ($739.05 → $739.65). Bot-originated state intact, no external/manual change → **No HALT.**
+
+### Market Context
+- **Chip sell-off deepens; tape splits.** ES futures **~flat (+0.1%)**, but **Nasdaq-100 −0.7 to −1%** as semis extend Monday's slide (SMH −3%; Micron/WDC −5%, Nvidia/Sandisk lower). **Dow +1% (~+520 pts)** on strong KO + SHW earnings — value/cyclical over growth/tech.
+- **Oil keeps unwinding the war-premium.** **Brent ~$86.6 (−1.5%, 3rd down session); WTI ~$83.9.** Trump "good talks" with Iran → optimism on restored Gulf flows. Confirms §11 — energy was never a durable Path A trend.
+- **VIX:** **18.58** (Jul 27 close) — **in the 18–26 band → RISK-ON VIX leg FAILS** (needs sustained < 18). ≪ 26 (no crash-guard); no ≥5%/10-session drawdown.
+- **SPX:** > 50-DMA and > 200-DMA ✓ (golden cross intact).
+- **Sector RS (YTD):** **Technology** (+27.5%) still #1 but leading the sell-off today; **Industrials/Capital Goods** supported (AI-infra, electricity capacity, defense). Broad 2026 participation (value +15.5% vs growth +2.1%).
+- **Earnings:** 176 reporters today; heavy Wed (299) / Thu (317). **Mag-7 confessional this week: MSFT + META (Wed), AAPL + AMZN (Thu).**
+
+### Regime Assessment — **NEUTRAL** (30% floor / **60% ceiling**)
+VIX 18.58 in the 18–26 band keeps the book out of Risk-on (needs VIX < 18); SPX > 50/200-DMA rules out crash-guard (VIX ≪ 26, no ≥5%/10-session DD). No dated bearish thesis on file → floor is mechanical (§4.1a).
+- **Floor (NEUTRAL 30%):** $29,709.78; SPY MV **$59,172.00 (59.75%)** → **floor met with wide room (+$29.5k).** No bearish thesis needed.
+- **Ceiling (NEUTRAL 60%):** $59,419.57; SPY MV **$59,172.00 = 59.75%** → **compliant, ~$248 (~0.33 sh) under the ceiling.** Breach line ≈ SPY **> ~$742.74** (60% ÷ 80 sh); current $739.65 → any up-move > ~+0.42% tips over. Futures ~flat, so a gap over the ceiling is possible but not the base case.
+- **Gate:** if VIX opens clearly **< 18** (re-arms RISK-ON, 60% floor / 85% ceiling), 59.75% sits **~at the 60% floor** → hold, no trim. Either way the book is ~60% invested — no cash-drag risk.
+
+### §9 Macro-Veto Status — **BINDING today (Tue Jul 28, pre-FOMC)**
+**FOMC Jul 28–29** (decision **Wed Jul 29, 2:00pm EDT**; ~66–80% no-change at 3.50–3.75%, ~19% hike odds; May CPI ran 4.2% y/y on the energy spike). §9 pauses **fresh single-name/alpha risk the single session immediately before the print = TODAY.** Lifts at the open **Thu Jul 30** (session after the decision). **Never touches the proxy floor/ceiling.** No new alpha entries today regardless of setup quality.
+
+### Catalyst Calendar — held / watched names
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8). Tech-heavy mark; week is dominated by **FOMC (Wed Jul 29 2pm EDT)** + the **Mag-7 earnings cluster (MSFT/META Wed, AAPL/AMZN Thu)** — both hit the proxy's beta directly.
+- **No alpha holdings.** Post-FOMC/post-Mag-7 watch: **TXN** (semis) once the chip sell-off settles, **Industrials/Defense** (RTX/LMT/HON/UNP), **AMD** for a non-extended base, **GE** (pullback ~$334 / breakout > $383 restoring 2:1).
+
+### Trade Ideas (alpha layer)
+1. **GE Aerospace (GE) — PASS (unchanged).** Trend confirmed (> 50-DMA, top-RS Industrials) but **R:R ~1.2:1 to the $383 ATH fails §6.1**; §7.1 ~44× P/E premium flag. §9-vetoed today. Avg score ~6.3 (Mom 7 / Cat 6 / R:R 4 / Moat 8 / Val 5 → ~6.0 wt) — below the 7.0 gate. Re-arms on pullback ~$334 / breakout > $383.
+2. **Semis (Micron/NVDA/TXN/AMD) — PASS.** Sector in a **second-day sell-off** (SMH −3%, Micron −5%) — the opposite of a clean, non-extended Path A base; buying into an active down-leg is a knife-catch. §9-vetoed today regardless. Re-score once the tape stabilizes post-FOMC. Est. score ~5.5 (Mom 4 broken-tape / Cat 5 / R:R 5 / Moat 8 / Val 5).
+3. **Mag-7 (MSFT/META/AAPL/AMZN) — PASS, earnings veto (§6).** All report Wed/Thu inside the 5-day veto window; §9-vetoed today on top. Not eligible.
+4. **Energy / Refiners — PASS (and still reversing).** Brent −1.5% (3rd down day) on Iran de-escalation — war-premium unwinding; never a durable Path A trend (§11).
+
+### Risk Factors
+- **FOMC Jul 28–29** — dominant event risk; ~19% hike odds is a non-trivial hawkish tail on a 4.2% CPI backdrop. §9 fresh-risk pause in force today.
+- **Semiconductor de-rating** — two-day chip sell-off; a tech-heavy SPY proxy carries this directly into Wed/Thu Mag-7 prints — two-way gap risk.
+- **Mag-7 earnings cluster (Wed/Thu)** — MSFT/META/AAPL/AMZN can swing the index sharply; proxy mark is fully exposed, no per-name hedge by design.
+- **Regime knife-edge / whipsaw** — VIX 17.05 (Jul 22) → 18.70 → 18.58; a sustained VIX close < 18 re-arms RISK-ON (would flip a ceiling-trim into a floor top-up). Manage mechanically, not discretionarily.
+- **Oil round-trip** — Brent ~$100 → ~$86 in days; two-way, reversible if Iran talks break.
+- **Rates** — 10-yr elevated (~4.6%); a hawkish FOMC would pressure the tech-heavy proxy mark.
+
+### Decision
+**HOLD alpha; QUEUE a mechanical Neutral-contingent 1-sh SPY ceiling trim for market-open.**
+- **Regime:** **NEUTRAL** (VIX 18.58 in 18–26; SPX > 50/200-DMA). Floor 30% / ceiling 60%.
+- **Floor:** SPY 59.75% ≫ 30% → met with wide room; no bearish thesis needed.
+- **Ceiling:** SPY 59.75% is **under** the 60% ceiling now (~$248 / ~0.33 sh of room). → **at the open, if VIX ≥ 18 (Neutral holds) AND SPY MV > $59,419.57 (60% of E, ≈ SPY > $742.74), SELL 1 sh SPY to restore ≤ 60%.** If SPY opens flat/down (MV ≤ 60%) → **no action.** If VIX opens clearly < 18 (RISK-ON re-arms) → 59.75% ≈ the 60% floor → **hold.** Mechanical proxy compliance move (§4.1/§3) — **not** alpha, **not** §9-vetoed, **not** §4.3 turnover-capped.
+- **No single-name entry:** **§9 vetoes fresh single-name risk today** (pre-FOMC); independently, no name clears a gate (GE R:R fails; semis in an active sell-off, not a base; Mag-7 inside the earnings veto; energy war-premium reversing) → not forcing one (§7 anti-gaming; §4.4(b) qualifying universe uninvestable today, floor stands via proxy well above the floor).
+- Book: **SPY 80 sh (59.75%), 0 alpha, 0 open orders, ~$39.9k cash** — ready to fund a qualifying name once FOMC (Wed Jul 29) + the Mag-7 cluster clear and a clean, non-extended 2:1 Path A setup appears.
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (market-open Jul 28):** (1) reconcile; (2) **re-check VIX at the open — if ≥ 18 (Neutral) AND SPY MV > $59,419.57, SELL 1 sh SPY to restore ≤ 60% ceiling; if SPY MV ≤ 60% → no action; if VIX < 18 (RISK-ON re-arms) → hold**; (3) confirm §9 veto in force (pre-FOMC) → **no fresh single-name risk today**; (4) hold the proxy through the Mag-7 cluster (MSFT/META Wed, AAPL/AMZN Thu) — no per-name hedge by design; (5) re-check GE (pullback ~$334 / breakout > $383 restoring 2:1); (6) **FOMC decision Wed Jul 29 2:00pm EDT — §9 veto lifts the open Thu Jul 30; re-score semis/TXN/AMD + Industrials/Defense for a non-extended Path A leader once the chip tape settles.**
