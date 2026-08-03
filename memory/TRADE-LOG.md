@@ -1,5 +1,24 @@
 # Trade Log
 
+### Aug 03 — Market-Open Execution (Day 59, Monday)
+**Portfolio:** $100,207.77 | **Cash:** $40,614.90 (40.5%) | **Long MV:** $59,592.86 (59.47%) | **Phase P&L:** +$207.77 (+0.21%)
+
+| Ticker | Side | Shares | Fill | Stop | Mkt Value | Thesis |
+| ------ | ---- | ------ | ---- | ---- | --------- | ------ |
+| SPY    | SELL | 1      | $754.29 | none (proxy, §5/§8 exempt) | — | Proxy ceiling-compliance trim to ≤60% (Neutral) |
+
+**Trade:** SELL 1 SPY @ market (day TIF), order id `9b237357`, filled 14:20 UTC @ **$754.29**. **Proxy trim, NOT alpha** — mechanical §4.1/§3 ceiling compliance; exempt from §5 R-budget, §8 GTC stop, §9 macro veto, and the §4.3 turnover cap. Position: SPY **80 → 79 sh** (avg $752.0099).
+
+**Reconcile (§14):** Pre-trade live Alpaca = equity $100,207.02, cash $39,860.61, SPY 80 sh (avg $752.0099), 0 open orders — matches the Jul 31 logged state to the cent (80 sh; cash exact); equity differs only by the SPY mark. Bot-originated state intact, no external/manual change → **no HALT.**
+
+**Regime — NEUTRAL** (§4.1; floor 30% / ceiling 60%). Open re-classification: **VIX ~16** (sub-18, Risk-on VIX leg met) **but SPX ~7,412 < 50-DMA 7,469.83** → **Risk-on price leg FAILS** (~0.8% below). SPX > 200-DMA (~7,010); VIX ≪ 26, no ≥5%/10-session DD → no crash-guard. Where inputs conflict, take the more cautious classification → **NEUTRAL holds**; RISK-ON does **not** arm (the intraday up-open did not lift SPX above its 50-DMA — no confirmed close above). No dated bearish thesis on file → floor mechanical (§4.1a).
+
+**Ceiling action:** E $100,207.02 → 60% ceiling $60,124.21. Pre-trade SPY MV = 80 × $754.345 = $60,347.60 (**60.22%**) → over by ~$223 (~0.30 sh). Trimmed 1 sh → SPY 79 sh, MV **$59,592.86 = 59.47%** of E — inside the Neutral band (>30% floor, <60% ceiling). No bearish thesis needed; floor met with wide room.
+
+**No alpha entry:** §9 permits fresh risk today (no scoped print; next = NFP Fri Aug 7 → veto Thu Aug 6), but no name clears a gate — §4.4(b) the qualifying universe is uninvestable today (AMD/PLTR/MCD report after today's close → inside the 5-day earnings veto §6; NVDA/TXN no non-extended 2:1 Path A base on an extending tape; GE R:R fails §6.1; Energy's war-premium actively unwinding on today's ~−6% oil crash). Not forcing a low-conviction trade (§7 anti-gaming).
+
+Trades today: **1** (SPY proxy trim, excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 12+ weeks of floor-only participation, zero alpha names funded — defensible vs the floor each session but the alpha mandate remains unmet. **Watch:** AMD post-earnings drift after tonight's print (top alpha candidate once the veto clears ~Aug 8 if it beats + guides up); SPX 50-DMA reclaim (~7,470) + sustained VIX < 18 + breadth ≥ 50% re-arms RISK-ON → 60% floor / 85% ceiling (would flip the book from over-ceiling to under-floor → buy SPY toward 60%, do not trim into the upgrade).
+
 ### Jul 31 — EOD Snapshot (Day 58, Friday)
 **Portfolio:** $99,588.61 | **Cash:** $39,860.61 (40.0%) | **Day P&L:** +$302.40 (+0.30%) | **Phase P&L:** -$411.39 (-0.41%)
 
