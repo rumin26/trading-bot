@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 03 — EOD Snapshot (Day 59, Monday)
+**Portfolio:** $100,509.54 | **Cash:** $40,614.90 (40.4%) | **Day P&L:** +$920.93 (+0.92%) | **Phase P&L:** +$509.54 (+0.51%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 79     | $752.0099 | $758.16 | +1.49% | +$485.86 (+0.82%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 59, week 12 start (Monday). Reconcile (§14): live EOD Alpaca = equity $100,509.54, cash $40,614.90, SPY **79 sh** (avg $752.009891, MV $59,894.64), zero open orders — matches this morning's logged market-open state exactly (SPY 80→79 after the proxy ceiling trim, order `9b237357`; cash to the cent). No external/manual change → account reconciles, **no HALT.** Day P&L vs Jul 31 EOD ($99,588.61): **+$920.93 (+0.92%)** — entirely SPY beta mark-up (SPY $747.03 → $758.16, +1.49%) plus the 1-sh trim; phase-best mark of the run. Phase P&L **+$509.54 (+0.51%)** vs $100k start — first solidly-positive phase close in weeks; proxy unrealized now **+$485.86 (+0.82%)** from $752.01 avg, flipping green. **Regime NEUTRAL** (§4.1; floor 30% / ceiling 60% — SPX still < 50-DMA per this morning's re-classification, RISK-ON price leg unmet despite VIX ~16; no crash-guard). Deployed **59.59%** (SPY MV $59,894.64 / equity) — inside the Neutral band, just under the 60% ceiling ($60,305.72), well above the 30% floor; the up-day drift pushed MV toward the ceiling but not through it, no EOD trim needed. No alpha exposure; proxy carries no per-name stop by design. Trades today: **1** (SPY proxy ceiling trim, SELL 1 @ $754.29 order `9b237357` — not alpha, excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 12+ weeks of floor-only participation, zero alpha names funded — defensible vs the floor but the alpha mandate remains unmet. **Tomorrow (Tue Aug 04):** reconcile; §9 clear (next print NFP Fri Aug 7 → veto Thu Aug 6); watch AMD post-earnings drift (reported after today's close — top alpha candidate once the §6 earnings veto clears ~Aug 8 if it beat + guided up); a sustained SPX 50-DMA reclaim (~7,470) + VIX < 18 + breadth ≥ 50% re-arms RISK-ON → 60% floor / 85% ceiling (buy SPY toward 60%, do not trim into the upgrade). If a name clears ≥7.0 (≥6.0 starter), fund within caps + attach ATR/8%-cap GTC stop (§8). Hold the proxy inside the Neutral band while waiting for a qualifier.
+
 ### Aug 03 — Market-Open Execution (Day 59, Monday)
 **Portfolio:** $100,207.77 | **Cash:** $40,614.90 (40.5%) | **Long MV:** $59,592.86 (59.47%) | **Phase P&L:** +$207.77 (+0.21%)
 
