@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 04 — EOD Snapshot (Day 60, Tuesday)
+**Portfolio:** $101,574.44 | **Cash:** $40,614.88 (40.0%) | **Day P&L:** +$1,064.90 (+1.06%) | **Phase P&L:** +$1,574.44 (+1.57%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 79     | $751.97 | $771.64 | +1.84% | +$1,553.93 (+2.62%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 60, week 12 (Tuesday). Reconcile (§14): live EOD Alpaca = equity $101,574.44, cash $40,614.88, SPY **79 sh** (avg $751.970063, MV $60,959.56), zero open orders — matches Aug 03 EOD logged state (79 sh; cash 2¢ drift). No external/manual change → account reconciles, **no HALT.** No bot trades today. Day P&L vs Aug 03 EOD ($100,509.54): **+$1,064.90 (+1.06%)** — pure SPY beta mark-up (close $757.67 → $771.64, +1.84%); strongest single-day gain of the run. Phase P&L **+$1,574.44 (+1.57%)** vs $100k start — new phase high; proxy unrealized now **+$1,553.93 (+2.62%)** from $751.97 avg. **Regime NEUTRAL** carried from Aug 03 (§4.1; floor 30% / ceiling 60% — SPX had been < 50-DMA; no crash-guard). Deployed **60.01%** (SPY MV $60,959.56 / equity) — ~$15 over the 60% Neutral ceiling ($60,944.66, ~0.02 sh) purely on today's intraday SPY drift; de minimis, flag for tomorrow's open. No alpha exposure; proxy carries no per-name stop by design. Trades today: **0**. Bot trades this week (Aug 03–04): 1 (Aug 03 SPY proxy trim, excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 12+ weeks floor-only, zero alpha names funded — defensible vs the floor, alpha mandate still unmet. **Tomorrow (Wed Aug 05):** reconcile; if SPY MV still > ceiling, trim 1 sh to ≤60%; §9 clear (NFP Fri Aug 7 → veto Thu Aug 6). Today's +1.84% SPX day likely reclaimed the 50-DMA (~7,470) — if it holds with VIX < 18 + breadth ≥ 50%, RISK-ON re-arms (60% floor / 85% ceiling → buy SPY toward the new floor, do not trim into the upgrade). Watch AMD post-earnings drift (top alpha candidate once §6 earnings veto clears ~Aug 8 if it beat + guided up); if a name clears ≥7.0 (≥6.0 starter), fund within caps + ATR/8%-cap GTC stop (§8). Hold the proxy inside the band while waiting for a qualifier.
+
 ### Aug 03 — EOD Snapshot (Day 59, Monday)
 **Portfolio:** $100,509.54 | **Cash:** $40,614.90 (40.4%) | **Day P&L:** +$920.93 (+0.92%) | **Phase P&L:** +$509.54 (+0.51%)
 
