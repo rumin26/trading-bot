@@ -2257,3 +2257,68 @@ No §9-scoped print today (S&P/ISM Manufacturing PMI at 9:45–10:00 ET are **no
 - Book: **SPY 80 sh (60.12%), 0 alpha, 0 open orders, ~$39.9k cash** — ready to fund a qualifying name on a clean non-extended 2:1 Path A setup.
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (market-open Aug 3):** (1) reconcile; (2) **re-classify regime at the open — if still NEUTRAL and SPY MV > 60% (≈ SPY > $747.39) SELL 1 sh to restore ≤ 60%; if RISK-ON arms (SPX > 50-DMA + VIX < 18 + breadth ≥ 50%) HOLD/buy toward the 60% floor, do NOT trim**; (3) confirm no §9 print today (next: NFP Aug 7 → veto Thu Aug 6); (4) hold the proxy inside the applicable band; (5) monitor VIX (already sub-18) and the SPX 50-DMA (~7,470) for the RISK-ON flip; (6) **re-score AMD/PLTR after tonight's earnings** — AMD post-earnings drift is the top alpha candidate once the veto clears; (7) Energy RS leadership deteriorating on the oil crash — keep off the buy list.
+
+---
+
+## 2026-08-04 — Pre-market Research (Day 60, Tuesday)
+
+### Account (snapshot)
+- Equity: **$100,652.51** (Alpaca `balance_asof` 2026-08-03)
+- Cash: **$40,614.88** (40.35%, settled)
+- Buying power: reported **$330,564.88** (4× margin) — **cash-account discipline §2 → usable = settled cash $40,614.88**. Options level 3 / shorting ignored by mandate (long-only, no options ever §2).
+- Daytrade count: **0/5**
+- Open positions: **SPY 79 sh @ $751.970063** (MV **$60,037.63**, **59.65% of E**, unrealized **+$631.99 / +1.06%**; current $759.97, intraday +$181.70). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $100,652.51, cash **$40,614.88**, **SPY 79 sh (avg $751.970063), 0 open orders**. Aug 3 pre-market logged SPY **80 sh** and **queued a mechanical market-open 1-sh ceiling trim** (if still NEUTRAL and SPY MV > 60%). Live now shows **79 sh** and cash up ~$754 (≈ 1 sh @ ~$752) → the queued ceiling trim **fired as designed** at the Aug 3 open. This is bot-originated, pre-logged mechanical proxy compliance — not an external/manual change → **No HALT.** Shares (79), cash, and zero orders reconcile to the queued action.
+
+### Market Context
+- **Melt-up continues; SPX near ATH.** Monday's tech-led rally lifted SPX to **~7,600.50** (Aug 3 close), within striking distance of a record. ES **+~0.2–0.3%**, Nasdaq-100 futures **+0.3–0.9%** pre-market Tuesday. Polymarket leans "up" open. Earnings tape is the driver.
+- **Palantir (PLTR) +16% pre-market** (~$145.90) on a stellar beat + raised guidance; **AMD and SpaceX report today** (SpaceX first-ever print). Strong season: **~85% of S&P names beating**, aggregate profit growth tracking well above trend.
+- **Oil keeps falling on Iran de-escalation.** **WTI ~$76.66 (−~4.6%)**, **Brent ~$83.82 (−~4.7%)** — the war-premium continues to unwind (disinflationary at the margin; confirms the prior "reversible war-premium" read on Energy).
+- **VIX ~15.83** — firmly **sub-18** (range 15.67–15.84). Multi-session sub-18. Thin downside insurance = a complacency/fragility flag.
+- **SPX vs MAs:** SPX **7,600.50 > 50-DMA 7,469.83 ✓** and **> 200-DMA 7,480.57 ✓** — the **50-DMA has now been RECLAIMED** (the exact missing RISK-ON condition flagged in the Aug 3 log). SPX ~+1.6% above both MAs; 50-DMA ≈ 200-DMA (tight, golden-cross structure intact). No ≥5%/10-session DD; VIX ≪ 26 → **no crash-guard**.
+- **Sector RS (YTD):** **Energy #1 (~+32%)** but leadership actively unwinding on the oil slide; **Technology #2 (~+31%)**; Transportation/Industrials/Capital Goods clustered ~25–26%. Consumer Discretionary/Services lagging (negative).
+- **Rates:** 10-yr elevated; tech-heavy proxy stays rate-sensitive into NFP.
+
+### Regime Assessment — **NEUTRAL, on the cusp of RISK-ON** (30% floor / 60% ceiling today)
+The two legs that failed on Aug 3 have now flipped: **SPX > 50-DMA ✓** (reclaimed) and **VIX < 18 ✓** (15.83). The **only unconfirmed RISK-ON leg is breadth (% of S&P > 200-DMA ≥ 50%)** — not directly measurable from today's sources. Per §4.1, where inputs are unresolved, take the **more cautious** classification → **NEUTRAL holds for pre-market**, with a market-open re-classification queued to confirm/deny breadth. SPX > 200-DMA and VIX ≪ 26 rule out crash-guard. No dated bearish thesis on file → floor is mechanical (§4.1a).
+- **Floor (NEUTRAL 30%):** $30,195.75; SPY MV **$60,037.63 (59.65%)** → **floor met with wide room (+$29.8k).** No bearish thesis needed.
+- **Ceiling (NEUTRAL 60%):** $60,391.51; SPY MV **$60,037.63 = 59.65%** → **UNDER the ceiling by ~$354 (~0.47 sh).** No trim. Ceiling-tip line (79 sh, E adjusts with mark): **SPY > ~$771.17** (+1.47% from $759.97) would tip 60%.
+- **RISK-ON contingency:** if breadth confirms ≥ 50% at the open, floor jumps to **60%** / ceiling to **85%**. SPY at 59.65% would then sit **~$354 UNDER the new 60% floor** → **BUY 1 sh SPY** (~$760) to restore ≥ 60% (mechanical §4.1a, not alpha, not §4.3-capped). Do **not** trim in either regime today (below the Neutral ceiling; at/under the Risk-on floor).
+
+### §9 Macro-Veto Status — **NOT BINDING today (Tue Aug 4)**
+No §9-scoped print today. Next scoped print = **July jobs / NFP (Fri Aug 7)** → its one-session pre-print veto falls **Thu Aug 6**, not today. CPI **Wed Aug 12**; **no FOMC in August** (next FOMC **Sep 16**). So **no macro veto today** → fresh single-name risk is *permitted* by §9; gated only by whether a name clears a gate.
+
+### Catalyst Calendar — held / watched names
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8). This week's beta drivers: **AMD + SpaceX earnings (today, after close)**; heavy earnings tape all week (CAT, MCD reported strong); **July jobs/NFP Fri Aug 7**. Next CPI Aug 12.
+- **No alpha holdings.** Watch: **PLTR** (post-earnings drift after +16% gap — needs a base, not a chase); **AMD** (reports today → earnings-veto until ~Aug 8, then post-earnings drift if beat+guide-up); **semis (NVDA/TXN)** for a non-extended 2:1 Path A base; **GE** (pullback ~$334 / breakout > $383).
+
+### Trade Ideas (alpha layer)
+1. **PLTR (post-earnings drift) — PASS today (extended).** Real Path B catalyst (beat + raised guidance) and huge momentum, but **+16% pre-market gap is the opposite of a non-extended base (§7 anti-gaming)**; R:R to any defensible target after the gap fails §6.1's 2:1; valuation extreme (§7.1 flag). Avg ~6.0–6.5 wt — below the 7.0 gate. **Re-score on a pullback/base** that restores 2:1 — top drift candidate alongside AMD.
+2. **AMD — PASS (earnings veto).** Reports **today after close → inside the 5-day earnings veto (§6)**, ineligible to open. Top post-earnings-drift re-score once the veto clears (~Aug 8) if it beats + raises guidance (§11.4).
+3. **Semis (NVDA/TXN) — PASS.** No clean non-extended 2:1 Path A base on a still-extending, near-ATH tape. Buying the melt-up's strongest up-days is a chase (§7). Est. ~5.5–6.0.
+4. **GE Aerospace — PASS (unchanged).** Trend confirmed (> 50-DMA, top-RS Industrials) but **R:R ~1.2:1 to the $383 ATH fails §6.1**; ~44× P/E premium (§7.1). Avg ~6.0 wt. Re-arms on pullback ~$334 / breakout > $383.
+5. **Energy / Refiners — PASS (thesis confirming).** #1 YTD RS but today's continued **−4.6% oil slide on Iran de-escalation** is the war-premium unwinding as flagged — not a durable Path A trend (§11). RS leadership deteriorating; keep off the buy list.
+
+### Risk Factors
+- **Complacency / thin hedge** — VIX ~15.8 prices near-perfect conditions; a soft NFP (Aug 7), re-escalation, or hot CPI (Aug 12) has an outsized re-rate path. Manage mechanically.
+- **Earnings gap risk (AMD/SpaceX after close)** — high-beta AI-adjacent names; the cap-weighted SPY proxy carries the net directly, no per-name hedge by design. Two-way overnight gap.
+- **AI-valuation / tech-dispersion** — Monday's rally reversed July's tech selloff; a valuation re-wobble hits the tech-heavy proxy directly.
+- **Oil round-trip** — a de-escalation that reverses snaps the war-premium back on (fresh inflation/rates risk); today's move is headline-driven and two-way.
+- **NFP Aug 7** — the week's marquee print; a hot number pressures the rate-sensitive proxy. §9 veto pre-empts fresh single-name risk **Thu Aug 6** only, never the floor.
+- **Breadth ambiguity** — the RISK-ON flip hinges on an unconfirmed breadth leg; resolve at the open before adding to the floor.
+
+### Decision
+**HOLD alpha; QUEUE a mechanical, regime-contingent SPY floor action for market-open.**
+- **Regime:** **NEUTRAL, on the cusp of RISK-ON** (SPX reclaimed the 50-DMA ✓, VIX 15.83 sub-18 ✓; **breadth ≥ 50% is the only unconfirmed leg** → cautious classification = NEUTRAL until confirmed). Floor 30% / ceiling 60%. No crash-guard; no bearish thesis on file.
+- **Floor:** SPY 59.65% ≫ 30% → met with wide room; no bearish thesis needed.
+- **Ceiling / open action (re-classify first):**
+  - **If NEUTRAL confirms at the open:** SPY 59.65% is **under** the 60% ceiling → **no action, hold.** (Trim only if SPY MV > 60% of E, i.e. SPY > ~$771.17.)
+  - **If RISK-ON arms** (breadth ≥ 50% confirmed; SPX holds > 50-DMA, VIX < 18): floor → **60%**, ceiling → **85%**. SPY 59.65% sits **~$354 under the new 60% floor** → **BUY 1 sh SPY** (~$760) to restore ≥ 60% (mechanical §4.1a — not alpha, not §9-vetoed, not §4.3-capped).
+  - **Do NOT trim** in either regime today.
+- **No single-name entry:** §9 permits fresh risk, but no name clears a gate — **§4.4(b): the qualifying universe is uninvestable today** (PLTR +16% extended, R:R fails; AMD in the earnings veto; NVDA/TXN no non-extended 2:1 base on a near-ATH tape; GE R:R fails; Energy's war-premium actively unwinding). Not forcing a low-conviction trade (§7 anti-gaming). Floor stands via the proxy at ~60%.
+- **Standing gap (honest flag):** 12+ weeks of floor-only participation, zero alpha names funded — defensible vs the floor each session but the alpha mandate remains unmet. Clearest path back to alpha: **PLTR/AMD post-earnings drift on a non-extended base** (AMD outside the veto ~Aug 8), or a semis 2:1 Path A base as the tape digests earnings.
+- Book: **SPY 79 sh (59.65%), 0 alpha, 0 open orders, ~$40.6k cash** — ready to fund a qualifying name on a clean non-extended 2:1 Path A setup, or to add 1 sh to the proxy if RISK-ON arms.
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (market-open Aug 4):** (1) reconcile; (2) **re-classify regime at the open — confirm breadth: if RISK-ON arms (breadth ≥ 50% + SPX > 50-DMA + VIX < 18) BUY 1 sh SPY to restore the ≥ 60% floor; if still NEUTRAL, HOLD (SPY 59.65% is under the 60% ceiling — trim only if SPY > ~$771.17); do NOT trim either way**; (3) confirm no §9 print today (next: NFP Fri Aug 7 → veto Thu Aug 6); (4) hold the proxy inside the applicable band; (5) **re-score PLTR/AMD after today's AMD print** for a non-extended post-earnings-drift base — the top alpha candidates; (6) Energy RS leadership deteriorating on the oil slide — keep off the buy list; (7) monitor for a durable RISK-ON confirmation (sustained breadth + VIX < 18) which lifts the floor to 60% / ceiling to 85%.
