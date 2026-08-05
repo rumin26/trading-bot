@@ -1,5 +1,24 @@
 # Trade Log
 
+### Aug 05 — Market-Open Execution (Day 61, Wednesday)
+**Portfolio:** $101,888.59 | **Cash:** $41,390.23 (40.6%) | **Long MV:** $60,498.36 (59.38%) | **Phase P&L:** +$1,888.59 (+1.89%)
+
+| Ticker | Side | Shares | Fill | Stop | Mkt Value | Thesis |
+| ------ | ---- | ------ | ---- | ---- | --------- | ------ |
+| SPY    | SELL | 1      | $775.35 | none (proxy, §5/§8 exempt) | — | Proxy ceiling-compliance trim to ≤60% (Neutral) |
+
+**Trade:** SELL 1 SPY @ market (day TIF), order id `b38127a3`, filled 14:24 UTC @ **$775.35**. **Proxy trim, NOT alpha** — mechanical §4.1/§3 ceiling compliance; exempt from §5 R-budget, §8 GTC stop, §9 macro veto, and the §4.3 turnover cap. Position: SPY **79 → 78 sh** (avg $751.970063).
+
+**Reconcile (§14):** Pre-trade live Alpaca = equity $101,846.20, cash $40,614.88, SPY 79 sh (avg $751.970063), 0 open orders — matches the Aug 04 EOD logged state (79 sh; cash to the cent). Aug 04's contingent open action resolved to HOLD (no order fired); equity differs only by the SPY mark. Bot-originated state intact, no external/manual change → **no HALT.**
+
+**Regime — NEUTRAL** (§4.1; floor 30% / ceiling 60%). Open re-classification: **VIX 16.49** (sub-18, Risk-on VIX leg met) **and SPX at record ~7,650 > 50-DMA (~7,466) ✓ > 200-DMA (~7,477) ✓** (price leg met), **but breadth ≥ 50% remains unconfirmed** (no direct reading). Where inputs are unresolved, take the more cautious classification (§4.1) → **NEUTRAL holds**; RISK-ON does **not** arm. VIX ≪ 26, no ≥5%/10-session DD → no crash-guard. No dated bearish thesis on file → floor mechanical (§4.1a).
+
+**Ceiling action:** E $101,846.20 → 60% ceiling $61,107.72. Pre-trade SPY MV = 79 × $774.94 = $61,220.26 (**60.11%**) → over by ~$113 (~0.15 sh). Trimmed 1 sh → SPY 78 sh, MV **$60,498.36 = 59.38%** of E (post-trade equity $101,888.59) — inside the Neutral band (>30% floor, <60% ceiling). No bearish thesis needed; floor met with wide room.
+
+**No alpha entry:** §9 permits fresh risk today (no scoped print; next = NFP Fri Aug 7 → veto Thu Aug 6), but no name clears a gate — §4.4(b) the qualifying universe is uninvestable today (AMD drift thesis **failed** — fell −7–9% on a double-beat + strong guide, the opposite of a drift long; PLTR extended, R:R fails §6.1; NVDA/TXN no non-extended 2:1 Path A base on a record-high tape; GE R:R fails §6.1; Energy's war-premium actively unwinding on the Bessent/Hormuz headline). Not forcing a low-conviction trade (§7 anti-gaming).
+
+Trades today: **1** (SPY proxy trim, excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 12+ weeks of floor-only participation, zero alpha names funded — defensible vs the floor each session but the alpha mandate remains unmet. **Watch:** PLTR basing after its Aug 3 gap and semis (NVDA/TXN) for a 2:1 Path A base as the AI-dispersion shake-out (AMD −9%) settles; a durable RISK-ON confirmation (sustained breadth ≥ 50% + VIX < 18 + SPX > 50-DMA) lifts the floor to 60% / ceiling to 85% (would flip the book from over-ceiling to under-floor → buy SPY toward 60%, do not trim into the upgrade).
+
 ### Aug 04 — EOD Snapshot (Day 60, Tuesday)
 **Portfolio:** $101,574.44 | **Cash:** $40,614.88 (40.0%) | **Day P&L:** +$1,064.90 (+1.06%) | **Phase P&L:** +$1,574.44 (+1.57%)
 
