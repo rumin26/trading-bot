@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 05 — EOD Snapshot (Day 61, Wednesday)
+**Portfolio:** $101,502.49 | **Cash:** $41,390.23 (40.8%) | **Day P&L:** -$71.95 (-0.07%) | **Phase P&L:** +$1,502.49 (+1.50%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 78     | $751.97 | $770.67 | -0.09% | +$1,458.60 (+2.49%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 61, week 12 (Wednesday). Reconcile (§14): live EOD Alpaca = equity $101,502.49, cash $41,390.23, SPY **78 sh** (avg $751.970063, MV $60,112.26), zero open orders — matches today's logged market-open state exactly (78 sh after the proxy ceiling trim, order `b38127a3`; cash to the cent). No external/manual change → account reconciles, **no HALT.** Day P&L vs Aug 04 EOD ($101,574.44): **-$71.95 (-0.07%)** — pure SPY beta drift (close $771.33 → $770.67, -0.09%) plus the 1-sh trim; flat day after Tuesday's +1.06% run-up. Phase P&L **+$1,502.49 (+1.50%)** vs $100k start; proxy unrealized **+$1,458.60 (+2.49%)** from $751.97 avg. **Regime NEUTRAL** (§4.1; floor 30% / ceiling 60% — RISK-ON breadth leg unconfirmed at the open, cautious classification holds; VIX ~16, no crash-guard). Deployed **59.2%** (SPY MV $60,112.26 / equity) — inside the Neutral band, just under the 60% ceiling after this morning's trim, well above the 30% floor. No alpha exposure; proxy carries no per-name stop by design. Trades today: **1** (SPY proxy ceiling trim, SELL 1 @ $775.35 order `b38127a3` — not alpha, excluded from §4.3 cap). Bot trades this week (Aug 03–05): 2, all proxy trims. New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 12+ weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet. **Tomorrow (Thu Aug 06):** reconcile; if SPY MV > 60% ceiling on drift, trim to ≤60%. **§9 macro veto active** — NFP lands Fri Aug 7, so Thursday bars fresh single-name risk (proxy floor unaffected). Watch PLTR basing after its Aug 3 gap and semis (NVDA/TXN) for a 2:1 Path A base as the AMD −9% AI-dispersion shake-out settles; a durable RISK-ON confirmation (breadth ≥ 50% + VIX < 18 + SPX > 50-DMA) lifts floor to 60% / ceiling to 85% → buy SPY toward the new floor, do not trim into the upgrade. Hold the proxy inside the band while waiting for a qualifier.
+
 ### Aug 05 — Market-Open Execution (Day 61, Wednesday)
 **Portfolio:** $101,888.59 | **Cash:** $41,390.23 (40.6%) | **Long MV:** $60,498.36 (59.38%) | **Phase P&L:** +$1,888.59 (+1.89%)
 
