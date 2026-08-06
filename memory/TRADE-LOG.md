@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 06 — EOD Snapshot (Day 62, Thursday)
+**Portfolio:** $101,290.73 | **Cash:** $39,849.93 (39.3%) | **Day P&L:** -$211.76 (-0.21%) | **Phase P&L:** +$1,290.73 (+1.29%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.38 | $768.01 | -0.23% | +$1,250.06 (+2.08%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 62, week 12 (Thursday). Reconcile (§14): live EOD Alpaca = equity $101,290.73, cash $39,849.93, SPY **80 sh** (avg $752.384235, MV $61,440.80), zero open orders — matches today's logged market-open state exactly (80 sh after the RISK-ON floor-restore buy, order `279e8653`; cash to the cent). No external/manual change → **no HALT.** Day P&L vs Aug 05 EOD ($101,502.49): **-$211.76 (-0.21%)** — pure SPY beta drift (close $769.79 → $768.01, -0.23%). Phase P&L **+$1,290.73 (+1.29%)** vs $100k start; proxy unrealized **+$1,250.06 (+2.08%)** from $752.38 avg. **Regime RISK-ON** (§4.1; floor 60% / ceiling 85% — confirmed at the open: SPX record > 50/200-DMA, VIX 15.65 < 18, breadth ~60% > 200-DMA ≥ 50%). Deployed **60.66%** (SPY MV $61,440.80 / equity) — inside the RISK-ON band, just above the 60% floor, well under the 85% ceiling ($86,097). No alpha exposure; proxy carries no per-name stop by design. Trades today: **1** (SPY proxy floor buy, BUY 2 @ ~$770.13 order `279e8653` — not alpha, excluded from §4.3 cap). Bot trades this week (Aug 03–06): 3, all proxy floor/ceiling moves. New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **§9 macro veto bound today** (single session before NFP Fri Aug 7) — no fresh single-name risk; proxy floor unaffected. **Standing gap:** 12+ weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet. **Tomorrow (Fri Aug 07): NFP 8:30 ET — veto lifts at the open.** Reconcile; if SPY MV drifts > 85% ceiling, trim; else hold the floor. Screen Healthcare (new #1 RS) top-5 single-names for a non-extended 2:1 Path A base + re-check PLTR as the AI-dispersion shake-out settles; fund a qualifier ≥7.0 (≥6.0 starter) by trimming the proxy, ATR/8%-cap GTC stop at every alpha fill (§8).
+
 ### Aug 06 — Market-Open Execution (Day 62, Thursday)
 **Portfolio:** $101,468.45 | **Cash:** $39,849.93 (39.3%) | **Long MV:** $61,618.52 (60.73%) | **Phase P&L:** +$1,468.45 (+1.47%)
 
