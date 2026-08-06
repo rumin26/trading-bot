@@ -1,5 +1,24 @@
 # Trade Log
 
+### Aug 06 — Market-Open Execution (Day 62, Thursday)
+**Portfolio:** $101,468.45 | **Cash:** $39,849.93 (39.3%) | **Long MV:** $61,618.52 (60.73%) | **Phase P&L:** +$1,468.45 (+1.47%)
+
+| Ticker | Side | Shares | Fill | Stop | Mkt Value | Thesis |
+| ------ | ---- | ------ | ---- | ---- | --------- | ------ |
+| SPY    | BUY  | 2      | $770.13 | none (proxy, §5/§8 exempt) | $61,618.52 | Proxy floor-restore to ≥60% (RISK-ON arms) |
+
+**Trade:** BUY 2 SPY @ market (day TIF), order id `279e8653`, filled 14:29 UTC @ **~$770.13** avg (cost-basis Δ $1,540.26). **Proxy floor move, NOT alpha** — mechanical §4.1a floor restoration on the RISK-ON upgrade; exempt from §5 R-budget, §8 GTC stop, §9 macro veto, and the §4.3 turnover cap. Position: SPY **78 → 80 sh** (avg $752.384235).
+
+**Reconcile (§14):** Pre-trade live Alpaca = equity $101,491.53, cash $41,390.19, SPY 78 sh (avg $751.929215), 0 open orders — matches the Aug 05 EOD logged state exactly (78 sh after the ceiling trim, order `b38127a3`; cash to the cent). Bot-originated state intact, no external/manual change → **no HALT.**
+
+**Regime — RISK-ON arms** (§4.1; floor **60%** / ceiling **85%**). Open re-classification confirms all three legs: **SPX at record ~7,740 > 50-DMA ✓ > 200-DMA ✓** (price leg), **VIX 15.65 < 18 ✓** (vol leg), and the previously-unconfirmed **breadth leg now confirms — ~60% of S&P above 200-DMA ≥ 50% ✓** (Yahoo/MacroMicro; value/small-cap/industrial broadening corroborates). Yesterday's cautious NEUTRAL held only because breadth was unreadable at the open; today it reads ≥ 50% → RISK-ON is the correct, no-longer-conflicting classification. VIX ≪ 26, no ≥5%/10-session DD → no crash-guard. No dated bearish thesis on file → floor mechanical (§4.1a).
+
+**Floor action:** E $101,491.53 → new 60% floor $60,894.92. Pre-trade SPY MV = 78 × $770.53 = $60,101.34 (**59.22%**) → **~$794 UNDER the new floor** (the upgrade flipped the book from under-ceiling to under-floor). Bought 2 sh (clean cushion) → SPY 80 sh, MV **$61,618.52 = 60.73%** of E (post-trade $101,468.45) — inside the RISK-ON band (>60% floor, <<85% ceiling $86,248). Did **not** trim into the upgrade, per plan. Buying-power/settlement OK: funded by settled cash ($41,390 → $39,850), no good-faith risk (§2).
+
+**No alpha entry:** **§9 macro veto binds today** (single session before NFP Fri Aug 7, 8:30 ET) → fresh single-name risk paused; the veto never touches the proxy floor. Independently, no name clears a gate — §4.4(b) the qualifying universe is uninvestable today (PLTR extended, R:R fails §6.1; AMD drift thesis failed on the −9% post-beat drop; NVDA/TXN no non-extended 2:1 Path A base on a record-high tape; Energy war-premium unwinding on the oil slide; Healthcare new #1 YTD RS but no single-name non-extended 2:1 base identified). Not forcing a low-conviction trade (§7 anti-gaming).
+
+Trades today: **1** (SPY proxy floor buy, excluded from §4.3 cap). New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 12+ weeks of floor-only participation, zero alpha names funded — defensible vs the floor each session but the alpha mandate remains unmet. **Post-NFP (veto lifts Fri Aug 7 open):** screen Healthcare (new #1 RS) top-5 single-names for a Path A base + re-check PLTR for a non-extended 2:1 base as the AI-dispersion shake-out settles. Now on the RISK-ON floor (60%) with an 85% ceiling — room to fund a qualifying name by trimming the proxy once one clears ≥7.0 (≥6.0 starter) with an ATR/8%-cap GTC stop (§8).
+
 ### Aug 05 — EOD Snapshot (Day 61, Wednesday)
 **Portfolio:** $101,502.49 | **Cash:** $41,390.23 (40.8%) | **Day P&L:** -$71.95 (-0.07%) | **Phase P&L:** +$1,502.49 (+1.50%)
 
