@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 07 — EOD Snapshot (Day 63, Friday)
+**Portfolio:** $101,659.46 | **Cash:** $39,849.92 (39.2%) | **Day P&L:** +$368.73 (+0.36%) | **Phase P&L:** +$1,659.46 (+1.66%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.38 | $772.62 | +0.53% | +$1,618.80 (+2.69%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 63, week 12 (Friday). Reconcile (§14): live EOD Alpaca = equity $101,659.46, cash $39,849.92, SPY **80 sh** (avg $752.384234, MV $61,809.54), zero open orders — matches the logged prior state exactly (80 sh, cash to the cent, no bot orders placed today). No external/manual change → **no HALT.** Day P&L vs Aug 06 EOD ($101,290.73): **+$368.73 (+0.36%)** — pure SPY beta (close $768.01→$772.62, +0.53%; Alpaca `last_equity` $101,334.72 ≈ same, +$44 reconciling drift). Phase P&L **+$1,659.46 (+1.66%)** vs $100k start; proxy unrealized **+$1,618.80 (+2.69%)** from $752.38 avg. **Regime RISK-ON** (§4.1; floor 60% / ceiling 85%): SPX record > 50/200-DMA, VIX ~15.1 < 18, breadth ≥ 50% ✓; no crash-guard, no bearish thesis on file. Deployed **60.80%** (SPY MV $61,809.54 / equity) — inside the RISK-ON band, ~$806 (~1 sh) above the 60% floor, well under the 85% ceiling ($86,410). Floor MET, no trim. No alpha exposure; proxy carries no per-name stop by design. **NFP landed this morning** (July payrolls **−23K** vs +80–95K est, U-rate 4.1%) — tape read it dovishly (rate-cut fuel), SPX at record highs; **§9 macro veto LIFTED at the open** (fresh single-name risk permitted). Trades today: **none** (no proxy action needed — floor met, ceiling clear; no alpha name cleared a gate). Bot trades this week (Aug 03–07): **3**, all proxy floor/ceiling moves. New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. Owed §4.4 screen (top-5 Energy single-names for a non-extended 2:1 Path A base + PLTR base re-check) ran pre-market → all PASS (~5.5–6.5 wt, below the 7.0 gate; Energy closest but crude soft/two-way and no defensible base; semis/PLTR extended). **Standing gap:** 12+ weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet. Friday → weekly review (§12) due in its own workflow. **Next week (Mon Aug 10):** reconcile; if SPY MV drifts > 85% ceiling, trim, else hold the floor. **§9 pre-print veto binds Tue Aug 11** (CPI Wed Aug 12); PPI ~Aug 14; no FOMC in August. Continue screening Energy top-5 + semis/PLTR for a non-extended 2:1 Path A base; fund a qualifier ≥7.0 (≥6.0 starter) by trimming the proxy, ATR/8%-cap GTC stop at every alpha fill (§8).
+
 ### Aug 06 — EOD Snapshot (Day 62, Thursday)
 **Portfolio:** $101,290.73 | **Cash:** $39,849.93 (39.3%) | **Day P&L:** -$211.76 (-0.21%) | **Phase P&L:** +$1,290.73 (+1.29%)
 
