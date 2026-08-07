@@ -408,6 +408,21 @@ Screen, in order of preference:
 Score the *name*, not the theme. A good theme with a mediocre single-name score
 is, at most, a starter — or an ETF expression.
 
+### 11.1 Mandatory screen execution (added v2.2, 2026-08-07)
+
+In any **Neutral or Risk-on** regime, the Friday review **must** score the
+**top-5 RS single names within each top-3 RS sector** to a **recorded pass/fail**
+— name, entry path (A/B), conviction score, and, if failed, the specific blocker
+(extension, R:R, base structure, earnings veto, etc.). Re-checking the same 3–4
+names week after week is a screen-breadth failure (§4.4.3); this makes the full
+top-sector screen auditable each Friday and prevents a durable-RS leader from
+going unscreened at the single-name level.
+**Rationale:** 13 consecutive weeks (Jun 16–Aug 07) of floor-only participation
+with the screen repeatedly re-checking a narrow name set, while the #1 RS sector
+(Energy, Leading quadrant) went unscreened at the single-name level until
+2026-08-07. The escalation trigger flagged over the prior two reviews (RISK-ON
+re-arms + book still funds no alpha) fired the week of Aug 6.
+
 ---
 
 ## 12. Weekly Review (every Friday)

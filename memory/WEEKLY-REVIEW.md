@@ -554,3 +554,69 @@ None enacted. **§13 anti-overfitting** bars re-architecting: over the full roll
 
 ### Overall Grade: C
 A clean, disciplined week that nonetheless missed the mandate. Discipline was intact across the board: the §9 veto was scoped exactly right through a hawkish FOMC (held the proxy floor, paused only fresh single-name risk), the book weathered the Wed drawdown and rode the tech-earnings bounce back to a **positive +0.69%** via beta, reconciliation was clean every session with no §14 flags, and no knife was caught (AAPL −10%, FOMC risk-off, fading Energy all correctly passed). But we *lagged* a rising S&P (≈ +0.69% vs ≈ +1.2%, the 6th rising-week miss of the phase) because the quantitative Neutral read (VIX ≥18) correctly capped the book at the 60% ceiling while the index accelerated on big-tech earnings — and, for the 12th straight week, the alpha layer stayed empty. The honest frame keeps this from being worse: over the full rolling-60-day window the book is roughly in line with a flat-to-down index (§13 underperformance trigger un-fired), so the alpha gap is forfeited opportunity, not a benchmark breach. Discipline earns the C; the un-started alpha mandate and the rising-week lag keep it from a B.
+
+## Week ending 2026-08-07
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,588.61 (Mon Aug 03 AM ≈ Fri Jul 31 EOD) |
+| Ending portfolio | $101,659.46 (Fri Aug 07 EOD; live reconcile 80 SPY / cash $39,849.92, intraday mark ≈$101,687.52) |
+| Week return | +$2,070.85 (+2.08%) |
+| S&P 500 week | ≈ +3.6% (best week since April; Fri +0.62% → record close 7,757.64; dovish-NFP rate-cut read) |
+| Bot vs S&P | **≈ -1.5%** (7th rising-week lag of the phase) |
+| Trades | 3 (W:0 / L:0 / open:1) — all SPY proxy floor/ceiling moves, 0 alpha |
+| Win rate | N/A (no closed alpha trades) |
+| Best trade | SPY +2.69% (only position, unrealized) |
+| Worst trade | SPY +2.69% (same) |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | None closed. 3 mechanical SPY proxy moves only (Aug 03 SELL 1 @ $754.29 Neutral-ceiling trim; Aug 05 SELL 1 @ $775.35 Neutral-ceiling trim; Aug 06 BUY 2 @ $770.13 RISK-ON floor-restore) — net flat at 80 sh, realized ≈+$25, not alpha round-trips |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| SPY | $752.384234 (80 sh) | $772.62 | +$1,618.80 (+2.69%) | none (proxy, §5/§8 exempt) |
+
+- **SPY** = benchmark proxy, **60.80%** of E at week end. This week the regime **upgraded Neutral→RISK-ON (Aug 06)**: 2 Neutral-ceiling trims early week (Aug 03/05), then a 2-sh floor-restore buy Aug 06 when RISK-ON armed on confirmed breadth. Book carried the **60% RISK-ON floor**, not the 85% ceiling — the 60%→85% headroom is reserved for alpha names, none of which qualified (13th straight floor-only week since Jun 16). Peer-valuation review N/A — the position *is* the index; broad context: S&P at record highs on an elevated forward multiple (~22–23×), a broad re-rate risk into CPI Aug 12.
+
+### Sector Rotation Update
+- **Leaders (this week):** **Energy** — the clear **#1 RS (Leading quadrant, YTD ≈ +22%)**, broke out of a long consolidation; ExxonMobil (+~2%) and Chevron (+~1%) the biggest contributors. **Information Technology / semiconductors** — mega-cap snap-back + software rebound on earnings, SOX support into the record Friday close. **Rate-sensitive groups** (homebuilders, REITs, Consumer Discretionary) got an early bid on the dovish-NFP rate-cut read.
+- **Laggards (this week):** **Real Estate, Materials, Industrials** — each ≈ −1% on down sessions (10-yr backdrop); **Financials** softened late week.
+- **Change vs last week:** last week Tech/Comm-Services/Utilities led on big-tech earnings; this week **Energy took outright #1 RS** (durable YTD leadership + Leading quadrant) and **Tech/semis snapped back to co-lead**. **Healthcare demoted from #1 RS (last week's fresh-ATH leader) to the "Weakening" quadrant** — off the watch top, not yet bottom-3. No **held** sector affected (book is 100% SPY beta).
+- **Strongest sector we're NOT in:** **Energy (#1 RS, Leading)** — un-owned; the durable-RS single-name conversion gap. Screened its **top-5 single names Friday, all PASS** (~5.5–6.5 wt; crude soft/two-way, no non-extended 2:1 base — failed on base structure, not RS).
+
+### What Worked
+- **Positive absolute return (+2.08%) and a new phase high (+1.66%).** The proxy flipped solidly green (+2.69% from $752.38 avg) as the index melted up to records; the book rode the whole rally via beta with no whipsaw.
+- **RISK-ON armed cleanly and mechanically (Aug 06).** All three legs confirmed (SPX record > 50/200-DMA, VIX ~15.6 < 18, breadth ~60% ≥ 50%); the floor was restored with a 2-sh buy, not chased above it — textbook §4.1a.
+- **Reconciliation clean every session** — cash to the cent, all share moves bot-originated, zero open orders each day; no §14 flags, no false HALTs.
+- **§9 NFP veto scoped exactly right** — bound only Thu Aug 06 (pre-print), lifted at the Fri open; never touched the proxy floor.
+- **Finally ran the owed top-5 Energy single-name screen to a recorded pass/fail** (§4.4 owed action) — closed the multi-week screen-breadth gap that had been re-checking the same 3–4 names.
+- **No knife caught / no forced chase** — PLTR +16% gap, semis at records, and AMD −9%-on-a-double-beat all correctly passed (§7 anti-gaming).
+
+### What Didn't Work
+- **7th rising-week lag of the phase: +2.08% vs S&P ≈ +3.6% (≈ −1.5%).** The best S&P week since April and we captured ~60% of it. The mandate is to *beat* the index; on the biggest up-week of the phase we trailed it by the most.
+- **RISK-ON opened an 85% ceiling Aug 06 — the book still sat at ~60.8%.** For the **13th straight week** the alpha layer was empty (pure SPY beta since Jun 16). The 60%→85% headroom in a melt-up week went wholly unused; holding proxy above the floor isn't mandated (that room is for alpha), so the lag is the **un-funded-alpha cost, now crystallized** — distinct from last week's *regime-mandated* Neutral-ceiling cap.
+- **Zero alpha despite the §9 veto lifting Friday and Energy screening as the clear #1 RS** — no non-extended 2:1 base cleared the 7.0 gate; the qualifying cluster sat ~5.5–6.5.
+- **Conviction cluster still sub-gate (~5.5–6.5) in a record tape for 13 weeks** — real, not suppressed, but it means the gate simply has not cleared for a full phase.
+
+### Key Lessons
+- **This week the alpha gap has a cost that is NOT regime-mandated.** Unlike last week (Neutral capped exposure at 60%), RISK-ON this week *permitted* up to 85% and the book still carried the 60% floor — because the ceiling headroom is reserved for qualifying alpha names, and none cleared. The −1.5% lag is the un-funded-alpha cost, finally isolated from any regime cap.
+- **Durable sector RS ≠ a tradable single-name base.** Energy is the first durable multi-week RS leader of the phase (Leading quadrant, broke a long consolidation), yet its top-5 all failed on **extension / base structure / R:R** — not on RS. The blocker is base quality, which vindicates §8.2/§7 (don't chase a record-high breakout on a market order).
+- **§13 quarter-window trigger still un-fired.** Over the rolling-60-day window the book (+1.66% phase) roughly tracks a rising S&P at ~60% deployment — tracking-error-consistent, no benchmark-underperformance breach. But 13 weeks of zero alpha is a **screen-execution** pattern, now addressed at the rule level (§11.1).
+
+### Adjustments for Next Week
+- **Mon Aug 10 first actions:** reconcile; hold **RISK-ON** unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50% at the open. Floor 60% / ceiling 85%. SPY ~60.8% is in-band → **no trim; BUY ~1 sh only if MV slips < 60% of E**; do **not** buy proxy above the floor (that headroom is for alpha, not proxy top-ups).
+- **§11.1 now binds (enacted this week):** score the **top-5 RS single names in each top-3 RS sector** (Energy, Tech/semis, + the 3rd) to a **recorded pass/fail every Friday**. Mid-week, keep screening Energy top-5 + semis (NVDA/TXN) + PLTR for a **non-extended 2:1 Path A base**; fund a qualifier ≥ 7.0 (≥ 6.0 starter) by trimming the proxy, ATR/8%-cap GTC stop at every alpha fill (§8).
+- **Do not chase:** Energy is #1 RS but crude is soft/two-way — require a real non-extended base with defensible ATR levels, not a market order into strength. Semis/PLTR extended — require a pullback/base.
+- **Calendar:** **§9 pre-print veto binds Tue Aug 11** (CPI Wed Aug 12); **PPI ~Aug 14**; **no FOMC in August** (next Sep 16). Veto pauses only fresh single-name risk, never the floor.
+- **Rate backdrop:** the dovish-NFP read has rate-sensitive groups (homebuilders/REITs) bid — watch whether that persists into CPI; a hot CPI re-rates the whole cap-weighted proxy directly (no per-name hedge by design).
+
+### Rule Change
+**ENACTED — §11.1 Mandatory screen execution (v2.2, 2026-08-07).** The escalation flagged over the prior two reviews fired this week: **RISK-ON re-armed (Aug 06) and the book still funded zero alpha** — a 13th straight floor-only week, with the #1 RS sector (Energy) going unscreened at the single-name level until this Friday. §11.1 now **mandates** that each Friday review score the **top-5 RS single names within each top-3 RS sector to a recorded pass/fail** (name, path, score, blocker). This is a **screen-execution** fix, not an exposure re-architecture — §13 anti-overfitting is satisfied (13-week evidence base, stated hypothesis: the screen has been too narrow, repeatedly re-checking the same 3–4 names). The two prior carried proposals stay flagged-to-validate: (1) §8.2 tightening (no cancel of an armed Path A limit on an unconfirmed single-source RS flicker) — no armed name this week; (2) §4.1 VIX-≥2-session-confirmation tightening — enact only on ≥3 VIX-whipsaw proxy round-trips in a week; **3 proxy moves this week but all one-directional regime steps (2 trims + 1 floor buy), not whipsaw round-trips**, so it does not enact.
+
+### Overall Grade: C
+A clean, disciplined, positive week that still missed the mandate — and, for the first time, the miss is not regime-mandated. Discipline held everywhere: RISK-ON armed correctly on confirmed breadth (Aug 06) with a mechanical floor-restore, reconciliation was clean every session with no §14 flags, the §9 NFP veto was scoped exactly right, and no knife was caught (PLTR +16%, semis at records, AMD −9% all passed). The book made **+2.08%** to a new phase high. But it **lagged the best S&P week since April by ≈ −1.5%** (7th rising-week miss), and — unlike last week's Neutral-capped lag — RISK-ON *opened an 85% ceiling that the empty alpha layer left unused*, the 13th straight floor-only week. The §13 quarter-window trigger stays un-fired (the book roughly tracks a rising index at ~60% deployment), which keeps this from worse, and the §11.1 rule change turns the standing screen gap into an auditable weekly obligation. Discipline and the positive return earn the C; the un-started alpha mandate and the crystallized rising-week lag keep it from a B.
