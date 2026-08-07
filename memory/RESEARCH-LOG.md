@@ -2447,3 +2447,67 @@ Two of three RISK-ON legs met: **SPX > 50-DMA ✓** and **VIX < 18 ✓** (15.48)
 - Book: **SPY 78 sh (59.21%), 0 alpha, 0 open orders, ~$41.4k cash** — ready to fund a qualifying non-extended 2:1 Path A name once the §9 veto lifts.
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (market-open Aug 6):** (1) reconcile; (2) **re-classify regime at the open — confirm breadth: if RISK-ON arms (breadth ≥ 50% + SPX > 50-DMA + VIX < 18) BUY 1 sh SPY to restore the ≥ 60% floor; if still NEUTRAL, HOLD (SPY 59.21% is under the 60% ceiling, tip ≈ SPY > $796); do NOT trim either way**; (3) **§9 veto binds today (pre-NFP) — no fresh single-name risk**; lifts at the Fri Aug 7 open; (4) hold the proxy inside the applicable band; (5) post-NFP, **screen Healthcare (new #1 RS) single-names** + re-check **PLTR** for a non-extended 2:1 Path A base; (6) Energy RS deteriorating on the oil slide — keep off the buy list; (7) monitor for durable RISK-ON confirmation (sustained breadth + VIX < 18) lifting the floor to 60% / ceiling to 85%.
+
+---
+
+## 2026-08-07 — Pre-market Research (Day 63, Friday)
+
+### Account (snapshot)
+- Equity: **$101,641.12** (`last_equity` $101,334.72; intraday +$306.40)
+- Cash: **$39,849.92** (39.21%, settled)
+- Buying power: reported **$332,415.04** (4× margin) — **cash-account discipline §2 → usable = settled cash $39,849.92**. Options level 3 / shorting ignored by mandate (long-only, no options ever §2).
+- Daytrade count: **0/5**
+- Open positions: **SPY 80 sh @ $752.384234** (MV **$61,791.20**, **60.79% of E**, unrealized **+$1,600.46 / +2.66%**; current $772.39). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $101,641.12, cash **$39,849.92**, **SPY 80 sh (avg $752.384234), 0 open orders**. Aug 6 pre-market queued a *contingent* market-open action (BUY 1 sh — 2 for a clean cushion — only if RISK-ON armed on confirmed breadth; else hold under the 60% NEUTRAL ceiling). Live shows **78→80 sh (+2)** and cash **−$1,540.27** (≈ 2 sh @ ~$770.14); avg entry $751.929215→$752.384234 (80-sh blend checks: 78×751.929215 + 2×770.14 = $60,190.76 /80 = $752.38 ✓). → The contingency resolved to **RISK-ON arming at the Aug 6 open (breadth ≥ 50% confirmed) + the mechanical 2-sh BUY** to restore the ≥ 60% floor. Bot-originated, logged order → **No HALT.** Shares, cash, and zero orders reconcile.
+
+### Market Context
+- **NFP shock — labor market cracks, tape reads it dovishly.** July payrolls **−23K** (first monthly drop in months) vs **+80–95K est** — a large miss. Unemployment **ticked down to 4.1%** (from 4.2%); labor-force participation **61.4%**, a 5-yr low. Losses concentrated in local-gov education (−50K) and retail (−19K). Market spun it as **rate-cut fuel**: ES **+0.3%**, Nasdaq-100 **+0.6%**, Dow **+0.1%** pre-market; SPX at record highs.
+- **Earnings tape strong in aggregate, quiet names today.** ~300 S&P reporters in: **85% beat**, aggregate profits tracking **+47%**. Today's BMO prints are minor/non-tape-moving (CNQ, XRAY, ZIMV, ESTA, UWMC) — no held/watched name.
+- **Oil soft, war-premium still bleeding.** WTI **~$78**, Brent **~$82** (−0.4% d/d) — Hormuz-deal unwind continues.
+- **VIX ~15.1** (opened 15.83, range 15.32–16.03) — **firmly sub-18**; thin downside insurance = complacency/fragility flag.
+- **SPX vs MAs:** record highs, **> 50-DMA ✓** and **> 200-DMA ✓**; golden-cross structure intact. No ≥5%/10-session DD; VIX ≪ 26 → **no crash-guard**.
+- **Sector RS (YTD):** **Energy #1 (~+22%, "Leading" quadrant)** — broke out of long consolidation; **Healthcare** strong YTD but now **"Weakening"** quadrant; **Technology "Lagging"** but mega-cap roaring back (SPX +3% over Aug's first two sessions). Rotation two-track: value/energy leadership + a mega-cap tech snap-back driving the index.
+
+### Regime Assessment — **RISK-ON** (60% floor / 85% ceiling)
+All three RISK-ON legs met: **SPX > 50-DMA & > 200-DMA ✓** (record); **VIX < 18 ✓** (15.1); **breadth ≥ 50% ✓** — confirmed at the Aug 6 open (the 2-sh floor buy fired only on that confirmation) and corroborated today by the broadening value/energy/small-cap tape. SPX > 200-DMA and VIX ≪ 26 rule out crash-guard. No dated bearish thesis on file → floor is mechanical (§4.1a).
+- **Floor (RISK-ON 60%):** $60,984.67; SPY MV **$61,791.20 (60.79%)** → **floor MET, +$806.53 (~1 sh) cushion.** No bearish thesis needed.
+- **Ceiling (RISK-ON 85%):** $86,394.95; SPY MV **$61,791.20 = 60.79%** → **well under the ceiling. No trim.**
+- SPY sits inside the RISK-ON band [60%, 85%] with a thin ~1-sh cushion above the floor. **No proxy action pre-market.** Watch at open: if SPY marks materially lower and MV slips < 60% of E, mechanically BUY ~1 sh to restore the floor; do not trim.
+
+### §9 Macro-Veto Status — **NOT BINDING today (Fri Aug 7)**
+The one-session pre-print veto for July NFP fell **yesterday (Thu Aug 6)**. **NFP is already released this morning → the veto is LIFTED at today's open. Fresh single-name (alpha) risk is PERMITTED by §9.** Next §9-scoped print = **CPI Wed Aug 12** → its pre-print veto falls **Tue Aug 11**; **PPI ~Aug 14**; **no FOMC in August** (next Sep 16).
+
+### Catalyst Calendar — held / watched names
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8). Beta drivers ahead: **CPI Aug 12**, **PPI ~Aug 14**; tail of earnings season.
+- **No alpha holdings.** Watch: **Energy top-5 single names** (sector #1 RS + Leading — the closest to a Path A gate, pending a non-extended 2:1 base with real ATR levels); **PLTR** (needs a non-extended base after the +16% Aug 3 gap); **AMD** (drift thesis failed −9% post-beat; re-score only on a fresh base above the gap); **semis (NVDA/TXN)** for a non-extended 2:1 Path A base; **Healthcare** now Weakening — demote from the watch top.
+
+### Trade Ideas (alpha layer) — all PASS (§9 permits today; none clears a gate)
+1. **Energy single-name (top-5 in XLE) — PASS, closest to qualifying.** Sector **clears the top-3 RS + confirmed-uptrend Path A legs** (Energy #1 YTD, Leading quadrant). But its momentum driver — crude — is **soft and two-way** (WTI $78, war-premium unwinding), which weakens Path A *trend-quality* (the Catalyst factor), and no specific **non-extended 2:1 base** is identified with defensible ATR levels pre-market. Est. avg **~6.0–6.5 wt** — below the 7.0 gate. **Screen the top-5 energy names at the open for a real non-extended base before any entry.**
+2. **Mega-cap tech / semis (NVDA/TXN) — PASS (extended chase).** The index broke out on mega-cap tech roaring back (+3% two-day), but that *is* the chase — no non-extended 2:1 Path A base on a record-high tape; AMD's −9% post-beat is a live dispersion/margin warning for the group. Est. **~5.5–6.0**. Buying record-high up-days is §7-flagged.
+3. **PLTR (post-earnings drift) — PASS (extended).** Real Path B catalyst (Aug 3 beat + raised guide) but **+16% gap is not a non-extended base (§7 anti-gaming)**; R:R fails §6.1; valuation extreme (§7.1). Avg **~6.0–6.5 wt** — below the gate. Re-score on a pullback/base restoring 2:1.
+
+### §4.4 Anti-Paralysis Recalibration — audit (12+ wk floor-only, veto now lifted)
+- **Score calibration:** the cluster is genuinely **~5.5–6.5**, not a suppressed 6.8-just-below run — consistent with a record-high tape where 2:1 R:R to defensible targets structurally compresses. Real, not gamed.
+- **Catalyst-path coherence:** Energy/semis are being judged on **Path A (trend)**, correctly — not wrongly held to a dated-catalyst bar. The blocker is *base structure / R:R*, not a mis-applied gate.
+- **Screen breadth:** the honest gap. The screen has re-checked the same 3–4 names; **Energy is #1 RS + Leading yet has not had its top-5 single names screened for a specific base.** → **Audit resolves to a concrete action, not another identical HOLD:** at the market-open session, **screen the top-5 Energy names for a non-extended 2:1 Path A base with live ATR/entry/stop/target**, and re-check PLTR for a base. The book is **not below floor** (60.79% in RISK-ON) — the alpha gap is rule-compliant, but the screen action is now owed.
+
+### Risk Factors
+- **Labor-market crack vs. melt-up.** A −23K print is the first hard sign the labor market is rolling over; the tape is treating it purely as rate-cut fuel while ignoring the growth signal. If the "bad news is good news" read flips (recession fear > cut hope), the cap-weighted proxy carries the full re-rate — no per-name hedge by design.
+- **Complacency / thin hedge** — VIX ~15 prices near-perfect conditions; CPI (Aug 12) or a growth-scare reversal has an outsized re-rate path. Manage mechanically.
+- **AI-dispersion / "beat isn't enough."** AMD's −9% on a double-beat shows the mega-cap AI bar is priced for perfection; the SPY carries this net directly.
+- **Oil round-trip** — a Hormuz deal that slips/reverses snaps the war-premium back on (fresh inflation/rates risk); today's crude move is headline-driven and two-way.
+- **Floor cushion is thin (~1 sh).** A weak open could tip SPY MV < 60% of E → mechanical 1-sh floor buy, never a trim.
+
+### Decision
+**HOLD alpha; floor MET in the RISK-ON band; no proxy action pre-market; owe a top-5 Energy screen at the open.**
+- **Regime:** **RISK-ON** (SPX record > both MAs ✓, VIX 15.1 < 18 ✓, breadth ≥ 50% confirmed ✓). Floor 60% / ceiling 85%. No crash-guard; no bearish thesis on file.
+- **Floor:** SPY 60.79% > 60% → **met, +$806 (~1 sh) cushion**; no bearish thesis needed.
+- **Ceiling / open action:** SPY 60.79% ≪ 85% ceiling → **no trim.** If SPY marks lower and MV slips < 60% of E at the open, **BUY ~1 sh** to restore the floor (mechanical §4.1a — not alpha, not §9-vetoed, not §4.3-capped). **Do NOT trim.**
+- **No single-name entry:** **§9 permits fresh risk today** (NFP out), but **no name clears a gate** — Energy closest (top RS + Leading) yet no non-extended 2:1 base scored ≥ 7.0; semis/PLTR extended, R:R fails. Not forcing a low-conviction trade (§7 anti-gaming). Floor stands via the proxy at ~61%.
+- **§4.4 resolution (b→action):** audit run above — the owed step is a **top-5 Energy single-name screen with live ATR levels at the market-open session**, plus a PLTR base re-check. Book is not below floor; the alpha gap is rule-compliant but the screen is now due.
+- **Housekeeping:** today is **Friday → weekly review (§12) is due** in its own workflow (regime/rotation, process/floor-adherence/calibration audit).
+- Book: **SPY 80 sh (60.79%), 0 alpha, 0 open orders, ~$39.8k cash** — ready to fund a qualifying non-extended 2:1 Path A name.
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (market-open Aug 7):** (1) reconcile; (2) **hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50% at the open**; (3) floor: SPY 60.79% is in-band — **no trim; BUY ~1 sh only if MV slips < 60% of E**; (4) **§9 veto lifted — fresh single-name risk permitted**; (5) **run the top-5 Energy single-name screen for a non-extended 2:1 Path A base with live ATR/entry/stop/target** (§4.4 owed action) + re-check PLTR for a base; (6) next §9 print = CPI Aug 12 (veto Tue Aug 11); (7) run the **Friday weekly review** (§12).
