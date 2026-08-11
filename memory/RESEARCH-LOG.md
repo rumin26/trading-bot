@@ -2567,3 +2567,60 @@ Next §9-scoped print = **CPI Wed Aug 12** → its one-session pre-print veto fa
 - **§4.4 owed action (b→action):** run the **top-5 Energy single-name screen with live ATR/entry/stop/target at the market-open session** + PLTR base re-check. Book is not below floor; the alpha gap is rule-compliant but the screen is due — **today is the last §9-clear window before the CPI/PPI veto stretch (Tue Aug 11–Wed Aug 12).**
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (market-open Aug 10):** (1) reconcile; (2) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50% at the open; (3) floor: SPY 60.81% in-band — **no trim; BUY ~1 sh only if MV slips < 60% of E**; (4) **§9 permits today — run the top-5 Energy single-name screen for a non-extended 2:1 Path A base** (last clear session before CPI-veto Tue Aug 11) + re-check PLTR; (5) §9 vetoes bind Tue Aug 11 (pre-CPI) & Wed Aug 12 (pre-PPI); (6) CPI Wed Aug 12 / PPI Thu Aug 13 are the week's beta events.
+
+---
+
+## 2026-08-11 — Pre-market Research (Day 65, Tuesday)
+
+### Account (snapshot)
+- Equity: **$101,797.12** (`last_equity` $101,692.32; intraday +$104.80)
+- Cash: **$39,849.92** (39.15%, settled)
+- Buying power: reported **$332,851.84** (4× margin) — **cash-account discipline §2 → usable = settled cash $39,849.92**. Options level 3 / shorting ignored by mandate (long-only, no options ever §2).
+- Daytrade count: **0/5**
+- Open positions: **SPY 80 sh @ $752.384234** (MV **$61,947.20**, **60.85% of E**, unrealized **+$1,756.46 / +2.92%**; current $774.34). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $101,797.12, cash **$39,849.92**, **SPY 80 sh (avg $752.384234), 0 open orders** — matches the Aug 10 logged state exactly (cash unchanged, SPY 80 sh unchanged, zero orders; equity moved only on SPY marks, +$104.80 intraday). No external/manual change with no bot-originated order → **No HALT.**
+
+### Market Context
+- **Tape firm but narrative shifting — the oil rally is reviving inflation/hike fears into CPI.** ES **~+0.1%** pre-market (7,782, +5.25). Softer Aug 7 NFP (−23K) had eased hike fears, but a **4-session oil rally + 10Y topping 4.72%** has flipped the read: markets are now **raising bets on a September Fed *hike*** (Cleveland Fed's Hammack floated "some number" of hikes). CPI Wed Aug 12 is the swing factor.
+- **Oil rallying hard — war-premium re-arming.** WTI **~$83 (4th straight up session)**, Brent **~$88–90** — a US–Iran/Hormuz deal looks **less near** (Iran denies direct talks). Two-way but the sustained *up* run strengthens Energy trend-quality and pressures the rates/inflation path.
+- **VIX ~15.8** — **firmly sub-18**; thin hedge / complacency into a double inflation print (CPI Wed + PPI Thu).
+- **SPX vs MAs:** at/near record highs, **> 50-DMA ✓** and **> 200-DMA ✓**; no ≥5%/10-session DD; VIX ≪ 26 → **no crash-guard**.
+- **Sector RS (YTD):** **Energy #1 (~+32.7%, "Leading")** — up ~12% in July alone on the oil move; oil majors (CVX +20%, OXY +13% YTD) leading. **Technology lagging (XLK ~−8% in July, ~−2–3% YTD)** — AI/valuation headwinds; NVDA/MSFT down YTD. Cyclical/commodity leadership intact; breadth healthy (~2/3 of S&P beating the index).
+- **Earnings:** 166 names Tue Aug 11; **no held/watched name reports** (SPY proxy only). Tail of season.
+
+### Regime Assessment — **RISK-ON** (60% floor / 85% ceiling)
+All three RISK-ON legs met: **SPX > 50-DMA & > 200-DMA ✓** (record); **VIX < 18 ✓** (~15.8); **breadth ≥ 50% ✓** (~2/3 of S&P beating index). SPX > 200-DMA and VIX ≪ 26 rule out crash-guard. No dated bearish thesis on file → floor is mechanical (§4.1a).
+- **Floor (60%):** $61,078.27; SPY MV **$61,947.20 (60.85%)** → **floor MET, +$869 (~1 sh) cushion.** No bearish thesis needed.
+- **Ceiling (85%):** $86,527.55; SPY **60.85%** ≪ ceiling → **no trim.**
+- SPY sits in-band with a thin ~1-sh cushion above the floor. **No proxy action pre-market.** At open: if a weak mark slips SPY MV < 60% of E, mechanically **BUY ~1 sh** to restore the floor; **never trim**.
+
+### §9 Macro-Veto Status — **BINDING today (Tue Aug 11, pre-CPI)**
+Today is the single session immediately before **CPI Wed Aug 12** → §9 **VETOES initiating fresh single-name (alpha) risk today.** **PPI Thu Aug 13** → its pre-print veto falls **Wed Aug 12**, so **Tue Aug 11 + Wed Aug 12 are both veto sessions**; the veto lifts at the **Thu Aug 13 open** (post-PPI). The veto **never** touches the benchmark proxy floor (§4.1a/§9) — the index takes the print, so does the proxy. No FOMC in August (next Sep 16).
+
+### Catalyst Calendar — held / watched names
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8). Beta drivers this week: **CPI Wed Aug 12**, **PPI Thu Aug 13**; rates path (10Y 4.72%); oil.
+- **No alpha holdings.** Watch (for the Thu Aug 13 post-veto window): **Energy top-5 single names** (sector #1 RS + Leading; oil rally improves trend-quality — closest to a Path A gate pending a *non-extended 2:1 base* with real ATR levels); **PLTR** (needs a non-extended base post Aug 3 gap); **semis (NVDA/TXN)** for a non-extended 2:1 base only.
+
+### Trade Ideas (alpha layer) — §9 VETOES fresh single-name risk today; none clears a gate regardless
+1. **Energy single-name (top-5 in XLE) — closest to qualifying; PASS (§9-vetoed today + no live base).** Clears the **top-3 RS + confirmed-uptrend Path A legs** (Energy #1 YTD, Leading); the 4-session oil rally **strengthens** trend-quality/Catalyst. Blockers: (a) **§9 pre-CPI veto bars any fresh entry today**; (b) no specific **non-extended 2:1 base** with defensible ATR/entry/stop/target from pre-market alone (extension risk after a multi-day oil run). Est. **~6.0–6.5 wt** — below 7.0 gate. **Owed §4.4 action carries to the Thu Aug 13 post-veto session: screen the top-5 energy names for a real non-extended 2:1 base.** Verify earnings-proximity per name (most large-cap energy already reported).
+2. **Semis (NVDA/TXN) — PASS (lagging sector / extended / §9-vetoed).** Tech RS lagging (~−8% July); no non-extended 2:1 base on a record-high tape; §9-vetoed today. Est. **~5.5–6.0**.
+3. **PLTR — PASS (extended / §9-vetoed).** Aug 3 beat/raise gap is **not a non-extended base (§7)**; R:R fails §6.1; valuation extreme (§7.1); §9-vetoed today. Re-score on a pullback that restores 2:1.
+
+### Risk Factors
+- **CPI Wed Aug 12 (then PPI Thu Aug 13)** — the oil rally + 10Y 4.72% have shifted the tape toward **hike** risk; a hot CPI flips "cut-fuel" to "hike-fear," and the cap-weighted proxy carries the full re-rate (no per-name hedge by design). §9 correctly holds fresh single-name risk out today and tomorrow.
+- **Complacency / thin hedge** — VIX ~15.8 prices near-perfect into a double inflation print.
+- **Oil round-trip** — Hormuz headlines are two-way; a sudden deal snaps the war-premium off (Energy trend-quality reverses) and cuts the inflation impulse both ways.
+- **AI-dispersion** — a NVDA/Micron disappointment ripples through the cap-weighted proxy directly.
+- **Floor cushion is thin (~1 sh).** A weak open could tip SPY MV < 60% of E → mechanical 1-sh floor buy, never a trim.
+
+### Decision
+**HOLD alpha (§9-vetoed today); floor MET in the RISK-ON band; no proxy action pre-market.**
+- **Regime:** **RISK-ON** (SPX record > both MAs ✓, VIX ~15.8 < 18 ✓, breadth ≥ 50% ✓). Floor 60% / ceiling 85%. No crash-guard; no bearish thesis on file.
+- **Floor:** SPY 60.85% > 60% → **met, +$869 (~1 sh) cushion**; no bearish thesis needed.
+- **Ceiling / open action:** SPY 60.85% ≪ 85% → **no trim.** BUY ~1 sh only if MV slips < 60% of E at the open (mechanical §4.1a — not alpha, not §9-vetoed, not §4.3-capped).
+- **No single-name entry:** **§9 pre-CPI veto binds today** (and Wed pre-PPI) — fresh single-name risk is barred regardless of setup; independently, no name clears a gate from pre-market data (Energy closest but extended/no live base; semis lagging; PLTR extended). Not forcing a low-conviction trade (§7 anti-gaming). Floor stands via the proxy at ~61%.
+- **§4.4 owed action carries forward:** run the **top-5 Energy single-name screen with live ATR/entry/stop/target** + PLTR base re-check at the **Thu Aug 13 post-veto session** (first §9-clear window). Book is not below floor; the alpha gap is rule-compliant.
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (market-open Aug 11):** (1) reconcile; (2) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50% at the open; (3) floor: SPY 60.85% in-band — **no trim; BUY ~1 sh only if MV slips < 60% of E**; (4) **§9 VETOES fresh single-name risk today (pre-CPI) & Wed (pre-PPI)** — no alpha entries; (5) CPI Wed Aug 12 / PPI Thu Aug 13 are the week's beta events; watch the oil rally + 10Y (4.72%) hike-risk narrative; (6) **§9 veto lifts Thu Aug 13 open — run the owed top-5 Energy screen + PLTR base re-check then.**
