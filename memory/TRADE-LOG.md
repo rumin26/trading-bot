@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 12 — EOD Snapshot (Day 66, Wednesday)
+**Portfolio:** $101,637.60 | **Cash:** $39,849.92 (39.2%) | **Day P&L:** +$95.68 (+0.09%) | **Phase P&L:** +$1,637.60 (+1.64%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.38 | $772.35 | +0.23% | +$1,596.94 (+2.65%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 66, week 13 (Wednesday) — **CPI day.** Reconcile (§14): live Alpaca = equity $101,637.60, cash $39,849.92, SPY **80 sh** (avg $752.384234, MV $61,787.68), zero open orders — matches Aug 11 logged state exactly (80 sh, cash to the cent, no bot orders today). No external/manual change → **no HALT.** Day P&L vs Aug 11 EOD ($101,541.92): **+$95.68 (+0.09%)** — pure SPY beta drift (close $770.56 → $772.35, +0.23%). Phase P&L **+$1,637.60 (+1.64%)** vs $100k start; proxy unrealized **+$1,596.94 (+2.65%)** from $752.38 avg. **Regime RISK-ON** (§4.1; floor 60% / ceiling 85%): SPX near records > 50/200-DMA, VIX low, no crash-guard, no bearish thesis on file. Deployed **60.79%** (SPY MV $61,787.68 / equity) — inside the RISK-ON band, just above the 60% floor, well under the 85% ceiling ($86,392). Floor MET, no trim. No alpha exposure; proxy carries no per-name stop by design. Trades today: **none** — §9 CPI veto lifted at the open, but no alpha name cleared a gate and floor/ceiling need no proxy action. Bot trades this week (Aug 10–12): **0/3**. New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 13 weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet. **Tomorrow (Thu Aug 13):** reconcile; hold the floor; if SPY MV drifts > 85% ceiling, trim. Screen Energy/Healthcare top-5 + semis/PLTR for a non-extended 2:1 Path A base; fund a qualifier ≥7.0 (≥6.0 starter) by trimming the proxy, ATR/8%-cap GTC stop at every alpha fill (§8). **PPI ~Fri Aug 14** — §9 pre-print veto binds Thursday's session (no fresh single-name risk; proxy floor unaffected). No FOMC in August.
+
 ### Aug 11 — EOD Snapshot (Day 65, Tuesday)
 **Portfolio:** $101,541.92 | **Cash:** $39,849.92 (39.2%) | **Day P&L:** -$140.00 (-0.14%) | **Phase P&L:** +$1,541.92 (+1.54%)
 
