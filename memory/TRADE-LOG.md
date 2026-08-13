@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 13 — EOD Snapshot (Day 67, Thursday)
+**Portfolio:** $102,064.32 | **Cash:** $39,849.92 (39.0%) | **Day P&L:** +$426.72 (+0.42%) | **Phase P&L:** +$2,064.32 (+2.06%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.38 | $777.68 | +0.67% | +$2,023.66 (+3.36%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 67, week 13 (Thursday). Reconcile (§14): live Alpaca = equity $102,064.32, cash $39,849.92, SPY **80 sh** (avg $752.384234, MV $62,214.40), zero open orders — matches Aug 12 logged state exactly (80 sh, cash to the cent, no bot orders today). No external/manual change → **no HALT.** Day P&L vs Aug 12 EOD ($101,637.60): **+$426.72 (+0.42%)** — pure SPY beta drift (close $772.35 → $777.68, +0.67%; intraday +$415.20 / +0.67%). Phase P&L **+$2,064.32 (+2.06%)** vs $100k start; proxy unrealized **+$2,023.66 (+3.36%)** from $752.38 avg. **Regime RISK-ON** (§4.1; floor 60% / ceiling 85%): SPX near records > 50/200-DMA, VIX low, no crash-guard, no bearish thesis on file. Deployed **60.96%** (SPY MV $62,214.40 / equity) — inside the RISK-ON band, just above the 60% floor, well under the 85% ceiling ($86,754.67). Floor MET, no trim. No alpha exposure; proxy carries no per-name stop by design. Trades today: **none** — **§9 pre-print veto bound today** (single session before PPI Fri Aug 14): no fresh single-name risk; proxy floor met, ceiling clear, no proxy action needed. Bot trades this week (Aug 10–13): **0/3**. New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 13 weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet. **Tomorrow (Fri Aug 14): PPI 8:30 ET — veto lifts at the open.** Reconcile; if SPY MV drifts > 85% ceiling, trim; else hold the floor. Post-PPI, screen Energy/Healthcare top-5 + semis/PLTR for a non-extended 2:1 Path A base; fund a qualifier ≥7.0 (≥6.0 starter) by trimming the proxy, ATR/8%-cap GTC stop at every alpha fill (§8). Weekly-review Friday. No FOMC in August.
+
 ### Aug 12 — EOD Snapshot (Day 66, Wednesday)
 **Portfolio:** $101,637.60 | **Cash:** $39,849.92 (39.2%) | **Day P&L:** +$95.68 (+0.09%) | **Phase P&L:** +$1,637.60 (+1.64%)
 
