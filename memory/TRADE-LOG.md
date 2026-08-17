@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 17 — EOD Snapshot (Day 69, Monday)
+**Portfolio:** $101,644.32 | **Cash:** $39,849.92 (39.2%) | **Day P&L:** -$312.80 (-0.31%) | **Phase P&L:** +$1,644.32 (+1.64%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.38 | $772.43 | -0.50% | +$1,603.66 (+2.66%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 69, start of week 14 (Monday). Reconcile (§14): live Alpaca = equity $101,644.32, cash $39,849.92, SPY **80 sh** (avg $752.384234, MV $61,794.40), zero open orders — position count and cash match Aug 13 logged state exactly, no bot orders since. No external/manual change → **no HALT. Logging gap:** no EOD snapshot for **Fri Aug 14** — the daily routine did not run that session; state is nonetheless fully reconciled (Alpaca `last_equity` $101,957.12 = Fri close; shares/cash unchanged), so continuity holds — only the Aug 14 log entry is absent. **True Day P&L (Mon vs Fri close $101,957.12): -$312.80 (-0.31%)** — pure SPY beta (close $776.34 → $772.43, -0.50%; intraday -$312.80). Change since last logged EOD (Aug 13 $102,064.32, spans Fri+Mon): -$420.00 (-0.41%). Phase P&L **+$1,644.32 (+1.64%)** vs $100k start; proxy unrealized **+$1,603.66 (+2.66%)** from $752.38 avg. **Regime RISK-ON** (§4.1; floor 60% / ceiling 85%): SPX near records > 50/200-DMA, VIX low, no crash-guard, no bearish thesis on file. Deployed **60.79%** (SPY MV $61,794.40 / equity) — inside the RISK-ON band, just above the 60% floor, well under the 85% ceiling ($86,397.67). Floor MET, no trim. No alpha exposure; proxy carries no per-name stop by design. Trades today: **none.** Bot trades this week (new week, Mon Aug 17): **0/3.** New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 14 weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet. **Tomorrow (Tue Aug 18):** reconcile; hold the floor; if SPY MV drifts > 85% ceiling, trim. Screen Energy/Healthcare top-5 + semis/PLTR for a non-extended 2:1 Path A base; fund a qualifier ≥7.0 (≥6.0 starter) by trimming the proxy, ATR/8%-cap GTC stop at every alpha fill (§8). No FOMC/CPI/PPI imminent — §9 veto clear.
+
 ### Aug 13 — EOD Snapshot (Day 67, Thursday)
 **Portfolio:** $102,064.32 | **Cash:** $39,849.92 (39.0%) | **Day P&L:** +$426.72 (+0.42%) | **Phase P&L:** +$2,064.32 (+2.06%)
 
