@@ -2992,3 +2992,57 @@ All three RISK-ON legs met: **SPX > 50-DMA & > 200-DMA ✓** (record-adjacent); 
 - **No single-name entry:** §9 clear, so this is a *chosen* pass — leaders are selling off (chip weakness) with no non-extended 2:1 base into FOMC minutes + a retail-earnings gauntlet; today's reporters are earnings-vetoed; not forcing a low-conviction trade (§7). Floor stands via the proxy at ~60.7%.
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (Thu Aug 20 — midday/market-open):** (1) reconcile; (2) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50%; (3) floor: SPY ~60.7% in-band — **no trim; BUY ~1 sh only if MV < 60% of E** (thin ~1-sh cushion, watch a weak open); (4) §9 clear (next §9 NFP ~Sep 5) — single-name entries permitted if a name clears a gate, but weigh WMT (Thu) + today's FOMC-minutes reaction on entry timing; (5) read TGT/LOW/TJX/ADI + FOMC-minutes reaction for consumer/rate beta read-through to the proxy; (6) watch for a **non-extended pullback base** in a corrected top-3 RS leader restoring ≥2:1 with momentum re-firming; (7) track whether the oil war-premium holds (energy re-arm) or fades; (8) **Fri Aug 21 weekly review:** reconcile the Energy-RS "top-3 YTD" data conflict flagged Aug 17, and run the §11.1 mandatory top-3-sector single-name screen.
+
+---
+
+## 2026-08-20 — Pre-market Research (Day 72, Thursday) — WMT/DE/BABA/ROST EARNINGS / JOBLESS CLAIMS / §9-CLEAR / oil war-premium building (Iran "Economic Fury")
+
+### Account (snapshot)
+- Equity: **$101,131.52** (`last_equity` $101,374.72; intraday **−$243.20** on softer SPY marks, $766.02 vs prior close $769.06 = −0.40%)
+- Cash: **$39,849.92** (39.40%, settled) — unchanged
+- Buying power: reported **$330,988.16** (4× margin) — cash-account discipline §2 → **usable = settled cash $39,849.92**. Options L3 / shorting ignored by mandate (long-only, no options ever §2).
+- Daytrade count: **0/5** (PDT N/A, cash account §2)
+- Open positions: **SPY 80 sh @ $752.384234** (MV **$61,281.60**, **60.60% of E**, unrealized **+$1,090.86 / +1.81%**; mark $766.02). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $101,131.52, cash **$39,849.92**, **SPY 80 sh (avg $752.384234), 0 open orders** — matches the Aug 19 logged state exactly (cash unchanged, SPY 80 sh unchanged, zero orders; equity moved only on SPY marks, −$243.20 intraday). No external/manual change with no bot-originated order → **No HALT.**
+
+### Market Context
+- **Futures modestly HIGHER pre-open.** ES **+0.16%**; prediction market ~66% chance of a higher open. SPX snapped a three-day slide Aug 19. Cross-current: Treasury yields reversing higher (Treasury announced increased long-dated debt buybacks; prior-session rally faded).
+- **VIX ~15.8 — still firmly sub-18.** Opened ~15.81; closed **15.84** Aug 19. Off the 14.2 Fri 2026-low; complacency easing modestly but nowhere near the 18 Neutral line or 26 crash-guard line.
+- **Oil FIRM / building — war-premium re-impulsing.** Brent **~$93–95**, WTI **~$84–85** (Brent +1.5% on day). Trump announced "Operation Economic Fury," a maximal economic campaign to isolate Iran; Hormuz supply concern persists. Confirms "re-impulsing, not fading," still headline-driven and two-way.
+- **SPX vs MAs:** record-adjacent, **> 50-DMA ✓** and **> 200-DMA ✓**; no ≥5%/10-session DD; VIX ≪ 26 → **no crash-guard.**
+- **Earnings today (pre-open):** **WMT, DE, BABA, ROST, NTES** — WMT is the consumer bellwether (consensus EPS ~$0.74 vs $0.68 y/y, rev ~$186.8B; ~75% priced probability of a beat; focus on comps, e-comm/ad margin, FY guide). None held; SPY proxy carries read-through mechanically.
+
+### Regime Assessment — **RISK-ON** (60% floor / 85% ceiling)
+All three RISK-ON legs met: **SPX > 50-DMA & > 200-DMA ✓** (record-adjacent); **VIX < 18 ✓** (~15.8); **breadth ≥ 50% ✓**. SPX > 200-DMA and VIX ≪ 26 rule out crash-guard. No dated bearish thesis on file → floor is mechanical (§4.1a).
+- **Floor (60%):** $60,678.91; SPY MV **$61,281.60 (60.60%)** → **floor MET, +$602.69 cushion.**
+- **Ceiling (85%):** $85,961.79; SPY **60.60%** ≪ ceiling → **no trim.**
+- **Breach threshold (dynamic E):** SPY must fall to **~$747.19 (−2.46% from $766.02)** to tip MV < 60% of E — a +0.16% futures open does **not** breach it. (Cushion is wider than the static ~0.8-sh framing of prior days because E falls with the mark.)
+
+### §9 Macro-Veto Status — **CLEAR today**
+§9 events = FOMC decision / CPI / PPI / monthly-jobs only. **Today = weekly jobless claims only** (not a §9 event); July CPI (Aug 12) and PPI are behind us. Next §9 events: **NFP ~Sep 5, FOMC Sep 15–16.** §9 does not veto fresh single-name risk today. Event density still elevated (WMT/DE/BABA/ROST today; flash PMIs + Philly Fed Fri; Jackson Hole Aug 27–29) → entry patience on quality/timing grounds even absent a hard veto.
+
+### Catalyst Calendar — held / watched names (this week)
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8). Beta drivers: **WMT + retail (ROST) earnings** today (consumer read after soft Fri retail sales); **DE/BABA/NTES** today; **flash PMIs + Philly Fed** Fri; rising long-end yields (Treasury buyback headline); oil/Mideast (Iran "Economic Fury"); **Jackson Hole Aug 27–29**; NVDA earnings next week.
+- **No alpha holdings.** Watch list for a *non-extended 2:1 base*: Energy (#1 RS) and other top-3 RS leaders (Materials/Industrials; Tech recovering but chip-choppy), pending Fri Aug 21 RS reconciliation.
+
+### Trade Ideas (alpha layer)
+1. **Energy (XLE / energy leaders) — WATCH, not a buy.** #1 RS sector YTD (XLE ~+25%, sector ~+34%), war-premium building on the Iran campaign + Hormuz. But the bid is **headline-driven/reversible** and names are **extended with no non-extended 2:1 base** — buying a geopolitical spike is not a confirmed fresh trend. Est. ~6.4 (<7.0 full; starter blocked by the failed §6.1 R:R/base leg). **Re-arm if crude holds and a leader carves a non-extended base restoring ≥2:1.**
+2. **Tech / semis leaders — PASS (timing/structure).** 2nd-best RS but choppy this week (chip weakness), no non-extended 2:1 base into rising long-end yields. Est. ~6.0–6.5; buying extension/into-weakness is the low-conviction entry §7 prohibits. **Re-arm on a pullback base with momentum re-firming.**
+3. **WMT / DE / BABA / ROST (earnings today) — NO ENTRY (earnings veto §6).** All report pre-open = inside the hard earnings-veto window on both paths; not candidates regardless of the print. Captured via SPY proxy only.
+
+### Risk Factors
+- **Yield reversal.** Long-end yields backing up on the Treasury buyback headline after Wed's rally faded → valuation/beta pressure on the cap-weighted proxy (esp. long-duration tech), no per-name hedge by design.
+- **Retail read-through.** A soft WMT (bellwether) after weak Fri retail sales could hit consumer/discretionary beta and the broad tape.
+- **Oil two-way / geopolitical.** War-premium supports energy but is reversible on any de-escalation; an oil spike is also a growth/inflation headwind for the broad index.
+- **Complacency.** VIX ~15.8 into a historically turbulent post-summer window; small cushion to a fast risk-off open, though the −2.46% floor-breach threshold gives real room.
+
+### Decision
+**HOLD alpha; floor MET in the RISK-ON band; no proxy action pre-market.**
+- **Regime:** **RISK-ON** (SPX record-adjacent > both MAs ✓, VIX ~15.8 < 18 ✓, breadth ≥ 50% ✓). Floor 60% / ceiling 85%. No crash-guard; no bearish thesis on file.
+- **Floor:** SPY 60.60% > 60% → **met, +$602.69 cushion** (breach only below ~$747.19, −2.46%); no bearish thesis needed.
+- **Ceiling / open action:** SPY 60.60% ≪ 85% → **no trim.** BUY ~1 sh only if MV slips < 60% of E at the open (mechanical §4.1a — not alpha, not §9-vetoed, not §4.3-capped).
+- **No single-name entry:** §9 clear, so this is a *chosen* pass — the qualifying universe (Energy #1 RS) is extended with no non-extended 2:1 base and running on a reversible geopolitical spike; today's reporters are earnings-vetoed; not forcing a low-conviction trade (§7). Floor stands via the proxy at ~60.6%.
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (Fri Aug 21 — weekly review + market-open):** (1) reconcile; (2) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50%; (3) floor: SPY ~60.6% in-band — **no trim; BUY ~1 sh only if MV < 60% of E** (breach below ~$747); (4) §9 clear (next §9 NFP ~Sep 5); (5) read WMT/DE/ROST + jobless-claims reaction for consumer/rate beta read-through to the proxy; (6) **run the §11.1 mandatory top-3-RS-sector single-name screen** (Energy/Materials/Industrials + Tech) to recorded pass/fail; (7) **reconcile the Energy-RS "top-3 YTD" data conflict flagged Aug 17** in the weekly review; (8) track whether the oil war-premium confirms a fresh trend (energy re-arm) or fades on de-escalation; (9) watch a non-extended pullback base in any top-3 RS leader restoring ≥2:1.
