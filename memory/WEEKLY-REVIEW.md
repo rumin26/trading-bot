@@ -691,3 +691,75 @@ None enacted. **§11.1 (enacted 2026-08-07) binds and was met this week** — th
 
 ### Overall Grade: C
 Another clean, disciplined, positive week that narrowly missed the mandate. Discipline held everywhere: reconciliation clean every session with no §14 flags, both §9 pre-print vetoes (CPI, PPI) scoped exactly right, the floor held mechanically inside the RISK-ON band with zero intervention, and the CPI-day tech pop was correctly not chased. The book made **+0.26%** to a fresh phase high (+1.93%), proxy now +3.14%. But it **lagged a rising S&P (≈ +0.26% vs ≈ +0.6%, the 8th rising-week miss)** because the 85%-ceiling headroom sat unused for the **14th straight floor-only week** — the §11.1 screen cleared 0/15 on base-structure/extension, not RS. The honest frame holds this at a C, not lower: over the rolling-60-day window the book roughly tracks a rising index at ~60% deployment (§13 trigger un-fired), so the alpha gap is forfeited opportunity, and the durable cyclical/value leadership map sharpens the problem to an entry-timing one worth pre-placing pullback levels for. Discipline and the positive return earn the C; the un-started alpha mandate and the persistent rising-week lag keep it from a B.
+
+## Week ending 2026-08-21
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $101,957.12 (Mon Aug 17 AM ≈ Fri Aug 14 close, Alpaca last_equity) |
+| Ending portfolio | $101,075.52 (Fri Aug 21 live; SPY $765.32) |
+| Week return | **−$881.60 (−0.86%)** |
+| S&P 500 week | **≈ −1.4%** (−1.9% through Thu on the Treasury-yield/oil-inflation selloff + US-Iran warning; Fri +0.53% bounce; first weekly loss since late July, back-to-back with prior wk) |
+| Bot vs S&P | **≈ +0.54%** — **first clear relative win of the phase** (the 60% proxy + 40% cash cushioned the down week) |
+| Trades | 0 (W:0 / L:0 / open:1) — zero bot orders all week |
+| Win rate | N/A (no closed trades) |
+| Best trade | SPY +1.72% (only position, unrealized) |
+| Worst trade | SPY +1.72% (same) |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | None closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| SPY | $752.384234 (80 sh) | $765.32 | +$1,034.86 (+1.72%) | none (proxy, §5/§8 exempt) |
+
+- **SPY** = benchmark proxy held to the **RISK-ON 60% floor** (§4.1a). **Zero bot orders this week** — last fill remains the Aug 06 +2 floor-restore (order `279e8653`). SPY fell with the tape (proxy unrealized cut from +3.14% last Fri to +1.72%), but deployment stayed **60.5–60.8%** inside the RISK-ON band every session — no top-up/trim needed. Deployed **60.57%** of E at week end ($61,225.60 / $101,075.52); alpha layer empty (**15 weeks / ~71 sessions floor-only** since Jun 16). Peer-valuation review N/A — the position *is* the index; broad context: forward multiple compressed modestly off the record as yields (10Y bid on oil-inflation fears) re-rated the cap-weighted tape lower.
+
+### Sector Rotation Update
+- **Leaders (1-wk):** **Energy (XLE)** firm as crude bid on the US-Iran warning / war-premium re-entry (the same oil move that spooked bonds); **Healthcare (XLV)** and **Financials (XLF)** led Friday's recovery (materials/health/financials green into the close) — Healthcare's multi-week turnaround now confirmed as durable leadership, not a flicker. Value/cyclical + defensive-health bid over long-duration growth.
+- **Laggards (1-wk):** **Technology (XLK) −3%+** the week's worst — Amkor −15%, Credo −11%, Meta −7%; long-duration mega-cap re-rated directly by the yield spike. **Utilities and Industrials** also down (rate-sensitive + the yield move), a reversal of Industrials' recent Leading-quadrant standing.
+- **Change vs last week:** the durable cyclical/value Leading quadrant **fractured on the yield shock** — Industrials rotated OUT (top-3 → down-week laggard, a §-flag-worthy demotion), while **Energy held #1 and Healthcare/Financials firmed into the top-3**. Tech's leadership deterioration accelerated (−3%+). No **held** sector affected (book is 100% SPY beta).
+- **Sector to flag for exit:** N/A (no single-name holdings) — but note **Industrials dropped from a multi-week top-3 toward the bottom** on the yield move; had we been long an Industrial, §-rotation would flag it.
+- **Strongest sector we're NOT in:** **Energy (#1 RS, oil-catalyst bid)** and **Healthcare (confirmed turnaround leader)** — both un-owned; the durable-RS single-name conversion gap stands into a **15th week**.
+
+### §11.1 Mandatory Screen (top-5 RS names in each top-3 RS sector → recorded pass/fail)
+- **Energy (XLE):** XOM, CVX, COP, EOG, WMB — **all PASS (no entry).** Blocker: the RS is a geopolitical-oil spike (Iran headline), not a durable earnings-momentum base; integrateds gapped on the crude move with no non-extended 2:1 Path A base — buying the war-premium spike is exactly the chase §7 bars. Wt ~5.5–6.5.
+- **Healthcare (XLV):** LLY, UNH, JNJ, ABBV, MRK — **all PASS (no entry).** Blocker: sector-level RS turnaround is real but the leaders (LLY) are extended off the reclaim and the defensives (JNJ/MRK/ABBV) are low-beta grinders with no discrete catalyst or 2:1 breakout base; UNH still repairing. Closest wt ~6.0–6.5, below the 7.0 gate.
+- **Financials (XLF):** JPM, V, MA, BAC, GS — **all PASS (no entry).** Blocker: Friday's pop was a mechanical yield-driven bounce, not a base breakout; names sit mid-range after a two-way week with no defensible 2:1 R:R. Wt ~5.5–6.0.
+- Result: **0/15 cleared the 7.0 gate** — this week the blocker is *tape structure* (a whipsaw yield-shock week offers no confirmed-uptrend non-extended base), not an RS miss. Screen recorded to close the §11.1 obligation.
+
+### What Worked
+- **First relative win of the phase: −0.86% vs S&P −1.4%, +0.54% ahead.** The static posture that lagged eight rising weeks did its other job — on the first net-down week, 40% cash + a 60% proxy cushioned the drawdown. The mechanical floor discipline that felt like drag on the way up cut the loss on the way down.
+- **No chase into a volatile, headline-driven tape.** A −1.9%-then-bounce week on a yield shock + Iran oil spike is precisely the environment §7 anti-gaming protects against; screening 0/15 and standing pat was the correct read, not paralysis — every "RS leader" this week was a geopolitical spike or a mechanical bounce, not a base.
+- **Floor held mechanically inside the band every session with zero trades** — deployment 60.5–60.8% all week; no sub-floor cash, no bearish-thesis breach, no forced top-up/trim despite the SPY drawdown. Clean §4.1a adherence.
+- **Reconciliation clean every session** — cash to the cent ($39,849.92), 80 sh, byte-identical avg entry, zero open orders each day; no §14 flags, no false HALTs.
+- **No FOMC/CPI/PPI this week → §9 veto clear throughout**, and no name forced below the gate to manufacture activity.
+
+### What Didn't Work
+- **The +0.54% "win" is mechanical, not alpha.** It is the exact mirror image of the eight rising-week lags: the same static 60/40 allocation, paying off because the index fell rather than rose. Symmetry is the honest read — this is not selection skill and does not close the alpha gap; a 100%-proxy book would have *lost less relative alpha over the full up-and-down cycle*.
+- **Zero alpha for the entire phase — 15 straight weeks (~71 sessions) of pure SPY beta** since Jun 16. Every week's outcome remains asset allocation, not selection; the §11.1 screen cleared 0/15 for a 3rd straight week.
+- **Zero trades all week — not even a proxy adjustment.** Defensible (floor held inside the band, no gate cleared, no print), but a full week where the entire book is index beta and the ~$39.9k cash / 85%-ceiling headroom sat idle through a tradeable pullback.
+- **A real pullback arrived and was not used to initiate a base-entry watch.** The yield-shock selloff is the kind of move that *creates* the non-extended 2:1 bases the screen has waited 15 weeks for — yet no pre-placed pullback level (e.g. a Healthcare or Energy leader basing off the flush) was armed to catch a Path A entry if the tape stabilizes.
+
+### Key Lessons
+- **The cash cushion is not a strategy — it is a symmetric bet.** This week proves the floor mechanics cut losses in a decline exactly as they capped gains in the eight up-weeks. Neither is alpha. The only durable way to beat the benchmark is the alpha layer, which has now been empty for a full quarter. The relative win should not be mistaken for validation of sitting at the floor.
+- **A yield-shock pullback is where bases are born.** After 15 weeks of "every leader is extended at record highs," the market just handed a −1.9% flush that resets extension. The actionable next step is not to celebrate the relative win but to *pre-place pullback-entry levels* on the confirmed durable leaders (Healthcare turnaround, Energy) so a stabilizing tape converts to a Path A fill instead of another PASS.
+- **Rotation shifted under the yield move — Industrials demoted, Healthcare/Financials promoted.** The durable cyclical/value map of the prior two weeks fractured: Industrials (a recent top-3) was a down-week laggard on rate-sensitivity, while Healthcare confirmed its turnaround into the top-3. The leadership map is Energy / Healthcare / Financials now, not Staples/Industrials/Materials.
+- **§13 quarter-window still un-fired.** Over the rolling-60-day window the book (+1.08% phase) roughly tracks the index (now off its highs) at ~60% deployment — tracking-error-consistent, no underperformance breach. The alpha gap remains forfeited *opportunity*.
+
+### Adjustments for Next Week
+- **Mon Aug 24 first actions:** reconcile; hold **RISK-ON** unless the open prints VIX-band / SPX < 50-DMA / breadth < 50% (the week's selloff did **not** breach crash-guard — no ≥5%/10-session DD and SPX still > 50/200-DMA at ~7,681). Floor 60% / ceiling 85%. SPY ~60.6% is in-band → **no trim; BUY ~1 sh only if MV slips < 60% of E**; do **not** buy proxy above the floor (that headroom is for alpha).
+- **PRIORITY — arm pullback-entry levels on the flush.** With a real −1.9% intraweek reset in hand, pre-place a defined Path A limit on a confirmed durable leader basing off the selloff (Healthcare turnaround leader on a 50-DMA reclaim; an Energy name if crude holds without the war-premium spike fading). Pre-place the level, don't market-order into either the bounce or the spike (§7).
+- **§11.1 binds every Friday:** continue scoring the top-5 RS names in each top-3 RS sector (now **Energy, Healthcare, Financials**) to a recorded pass/fail. Fund a qualifier ≥ 7.0 (≥ 6.0 starter) by trimming the proxy; ATR/8%-cap GTC stop at every alpha fill (§8).
+- **Calendar:** **no FOMC in August** (next Sep 16); Jackson Hole rhetoric and the late-Aug data cadence (jobless claims, **PCE ~Aug 28**) are the watch items — apply the one-session fresh-single-name-risk veto the session before PCE (floor never pauses). Watch the 10Y: the selloff was yield/oil-driven, so a further yield spike re-rates the whole cap-weighted proxy directly (no per-name hedge by design).
+
+### Rule Change
+None enacted. **§11.1 (enacted 2026-08-07) binds and was met this week** — the top-5-per-top-3-sector screen ran to a recorded **0/15** pass/fail (Energy/Healthcare/Financials). **§13 anti-overfitting** bars re-architecting exposure: over the rolling-60-day window the book (+1.08% phase) roughly tracks the index at ~60% deployment, so the §13 quarter-window **underperformance trigger has not fired** — and this week the posture *out*performed, further from any trigger. The two carried proposals stay **flagged-to-validate, not enacted**: (1) §8.2 tightening — **no armed name this week**; (2) §4.1 VIX-≥2-session-confirmation tightening — enact only on ≥3 VIX-whipsaw proxy round-trips in a week — **0 proxy round-trips this week** (0 trades; RISK-ON held through the selloff, no crash-guard trip). **Escalation watch (carried & sharpened):** the 15-week alpha gap now faces its best setup in a quarter — a genuine pullback that resets extension. If next week's §11.1 screen still clears no qualifier *after a base-forming flush*, the blocker is no longer "no pullback available" and the screen-conversion failure escalates toward a §4.4 recalibration audit of the entry criteria themselves.
+
+### Overall Grade: B−
+The first genuinely benchmark-beating week of the phase — **−0.86% vs S&P −1.4%, +0.54% ahead** — earned with clean discipline: reconciliation clean every session with no §14 flags, the floor held mechanically inside the RISK-ON band through a −1.9% yield-shock selloff, and no chase into a headline-driven tape (0/15 screen, correctly PASS on tape structure, not paralysis). The honest frame keeps it a B−, not higher: the relative win is **mechanical, not alpha** — the exact mirror of eight rising-week lags from the same static 60/40 posture — and the alpha layer is now empty a full quarter (15 weeks). What lifts it above the run of C's is that the posture finally *worked* in the direction it was built to protect, and the week handed the strategy its best base-forming setup of the phase: a real pullback that resets extension. The grade is B− on the beat + discipline; the un-started alpha mandate and the not-yet-armed pullback watch keep it from a straight B.
