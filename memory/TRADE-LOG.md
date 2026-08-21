@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 21 — EOD Snapshot (Day 73, Friday)
+**Portfolio:** $101,070.72 | **Cash:** $39,849.92 (39.4%) | **Day P&L:** +$220.80 (+0.22%) | **Phase P&L:** +$1,070.72 (+1.07%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.38 | $765.26 | +0.35% | +$1,030.06 (+1.71%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 73, week 14 (Friday, weekly-review day). Reconcile (§14): live Alpaca = equity $101,070.72, cash $39,849.92, SPY **80 sh** (avg $752.384234, MV $61,220.80), zero open orders — matches Aug 20 logged state exactly (80 sh, cash to the cent, no bot orders today). No external/manual change → **no HALT.** Day P&L vs Aug 20 logged EOD ($100,849.92): **+$220.80 (+0.22%)** — pure SPY beta (close $762.50 → $765.26, +0.35%; Alpaca intraday +$212.80 vs last_equity). Phase P&L **+$1,070.72 (+1.07%)** vs $100k start; proxy unrealized **+$1,030.06 (+1.71%)** from $752.38 avg. **Regime RISK-ON** (§4.1; floor 60% / ceiling 85%): SPX > 50/200-DMA, VIX low, no crash-guard, no bearish thesis on file. Deployed **60.57%** (SPY MV $61,220.80 / equity) — inside the RISK-ON band, just above the 60% floor, well under the 85% ceiling ($85,910.11). Floor MET, no trim. No alpha exposure; proxy carries no per-name stop by design. Trades today: **none.** Bot trades this week (Aug 17–21): **0/3.** New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 14 weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet; due for a recalibration audit in Monday's weekly review. **Tomorrow (Mon Aug 24):** reconcile; hold the floor; if SPY MV drifts > 85% ceiling, trim. Screen Energy/Healthcare top-5 + semis/PLTR for a non-extended 2:1 Path A base; fund a qualifier ≥7.0 (≥6.0 starter) by trimming the proxy, ATR/8%-cap GTC stop at every alpha fill (§8). No FOMC/CPI/PPI imminent — §9 veto clear.
+
 ### Aug 20 — EOD Snapshot (Day 72, Thursday)
 **Portfolio:** $100,849.92 | **Cash:** $39,849.92 (39.5%) | **Day P&L:** -$511.20 (-0.50%) | **Phase P&L:** +$849.92 (+0.85%)
 
