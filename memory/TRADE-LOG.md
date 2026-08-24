@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 24 — EOD Snapshot (Day 74, Monday)
+**Portfolio:** $100,917.12 | **Cash:** $39,849.92 (39.5%) | **Day P&L:** -$153.60 (-0.15%) | **Phase P&L:** +$917.12 (+0.92%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.38 | $763.34 | -0.31% | +$876.46 (+1.46%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 74, start of week 15 (Monday). Reconcile (§14): live Alpaca = equity $100,917.12, cash $39,849.92, SPY **80 sh** (avg $752.384234, MV $61,067.20), zero open orders — matches Aug 21 logged state exactly (80 sh, cash to the cent, no bot orders today). No external/manual change → **no HALT.** Day P&L vs Aug 21 logged EOD ($101,070.72): **-$153.60 (-0.15%)** — pure SPY beta (close $765.72 prior → $763.34, -0.31%; Alpaca intraday -$190.40). Phase P&L **+$917.12 (+0.92%)** vs $100k start; proxy unrealized **+$876.46 (+1.46%)** from $752.38 avg. **Regime RISK-ON** (§4.1; floor 60% / ceiling 85%): SPX > 50/200-DMA, VIX low, no crash-guard, no bearish thesis on file. Deployed **60.51%** (SPY MV $61,067.20 / equity) — inside the RISK-ON band, just above the 60% floor, well under the 85% ceiling ($85,779.55). Floor MET, no trim. No alpha exposure; proxy carries no per-name stop by design. Trades today: **none.** Bot trades this week (fresh cap, Aug 24): **0/3.** New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 15 weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet; recalibration audit due in this week's review. **Tomorrow (Tue Aug 25):** reconcile; hold the floor; if SPY MV drifts > 85% ceiling, trim. Screen Energy/Healthcare top-5 + semis/PLTR for a non-extended 2:1 Path A base; fund a qualifier ≥7.0 (≥6.0 starter) by trimming the proxy, ATR/8%-cap GTC stop at every alpha fill (§8). No FOMC/CPI/PPI imminent — §9 veto clear.
+
 ### Aug 21 — EOD Snapshot (Day 73, Friday)
 **Portfolio:** $101,070.72 | **Cash:** $39,849.92 (39.4%) | **Day P&L:** +$220.80 (+0.22%) | **Phase P&L:** +$1,070.72 (+1.07%)
 
