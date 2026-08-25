@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 25 — EOD Snapshot (Day 75, Tuesday)
+**Portfolio:** $101,145.92 | **Cash:** $39,849.92 (39.4%) | **Day P&L:** +$228.80 (+0.23%) | **Phase P&L:** +$1,145.92 (+1.15%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.38 | $766.20 | +0.36% | +$1,105.26 (+1.84%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 75, week 15 (Tuesday). Reconcile (§14): live Alpaca = equity $101,145.92, cash $39,849.92, SPY **80 sh** (avg $752.384234, MV $61,296.00), zero open orders — matches Aug 24 logged state exactly (80 sh, cash to the cent, no bot orders today; last SPY order Aug 06). No external/manual change → **no HALT.** Day P&L vs Aug 24 logged EOD ($100,917.12): **+$228.80 (+0.23%)** — pure SPY beta (close $763.47 prior → $766.20, +0.36%; Alpaca intraday +$218.40 vs last_equity $100,927.52). Phase P&L **+$1,145.92 (+1.15%)** vs $100k start; proxy unrealized **+$1,105.26 (+1.84%)** from $752.38 avg. **Regime RISK-ON** (§4.1; floor 60% / ceiling 85%): SPX > 50/200-DMA, VIX ~15.9 < 18, breadth ≥ 50%, no crash-guard, no bearish thesis on file. Deployed **60.60%** (SPY MV $61,296.00 / equity) — inside the RISK-ON band, just above the 60% floor, well under the 85% ceiling ($85,974.03). Floor MET, no trim. No alpha exposure; proxy carries no per-name stop by design. Trades today: **none.** Bot trades this week (Aug 24–25): **0/3.** New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 15 weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet. **Tomorrow (Wed Aug 26):** reconcile; hold the floor (BUY ~1 sh only if SPY MV slips < 60% of E, breach below ~$747); if MV drifts > 85% ceiling, trim. **Stay flat single-name into NVDA (Wed AMC)** + Warsh Jackson Hole keynote / July PCE (Fri) — event-dense beta week; re-arm a post-NVDA / post-Jackson-Hole non-extended 2:1 base in a top-3 RS leader (Energy #1 / Industrials #3). §9 clear (next print NFP ~Sep 5).
+
 ### Aug 24 — EOD Snapshot (Day 74, Monday)
 **Portfolio:** $100,917.12 | **Cash:** $39,849.92 (39.5%) | **Day P&L:** -$153.60 (-0.15%) | **Phase P&L:** +$917.12 (+0.92%)
 
