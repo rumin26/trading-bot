@@ -763,3 +763,75 @@ None enacted. **§11.1 (enacted 2026-08-07) binds and was met this week** — th
 
 ### Overall Grade: B−
 The first genuinely benchmark-beating week of the phase — **−0.86% vs S&P −1.4%, +0.54% ahead** — earned with clean discipline: reconciliation clean every session with no §14 flags, the floor held mechanically inside the RISK-ON band through a −1.9% yield-shock selloff, and no chase into a headline-driven tape (0/15 screen, correctly PASS on tape structure, not paralysis). The honest frame keeps it a B−, not higher: the relative win is **mechanical, not alpha** — the exact mirror of eight rising-week lags from the same static 60/40 posture — and the alpha layer is now empty a full quarter (15 weeks). What lifts it above the run of C's is that the posture finally *worked* in the direction it was built to protect, and the week handed the strategy its best base-forming setup of the phase: a real pullback that resets extension. The grade is B− on the beat + discipline; the un-started alpha mandate and the not-yet-armed pullback watch keep it from a straight B.
+
+## Week ending 2026-08-28
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $101,075.52 (Mon Aug 24 AM ≈ Fri Aug 21 close) |
+| Ending portfolio | $101,412.32 (Fri Aug 28 live; SPY $769.53) |
+| Week return | **+$336.80 (+0.33%)** |
+| S&P 500 week | **≈ +0.5%** (Nasdaq +0.9%, Dow +0.5% — first up week in 3; NVDA +8.7% Wed drove a Thu tech rally, Warsh hawkish Fri faded it) |
+| Bot vs S&P | **≈ −0.17%** — 9th rising-week lag, but the smallest miss of the phase |
+| Trades | 0 (W:0 / L:0 / open:1) — zero bot orders all week |
+| Win rate | N/A (no closed trades) |
+| Best trade | SPY +2.28% (only position, unrealized) |
+| Worst trade | SPY +2.28% (same) |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | None closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| SPY | $752.384234 (80 sh) | $769.53 | +$1,371.66 (+2.28%) | none (proxy, §5/§8 exempt) |
+
+- **SPY** = benchmark proxy held to the **RISK-ON 60% floor** (§4.1a). **Zero bot orders this week** — last fill remains the Aug 06 +2 floor-restore (order `279e8653`). SPY rose with the tape (proxy mark +1.72% last Fri → +2.28% this Fri), deployment held **60.5–60.8%** inside the RISK-ON band every session — no top-up/trim needed. Deployed **60.70%** of E at week end ($61,562.40 / $101,412.32); alpha layer empty (**16 weeks / ~76 sessions floor-only** since Jun 16). Peer-valuation review N/A — the position *is* the index; broad context: S&P record-adjacent on an elevated forward multiple (~22–23×), long-end yields at multi-decade highs, VIX ~14.5 (2026 lows).
+
+### Sector Rotation Update
+- **Leaders (1-wk):** **Technology/semis snapped back** on NVDA's blockbuster outlook (Wed +8.7%, +$442B mcap; 70% FY28 revenue-growth guide) — but the snap-back was **mega-cap-narrow**: NVDA +>1% WTD while **SMH slipped −3% WTD** (broad semis lagged the headline). **Energy (#1 RS YTD ~+25%)** firmed as crude bid on Russia-Ukraine escalation (WTI ~$83, arresting the post-sanctions rollover). **Healthcare** turnaround intact.
+- **Laggards (1-wk):** rate-sensitive groups pressured Friday by Warsh's hawkish Jackson Hole tone (majority now price a **September hike**); broad semis (SMH −3% WTD) despite the NVDA pop; Utilities soft on the yield path.
+- **Change vs last week:** last week's Energy/Healthcare/Financials Leading quadrant held; the new wrinkle is **mega-cap tech's one-name (NVDA) bounce that did not broaden** — the AI-capex trade is re-concentrating, not re-leading the sector. Durable multi-week leadership remains the **cyclical/value + Energy** complex; Tech's RS is a single-stock story, not a sector reclaim. No **held** sector affected (book is 100% SPY beta).
+- **Sector to flag for exit:** N/A (no single-name holdings).
+- **Strongest sector we're NOT in:** **Energy (#1 RS, crude stabilizing on Russia-Ukraine)** and **Healthcare (confirmed turnaround)** — both un-owned; the durable-RS single-name conversion gap stands into a **16th week**.
+
+### §11.1 Mandatory Screen (top-5 RS names in each top-3 RS sector → recorded pass/fail)
+- **Energy (XLE):** XOM, CVX, COP, EOG, WMB — **all PASS (no entry).** Blocker: the fresh RS bid is a geopolitical-crude spike (Russia-Ukraine), only *just* stabilizing after weeks of war-premium unwind — not a durable earnings-momentum base. Integrateds sit extended off the early-Aug breakout with no non-extended 2:1 Path A base; buying a headline-driven crude bounce is exactly the chase §7 bars. Wt ~6.0–6.5.
+- **Technology (XLK / semis):** NVDA, MSFT, AAPL, AVGO, AMD — **all PASS (no entry).** Blocker: NVDA gapped +8.7% into fresh highs (extended, no 2:1 base = chasing, §6.1 fails); the broad group (SMH −3% WTD) did **not** confirm the pop, and Warsh's hawkish Friday tone re-rated long-duration growth. Closest wt ~6.3 (momentum without a defensible base leg). **Tech-RS data conflict resolved:** the "index +24.8% YTD" figure is the cap-weighted S&P Info-Tech *level* (NVDA-dominated), while "XLK −2.43%" reflects a shorter-window/equal-influence read — the durable, reconciled read is **Tech RS is a mega-cap-concentration story, not a broad sector reclaim** (SMH −3% WTD confirms). Sector gate for a broad Tech tilt is **not** met.
+- **Industrials (XLI):** GE, RTX, HON, UNP, CAT — **all PASS (no entry).** Blocker: durable #3 RS but names extended above rising 50-DMAs at record highs; no defensible 2:1 pullback base, and the group is rate-sensitive into the Warsh-hawkish yield path. GE re-arms only on a volume 50-DMA reclaim. Wt ~4.5–6.5.
+- Result: **0/15 cleared the 7.0 gate** — 4th straight week at 0/15; blocker remains base-quality/extension on a record-high tape (+ a one-name tech pop that isn't a broad base), not an RS-identification miss. Screen recorded to close the §11.1 obligation.
+
+### What Worked
+- **Positive absolute return (+0.33%) to a fresh phase high (+1.41% vs $100k)** with zero intervention — the RISK-ON 60% proxy rode the NVDA-led tech rally; proxy now **+2.28%** from the $752.38 avg.
+- **Smallest rising-week lag of the phase (≈ −0.17%).** The 60% proxy captured most of a modest +0.5% index week; the miss is now inside pure tracking-error noise rather than a structural under-participation gap.
+- **Floor held mechanically inside the band every session with zero trades** — deployment 60.5–60.8% all week; no sub-floor cash, no bearish-thesis breach, no forced top-up/trim. Clean §4.1a adherence.
+- **Reconciliation clean every session** — cash to the cent ($39,849.92), 80 sh, byte-identical avg entry, zero open orders each day; no §14 flags, no false HALTs.
+- **Two event risks navigated correctly as an index does:** July PCE (Aug 26, headline 3.7% mildly hot / core 3.3% in-line) and the Warsh Jackson Hole keynote were absorbed at the proxy floor; **NVDA's +8.7% gap was correctly not chased** into extension (§7), and neither was the crude spike.
+
+### What Didn't Work
+- **9th rising-week lag of the phase (≈ −0.17%): +0.33% vs S&P ≈ +0.5%.** Smallest miss yet, but the mandate is to *beat* the index and on a net-up week we again trailed. The 85%-ceiling headroom (~$25k) sat wholly unused for the 16th straight floor-only week.
+- **Zero alpha for the entire phase — 16 straight weeks (~76 sessions) of pure SPY beta** since Jun 16. Every week's outcome is asset allocation, not selection; the §11.1 screen cleared 0/15 for a 4th straight week.
+- **The base-forming pullback flagged last week was not converted.** The Aug-21 yield-shock flush was supposed to seed non-extended 2:1 bases; instead the tape rallied back on NVDA before any leader carved a defensible base, so no pre-placed pullback level ever armed. The window to buy the reset closed without a fill.
+- **Zero trades all week — not even a proxy adjustment.** Defensible (floor held inside the band, 0/15 gate, PCE/Warsh event risk), but a full week where the entire book is index beta and the ~$39.9k cash / 85%-ceiling headroom sat idle.
+
+### Key Lessons
+- **A one-name mega-cap pop is not a sector base.** NVDA +8.7% lifted the index and the headline, but SMH −3% WTD shows the broad group did not confirm — screening the semis to 0/5 on "no non-extended base + no breadth confirmation" was correct, not paralysis. The lesson repeats: index-level RS driven by a single mega-cap is un-fundable at the single-name level without a *broad* base.
+- **Pullback windows are narrow and must be pre-armed, not reacted to.** Last week's −1.9% flush was the phase's best base-forming setup; it round-tripped inside four sessions on the NVDA rally before any level was placed. The actionable fix is to pre-place the pullback limit *when the leader is identified*, so the next reset converts to a fill instead of a hindsight regret — reacting after the bounce is too late.
+- **The rising-week lag is compressing toward noise.** Nine rising-week misses, but this one (−0.17%) is inside tracking error; over the rolling-60-day window the book (+1.41% phase) tracks a rising index at ~60% deployment. §13 quarter-window trigger **still un-fired** — the alpha gap remains forfeited *opportunity*, not a benchmark-underperformance breach.
+- **Warsh has shifted the macro tail hawkish.** A majority now prices a September hike after the Jackson Hole tone; the multi-decade-high long-end yields that pressure the cap-weighted proxy have a fresh catalyst. Any single-name work should favor earnings-momentum leaders with defensible bases over duration-sensitive multiple-expansion beta.
+
+### Adjustments for Next Week
+- **Mon Aug 31 first actions:** reconcile; hold **RISK-ON** unless the open prints VIX ≥ 18 / SPX < 50-DMA / breadth < 50% (none breached — VIX ~14.5, SPX > both MAs, no crash-guard). Floor 60% / ceiling 85%. SPY ~60.7% is in-band → **no trim; BUY ~1 sh only if MV slips < 60% of E** (breach below ~$747); do **not** buy proxy above the floor (that headroom is for alpha).
+- **PRE-ARM the pullback, don't chase the bounce.** Identify one confirmed durable leader (an Energy integrated if crude *holds* ≥$83 without the war-premium fading; a Healthcare turnaround name on a 50-DMA reclaim; GE on a volume 50-DMA reclaim) and **pre-place the Path A limit at its non-extended 2:1 level now**, so a stabilizing/pulling-back tape converts to a fill instead of another PASS. Do not market-order into the NVDA-led strength or the crude spike (§7).
+- **§11.1 binds every Friday:** continue scoring the top-5 RS names in each top-3 RS sector (Energy, Tech, Industrials) to a recorded pass/fail; fund a qualifier ≥ 7.0 (≥ 6.0 starter) by trimming the proxy, ATR/8%-cap GTC stop at every alpha fill (§8).
+- **Calendar / §9:** next §9 events **NFP ~Sep 5** and **FOMC Sep 15–16** — apply the one-session fresh-single-name-risk veto before each (floor never pauses). Watch the 10Y post-Warsh: a further yield spike on September-hike repricing re-rates the cap-weighted proxy directly (no per-name hedge by design). Track whether crude holds ≥$83 on the Russia-Ukraine bid (Energy re-arm) vs. resumes rolling over.
+
+### Rule Change
+None enacted. **§11.1 (enacted 2026-08-07) binds and was met this week** — the top-5-per-top-3-sector screen ran to a recorded **0/15** pass/fail (Energy/Tech/Industrials). **§13 anti-overfitting** bars re-architecting exposure: over the rolling-60-day window the book (+1.41% phase) tracks a rising index at ~60% deployment, so the §13 quarter-window **underperformance trigger has not fired** (this week's −0.17% miss is inside tracking error). The two carried proposals stay **flagged-to-validate, not enacted**: (1) §8.2 tightening — **no armed name this week**; (2) §4.1 VIX-≥2-session-confirmation tightening — enact only on ≥3 VIX-whipsaw proxy round-trips in a week — **0 proxy round-trips this week** (0 trades, RISK-ON stable). **Escalation watch (carried & sharpened):** last week's flush was supposed to seed a fundable base and it round-tripped un-armed. The escalation trigger now tightens to **execution**: if a durable leader presents a non-extended 2:1 base next week (or a fresh pullback delivers one) and the book *still* funds no alpha, that is an entry-execution failure to escalate toward a §4.4 recalibration audit of the entry criteria — no longer a "no setup available" excuse. The mandate to **pre-place the level in advance** (above) is the concrete process fix that keeps it from recurring.
+
+### Overall Grade: C+
+A clean, disciplined, positive week that lagged a rising S&P by the smallest margin of the phase (+0.33% vs ≈ +0.5%, −0.17% — inside tracking error). Discipline held everywhere: reconciliation clean every session with no §14 flags, the floor held mechanically inside the RISK-ON band with zero intervention through July PCE and the Warsh Jackson Hole keynote, and NVDA's +8.7% one-name pop was correctly not chased (0/15 screen, PASS on no-broad-base, not paralysis). The book made **+0.33%** to a fresh phase high (+1.41%), proxy now +2.28%. What holds it at C+ and no higher: the alpha layer is empty a full quarter-plus (**16 weeks**), and — the honest miss of the week — last week's yield-shock flush, flagged as the phase's best base-forming setup, **round-tripped on the NVDA rally before any pullback level was pre-armed**. The rising-week lag has compressed to noise and discipline is spotless, which lifts it above the run of C's; the un-started alpha mandate and the un-converted pullback window keep it below a B.
