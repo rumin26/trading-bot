@@ -3323,3 +3323,63 @@ All three RISK-ON legs met: **SPX > 50-DMA & > 200-DMA ✓** (record-adjacent); 
 - **No single-name entry:** §9 clear, so this is a *chosen* pass — semis are gapping +5-6% post-NVDA (extended, no non-extended 2:1 base = chasing, not a §6.1 setup); Energy #1 RS with crude still rolling over; Industrials no base. Opening fresh single-name risk into a Warsh-keynote weekend on extended leaders is poor timing, not a forced low-conviction trade (§7). Floor stands via the proxy at ~60.66%.
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (Fri Aug 28 — weekly review):** (1) reconcile; (2) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50%; (3) floor: SPY ~60.7% in-band — **no trim; BUY ~1 sh only if MV < 60% of E** (breach below ~$747); (4) §9 clear (next §9 NFP ~Sep 5); (5) **run the §11.1 mandatory top-3-RS-sector single-name screen** (Energy/Tech/Industrials — top-5 names each, recorded pass/fail) + resolve the Tech-RS data conflict (index +24.8% vs XLK −2.43% YTD); (6) **read Warsh's keynote** for tone/beta read-through; (7) **re-arm a post-NVDA pullback base in a top-3 RS leader restoring ≥2:1** if momentum holds — do not chase the gap; (8) track whether crude stabilizes (energy re-arm) or keeps rolling over.
+
+---
+
+## 2026-08-28 — Pre-market Research (Day 78, Friday) — Warsh Jackson Hole keynote day / futures flat, weekly advance intact / VIX ~14.5 (2026 lows) / crude firms on Russia-Ukraine (WTI ~$83.1) / July PCE (Aug 26) behind us: headline 3.7% hot, core 3.3% in-line / RISK-ON intact
+
+### Account (snapshot)
+- Equity: **$101,637.12** (`last_equity` $101,537.92; intraday **+$99.20** on firmer SPY marks, $772.34 vs prior close $771.10 = +0.16%)
+- Cash: **$39,849.92** (39.21%, settled) — unchanged
+- Buying power: reported **$332,403.84** (4× margin) — cash-account discipline §2 → **usable = settled cash $39,849.92**. Options L3 / shorting ignored by mandate (long-only, no options ever §2).
+- Daytrade count: **0/5** (PDT N/A, cash account §2)
+- Open positions: **SPY 80 sh @ $752.384234** (MV **$61,787.20**, **60.79% of E**, unrealized **+$1,596.46 / +2.65%**; mark $772.34, intraday +$99.20). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $101,637.12, cash **$39,849.92**, **SPY 80 sh (avg $752.384234), 0 open orders** — matches the Aug 27 logged state exactly (cash unchanged $39,849.92, SPY 80 sh unchanged, zero orders; equity moved only on SPY marks, $767.95→$772.34, +$99.20 intraday). No external/manual change with no bot-originated order → **No HALT.**
+
+### Market Context
+- **Warsh Jackson Hole keynote is today's tape driver.** Kevin Warsh's first Jackson Hole address as Chair; traders want his inflation/rate-path outlook. Fresh-Chair-communication risk into the weekend is the single biggest swing factor now that NVDA and PCE are cleared.
+- **Futures flat, weekly advance intact.** S&P 500 futures ~−0.12%, Nasdaq-100 ~−0.1% after Thu's tech/earnings-fueled rally; index on course for a weekly gain. (PayPal −16% premarket on Advent/Stripe walking away — not held, idiosyncratic.)
+- **VIX ~14.5** (14.51, −4.6% Thu) — firmly sub-18, near 2026 lows; nowhere near the 18 Neutral line or 26 crash-guard line.
+- **Crude firms.** WTI **~$83.10 (−0.5% intraday but held most of Thu's gains)**, Brent **~$88.22** — Russia-Ukraine escalation shifted the bid from Mid-East to Eastern Europe, arresting the post-sanctions rollover. First stabilization signal for the Energy re-arm, but no fresh non-extended base yet.
+- **July PCE is behind us (released Aug 26):** headline **+3.7% YoY** (0.1pp above consensus, mildly hot), **core +3.3% YoY / +0.2% MoM (in-line)** — a non-event for the tape by today; already digested.
+- **SPX vs MAs:** record-adjacent, **> 50-DMA ✓** and **> 200-DMA ✓**; no ≥5%/10-session DD; VIX ≪ 26 → **no crash-guard.**
+- **Today's data:** Warsh keynote (Jackson Hole, Aug 27–29). **Not a §9 event.**
+
+### Regime Assessment — **RISK-ON** (60% floor / 85% ceiling)
+All three RISK-ON legs met: **SPX > 50-DMA & > 200-DMA ✓** (record-adjacent, weekly advance); **VIX < 18 ✓** (~14.5, 2026 lows); **breadth ≥ 50% ✓**. SPX > 200-DMA and VIX ≪ 26 rule out crash-guard. No dated bearish thesis on file → floor is mechanical (§4.1a).
+- **Floor (60%):** $60,982.27; SPY MV **$61,787.20 (60.79%)** → **floor MET, +$804.93 cushion.**
+- **Ceiling (85%):** $86,391.55; SPY **60.79%** ≪ ceiling → **no trim.**
+- **Breach threshold (dynamic E):** SPY must fall to **~$747.19 (−3.26% from $772.34)** to tip MV < 60% of E. Only a sharp risk-off open below ~$747 triggers a mechanical ~1-sh floor buy, never a trim.
+
+### §9 Macro-Veto Status — **CLEAR today**
+§9 events = FOMC decision / CPI / PPI / monthly-jobs (NFP) only. **Today's item — Warsh Jackson Hole keynote — is NOT a §9 event; nor was July PCE (Aug 26).** July CPI (Aug 12) / PPI (Aug 14) behind us. Next §9 events: **NFP ~Sep 5, FOMC Sep 15–16.** §9 does not veto fresh single-name risk today.
+
+### Catalyst Calendar — held / watched names (this week)
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8). Beta drivers today/into weekend: **Warsh keynote** (fresh-Chair tone), the **10-yr yield path**, **oil** (now firming on Russia-Ukraine), and Thu's post-NVDA tech follow-through.
+- **No alpha holdings.** Watch list for a *non-extended 2:1 base*: Tech/semis (#2 index RS) — extended post-NVDA gap; Energy (#1 RS) — crude just stabilizing; Industrials (#3 RS).
+
+### §11.1 Screen — DUE TODAY (weekly-review workflow)
+Today is Friday: the **mandatory top-3-RS-sector single-name screen** (Energy/Tech/Industrials — top-5 names each, recorded pass/fail) and the Tech-RS data conflict (index +24.8% vs XLK −2.43% YTD) are **owed in today's weekly review** — run that workflow separately. This pre-market entry does not discharge it.
+
+### Trade Ideas (alpha layer)
+1. **Energy (XLE / energy leaders) — WATCH, first stabilization.** #1 RS YTD (~+25.4%). Crude **firmed** on Russia-Ukraine escalation (WTI held ~$83), arresting the post-sanctions rollover — the first re-arm precondition (crude stabilizing) is tentatively forming, but leaders remain **extended with no non-extended 2:1 base**. Est. **~6.3** (<7.0 full; starter blocked by §6.1 R:R/base leg). **Re-arm only if crude holds ≥$83 and a leader carves a non-extended base restoring ≥2:1.**
+2. **Tech / semis leaders (post-NVDA) — WATCH, do not chase.** Earnings veto lifted, momentum strong post-NVDA, but the group is **gapping into fresh highs — extended, no non-extended 2:1 base**; buying the gap is chasing, not a §6.1 setup. Est. **~6.3**. **Re-arm on a post-NVDA pullback base that restores ≥2:1 with momentum holding.**
+3. **Industrials (XLI / leaders) — WATCH, no entry.** Durable #3 RS (~+20%) but **no non-extended 2:1 base**; screen single-names in today's §11.1 review before any tilt. Est. **~6.0–6.3.**
+
+### Risk Factors
+- **Warsh keynote (today).** First Jackson Hole as Chair — fresh-communication unknown; a hawkish tone into the weekend is a two-sided beta risk. The dominant swing factor now that NVDA and PCE are cleared.
+- **Yield path.** Multi-decade-high long-end yields remain the dominant structural pressure on the cap-weighted proxy (esp. long-duration tech); any relief is reversible.
+- **Post-NVDA fade risk.** A large gap that sells off intraday is a classic "buy-the-rumor" reversal — a reason not to chase semis, no per-name hedge by design.
+- **Oil / geopolitical.** Crude firming on Russia-Ukraine escalation relieves nothing on inflation and adds a fresh geopolitical tail — two-way for the index.
+- **Complacency.** VIX ~14.5 (2026 lows) into a fresh-Chair keynote; the **−3.26% floor-breach threshold** gives real room to a fast risk-off open.
+
+### Decision
+**HOLD alpha; floor MET in the RISK-ON band; no proxy action pre-market.**
+- **Regime:** **RISK-ON** (SPX record-adjacent > both MAs ✓, VIX ~14.5 < 18 ✓, breadth ≥ 50% ✓). Floor 60% / ceiling 85%. No crash-guard; no bearish thesis on file.
+- **Floor:** SPY 60.79% > 60% → **met, +$804.93 cushion** (breach only below ~$747.19, −3.26%); no bearish thesis needed.
+- **Ceiling / open action:** SPY 60.79% ≪ 85% → **no trim.** BUY ~1 sh only if MV slips < 60% of E at the open (mechanical §4.1a — not alpha, not §9-vetoed, not §4.3-capped).
+- **No single-name entry:** §9 clear, so this is a *chosen* pass — semis extended post-NVDA (no non-extended 2:1 base = chasing); Energy #1 RS with crude only just stabilizing, still no base; Industrials no base. Opening fresh single-name risk into a Warsh-keynote weekend on extended leaders is poor timing, not a forced low-conviction trade (§7). Floor stands via the proxy at ~60.79%.
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks:** (1) **run today's weekly review + §11.1 screen** (Energy/Tech/Industrials top-5 single names, recorded pass/fail; resolve Tech-RS data conflict); (2) reconcile; (3) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50%; (4) floor: SPY ~60.8% in-band — **no trim; BUY ~1 sh only if MV < 60% of E** (breach below ~$747); (5) §9 clear (next §9 NFP ~Sep 5, FOMC Sep 15–16); (6) **read Warsh's keynote tone** for beta read-through; (7) **re-arm a post-NVDA pullback base or an Energy leader base restoring ≥2:1** if momentum holds and crude stays firm — do not chase; (8) track whether crude holds ≥$83 (Energy re-arm) on the Russia-Ukraine bid.
