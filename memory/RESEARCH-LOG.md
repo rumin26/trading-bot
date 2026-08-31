@@ -3383,3 +3383,59 @@ Today is Friday: the **mandatory top-3-RS-sector single-name screen** (Energy/Te
 - **No single-name entry:** §9 clear, so this is a *chosen* pass — semis extended post-NVDA (no non-extended 2:1 base = chasing); Energy #1 RS with crude only just stabilizing, still no base; Industrials no base. Opening fresh single-name risk into a Warsh-keynote weekend on extended leaders is poor timing, not a forced low-conviction trade (§7). Floor stands via the proxy at ~60.79%.
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks:** (1) **run today's weekly review + §11.1 screen** (Energy/Tech/Industrials top-5 single names, recorded pass/fail; resolve Tech-RS data conflict); (2) reconcile; (3) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50%; (4) floor: SPY ~60.8% in-band — **no trim; BUY ~1 sh only if MV < 60% of E** (breach below ~$747); (5) §9 clear (next §9 NFP ~Sep 5, FOMC Sep 15–16); (6) **read Warsh's keynote tone** for beta read-through; (7) **re-arm a post-NVDA pullback base or an Energy leader base restoring ≥2:1** if momentum holds and crude stays firm — do not chase; (8) track whether crude holds ≥$83 (Energy re-arm) on the Russia-Ukraine bid.
+
+---
+
+## 2026-08-31 — Pre-market Research (Day 79, Monday) — US strikes Iran (Hormuz launchers/Larak Is.), Iran fires missiles back / oil spikes (Brent >$90, WTI ~$84) / S&P futures ~−0.2% / VIX ~14.5 (near 2026 lows) / Warsh hawkish, rate-hike bets up / RISK-ON intact
+
+### Account (snapshot)
+- Equity: **$101,169.92** (`last_equity` $101,397.92; intraday **−$228** on softer SPY marks, $766.50 vs Fri close $769.35 = −0.37%)
+- Cash: **$39,849.92** (39.39%, settled) — unchanged
+- Buying power: reported $331,095.68 (4× margin) — cash-account discipline §2 → **usable = settled cash $39,849.92**. Options L3 / shorting ignored by mandate (long-only, no options ever §2).
+- Daytrade count: 0/5 (PDT N/A, cash account §2)
+- Open positions: **SPY 80 sh @ $752.384234** (MV **$61,320**, **60.61% of E**, unrealized **+$1,129.26 / +1.88%**; mark $766.50, intraday −$228). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $101,169.92, cash **$39,849.92**, **SPY 80 sh (avg $752.384234), 0 open orders** — matches the Aug 28 logged state exactly (cash unchanged, SPY 80 sh unchanged, zero orders; equity moved only on SPY marks, $772.34→$766.50). No external/manual change with no bot-originated order → **No HALT.**
+
+### Market Context
+- **US–Iran escalation is the tape driver.** US military struck Iranian rocket launchers near the Strait of Hormuz (Larak Island) over the weekend; Iran fired ballistic/cruise missiles back toward Hormuz. First direct strike in over a month; ~6–8M bbl/day still transiting Hormuz. Diplomacy (via Qatar) "isn't impossible" per Iran — two-way tail.
+- **Oil spikes.** Brent **~$90.4–90.7 (+3–5%)**, WTI **~$83.6–85.5 (+2.5%)** — a war-premium jump on the strike, not a fresh demand-led leg.
+- **Futures soft, not panicked.** S&P 500 futures **~−0.2%**, Nasdaq-100 lower; risk-off tone but shallow. Index still headed for a winning August.
+- **VIX ~14.5** (opened 14.57, range 14.13–14.84; 14.13 Fri = 2026 low) — firmly sub-18, nowhere near the 18 Neutral line or 26 crash-guard line despite the headlines.
+- **Warsh hawkish.** Post-Jackson Hole, markets read the new Chair as hawkish; rate-**hike** bets ticked up (funds target 3.50–3.75%). Structural pressure on the cap-weighted proxy.
+- **SPX vs MAs:** record-adjacent, **> 50-DMA ✓** and **> 200-DMA ✓**; no ≥5%/10-session DD; VIX ≪ 26 → **no crash-guard.**
+
+### Regime Assessment — **RISK-ON** (60% floor / 85% ceiling)
+All three RISK-ON legs met: **SPX > 50-DMA & > 200-DMA ✓** (record-adjacent); **VIX < 18 ✓** (~14.5, 2026 lows); **breadth ≥ 50% ✓**. SPX > 200-DMA and VIX ≪ 26 rule out crash-guard. A geopolitical headline does **not** move the quantitative regime (§4.1) — no ≥5%/10-session DD, VIX muted. No dated bearish thesis on file → floor is mechanical (§4.1a).
+- **Floor (60%):** $60,701.95; SPY MV **$61,320 (60.61%)** → **floor MET, +$618.05 cushion.**
+- **Ceiling (85%):** $85,994.43; SPY **60.61%** ≪ ceiling → **no trim.**
+- **Breach threshold (dynamic E):** SPY must fall to **~$747.19 (−2.52% from $766.50)** to tip MV < 60% of E → only then a mechanical ~1-sh floor buy, never a trim.
+
+### §9 Macro-Veto Status — **CLEAR today**
+§9 events = FOMC / CPI / PPI / monthly-jobs (NFP) only. **NFP is Fri Sep 4** → §9 pauses fresh single-name risk in the **one session before** = **Thu Sep 3** only, never the floor. FOMC Sep 15–16; CPI Sep 11. Today is not a §9 event; the Iran strike is not a §9 macro print.
+
+### Catalyst Calendar — held / watched names (this week)
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8). Beta drivers: US–Iran/Hormuz escalation & oil, Warsh-hawkish yield path, into **NFP Fri Sep 4**.
+- **No alpha holdings.** Watch list for a *non-extended 2:1 base*: Energy (#1 RS) — now spiking on a war premium, NOT a base; Tech/semis (#2) — extended post-NVDA; Industrials (#3).
+
+### Trade Ideas (alpha layer)
+1. **Energy (XLE / leaders) — WATCH, do NOT chase the war-premium spike.** #1 RS YTD (~+25%). Crude gapping up on the Hormuz strike is a **geopolitical premium, not a durable demand-led leg**; buying an oil spike on a strike headline is chasing an event that reverses on any de-escalation (diplomacy "isn't impossible"). No non-extended 2:1 base. Est. **~6.2** (<7.0 full; starter blocked by §6.1 R:R/base). **Re-arm only if crude *holds* the gains for several sessions and a leader carves a non-extended base restoring ≥2:1** — not on the spike itself.
+2. **Tech / semis leaders (post-NVDA) — WATCH, do not chase.** Momentum strong but extended at fresh highs, no non-extended 2:1 base; hawkish-Warsh yield backdrop is a headwind for long-duration tech. Est. **~6.2**. **Re-arm on a pullback base restoring ≥2:1 with momentum holding.**
+3. **Industrials (XLI / leaders) — WATCH, no entry.** Durable #3 RS (~+20%) but no non-extended 2:1 base. Est. **~6.0–6.3.**
+
+### Risk Factors
+- **US–Iran / Hormuz escalation.** A sharp risk-off open or an oil shock is the day's dominant tail; a fast SPY drop below ~$747 (−2.52%) triggers a mechanical ~1-sh floor buy. Two-way: any de-escalation headline snaps oil back and lifts equities.
+- **Oil → inflation → Fed.** An oil spike into a hawkish Warsh raises the rate-hike tail; structural pressure on the cap-weighted proxy.
+- **Yield path.** Multi-decade-high long-end yields remain the dominant structural pressure on the proxy; hawkish-Chair read reinforces it.
+- **Complacency into escalation.** VIX ~14.5 (2026 lows) *despite* a live US–Iran exchange — the −2.52% floor-breach threshold gives real room to a gap-down open.
+- **NFP Fri Sep 4.** Any fresh single-name risk this week is §9-vetoed only on **Thu Sep 3**; the proxy floor is never paused.
+
+### Decision
+**HOLD alpha; floor MET in the RISK-ON band; no proxy action pre-market.**
+- **Regime:** **RISK-ON** (SPX record-adjacent > both MAs ✓, VIX ~14.5 < 18 ✓, breadth ≥ 50% ✓). Floor 60% / ceiling 85%. No crash-guard; no bearish thesis on file — a geopolitical headline is not a §4.1 regime change.
+- **Floor:** SPY 60.61% > 60% → **met, +$618.05 cushion** (breach only below ~$747.19, −2.52%); no bearish thesis needed.
+- **Ceiling / open action:** SPY 60.61% ≪ 85% → **no trim.** BUY ~1 sh only if MV slips < 60% of E at the open (mechanical §4.1a — not alpha, not §9-vetoed, not §4.3-capped).
+- **No single-name entry:** §9 clear, so this is a *chosen* pass — Energy is spiking on a Hormuz war premium (chasing an event, not a §6.1 base); semis extended; Industrials no base. Opening fresh single-name risk into a live US–Iran escalation on extended/spiking leaders is poor timing, not a forced low-conviction trade (§7). Floor stands via the proxy at ~60.61%.
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks:** (1) reconcile; (2) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50% (watch for an Iran-driven vol spike toward the 26 crash-guard line); (3) floor: SPY ~60.6% in-band — **no trim; BUY ~1 sh only if MV < 60% of E** (breach below ~$747); (4) §9 clear until **Thu Sep 3** (pre-NFP veto), NFP Fri Sep 4; (5) track US–Iran/Hormuz for escalation (risk-off / crude) vs de-escalation (crude snap-back); (6) **re-arm Energy only on a *held* base restoring ≥2:1, not the war-premium spike**; re-arm a post-NVDA/pullback base in a top-3 RS leader if momentum holds — do not chase.
