@@ -1,5 +1,14 @@
 # Trade Log
 
+### Aug 31 — EOD Snapshot (Day 79, Monday)
+**Portfolio:** $101,238.72 | **Cash:** $39,849.92 (39.4%) | **Day P&L:** -$139.20 (-0.14%) | **Phase P&L:** +$1,238.72 (+1.24%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.38 | $767.36 | -0.26% | +$1,198.06 (+1.99%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 79, start of week 16 (Monday). Reconcile (§14): live Alpaca = equity $101,238.72, cash $39,849.92, SPY **80 sh** (avg $752.384234, MV $61,388.80), zero open orders — matches Aug 28 logged state exactly (80 sh, cash to the cent, no bot orders today; last SPY order Aug 06). No external/manual change → **no HALT.** Day P&L vs Aug 28 logged EOD ($101,377.92): **-$139.20 (-0.14%)** — pure SPY beta drift (close $769.35 prior → $767.36, -0.26%; Alpaca intraday -$159.20 vs last_equity $101,397.92). Phase P&L **+$1,238.72 (+1.24%)** vs $100k start; proxy unrealized **+$1,198.06 (+1.99%)** from $752.38 avg. **Regime RISK-ON** (§4.1; floor 60% / ceiling 85%): SPX > 50/200-DMA, VIX low, no crash-guard, no bearish thesis on file. Deployed **60.64%** (SPY MV $61,388.80 / equity) — inside the RISK-ON band, just above the 60% floor, well under the 85% ceiling ($86,052.91). Floor MET, no trim. No alpha exposure; proxy carries no per-name stop by design. Trades today: **none.** Bot trades this week (fresh cap, Aug 31): **0/3.** New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 16 weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet; recalibration audit due in this week's review. **Tomorrow (Tue Sep 1):** reconcile; hold the floor (BUY ~1 sh only if SPY MV slips < 60% of E, breach below ~$759); if MV drifts > 85% ceiling, trim. Re-arm a non-extended 2:1 Path A base in a top-3 RS leader (Energy / Industrials) if a name clears ≥7.0 (≥6.0 starter), fund by trimming the proxy with an ATR/8%-cap GTC stop at every alpha fill (§8). §9 clear (next print NFP ~Sep 5).
+
 ### Aug 28 — EOD Snapshot (Day 78, Friday)
 **Portfolio:** $101,377.92 | **Cash:** $39,849.92 (39.3%) | **Day P&L:** -$91.20 (-0.09%) | **Phase P&L:** +$1,377.92 (+1.38%)
 
