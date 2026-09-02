@@ -3496,3 +3496,60 @@ All three RISK-ON legs met: **SPX > 50-DMA & > 200-DMA ✓** (record-adjacent); 
 - **No single-name entry:** §9 clear, so this is a *chosen* pass — Energy spiking on a Hormuz war premium (chasing, not a §6.1 base); semis extended and now under a rising-yield headwind; Industrials no base. Opening fresh single-name risk into a yield-scare/oil-shock open on extended/spiking leaders is poor timing, not a forced low-conviction trade (§7). Floor stands via the proxy at ~60.46%.
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks:** (1) reconcile; (2) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50% (watch for a yield- or Iran-driven vol spike toward the 18 Neutral line, then 26 crash-guard); (3) floor: SPY ~60.5% in-band — **no trim; BUY ~1 sh only if MV < 60% of E** (breach below ~$747.19); (4) §9 clear until **Thu Sep 3** (pre-NFP veto), NFP Fri Sep 4, CPI Sep 11, FOMC Sep 15–16; (5) track the 10Y (>4.8% break) and US–Iran/Hormuz + oil; (6) **re-arm Energy only on a *held* base restoring ≥2:1, not the war-premium spike**; re-arm a top-3 RS leader pullback base if momentum re-asserts and yields stabilize — do not chase; (7) note Broadcom Wed Sep 2 as an index-level read.
+
+---
+
+## 2026-09-02 — Pre-market Research (Day 81, Wednesday) — US–Iran/Hormuz war escalates, Brent tops $95 / 10Y yield 4.814% (highest since Nov 2023) / VIX pops to 16.34 (+9.5%) but still sub-18 / S&P futures mixed-to-slightly-higher / AVGO reports tonight / RISK-ON intact quantitatively
+
+### Account (snapshot)
+- Equity: **$100,772.32** (`last_equity` $100,792.32; intraday **−$20.00 / −0.02%**, SPY mark $761.53 vs $761.78 = −0.03%)
+- Cash: **$39,849.92** (39.55%, settled) — unchanged
+- Buying power: reported $329,982.40 (4× margin) — cash-account discipline §2 → **usable = settled cash $39,849.92**. Options L3 / shorting ignored by mandate (long-only, no options ever §2).
+- Daytrade count: 0/5 (PDT N/A, cash account §2)
+- Open positions: **SPY 80 sh @ $752.384234** (MV **$60,922.40**, **60.46% of E**, unrealized **+$731.66 / +1.22%**). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $100,772.32, cash **$39,849.92**, **SPY 80 sh (avg $752.384234), 0 open orders** — matches the Sep 1 logged state exactly (cash unchanged, SPY 80 sh unchanged, zero orders; equity moved only on SPY marks, $761.89→$761.53). No external/manual change with no bot-originated order → **No HALT.**
+
+### Market Context
+- **US–Iran / Hormuz escalation deepens.** Overnight attack on a cargo ship in the Strait of Hormuz; the conflict "entered a dangerous new phase." Oil war-premium extending: **Brent ~$95–96 (>$95/bbl)**, WTI ~$85–90. Feeds the inflation/rate-hike narrative directly.
+- **Yields are the tape driver.** US 10Y hit **4.814%**, highest since **Nov 2023**. Global bond selloff continuing; rising real/nominal rates = structural pressure on the cap-weighted proxy, esp. long-duration tech.
+- **Futures mixed.** S&P 500 futures edged slightly higher to modestly mixed; sentiment capped by oil + yields. Two-sided open.
+- **VIX ~16.34 (+9.5% on day)** — the pop is notable (fear bid on oil/yields/Iran) but still **firmly < 18** (Neutral line), nowhere near the 26 crash-guard line. Worth watching as it steps toward 18.
+- **Today's data:** ADP August employment, July factory orders, **Fed Beige Book**. **None are §9 events** (§9 = FOMC/CPI/PPI/NFP; ADP is a private read, not the monthly jobs print). §9 CLEAR today.
+- **Earnings tonight (AMC):** **Broadcom (AVGO)** Q3 — consensus rev ~$29.4B (+~84% YoY), GAAP EPS ~$2.55, AI-silicon-driven; also Snowflake, HPE, NetApp, Dell. AVGO is a >$1.7T index-level swing (semis/AI-capex read-through) — **not held**, a beta factor only.
+- **SPX vs MAs:** record-adjacent, **> 50-DMA ✓** and **> 200-DMA ✓**; no ≥5%/10-session DD; VIX ≪ 26 → **no crash-guard.**
+
+### Regime Assessment — **RISK-ON** (60% floor / 85% ceiling)
+All three RISK-ON legs met: **SPX > 50-DMA & > 200-DMA ✓** (record-adjacent); **VIX < 18 ✓** (~16.34); **breadth ≥ 50% ✓**. SPX > 200-DMA and VIX ≪ 26 rule out crash-guard. Oil/yield/Iran headlines do **not** move the quantitative regime (§4.1) — no ≥5%/10-session DD, VIX still sub-18. No dated bearish thesis on file → floor is mechanical (§4.1a).
+- **Floor (60%):** $60,463.39; SPY MV **$60,922.40 (60.46%)** → **floor MET, +$459.01 cushion.**
+- **Ceiling (85%):** $85,656.47; SPY **60.46%** ≪ ceiling → **no trim.**
+- **Breach threshold (dynamic E):** SPY must fall to **~$747.19 (−1.88% from $761.53)** to tip MV < 60% of E → only then a mechanical ~1-sh floor buy, never a trim.
+
+### §9 Macro-Veto Status — **CLEAR today**
+§9 events = FOMC / CPI / PPI / monthly-jobs (NFP) only. ADP / factory orders / Beige Book today are **not** §9 gating prints. **NFP is Fri Sep 4** → §9 pauses fresh single-name risk in the **one session before** = **Thu Sep 3** only, never the floor. CPI Sep 11; FOMC Sep 15–16.
+
+### Catalyst Calendar — held / watched names (this week)
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8). Beta drivers this week: 10Y yield path (>4.8% break, now 4.814%), US–Iran/Hormuz + oil (Brent >$95), **ADP/Beige Book today**, **AVGO AMC tonight**, **NFP Fri Sep 4**.
+- **No alpha holdings.** Watch list for a *non-extended 2:1 base*: Energy (#1 RS, XLE ~+42% YTD) — spiking on war premium, NOT a base; Tech/semis (#2) — extended, under yield pressure, AVGO event risk tonight; Industrials (#3).
+
+### Trade Ideas (alpha layer)
+1. **Energy (XLE / leaders) — WATCH, do NOT chase the war-premium spike.** #1 RS YTD (~+42%, XLE), cheapest sector (~13× P/E). But crude at Brent >$95 on a fresh Hormuz-strike headline is a **geopolitical premium, not a durable demand-led leg** — buying the spike is chasing an event that reverses on any de-escalation. No non-extended 2:1 base; it's *more* extended than yesterday. Est. **~6.2** (<7.0 full; starter blocked by §6.1 R:R/base). **Re-arm only if crude *holds* the gains for several sessions and a leader carves a non-extended base restoring ≥2:1** — not on the spike.
+2. **Tech / semis leaders — WATCH, do not chase.** Two headwinds intact: **rising yields (4.814% 10Y)** pressure long-duration tech, and **AVGO reports tonight** = event risk / no clean base. No non-extended 2:1 base. Est. **~6.0**. **Re-arm on a post-print pullback base restoring ≥2:1 with momentum re-asserting and yields stabilizing.**
+3. **Industrials (XLI / leaders) — WATCH, no entry.** Durable #3 RS (~+20%) but no non-extended 2:1 base. Est. **~6.0–6.3.**
+
+### Risk Factors
+- **Oil shock / Hormuz escalation.** Brent >$95 on a fresh cargo-ship attack — the day's dominant tail; a further leg or a broader risk-off open. Two-sided: any de-escalation snaps oil back and lifts equities. A fast SPY drop below ~$747.19 (−1.88%) triggers a mechanical ~1-sh floor buy.
+- **Yield break >4.8% confirmed (4.814%).** Highest since Nov 2023 — structural pressure on the cap-weighted proxy, long-duration tech most exposed; skew near-term down.
+- **VIX stepping up (16.34, +9.5%).** Still sub-18 but the fear bid is building on oil/yields/Iran — watch for a decisive break of 18 (→ Neutral, floor 30%) then 26 (crash-guard).
+- **AVGO AMC tonight.** >$1.7T print = index-level swing (semis/AI-capex read-through) into Thu's tape; not held, beta factor only.
+- **NFP Fri Sep 4.** Fresh single-name risk this week is §9-vetoed only on **Thu Sep 3**; the proxy floor is never paused.
+
+### Decision
+**HOLD alpha; floor MET in the RISK-ON band; no proxy action pre-market.**
+- **Regime:** **RISK-ON** (SPX record-adjacent > both MAs ✓, VIX ~16.34 < 18 ✓, breadth ≥ 50% ✓). Floor 60% / ceiling 85%. No crash-guard; no bearish thesis on file — an oil/yield/Iran down-open is not a §4.1 regime change.
+- **Floor:** SPY 60.46% > 60% → **met, +$459.01 cushion** (breach only below ~$747.19, −1.88%); no bearish thesis needed.
+- **Ceiling / open action:** SPY 60.46% ≪ 85% → **no trim.** BUY ~1 sh only if MV slips < 60% of E at the open (mechanical §4.1a — not alpha, not §9-vetoed, not §4.3-capped).
+- **No single-name entry:** §9 clear, so this is a *chosen* pass — Energy spiking on a Hormuz war premium (chasing, not a §6.1 base); semis extended, under rising yields, and into the AVGO print tonight; Industrials no base. Opening fresh single-name risk into an oil-shock/yield-scare open on extended/spiking leaders is poor timing, not a forced low-conviction trade (§7). Floor stands via the proxy at ~60.46%.
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks:** (1) reconcile; (2) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50% (VIX 16.34 now — watch the step toward 18, then 26 crash-guard); (3) floor: SPY ~60.5% in-band — **no trim; BUY ~1 sh only if MV < 60% of E** (breach below ~$747.19); (4) **§9 veto Thu Sep 3** (pre-NFP), NFP Fri Sep 4, CPI Sep 11, FOMC Sep 15–16; (5) track the 10Y (>4.8% confirmed) and US–Iran/Hormuz + oil (Brent >$95); (6) read the **AVGO print** (tonight) for a semis/AI index-level swing; (7) **re-arm Energy only on a *held* base restoring ≥2:1, not the war-premium spike**; re-arm a top-3 RS leader pullback base if momentum re-asserts and yields stabilize — do not chase.
