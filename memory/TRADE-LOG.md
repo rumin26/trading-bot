@@ -1,5 +1,14 @@
 # Trade Log
 
+### Sep 02 — EOD Snapshot (Day 81, Wednesday)
+**Portfolio:** $101,003.52 | **Cash:** $39,849.92 (39.5%) | **Day P&L:** +$197.60 (+0.20%) | **Phase P&L:** +$1,003.52 (+1.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.38 | $764.42 | +0.35% | +$962.86 (+1.60%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 81, week 16 (Wednesday). Reconcile (§14): live Alpaca = equity $101,003.52, cash $39,849.92, SPY **80 sh** (avg $752.384234, MV $61,153.60), zero open orders — matches Sep 01 logged state exactly (80 sh, cash to the cent, no bot orders today; last SPY order Aug 06). No external/manual change → **no HALT.** Day P&L vs Sep 01 logged EOD ($100,805.92): **+$197.60 (+0.20%)** — pure SPY beta drift (close $761.95 prior → $764.42, +0.35% on the day; Alpaca intraday +$211.20 vs last_equity $100,792.32). Phase P&L **+$1,003.52 (+1.00%)** vs $100k start; proxy unrealized **+$962.86 (+1.60%)** from $752.38 avg. **Regime RISK-ON** (§4.1; floor 60% / ceiling 85%): SPX > 50/200-DMA, VIX low, no crash-guard, no bearish thesis on file. Deployed **60.55%** (SPY MV $61,153.60 / equity) — inside the RISK-ON band, just above the 60% floor, well under the 85% ceiling ($85,852.99). Floor MET, no trim. No alpha exposure; proxy carries no per-name stop by design. Trades today: **none.** Bot trades this week (Aug 31–Sep 02): **0/3.** New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **Standing gap:** 16 weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet; recalibration audit due at Friday review. **Tomorrow (Thu Sep 03):** reconcile; hold the floor (BUY ~1 sh only if SPY MV slips < 60% of E, breach below ~$758); if MV drifts > 85% ceiling, trim. Re-arm a non-extended 2:1 Path A base in a top-3 RS leader (Energy / Industrials) if a name clears ≥7.0 (≥6.0 starter), fund by trimming the proxy with an ATR/8%-cap GTC stop at every alpha fill (§8). **§9 macro veto: NFP lands Fri Sep 05, so the veto bites the Thu Sep 04 session — no fresh single-name risk that day; proxy floor unaffected.**
+
 ### Sep 01 — EOD Snapshot (Day 80, Tuesday)
 **Portfolio:** $100,805.92 | **Cash:** $39,849.92 (39.5%) | **Day P&L:** -$432.80 (-0.43%) | **Phase P&L:** +$805.92 (+0.81%)
 
