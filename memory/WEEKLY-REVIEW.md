@@ -835,3 +835,75 @@ None enacted. **§11.1 (enacted 2026-08-07) binds and was met this week** — th
 
 ### Overall Grade: C+
 A clean, disciplined, positive week that lagged a rising S&P by the smallest margin of the phase (+0.33% vs ≈ +0.5%, −0.17% — inside tracking error). Discipline held everywhere: reconciliation clean every session with no §14 flags, the floor held mechanically inside the RISK-ON band with zero intervention through July PCE and the Warsh Jackson Hole keynote, and NVDA's +8.7% one-name pop was correctly not chased (0/15 screen, PASS on no-broad-base, not paralysis). The book made **+0.33%** to a fresh phase high (+1.41%), proxy now +2.28%. What holds it at C+ and no higher: the alpha layer is empty a full quarter-plus (**16 weeks**), and — the honest miss of the week — last week's yield-shock flush, flagged as the phase's best base-forming setup, **round-tripped on the NVDA rally before any pullback level was pre-armed**. The rising-week lag has compressed to noise and discipline is spotless, which lifts it above the run of C's; the un-started alpha mandate and the un-converted pullback window keep it below a B.
+
+## Week ending 2026-09-04
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $101,397.92 (Mon Aug 31 AM ≈ Fri Aug 28 Alpaca close) |
+| Ending portfolio | $101,413.92 (Fri Sep 04 live; SPY $769.55) |
+| Week return | **+$16.00 (+0.02%)** |
+| S&P 500 week | **≈ +0.09%** (7,711.76 → 7,718.60 — a *flat* week: Thu's record 7,747.71 round-tripped on Fri's hot-NFP −0.38%) |
+| Bot vs S&P | **≈ −0.07%** — 10th rising/flat-week lag, but a dead-flat week vs a dead-flat index; inside rounding noise |
+| Trades | 0 (W:0 / L:0 / open:1) — zero bot orders all week |
+| Win rate | N/A (no closed trades) |
+| Best trade | SPY +2.28% (only position, unrealized) |
+| Worst trade | SPY +2.28% (same) |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | None closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| SPY | $752.384234 (80 sh) | $769.55 | +$1,373.26 (+2.28%) | none (proxy, §5/§8 exempt) |
+
+- **SPY** = benchmark proxy held to the **RISK-ON 60% floor** (§4.1a). **Zero bot orders this week** — last fill remains the Aug 06 +2 floor-restore (order `279e8653`). The tape chopped sideways (SPY $769.10 Fri→$769.55 Fri, ~flat) as an oil/yield/Iran risk-off (Brent ~$95, 10Y 4.814%, VIX popped to 16.34) was offset by a Thu record close, then round-tripped on Fri's hot NFP. Deployment held **60.5–60.8%** inside the RISK-ON band every session — no top-up/trim needed. Deployed **60.71%** of E at week end ($61,564 / $101,413.92); alpha layer empty (**16 weeks / ~81 sessions floor-only** since Jun 16). Peer-valuation review N/A — the position *is* the index; broad context: S&P record-adjacent on an elevated forward multiple (~22–23×), 10Y at multi-decade highs (~4.8%, hit 4.814% Wed — highest since Nov 2023), Energy the one cheap sector (~13× P/E).
+
+### Sector Rotation Update
+- **Leaders (1-wk / RS):** **Energy (#1 RS YTD ~+42%, cheapest sector ~13× P/E, 16.3% ROE)** — but this week's bid is a **US–Iran/Hormuz war premium** (Brent ~$95, six-week highs) that *faded* mid-week on strait-reopening then *re-built* Fri on fresh strikes — **geopolitical, not a durable demand-led leg.** **Materials (#2 RS)** strengthening — **XLB +1.7% Thu, breaking a long consolidation** (~+16–22% YTD, though 3-mo momentum fading ~+3%). **Industrials** durable top-3 RS (~+20%). **Health Care** strongest 3-mo momentum (~+14%).
+- **Laggards (1-wk):** **long-duration / rate-sensitive tech** under the 10Y spike (4.814%, highest since Nov 2023) and a **soft AVGO Q4 guide (−5% AH)** → negative semis/AI-capex read-through; Utilities soft on yields. Broad Tech RS remains a mega-cap-concentration story, not a sector reclaim.
+- **Change vs last week:** last week's Energy/Health-Care leadership + NVDA one-name tech pop → this week **Energy still #1 but on a war premium** (not demand), **Materials firmed into #2 on an XLB breakout**, and **Tech was pressured** (AVGO soft guide + the yield spike) rather than extending NVDA's bounce. Durable multi-week leadership stays the **commodity/cyclical-value complex (Energy/Materials/Industrials)**; the top-3 RS sectors this week are **Energy / Materials / Industrials** (Tech demoted out of the broad top-3).
+- **Sector to flag for exit:** **N/A** (no single-name holdings; book is 100% SPY beta — nothing to rotate out of).
+- **Strongest sector we're NOT in:** **Energy (#1 RS)** and **Materials (#2, XLB breakout)** — both un-owned; both un-fundable this week (Energy = war-premium chase, Materials = extended at the breakout into a hot-NFP/rising-yields open). The durable-RS single-name conversion gap stands into a **16th week**.
+
+### §11.1 Mandatory Screen (top-5 RS names in each top-3 RS sector → recorded pass/fail)
+- **Energy (XLE):** XOM, CVX, COP, EOG, WMB — **all PASS (no entry).** Blocker: crude at six-week highs on a **Hormuz/Iran war premium** (re-building Fri, not demand-led); integrateds extended off the early-Aug breakout with no non-extended 2:1 Path A base. Buying a headline-driven crude spike is exactly the chase §7 bars. Wt ~6.0–6.5.
+- **Materials (XLB):** LIN, SHW, FCX, NEM, APD — **all PASS (no entry).** Blocker: XLB just broke a long consolidation (+1.7% Thu) — the leader is **extended at the breakout with no non-extended 2:1 pullback base**, into a hot-NFP/rising-yields open. Re-arm on a pullback base that *holds* the breakout, restoring ≥2:1. Wt ~6.2–6.5.
+- **Industrials (XLI):** GE, RTX, HON, UNP, CAT — **all PASS (no entry).** Blocker: durable #3 RS but names extended above rising 50-DMAs at/near record highs; rate-sensitive into the 10Y spike; no defensible 2:1 base. GE re-arms only on a volume 50-DMA reclaim. Wt ~5.0–6.5.
+- Result: **0/15 cleared the 7.0 gate** — **5th straight week at 0/15.** Blocker remains base-quality/extension on a record-high tape (+ an un-fundable geopolitical crude spike), not an RS-identification miss. Screen recorded to close the §11.1 obligation.
+
+### What Worked
+- **Positive absolute return (+0.02%) with the phase holding a high (+1.41% vs $100k)** through a genuinely noisy week — an oil shock (Brent ~$95), the 10Y at a 2-year high (4.814%), a VIX pop to 16.34, a soft AVGO guide, and a hot NFP — all absorbed at the proxy floor with **zero intervention.**
+- **Matched a flat index on a flat week (−0.07%, inside rounding).** With no rising tape to beat, the 60% proxy tracked a round-tripping S&P; the miss is pure tracking noise, not structural under-participation.
+- **Regime read held correctly through a real vol test:** VIX stepped 14.5→16.34 on the oil/yield/Iran mix but stayed **firmly sub-18** — RISK-ON was maintained quantitatively, not overridden on headlines (§4.1). No whipsaw, no forced de-risking.
+- **Correctly did not chase the un-fundable leaders:** the Energy war-premium spike (chasing a Hormuz headline that reverses on de-escalation, §7) and the extended XLB breakout were both PASS'd, not paralysis — neither offered a §6.1 non-extended 2:1 base.
+- **§9 navigated cleanly:** the pre-NFP veto bound Thu Sep 03 (no fresh single-name risk), lifted Fri's open; the proxy floor was never paused. Reconciliation clean every session — cash to the cent ($39,849.92), 80 sh, byte-identical avg entry, zero open orders each day; no §14 flags, no false HALTs.
+
+### What Didn't Work
+- **Zero alpha for the entire phase — 16 straight weeks (~81 sessions) of pure SPY beta** since Jun 16. Every week's outcome is asset allocation, not selection; the §11.1 screen cleared 0/15 for a **5th straight week.**
+- **The ~$25k of 85%-ceiling headroom (and ~$39.9k cash) sat wholly idle a 17th straight floor-only week.** Defensible session-by-session (0/15 gate, oil/yield/NFP event risk, no §6.1 base), but the alpha mandate is unmet a full quarter-plus.
+- **Last week's pre-arm mandate went unexecuted — but for a defensible reason.** The plan was to *pre-place* a Path A pullback limit when a leader was identified; instead the tape spiked on oil and **no leader ever carved a non-extended base to arm a level against.** So there was no setup to miss — but also no progress on the conversion, two weeks running.
+- **Zero trades all week — not even a proxy adjustment.** Correct (floor held inside the band all week), but a full week where the entire book is index beta.
+
+### Key Lessons
+- **A flat week that matches a flat index is the null result the 60% proxy is *designed* to produce — and it did, cleanly.** The −0.07% "miss" is noise; the honest read is the book tracked the index at ~60% deployment through a high-headline week without a single unforced error. That is the floor doing its job, not a failure.
+- **A geopolitical crude spike is structurally un-fundable at the single-name level.** Energy has been #1 RS for weeks, but the recent leg is a Hormuz war premium that faded and re-built inside four sessions — buying it is chasing an event, not an earnings-momentum base (§7). "Sector #1 RS but the bid is geopolitical" is a PASS every time, not a screen failure.
+- **A trending, low-VIX melt-up rarely hands the leaders a non-extended 2:1 base.** Five straight 0/15 weeks with the *same* blocker (extension on a record-high tape) is the signal that the §6.1 base requirement and a persistent melt-up regime are in tension — the fix is either patience for the next real flush (pre-armed this time) or an explicit §4.4 audit of whether the entry criteria are calibrated for this regime. This is now the defining process question of the phase, not a one-off.
+- **The phase has now reached a full quarter (~16 weeks / ~81 sessions).** Per §13 the rolling-60-day/quarter window is the judgment window, and it is now *complete*: the book is +1.41% while the index total-return is modestly higher (proxy price +2.28%, but at ~60% weight the book captures ~60% of it). The gap is forfeited *opportunity* (idle cash + no alpha), still inside tolerance — but the quarter-window is no longer "too small a sample."
+
+### Adjustments for Next Week
+- **Tue Sep 08 first actions** (NOTE: **Mon Sep 07 is Labor Day — market closed**; first live session is Tue Sep 08): reconcile; hold **RISK-ON** unless the open prints VIX ≥ 18 / SPX < 50-DMA / breadth < 50% (none breached — VIX ~15.3, SPX record > both MAs, no crash-guard). Floor 60% / ceiling 85%. SPY ~60.7% is in-band → **no trim; BUY ~1 sh only if MV slips < 60% of E** (breach below ~$747); do **not** buy proxy above the floor (that headroom is for alpha).
+- **PRE-ARM the next real pullback, don't chase the spike.** The one durable, *fundable* setup to watch is a **Materials name on a pullback that holds the fresh XLB breakout** (restoring ≥2:1) or **Energy only if crude *holds* ≥$90 for several sessions and a leader carves a non-extended base** (not the war-premium tape). Identify the name and **pre-place the Path A limit at its non-extended 2:1 level now**, so a stabilizing tape converts to a fill instead of another PASS. Do not market-order into the oil spike or the XLB breakout (§7).
+- **§11.1 binds every Friday:** continue scoring the top-5 RS names in each top-3 RS sector (Energy, Materials, Industrials) to a recorded pass/fail; fund a qualifier ≥ 7.0 (≥ 6.0 starter) by trimming the proxy, ATR/8%-cap GTC stop at every alpha fill (§8).
+- **Calendar / §9 — next week is print-heavy:** **PPI Thu Sep 10, CPI Fri Sep 11, FOMC Sep 15–16.** The one-session fresh-single-name-risk veto binds **Wed Sep 09 (pre-PPI), Thu Sep 10 (pre-CPI), and Mon Sep 14 (pre-FOMC)** — three veto sessions crowd the alpha window; the floor is never paused. Watch the 10Y post-NFP repricing (hot +162K vs +53K exp pared easing odds) and US–Iran/Hormuz + oil (Brent ~$95, re-escalating).
+
+### Rule Change
+None enacted. **§11.1 (enacted 2026-08-07) binds and was met** — the top-5-per-top-3-sector screen ran to a recorded **0/15** (Energy/Materials/Industrials), 5th straight week. **§13 anti-overfitting** still bars re-architecting exposure: the book tracked a flat index at ~60% deployment this week (−0.07%, noise), and over the now-complete rolling-60-day/quarter window the underperformance is forfeited *opportunity* (idle cash + no alpha), not a benchmark-underperformance breach — the §13 quarter-window trigger **has not fired.** The two carried proposals stay **flagged-to-validate, not enacted**: (1) §8.2 tightening — **no armed name this week**; (2) §4.1 VIX-≥2-session-confirmation tightening — **0 proxy round-trips** (0 trades, RISK-ON stable despite the VIX 14.5→16.34 step). **Escalation watch (carried & sharpened):** last week's execution trigger — "a durable leader presents a non-extended 2:1 base and the book still funds no alpha" — **did not fire because no base formed** (the tape spiked on oil). It is carried unchanged. **New, sharper trigger:** the phase has now reached a **full quarter (16 weeks) with 0 alpha and 5 straight 0/15 screens** — if the *next* genuine flush (a §9-print or oil-reversal-driven pullback) delivers a non-extended 2:1 base in a top-3 RS leader and the pre-armed level *still* isn't placed/filled, escalate to a **§4.4 recalibration audit of the entry criteria** (is the §6.1 non-extended-base gate calibrated for a persistent low-VIX melt-up?) rather than logging a 6th 0/15. Pre-placing the level in advance remains the concrete process fix.
+
+### Overall Grade: C+
+A clean, disciplined, essentially flat week that matched an essentially flat S&P (+0.02% vs ≈ +0.09%, −0.07% — pure rounding noise). Discipline was spotless through a genuinely testy tape: an oil shock (Brent ~$95), the 10Y at a 2-year high (4.814%), a VIX pop to 16.34, a soft AVGO guide, and a hot NFP — all absorbed at the proxy floor with **zero trades and zero §14 flags**, RISK-ON held quantitatively (sub-18) rather than overridden on headlines, and the two un-fundable leaders (the Energy war-premium spike and the extended XLB breakout) were correctly PASS'd, not chased. What keeps it at C+ and no higher: the alpha layer is empty a **full quarter (16 weeks / ~81 sessions)**, the §11.1 screen cleared **0/15 for a 5th straight week**, and last week's pre-arm mandate again produced no armed level — defensibly (no base ever formed), but the conversion gap is now the defining, unfinished process question of the phase. Matching a flat index with flawless discipline earns the C+; the un-started alpha mandate over a completed quarter-window keeps it below a B.
