@@ -1,5 +1,14 @@
 # Trade Log
 
+### Sep 04 — EOD Snapshot (Day 83, Friday)
+**Portfolio:** $101,406.72 | **Cash:** $39,849.92 (39.3%) | **Day P&L:** -$243.20 (-0.24%) | **Phase P&L:** +$1,406.72 (+1.41%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| ------ | ------ | ----- | ----- | ------- | -------------- | ---- |
+| SPY    | 80     | $752.38 | $769.46 | -0.48% | +$1,366.06 (+2.27%) | none (proxy, §5/§8 exempt) |
+
+**Notes:** Day 83, week 16 (Friday, NFP day). Reconcile (§14): live Alpaca = equity $101,406.72, cash $39,849.92, SPY **80 sh** (avg $752.384234, MV $61,556.80), zero open orders — matches Sep 03 logged state exactly (80 sh, cash to the cent, no bot orders today; last SPY order Aug 06). No external/manual change → **no HALT.** Day P&L vs Sep 03 logged EOD ($101,649.92): **-$243.20 (-0.24%)** — pure SPY beta drift (close $773.17 prior → $769.46, -0.48% on the day; Alpaca intraday -$296.80 vs last_equity $101,703.52). Phase P&L **+$1,406.72 (+1.41%)** vs $100k start; proxy unrealized **+$1,366.06 (+2.27%)** from $752.38 avg. **Regime RISK-ON** (§4.1; floor 60% / ceiling 85%): SPX > 50/200-DMA, VIX low, no crash-guard, no bearish thesis on file. Deployed **60.70%** (SPY MV $61,556.80 / equity) — inside the RISK-ON band, just above the 60% floor, well under the 85% ceiling ($86,195.71). Floor MET, no trim. No alpha exposure; proxy carries no per-name stop by design. Trades today: **none.** Bot trades this week (Aug 31–Sep 04): **0/3.** New alpha entries this week: 0/3; positions 1/6; DT 0/5; open orders 0. **§9 macro veto:** NFP printed today (Fri Sep 04) — veto bit yesterday's session (Thu Sep 03), already absorbed; print is now behind us, proxy floor unaffected throughout. **Standing gap:** 16 weeks floor-only participation, zero alpha names funded — defensible vs the floor each session, alpha mandate still unmet; recalibration audit due at the weekly review. **Next session (Mon Sep 07):** NOTE — Sep 07 is Labor Day (market closed); first live session is Tue Sep 08. Reconcile; fresh week resets the 3-trade cap. Hold the floor (BUY ~1 sh only if SPY MV slips < 60% of E, breach below ~$760); if MV drifts > 85% ceiling, trim. Post-NFP tape — re-arm a non-extended 2:1 Path A base in a top-3 RS leader (Energy / Industrials) once a name reads ≥7.0 (≥6.0 starter), funded by trimming the proxy with an ATR/8%-cap GTC stop at every alpha fill (§8).
+
 ### Sep 03 — EOD Snapshot (Day 82, Thursday)
 **Portfolio:** $101,649.92 | **Cash:** $39,849.92 (39.2%) | **Day P&L:** +$646.40 (+0.64%) | **Phase P&L:** +$1,649.92 (+1.65%)
 
