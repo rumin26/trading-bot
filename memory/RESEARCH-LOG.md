@@ -3613,3 +3613,58 @@ All three RISK-ON legs met: **SPX > 50-DMA & > 200-DMA ✓** (record-adjacent); 
 - **No single-name entry:** **§9 pre-NFP veto is active today** — fresh single-name risk is paused regardless. Independently, no leader offers a §6.1 base: semis just guided soft (AVGO −5% AH) under rising yields; Energy's war premium is fading (rally snapping), no base; Industrials no base. Not a forced low-conviction trade (§7). Floor stands via the proxy at ~60.63%.
 
 Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks (Fri Sep 4):** (1) reconcile; (2) **§9 veto LIFTS at Fri's open (post-NFP)** — fresh single-name risk permitted again; read the NFP print first; (3) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50% (VIX 16.8 now — watch the step toward 18, then 26); (4) floor: SPY ~60.6% in-band — **no trim; BUY ~1 sh only if MV < 60% of E** (breach below ~$747.19); (5) CPI Sep 11, FOMC Sep 15–16; (6) track 10Y (~4.8%) and US–Iran/Hormuz + oil (Brent ~$95, reopening efforts); (7) **re-arm semis only on a post-AVGO-digestion base restoring ≥2:1**, Energy only on a *held* base — do not chase; (8) Friday is also weekly-review day (§12) — run the §11.1 mandatory top-sector single-name screen.
+
+---
+
+## 2026-09-04 — Pre-market Research (Day 83, Friday) — §9 pre-NFP veto LIFTS at open (fresh risk permitted) / NFP hot: +162K vs +53K exp, unemp 4.1% / Brent ~$95 six-week highs as Hormuz/Iran re-escalates / VIX ~15.3 sub-18 / SPX record 7,747.71 (+1.06% Thu) / RISK-ON intact — weekly-review day (§12)
+
+### Account (snapshot)
+- Equity: **$101,559.52** (`last_equity` $101,703.52; intraday **−$144.00 / −0.14%**, SPY mark $771.37 vs $773.17 = −0.23%)
+- Cash: **$39,849.92** (39.24%, settled) — unchanged
+- Buying power: reported $332,186.56 (4× margin) — cash-account discipline §2 → **usable = settled cash $39,849.92**. Options L3 / shorting ignored by mandate (long-only, no options ever §2).
+- Daytrade count: 0/5 (PDT N/A, cash account §2)
+- Open positions: **SPY 80 sh @ $752.384234** (MV **$61,709.60**, **60.76% of E**, unrealized **+$1,518.86 / +2.52%**). Open orders: **0**.
+
+### Reconciliation (§14)
+Live Alpaca = equity $101,559.52, cash **$39,849.92**, **SPY 80 sh (avg $752.384234), 0 open orders** — matches the Sep 3 logged state exactly (cash unchanged, SPY 80 sh unchanged, zero orders; equity moved only on the SPY mark, $767.13→$771.37). No external/manual change with no bot-originated order → **No HALT.**
+
+### Market Context
+- **WTI / Brent:** **Brent ~$95.2** (−0.3%), **WTI ~$91.7** (+0.8%) — **six-week highs.** Iran claimed overnight strikes on US bases around Hormuz; Israel signaled readiness to resume fighting. War premium is **re-building** at the margin (reverses yesterday's fade), not demand-led — still a geopolitical spike, not a durable leg.
+- **S&P 500 futures:** E-minis ~flat-to-slightly-up pre-print (+0.06%), then **slid ~0.2% after NFP.** Follows a strong Thu (**SPX +1.06% to record 7,747.71**, Dow +1.2%, Nasdaq +1.4%) on retreating yields. Two-sided open.
+- **VIX:** **~15.3** (range 14.2–15.4) — **firmly < 18** (RISK-ON leg), nowhere near 26 crash-guard.
+- **Today's catalysts:** **NFP (already released, hot)**; §9 veto **lifts at open**; oil/Hormuz re-escalation; 10Y yield path; post-NFP Fed-path repricing.
+- **Earnings before open:** none held/watched of note.
+- **Economic calendar:** **NFP printed hot — +162,000 vs +53,000 exp; unemployment 4.1% (steady).** A big upside surprise → pares Fed-easing odds / lifts yields; futures slipped 0.2% post-print. Next §9 events: **PPI Thu Sep 10, CPI Fri Sep 11, FOMC Sep 15–16.**
+
+### Regime Assessment — **RISK-ON** (60% floor / 85% ceiling)
+All three RISK-ON legs met: **SPX > 50-DMA & > 200-DMA ✓** (record 7,747.71); **VIX < 18 ✓** (~15.3); **breadth ≥ 50% ✓** (9/11 sectors green Thu). No ≥5%/10-session DD, VIX ≪ 26 → **no crash-guard.** Oil/yield/Iran headlines don't move the quantitative regime (§4.1). No dated bearish thesis on file → floor is mechanical (§4.1a).
+- **Floor (60%):** $60,935.71; SPY MV **$61,709.60 (60.76%)** → **floor MET, +$773.89 cushion.**
+- **Ceiling (85%):** $86,325.59; SPY **60.76%** ≪ ceiling → **no trim.**
+- **Breach threshold (dynamic E):** SPY must fall to **~$747.19 (−3.13% from $771.37)** to tip MV < 60% of E → only then a mechanical ~1-sh floor buy, never a trim.
+
+### §9 Macro-Veto Status — **LIFTED at today's open**
+§9 events = FOMC / CPI / PPI / monthly-jobs (NFP) only. Yesterday (Thu Sep 3) was the one pre-NFP veto session; **NFP is now behind us, so the veto lifts at Fri's open** — fresh single-name risk is permitted again today. Next veto sessions: **Wed Sep 9 (pre-PPI Thu Sep 10)**, **Thu Sep 10 (pre-CPI Fri Sep 11)**, **Mon Sep 14 (pre-FOMC Sep 15–16)**. The veto **never** pauses the benchmark floor.
+
+### Catalyst Calendar — held / watched names (this week)
+- **SPY proxy:** no per-name catalyst/stop by design (§5/§8). Beta drivers: **post-NFP Fed repricing**, 10Y yield path, US–Iran/Hormuz + oil (Brent ~$95, re-escalating), PPI Sep 10 / CPI Sep 11 / FOMC Sep 15–16.
+- **No alpha holdings.** Watch list for a *non-extended 2:1 base*: Energy (#1 RS ~+42%) — war premium re-building, still no base; Materials (#2 RS ~+22%, XLB +1.7% Thu); Industrials/Health Care.
+
+### Trade Ideas (alpha layer) — §9 lifted, so any pass below is a *chosen* pass
+1. **Energy (XLE / leaders) — WATCH, do NOT chase the war-premium spike.** #1 RS YTD (~+42%), cheapest sector (~13× P/E, 16.3% ROE). But Brent at six-week highs on a fresh Hormuz/Iran-strike headline is a **geopolitical premium, not a durable demand-led leg** — buying the spike chases an event that reverses on de-escalation. No non-extended 2:1 base. Est. **~6.2** (<7.0 full; starter blocked by §6.1 base/R:R). **Re-arm only if crude *holds* the gains for several sessions and a leader carves a non-extended base restoring ≥2:1.**
+2. **Materials (XLB / leaders) — WATCH, no clean entry.** Strengthening #2 RS (~+22%, XLB +1.7% Thu, breaking a long consolidation). But it's the day's leader into a hot-NFP/rising-yields open with no non-extended 2:1 base. Est. **~6.2–6.5.** **Re-arm on a pullback base restoring ≥2:1 with the RS breakout holding.**
+3. **Industrials / Health Care — WATCH, no entry.** Industrials durable top-3 RS (~+20%); Health Care strongest 3-mo momentum (~+14%). Neither offers a non-extended 2:1 base today. Est. **~6.0–6.3.**
+
+### Risk Factors
+- **Hot NFP → yield/Fed repricing.** +162K vs +53K exp is a large upside surprise; pares easing odds, lifts yields, pressures the cap-weighted proxy (long-duration tech most exposed). Futures already slipped 0.2% post-print. Two-sided.
+- **Oil shock / Hormuz re-escalation.** Brent ~$95 six-week highs on fresh strikes — the day's live tail; a further leg risks a broader risk-off. Two-sided: de-escalation snaps oil back and lifts equities. A fast SPY drop below ~$747.19 (−3.13%) triggers a mechanical ~1-sh floor buy.
+- **VIX ~15.3.** Calm sub-18, but the oil/Iran/yield mix can spike it — watch a decisive break of 18 (→ Neutral, floor 30%), then 26 (crash-guard).
+- **Next week front-loaded with §9 prints** (PPI Sep 10, CPI Sep 11, FOMC Sep 15–16) — three veto sessions ahead; the floor is never paused, but fresh single-name timing tightens.
+
+### Decision
+**HOLD alpha; floor MET in the RISK-ON band; no proxy action pre-market.**
+- **Regime:** **RISK-ON** (SPX record 7,747.71 > both MAs ✓, VIX ~15.3 < 18 ✓, breadth ≥ 50% ✓). Floor 60% / ceiling 85%. No crash-guard; no bearish thesis on file — a hot-NFP/oil down-open is not a §4.1 regime change.
+- **Floor:** SPY 60.76% > 60% → **met, +$773.89 cushion** (breach only below ~$747.19, −3.13%); no bearish thesis needed.
+- **Ceiling / open action:** SPY 60.76% ≪ 85% → **no trim.** BUY ~1 sh only if MV slips < 60% of E at the open (mechanical §4.1a — not alpha, not §9-vetoed, not §4.3-capped).
+- **No single-name entry:** §9 veto has lifted, so this is a *chosen* pass, not a forced one — Energy spiking on a re-building Hormuz war premium (chasing, not a §6.1 base); Materials is the leader but extended with no base into a hot-NFP/rising-yields open; Industrials/Health Care no base. Opening fresh single-name risk into an oil-shock/yield-scare open on extended/spiking leaders is poor timing, not a forced low-conviction trade (§7). Floor stands via the proxy at ~60.76%.
+
+Positions: 1 (SPY proxy). New alpha this week: 0/3. Open orders: 0. DT 0/5. **Next session tasks:** (1) reconcile; (2) **run the §11.1 weekly-review screen today** (Friday, §12) — score the top-5 RS single names within each top-3 RS sector (Energy, Materials, Industrials) to a recorded pass/fail; (3) hold RISK-ON unless VIX ≥ 18 / SPX < 50-DMA / breadth < 50% (VIX 15.3 now); (4) floor: SPY ~60.8% in-band — **no trim; BUY ~1 sh only if MV < 60% of E** (breach below ~$747.19); (5) **§9 veto returns Wed Sep 9 (pre-PPI), Thu Sep 10 (pre-CPI), Mon Sep 14 (pre-FOMC)**; PPI Sep 10, CPI Sep 11, FOMC Sep 15–16; (6) track the 10Y (post-NFP repricing) and US–Iran/Hormuz + oil (Brent ~$95, re-escalating); (7) **re-arm Energy only on a *held* base restoring ≥2:1, not the war-premium spike**; re-arm Materials on a pullback base if the RS breakout holds — do not chase.
